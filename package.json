@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "fast-csv": "^3.0.1",
+    "got": "^12.4.1",
     "jssoup": "^0.0.15"
   }
 }
