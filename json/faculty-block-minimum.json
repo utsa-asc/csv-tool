@@ -1,0 +1,45 @@
+{
+	"asset": {
+		"xhtmlDataDefinitionBlock": {
+			"structuredData": {
+				"definitionPath": "College-PROTOTYPE:Components/Faculty",
+				"structuredDataNodes": [
+					{
+						"type": "group",
+						"identifier": "details",
+						"structuredDataNodes": [
+							{
+								"type": "text",
+								"identifier": "title",
+								"text": "Dietetic Director"
+							},
+							{
+								"type": "text",
+								"identifier": "title",
+								"text": "Assistant Professor of Instruction"
+							},
+							{
+								"type": "text",
+								"identifier": "primaryDepartment",
+								"text": "Nutrition and Dietetics"
+							},
+							{
+								"type": "text",
+								"identifier": "email",
+								"text": "liset.lealvasquez@utsa.edu"
+							}
+						]
+					}
+				]
+			},
+			"metadataSetPath": "College-PROTOTYPE:Faculty",
+			"metadata": {
+				"displayName": "Liset L. Vasquez, PhD, RDN, LD, CHES"
+			},
+			"parentFolderPath": "faculty/_blocks/nutrition-dietetics",
+			"siteName": "HCAP-VPAA-ASC-HALSTORE",
+			"tags": [],
+			"name": "first-last"
+		}
+	}
+}
