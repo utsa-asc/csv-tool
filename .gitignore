@@ -1,1 +1,10 @@
 node_modules
+index.js
+curated/**/*
+html/**/*
+images/**/*
+.DS_Store
+**/.DS_Store
+hcap/**/*
+klesse/**/*
+.env

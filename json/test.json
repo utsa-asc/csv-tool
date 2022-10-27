@@ -1,0 +1,377 @@
+{
+    "asset": {
+        "page": {
+            "contentTypePath": "College-PROTOTYPE:Blog",
+            "structuredData": {
+                "structuredDataNodes": [
+                    {
+                        "type": "text",
+                        "identifier": "source",
+                        "text": "",
+                        "recycled": false
+                    },
+                    {
+                        "type": "group",
+                        "identifier": "image1",
+                        "structuredDataNodes": [
+                            {
+                                "type": "asset",
+                                "identifier": "file",
+                                "filePath": "news/2022/images/prep-1_680.png",
+                                "assetType": "file",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "alt",
+                                "text": "",
+                                "recycled": false
+                            }
+                        ],
+                        "recycled": false
+                    },
+                    {
+                        "type": "group",
+                        "identifier": "image2",
+                        "structuredDataNodes": [
+                            {
+                                "type": "asset",
+                                "identifier": "file",
+                                "assetType": "file",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "alt",
+                                "text": "",
+                                "recycled": false
+                            }
+                        ],
+                        "recycled": false
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "articleType",
+                        "text": "standard",
+                        "recycled": false
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "caption",
+                        "text": "",
+                        "recycled": false
+                    },
+                    {
+                        "type": "group",
+                        "identifier": "link",
+                        "structuredDataNodes": [
+                            {
+                                "type": "text",
+                                "identifier": "label",
+                                "text": "",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "type",
+                                "text": "No Link",
+                                "recycled": false
+                            },
+                            {
+                                "type": "asset",
+                                "identifier": "internal",
+                                "assetType": "page,file,symlink",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "anchor",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "external",
+                                "text": "https://",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "target",
+                                "text": "Parent Window/Tab",
+                                "recycled": false
+                            }
+                        ],
+                        "recycled": false
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "wysiwyg",
+                        "text": "<div class=\"itemBody kl-blog-post-body kl-blog-cols-1\" itemprop=\"text\">\n <!-- Blog Image -->\n <!-- Blog Content -->\n <p>\n  APRIL 18, 2022 — UTSA Provost and Senior Vice President for Academic Affairs\n  <strong>\n   Kimberly Andrews Espy\n  </strong>\n  today announced the appointment of\n  <strong>\n   Araceli Martinez Ortiz\n  </strong>\n  as director of the Prefreshman Engineering Program (PREP), effective June 1. Ortiz is the Microsoft President’s Endowed Professor and a professor of engineering education in the Department of Biomedical and Chemical Engineering.\n </p>\n <p>\n  Ortiz is a nationally recognized leader in engineering education, with more than 15 years researching teaching and learning approaches that best support engagement in the discipline. Her research has been funded by the National Science Foundation, the U.S. Department of Agriculture, the U.S. Department of Education and the National Aeronautics and Space Administration (NASA), with whom she has worked extensively.\n </p>\n <p>\n  As program director of the Engineering Education program, a joint initiative between the Margie and Bill Klesse College of Engineering and Integrated Design and the College of Education and Human Development (COEHD), Ortiz has work closely with current PREP director and associate professor\n  <strong>\n   Joel Alejandro (Alex) Mejia\n  </strong>\n  in mapping out a new vision for PREP in alignment with the university’s commitment to be a Hispanic Thriving University. Mejia will continue to support the program in an advisory role, leading the Faculty Advisory Council and assisting with curriculum development to meet modern standards and prepare future college students to succeed in their university studies and careers.\n </p>\n <p>\n  <a href=\"https://www.utsa.edu/today/2022/04/story/araceli-martinez-ortiz-PREP-director.html\" rel=\"noopener\" target=\"_blank\">\n   Continue reading at UTSA Today\n  </a>\n  .\n </p>\n</div>",
+                        "recycled": false
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "postscript",
+                        "text": "",
+                        "recycled": false
+                    }
+                ]
+            },
+            "pageConfigurations": [
+                {
+                    "name": "XML",
+                    "defaultConfiguration": false,
+                    "templateId": "3d57aa5dac16000401725dec1207e3bb",
+                    "templatePath": "College-PROTOTYPE:_cms/templates/XML",
+                    "formatRecycled": false,
+                    "pageRegions": [
+                        {
+                            "name": "DEFAULT",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa5dac16000401725dec1d2926ed"
+                        }
+                    ],
+                    "includeXMLDeclaration": false,
+                    "publishable": false,
+                    "id": "3d57a759ac16000401725dec3463a1d3"
+                },
+                {
+                    "name": "HTML",
+                    "defaultConfiguration": true,
+                    "templateId": "3d57aa4bac16000401725dec0b52f965",
+                    "templatePath": "College-PROTOTYPE:_cms/templates/HTML",
+                    "formatRecycled": false,
+                    "pageRegions": [
+                        {
+                            "name": "F04 CUSTOM",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec740be553"
+                        },
+                        {
+                            "name": "E01 FOOTER",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725deca9ed9fdc"
+                        },
+                        {
+                            "name": "A30 GLOBAL-HEADER",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "3d57ab9dac16000401725decf290743c",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/globalHeader",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec48b3af43"
+                        },
+                        {
+                            "name": "F05 CUSTOM",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec8a16a7f1"
+                        },
+                        {
+                            "name": "A01 SITE-TITLE",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "3d57aaffac16000401725decf3b94037",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/a0-site-title",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725decaef7e555"
+                        },
+                        {
+                            "name": "A01 META",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec68e00fad"
+                        },
+                        {
+                            "name": "F02 CUSTOM",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec28ca0b38"
+                        },
+                        {
+                            "name": "J01 SITE-SCRIPTS",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725decb7b7a547"
+                        },
+                        {
+                            "name": "A20 EMERGENCY ALERT",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec8f734512"
+                        },
+                        {
+                            "name": "DEFAULT",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "3d57acc0ac16000401725dece8dbc965",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/pages/blog",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57a759ac16000401725decec871be4"
+                        },
+                        {
+                            "name": "H03 GLOBAL-FOOTER",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "3d57abaeac16000401725decf645fecb",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/globalFooter",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec8ac538db"
+                        },
+                        {
+                            "name": "F03 CUSTOM",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec187e9302"
+                        },
+                        {
+                            "name": "J01 GLOBAL-SCRIPTS",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "3d57ac72ac16000401725dec91fd29ca",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/scripts",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725decda0f0a89"
+                        },
+                        {
+                            "name": "A01 PAGE-HEAD-FILES",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725decbec9f230"
+                        },
+                        {
+                            "name": "H01 SITE-CTA",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "3d57abc3ac16000401725dec2676d3e4",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/siteCTA",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec47101215"
+                        },
+                        {
+                            "name": "B01 HEADER",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "3d57ac6aac16000401725dec7c20d2ac",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/header",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec16977206"
+                        },
+                        {
+                            "name": "A01 GLOBAL-HEAD-FILES",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "3d57ac5fac16000401725dec17e28902",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/head",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec038f71d7"
+                        },
+                        {
+                            "name": "A10 GTM-POST",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec2d810335"
+                        },
+                        {
+                            "name": "J01 PAGE-SCRIPTS",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725decaf16a76c"
+                        },
+                        {
+                            "name": "F01 CUSTOM",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec0cfe7fb7"
+                        },
+                        {
+                            "name": "H02 SITE-FOOTER",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "3d57ac7aac16000401725dec3a6d1e4b",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/siteFooter",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec5d18f8dd"
+                        },
+                        {
+                            "name": "A01 SITE-HEAD-FILES",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725decd0ffbc43"
+                        }
+                    ],
+                    "includeXMLDeclaration": false,
+                    "publishable": false,
+                    "id": "3d57a759ac16000401725decc33b4b1d"
+                }
+            ],
+            "linkRewriting": "inherit",
+            "shouldBePublished": true,
+            "shouldBeIndexed": true,
+            "expirationFolderRecycled": false,
+            "metadata": {
+                "displayName": "",
+                "title": "New leadership champions new vision for UTSA Prefreshman Engineering Program",
+                "summary": "",
+                "teaser": "",
+                "keywords": "",
+                "metaDescription": "",
+                "author": "Rory Dew",
+                "startDate": "Apr 18, 2022, 8:09:58 PM"
+            },
+            "reviewOnSchedule": false,
+            "reviewEvery": 180,
+            "parentFolderPath": "news/2022/04",
+            "siteName": "KLESSE-VPAA-ASC-HALSTORE",
+            "tags": [
+                {
+                    "name": "announcement"
+                },
+                {
+                    "name": "klesse-college"
+                }
+            ],
+            "name": "17586-2"
+        }
+    }
+}

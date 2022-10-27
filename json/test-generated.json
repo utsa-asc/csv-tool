@@ -1,0 +1,374 @@
+{
+    "asset": {
+        "page": {
+            "contentTypePath": "College-PROTOTYPE:Blog",
+            "structuredData": {
+                "structuredDataNodes": [
+                    {
+                        "type": "text",
+                        "identifier": "source",
+                        "text": "",
+                        "recycled": false
+                    },
+                    {
+                        "type": "group",
+                        "identifier": "image1",
+                        "structuredDataNodes": [
+                            {
+                                "type": "asset",
+                                "identifier": "file",
+                                "filePath": "images/UPSA_award_photo-1.jpg",
+                                "assetType": "file",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "alt",
+                                "text": "",
+                                "recycled": false
+                            }
+                        ],
+                        "recycled": false
+                    },
+                    {
+                        "type": "group",
+                        "identifier": "image2",
+                        "structuredDataNodes": [
+                            {
+                                "type": "asset",
+                                "identifier": "file",
+                                "assetType": "file",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "alt",
+                                "text": "",
+                                "recycled": false
+                            }
+                        ],
+                        "recycled": false
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "articleType",
+                        "text": "standard",
+                        "recycled": false
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "caption",
+                        "text": "",
+                        "recycled": false
+                    },
+                    {
+                        "type": "group",
+                        "identifier": "link",
+                        "structuredDataNodes": [
+                            {
+                                "type": "text",
+                                "identifier": "label",
+                                "text": "",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "type",
+                                "text": "No Link",
+                                "recycled": false
+                            },
+                            {
+                                "type": "asset",
+                                "identifier": "internal",
+                                "assetType": "page,file,symlink",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "anchor",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "external",
+                                "text": "https://",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "target",
+                                "text": "Parent Window/Tab",
+                                "recycled": false
+                            }
+                        ],
+                        "recycled": false
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "wysiwyg",
+                        "text": "<div class=\"itemBody kl-blog-post-body kl-blog-cols-1\" itemprop=\"text\">\n <!-- Blog Image -->\n <!-- Blog Content -->\n <div>\n  <p>\n   (April 29, 2020) &#8212; The American Planning Association (APA) awarded The University of Texas at San Antonio's (UTSA) Urban Planning Student Association (UPSA) top prize as the 2020 Outstanding Planning Student Organization during the National Planning Conference, held online in 2020 from April 29 - May 1. UPSA President and APA Student Representatives Council Chair Veronica Escalera-Ibarra and UPSA Media Coordinator Selina Angel led the award submission while pursuing their Masters in Urban and Regional Planning from UTSA.\n  </p>\n  <p>\n   <em>\n    Pictured at left: UPSA members on a tour of San Pedro re-development in November, 2019. Photo via UPSA Facebook page.\n   </em>\n  </p>\n  <p>\n   \"The UTSA PSO's consistent involvement with the APA, both locally and nationally, has demonstrated that bright and passionate emerging leaders are within the UTSA PSO,\" said APA Texas Chapter President M. Douglas McDonald, AICP, in a letter of recommendation. McDonald also praised the organization's completely student-led team who designed and built a parklet to demonstrate conversion of a parking space as a public amenity with benches for Downtown Waco.\n  </p>\n  <p>\n   The national award comes with a $2,500 cash prize, which UPSA will use to support the professional development of UPSA members, including travel expenses for members to attend future APA chapter and national conferences.\n  </p>\n  <p>\n   \"This award shows that even though we are a small program, we are being recognized for our hard work and dedication in the field of planning at a national scale. Even small numbers can have big impacts,\" Angel said.\n  </p>\n  <p>\n   General membership in UPSA is available for students enrolled in the Masters or Certificate Urban and Regional Planning program at UTSA. The organization also offers Associate Membership to all students at any San Antonio university, with details on UPSA's web page.\n  </p>\n  <p>\n   \"This is just the beginning of the many successes to come to UTSA's planning program, and I look forward to seeing what is next for UPSA and the program,\" Escalera-Ibarra said.\n  </p>\n  <p>\n   Rutgers University's Planning Student Organization won an Honorable Mention, demonstrating support to the broader New Jersey community through their emphasis on drawing and urban design skill development.\n  </p>\n  <p>\n   The 2020 Planning Awards Celebration video, and more information about the organization, is available on the Urban Planning Student Association at UTSA Facebook page.\n  </p>\n  <p>\n   - Dr. Greg P. Griffin\n  </p>\n </div>\n <p>\n </p>\n <p class=\"wpss_copy\">\n  Content retrieved from:\n  <a href=\"http://cacp.utsa.edu/news/utsa-urban-planning-student-association-wins-national-award\" target=\"_blank\" rel=\"noopener\">\n   http://cacp.utsa.edu/news/utsa-urban-planning-student-association-wins-national-award\n  </a>\n  .\n </p>\n</div>",
+                        "recycled": false
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "postscript",
+                        "text": "",
+                        "recycled": false
+                    }
+                ]
+            },
+            "pageConfigurations": [
+                {
+                    "name": "XML",
+                    "defaultConfiguration": false,
+                    "templateId": "3d57aa5dac16000401725dec1207e3bb",
+                    "templatePath": "College-PROTOTYPE:_cms/templates/XML",
+                    "formatRecycled": false,
+                    "pageRegions": [
+                        {
+                            "name": "DEFAULT",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa5dac16000401725dec1d2926ed"
+                        }
+                    ],
+                    "includeXMLDeclaration": false,
+                    "publishable": false,
+                    "id": "3d57a759ac16000401725dec3463a1d3"
+                },
+                {
+                    "name": "HTML",
+                    "defaultConfiguration": true,
+                    "templateId": "3d57aa4bac16000401725dec0b52f965",
+                    "templatePath": "College-PROTOTYPE:_cms/templates/HTML",
+                    "formatRecycled": false,
+                    "pageRegions": [
+                        {
+                            "name": "F04 CUSTOM",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec740be553"
+                        },
+                        {
+                            "name": "E01 FOOTER",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725deca9ed9fdc"
+                        },
+                        {
+                            "name": "A30 GLOBAL-HEADER",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "3d57ab9dac16000401725decf290743c",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/globalHeader",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec48b3af43"
+                        },
+                        {
+                            "name": "F05 CUSTOM",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec8a16a7f1"
+                        },
+                        {
+                            "name": "A01 SITE-TITLE",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "3d57aaffac16000401725decf3b94037",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/a0-site-title",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725decaef7e555"
+                        },
+                        {
+                            "name": "A01 META",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec68e00fad"
+                        },
+                        {
+                            "name": "F02 CUSTOM",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec28ca0b38"
+                        },
+                        {
+                            "name": "J01 SITE-SCRIPTS",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725decb7b7a547"
+                        },
+                        {
+                            "name": "A20 EMERGENCY ALERT",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec8f734512"
+                        },
+                        {
+                            "name": "DEFAULT",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "3d57acc0ac16000401725dece8dbc965",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/pages/blog",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57a759ac16000401725decec871be4"
+                        },
+                        {
+                            "name": "H03 GLOBAL-FOOTER",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "3d57abaeac16000401725decf645fecb",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/globalFooter",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec8ac538db"
+                        },
+                        {
+                            "name": "F03 CUSTOM",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec187e9302"
+                        },
+                        {
+                            "name": "J01 GLOBAL-SCRIPTS",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "3d57ac72ac16000401725dec91fd29ca",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/scripts",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725decda0f0a89"
+                        },
+                        {
+                            "name": "A01 PAGE-HEAD-FILES",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725decbec9f230"
+                        },
+                        {
+                            "name": "H01 SITE-CTA",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "3d57abc3ac16000401725dec2676d3e4",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/siteCTA",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec47101215"
+                        },
+                        {
+                            "name": "B01 HEADER",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "3d57ac6aac16000401725dec7c20d2ac",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/header",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec16977206"
+                        },
+                        {
+                            "name": "A01 GLOBAL-HEAD-FILES",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "3d57ac5fac16000401725dec17e28902",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/head",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec038f71d7"
+                        },
+                        {
+                            "name": "A10 GTM-POST",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec2d810335"
+                        },
+                        {
+                            "name": "J01 PAGE-SCRIPTS",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725decaf16a76c"
+                        },
+                        {
+                            "name": "F01 CUSTOM",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec0cfe7fb7"
+                        },
+                        {
+                            "name": "H02 SITE-FOOTER",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "3d57ac7aac16000401725dec3a6d1e4b",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/siteFooter",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725dec5d18f8dd"
+                        },
+                        {
+                            "name": "A01 SITE-HEAD-FILES",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d57aa4cac16000401725decd0ffbc43"
+                        }
+                    ],
+                    "includeXMLDeclaration": false,
+                    "publishable": false,
+                    "id": "3d57a759ac16000401725decc33b4b1d"
+                }
+            ],
+            "linkRewriting": "inherit",
+            "shouldBePublished": true,
+            "shouldBeIndexed": true,
+            "expirationFolderRecycled": false,
+            "metadata": {
+                "displayName": "",
+                "title": "UTSA Urban Planning Student Association Wins National Award",
+                "summary": "",
+                "teaser": "",
+                "keywords": "",
+                "metaDescription": "",
+                "author": "Sean Garnsey",
+                "startDate": "Apr 29, 2020, 2:26:21 PM"
+            },
+            "reviewOnSchedule": false,
+            "reviewEvery": 180,
+            "parentFolderPath": "news/2020/04",
+            "siteName": "KLESSE-VPAA-ASC-HALSTORE",
+            "tags": [
+                {
+                    "name": "architecture-planning"
+                }
+            ],
+            "name": "utsa-urban-planning-student-association-wins-national-award"
+        }
+    }
+}
