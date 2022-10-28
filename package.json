@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "klesse-main": "node ./index.js",
-    "klesse-image": "node ./image.js",
-    "klesse-process": "node ./process.js",
+    "klesse-image": "node ./klesse-image.js",
+    "klesse-process": "node ./klesse-process.js",
     "hcap-process": "node ./hcap-process.js"
   },
   "author": "",

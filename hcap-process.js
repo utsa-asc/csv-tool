@@ -1,12 +1,13 @@
 var csv = require('fast-csv');
-// const https = require('https');
-const http = require('http');
+const https = require('https');
+// const http = require('http');
 const {execSync} = require('child_process');
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 var fs = require('fs');
 var tasks = [];
 var writableStream = fs.createWriteStream("hcap/hcap-faculty-processed.csv");
 require('dotenv').config();
+/* defining some constants */
 const CAS_HOST = process.env.CAS_HOST;
 const CAS_PORT = process.env.CAS_PORT;
 const API_KEY = process.env.API_KEY;
@@ -18,7 +19,7 @@ headerOutput = ["Last", "First", "Title", "Research", "Education", "Discipline",
 stream.write(headerOutput);
 writableStream.on("finish", function(){ console.log("DONE!"); });
 
-fs.createReadStream('hcap/hcap-faculty-single-dept.csv')
+fs.createReadStream('hcap/hcap-faculty.csv')
   .pipe(csv.parse({ headers: true }))
   .on('data', function(obj) {
     // console.log("parsing row: " + obj.id);
@@ -62,11 +63,11 @@ fs.createReadStream('hcap/hcap-faculty-single-dept.csv')
     // prep our POST payload data
     var payload = JSON.parse(PAYLOAD_DOCUMENT);
     // update our JSON with this task's computed properties
-    let titleNode = {
-      "type": "text",
-      "identifier": "title",
-      "text": task.title
-    }
+    // let titleNode = {
+    //   "type": "text",
+    //   "identifier": "title",
+    //   "text": task.title
+    // }
     let primaryDepartmentNode = {
       "type": "text",
       "identifier": "primaryDepartment",
@@ -81,11 +82,53 @@ fs.createReadStream('hcap/hcap-faculty-single-dept.csv')
       "type": "group",
       "identifier": "details",
       "structuredDataNodes": [
-        titleNode, primaryDepartmentNode, emailNode
+        primaryDepartmentNode, emailNode
       ]
     }
+
+    let rawTitles = task.title.split(',');
+    if (Array.isArray(rawTitles)) {
+      rawTitles.map(innerTitle => {
+        detailsNode.structuredDataNodes.push({
+          "type": "text",
+          "identifier": "title",
+          "text": innerTitle.trim()
+        });
+      });
+    } else {
+      detailsNode.structuredDataNodes.push({
+        "type": "text",
+        "identifier": "title",
+        "text": task.title
+      });
+    }
+
+    let imageNode = {
+      "type": "group",
+      "identifier": "image",
+      "structuredDataNodes": [
+        {
+          "type": "asset",
+          "identifier": "file",
+          "fileId": "209dd37481736a1b6f1791c0514ff485",
+          "filePath": "faculty/headshots/_utsa-profile-placeholder-400x500.svg",
+          "assetType": "file"
+        },
+        {
+          "type": "text",
+          "identifier": "alt",
+          "text": displayName
+        },
+        {
+          "type": "text",
+          "identifier": "type",
+          "text": "No Link"
+        }
+      ]
+    };
+
     //update payload SDN with our new group
-    payload.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes = [detailsNode];
+    payload.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes = [detailsNode, imageNode];
     //update our metadata
     let metadataNode = {
       "displayName": displayName
@@ -111,13 +154,12 @@ fs.createReadStream('hcap/hcap-faculty-single-dept.csv')
         'Content-Type': 'application/x-www-form-urlencoded',
         'Content-Length': postData.length,
         Authorization: ' Bearer ' + API_KEY
-      }
-      // ,
-      // requestCert: false,
-      // rejectUnauthorized: false      
+      },
+      requestCert: false,
+      rejectUnauthorized: false      
     };
     console.dir(postOptions);
-    const post = http.request(postOptions, res => {
+    const post = https.request(postOptions, res => {
       // console.log('status code: ' + res.statusCode);
       // console.log('headers:', res.headers);
       res.on('data', d => {

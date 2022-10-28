@@ -29,6 +29,29 @@
 								"text": "liset.lealvasquez@utsa.edu"
 							}
 						]
+					},
+					{
+						"type": "group",
+						"identifier": "image",
+						"structuredDataNodes": [
+							{
+								"type": "asset",
+								"identifier": "file",
+								"fileId": "209dd37481736a1b6f1791c0514ff485",
+								"filePath": "faculty/headshots/_utsa-profile-placeholder-400x500.svg",
+								"assetType": "file"
+							},
+							{
+								"type": "text",
+								"identifier": "alt",
+								"text": "Megan Augustyn"
+							},
+							{
+								"type": "text",
+								"identifier": "type",
+								"text": "No Link"
+							}
+						]
 					}
 				]
 			},
