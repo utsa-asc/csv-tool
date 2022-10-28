@@ -1,0 +1,44 @@
+{
+    "asset": {
+        "xhtmlDataDefinitionBlock": {
+            "structuredData": {
+                "definitionPath": "College-PROTOTYPE:Components/Faculty",
+                "structuredDataNodes": [
+                    {
+                        "type": "group",
+                        "identifier": "details",
+                        "structuredDataNodes": [
+                            {
+                                "type": "text",
+                                "identifier": "title",
+                                "text": "Associate Dean for Graduate Student Success, Professor"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "primaryDepartment",
+                                "text": "Criminology & Criminal Justice"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "email",
+                                "text": "robert.tillyer@utsa.edu"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "metadataSetPath": "College-PROTOTYPE:Faculty",
+            "metadata": {
+                "displayName": "Rob Tillyer"
+            },
+            "parentFolderPath": "faculty/_blocks/criminal-justice",
+            "siteName": "HCAP-VPAA-ASC-HALSTORE",
+            "tags": [
+                {
+                    "name": "criminal-justice"
+                }
+            ],
+            "name": "tillyer-rob"
+        }
+    }
+}

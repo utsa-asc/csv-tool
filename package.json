@@ -4,9 +4,10 @@
   "description": "quick and dirty csv parser that scrapes content from the web for later REST API usage",
   "main": "index.js",
   "scripts": {
-    "main": "node ./index.js",
-    "image": "node ./image.js",
-    "process": "node ./process.js"
+    "klesse-main": "node ./index.js",
+    "klesse-image": "node ./image.js",
+    "klesse-process": "node ./process.js",
+    "hcap-process": "node ./hcap-process.js"
   },
   "author": "",
   "license": "ISC",
