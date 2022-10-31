@@ -1,0 +1,223 @@
+{
+	"asset": {
+		"xhtmlDataDefinitionBlock": {
+			"structuredData": {
+				"definitionId": "1b02568dac1600055b7549d1f8a8ae86",
+				"definitionPath": "College-PROTOTYPE:Components/Faculty",
+				"structuredDataNodes": [
+					{
+						"type": "group",
+						"identifier": "details",
+						"structuredDataNodes": [
+							{
+								"type": "text",
+								"identifier": "title",
+								"text": "Associate Professor",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "title",
+								"text": "Graduate Advisor of Record",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "primaryDepartment",
+								"text": "Criminology & Criminal Justice",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "phone",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "email",
+								"text": "megan.augustyn@utsa.edu",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "office",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "wysiwyg",
+								"recycled": false
+							},
+							{
+								"type": "group",
+								"identifier": "cvlink",
+								"structuredDataNodes": [
+									{
+										"type": "text",
+										"identifier": "label",
+										"recycled": false
+									},
+									{
+										"type": "text",
+										"identifier": "ariaLabel",
+										"recycled": false
+									},
+									{
+										"type": "text",
+										"identifier": "type",
+										"text": "No Link",
+										"recycled": false
+									},
+									{
+										"type": "asset",
+										"identifier": "internal",
+										"assetType": "page,file,symlink",
+										"recycled": false
+									},
+									{
+										"type": "text",
+										"identifier": "anchor",
+										"recycled": false
+									},
+									{
+										"type": "text",
+										"identifier": "external",
+										"text": "https://",
+										"recycled": false
+									},
+									{
+										"type": "text",
+										"identifier": "target",
+										"text": "Parent Window/Tab",
+										"recycled": false
+									}
+								],
+								"recycled": false
+							},
+							{
+								"type": "group",
+								"identifier": "link",
+								"structuredDataNodes": [
+									{
+										"type": "text",
+										"identifier": "label",
+										"text": "Faculty Profile Page",
+										"recycled": false
+									},
+									{
+										"type": "text",
+										"identifier": "ariaLabel",
+										"recycled": false
+									},
+									{
+										"type": "text",
+										"identifier": "type",
+										"text": "internal",
+										"recycled": false
+									},
+									{
+										"type": "asset",
+										"identifier": "internal",
+										"pageId": "2e88f160ac1600055b7549d1ead81cb0",
+										"pagePath": "faculty/profiles/augustyn-megan",
+										"assetType": "page,file,symlink",
+										"recycled": false
+									},
+									{
+										"type": "text",
+										"identifier": "anchor",
+										"recycled": false
+									},
+									{
+										"type": "text",
+										"identifier": "external",
+										"text": "https://",
+										"recycled": false
+									},
+									{
+										"type": "text",
+										"identifier": "target",
+										"text": "Parent Window/Tab",
+										"recycled": false
+									}
+								],
+								"recycled": false
+							}
+						],
+						"recycled": false
+					},
+					{
+						"type": "group",
+						"identifier": "image",
+						"structuredDataNodes": [
+							{
+								"type": "asset",
+								"identifier": "file",
+								"fileId": "209e33aaac1600055b7549d118f4ca25",
+								"filePath": "faculty/headshots/_utsa-profile-placeholder-400x500.svg",
+								"assetType": "file",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "alt",
+								"text": "Megan Augustyn",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "type",
+								"text": "No Link",
+								"recycled": false
+							},
+							{
+								"type": "asset",
+								"identifier": "internal",
+								"assetType": "page,file,symlink",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "external",
+								"text": "https://",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "target",
+								"text": "Parent Window/Tab",
+								"recycled": false
+							}
+						],
+						"recycled": false
+					}
+				]
+			},
+			"expirationFolderRecycled": false,
+			"metadataSetId": "1b024d22ac1600055b7549d1dccf1070",
+			"metadataSetPath": "College-PROTOTYPE:Faculty",
+			"metadata": {
+				"displayName": "Megan Augustyn"
+			},
+			"reviewOnSchedule": false,
+			"reviewEvery": 0,
+			"parentFolderId": "1b20b9baac1600055b7549d18eca5ff0",
+			"parentFolderPath": "faculty/_blocks/criminal-justice",
+			"lastModifiedDate": "Oct 31, 2022, 9:34:07 PM",
+			"lastModifiedBy": "admin",
+			"createdDate": "Oct 31, 2022, 2:08:54 AM",
+			"createdBy": "admin",
+			"path": "faculty/_blocks/criminal-justice/augustyn-megan",
+			"siteId": "1b0389abac1600055b7549d1b3b3a10e",
+			"siteName": "HCAP-VPAA-ASC-HALSTORE",
+			"tags": [
+				{
+					"name": "criminal-justice"
+				}
+			],
+			"name": "augustyn-megan",
+			"id": "2bcc839dac1600055b7549d10dcd08db"
+		}
+	},
+	"success": true
+}

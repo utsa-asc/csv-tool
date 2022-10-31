@@ -1,0 +1,27 @@
+{
+    "type": "group",
+    "identifier": "link",
+    "structuredDataNodes": [
+        {
+            "type": "text",
+            "identifier": "label",
+            "text": "Faculty Profile Page"
+        },
+        {
+            "type": "text",
+            "identifier": "type",
+            "text": "internal"
+        },
+        {
+            "type": "asset",
+            "identifier": "internal",
+            "pagePath": "faculty/profiles/augustyn-megan",
+            "assetType": "page,file,symlink"
+        },
+        {
+            "type": "text",
+            "identifier": "target",
+            "text": "Parent Window/Tab"
+        }
+    ]
+}
