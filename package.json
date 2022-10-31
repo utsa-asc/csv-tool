@@ -7,7 +7,8 @@
     "klesse-main": "node ./index.js",
     "klesse-image": "node ./klesse-image.js",
     "klesse-process": "node ./klesse-process.js",
-    "hcap-process": "node ./hcap-process.js"
+    "hcap-block-process": "node ./hcap-faculty-block-process.js",
+    "hcap-page-process": "node ./hcap-faculty-page-process.js"
   },
   "author": "",
   "license": "ISC",
