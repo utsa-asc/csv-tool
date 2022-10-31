@@ -113,7 +113,6 @@ fs.createReadStream('hcap/hcap-faculty-single-dept.csv')
         {
           "type": "asset",
           "identifier": "file",
-          "fileId": "209e33aaac1600055b7549d118f4ca25",
           "filePath": "faculty/headshots/_utsa-profile-placeholder-400x500.svg",
           "assetType": "file"
         },
