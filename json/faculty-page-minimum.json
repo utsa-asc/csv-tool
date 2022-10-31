@@ -1,0 +1,83 @@
+{
+	"asset": {
+		"page": {
+			"contentTypePath": "College-PROTOTYPE:Faculty Profile",
+			"structuredData": {
+				"structuredDataNodes": [
+					{
+						"type": "asset",
+						"identifier": "block",
+						"blockPath": "faculty/_blocks/social-work/chanmugam-amy",
+						"assetType": "block"
+					},
+					{
+						"type": "text",
+						"identifier": "uuid",
+						"text": "000ahb758"
+					},
+					{
+						"type": "text",
+						"identifier": "researchInterests",
+						"text": "Intimate partner violence, especially child/adolescent exposure<br/>Family interventions &amp; support services, especially shelter-based<br/>Family systems &amp; psychological trauma<br/>Child abuse &amp; neglect<br/>Parent-child relationships<br/>Adoption &amp; foster care<br/>School social work &amp; school-based interventions<br/>Qualitative methods"
+					},
+					{
+						"type": "text",
+						"identifier": "degrees",
+						"text": "Ph.D., Social Work, The University of Texas at Austin, 2009<br/>M.S., Social Work, The University of Texas at Austin, 1996<br/>B.A., Psychology and German Literature, Vassar College, 1990"
+					},
+					{
+						"type": "group",
+						"identifier": "awards",
+						"structuredDataNodes": [
+							{
+								"type": "text",
+								"identifier": "awardInfo",
+								"text": "utsaDiscovery"
+							}
+						]
+					},
+					{
+						"type": "group",
+						"identifier": "presentations",
+						"structuredDataNodes": [
+							{
+								"type": "text",
+								"identifier": "presentationsInfo",
+								"text": "utsaDiscovery"
+							}
+						]
+					},
+					{
+						"type": "group",
+						"identifier": "grants",
+						"structuredDataNodes": [
+							{
+								"type": "text",
+								"identifier": "grantsInfo",
+								"text": "utsaDiscovery"
+							}
+						]
+					},
+					{
+						"type": "group",
+						"identifier": "publications",
+						"structuredDataNodes": [
+							{
+								"type": "text",
+								"identifier": "publicationInfo",
+								"text": "utsaDiscovery"
+							}
+						]
+					}
+				]
+			},
+			"metadata": {
+				"title": "Amy Chanmugam"
+			},
+			"parentFolderPath": "faculty/profiles",
+			"siteName": "HCAP-VPAA-ASC-HALSTORE",
+			"tags": [],
+			"name": "chanmugam-amy"
+		}
+	}
+}

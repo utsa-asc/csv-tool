@@ -5,7 +5,7 @@ const {execSync} = require('child_process');
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 var fs = require('fs');
 var tasks = [];
-var writableStream = fs.createWriteStream("hcap/hcap-faculty-single-dept-posted.csv");
+var writableStream = fs.createWriteStream("hcap/hcap-faculty-posted.csv");
 require('dotenv').config();
 /* defining some constants */
 const CAS_HOST = process.env.CAS_HOST;
@@ -24,7 +24,7 @@ if (CAS_PORT == 443) {
   protocol = https;
 }
 
-fs.createReadStream('hcap/hcap-faculty-single-dept.csv')
+fs.createReadStream('hcap/hcap-faculty.csv')
   .pipe(csv.parse({ headers: true }))
   .on('data', function(obj) {
     // console.log("parsing row: " + obj.id);
