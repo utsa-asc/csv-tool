@@ -1,11 +1,11 @@
 var csv = require('fast-csv');
 const https = require('https');
-// const http = require('http');
+const http = require('http');
 const {execSync} = require('child_process');
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 var fs = require('fs');
 var tasks = [];
-var writableStream = fs.createWriteStream("hcap/hcap-faculty-processed.csv");
+var writableStream = fs.createWriteStream("hcap/hcap-faculty-single-dept-posted.csv");
 require('dotenv').config();
 /* defining some constants */
 const CAS_HOST = process.env.CAS_HOST;
@@ -13,13 +13,18 @@ const CAS_PORT = process.env.CAS_PORT;
 const API_KEY = process.env.API_KEY;
 const PAYLOAD_DOCUMENT = fs.readFileSync("json/faculty-block-minimum.json");
 const POST_URI = "/api/v1/create";
-const stream = csv.format();
+const stream = csv.format({quoteColumns: true});
 stream.pipe(writableStream);
-headerOutput = ["Last", "First", "Title", "Research", "Education", "Discipline", "Tag", "Email", "CAS-URI"];
+headerOutput = ["Last", "First", "Title", "Research", "Education", "Discipline", "Tag", "Email", "CAS-URI", "CAS-ASSET-ID"];
 stream.write(headerOutput);
 writableStream.on("finish", function(){ console.log("DONE!"); });
 
-fs.createReadStream('hcap/hcap-faculty.csv')
+var protocol = http;
+if (CAS_PORT == 443) {
+  protocol = https;
+}
+
+fs.createReadStream('hcap/hcap-faculty-single-dept.csv')
   .pipe(csv.parse({ headers: true }))
   .on('data', function(obj) {
     // console.log("parsing row: " + obj.id);
@@ -29,7 +34,9 @@ fs.createReadStream('hcap/hcap-faculty.csv')
       title: obj.Title,
       discipline: obj.Discipline,
       tag: obj.Tag,
-      email: obj.Email
+      email: obj.Email,
+      research: obj.Research,
+      education: obj.Education
     }
     tasks.push(parsedData);
     // processEachTask(parsedData);
@@ -63,11 +70,6 @@ fs.createReadStream('hcap/hcap-faculty.csv')
     // prep our POST payload data
     var payload = JSON.parse(PAYLOAD_DOCUMENT);
     // update our JSON with this task's computed properties
-    // let titleNode = {
-    //   "type": "text",
-    //   "identifier": "title",
-    //   "text": task.title
-    // }
     let primaryDepartmentNode = {
       "type": "text",
       "identifier": "primaryDepartment",
@@ -103,6 +105,7 @@ fs.createReadStream('hcap/hcap-faculty.csv')
       });
     }
 
+    //https://cms.lehgarza.family/entity/open.act?id=209e33aaac1600055b7549d118f4ca25&type=file
     let imageNode = {
       "type": "group",
       "identifier": "image",
@@ -110,7 +113,7 @@ fs.createReadStream('hcap/hcap-faculty.csv')
         {
           "type": "asset",
           "identifier": "file",
-          "fileId": "209dd37481736a1b6f1791c0514ff485",
+          "fileId": "209e33aaac1600055b7549d118f4ca25",
           "filePath": "faculty/headshots/_utsa-profile-placeholder-400x500.svg",
           "assetType": "file"
         },
@@ -154,19 +157,38 @@ fs.createReadStream('hcap/hcap-faculty.csv')
         'Content-Type': 'application/x-www-form-urlencoded',
         'Content-Length': postData.length,
         Authorization: ' Bearer ' + API_KEY
-      },
-      requestCert: false,
-      rejectUnauthorized: false      
+      }
     };
-    console.dir(postOptions);
-    const post = https.request(postOptions, res => {
+    if (CAS_PORT == 443) {
+      postOptions.requestCert = false;
+      postOptions.rejectUnauthorized = false;
+    }
+
+    // console.dir(postOptions);
+    const post = protocol.request(postOptions, res => {
       // console.log('status code: ' + res.statusCode);
       // console.log('headers:', res.headers);
       res.on('data', d => {
         postResponse = postResponse + d;
-        process.stdout.write(d);
-        process.stdout.write('\t' + payload.asset.xhtmlDataDefinitionBlock.parentFolderPath + "\t" + payload.asset.xhtmlDataDefinitionBlock.name);
-        process.stdout.write('\n');
+        let responseObj = JSON.parse(d);
+          process.stdout.write(d);
+          process.stdout.write('\t' + payload.asset.xhtmlDataDefinitionBlock.parentFolderPath + "\t" + payload.asset.xhtmlDataDefinitionBlock.name);
+          process.stdout.write('\n');
+          let assetID = responseObj.createdAssetId;
+          //["Last", "First", "Title", "Research", "Education", "Discipline", "Tag", "Email", "CAS-URI", "CAS-ASSET-ID"];
+          outputResult = [
+            task.last,
+            task.first,
+            task.title,
+            task.research,
+            task.education,
+            task.discipline,
+            task.tag,
+            task.email,
+            payload.asset.xhtmlDataDefinitionBlock.parentFolderPath + "/" + payload.asset.xhtmlDataDefinitionBlock.name,
+            assetID
+          ];
+          stream.write(outputResult);
       });
     });
     post.on('error', (e) => {
