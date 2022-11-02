@@ -1,0 +1,22 @@
+{
+    "type": "group",
+    "identifier": "image",
+    "structuredDataNodes": [
+        {
+            "type": "asset",
+            "identifier": "file",
+            "filePath": "faculty/headshots/_utsa-profile-placeholder-400x500.svg",
+            "assetType": "file"
+        },
+        {
+            "type": "text",
+            "identifier": "alt",
+            "text": "Michael Smith"
+        },
+        {
+            "type": "text",
+            "identifier": "type",
+            "text": "No Link"
+       }
+    ]
+}
