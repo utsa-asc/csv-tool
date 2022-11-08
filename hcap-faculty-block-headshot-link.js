@@ -42,7 +42,7 @@ fs.createReadStream('hcap/hcap-honorifics.csv')
   /*
   Promise.all(tasks.map(processEachTask)).then(afterAllTasks);
   // async/await notation:
-  // you must be in an "async" environement to use "await"
+  // you must be in an "async" environment to use "await"
   */
   async function wrapper () {
     console.log("task count: " + tasks.length);
@@ -81,7 +81,7 @@ fs.createReadStream('hcap/hcap-honorifics.csv')
           {
               "type": "text",
               "identifier": "alt",
-              "text": "Michael Smith"
+              "text": displayName
           },
           {
               "type": "text",
