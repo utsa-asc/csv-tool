@@ -11,7 +11,8 @@
     "hcap-page-process": "node ./hcap-faculty-page-process.js",
     "hcap-faculty-block-update": "node ./hcap-faculty-block-update.js",
     "hcap-faculty-honorific-fix": "node ./hcap-faculty-block-honorific-fix.js",
-    "hcap-faculty-image-link": "node ./hcap-faculty-block-headshot-link.js"
+    "hcap-faculty-image-link": "node ./hcap-faculty-block-headshot-link.js",
+    "hcap-image-alt-update": "node ./hcap-faculty-block-headshot-alt-fix.js"
   },
   "author": "",
   "license": "ISC",
