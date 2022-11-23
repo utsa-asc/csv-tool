@@ -7,6 +7,7 @@
     */
 var csv = require('fast-csv');
 const {execSync} = require('child_process');
+
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 const https = require('https');
 var fs = require('fs');
@@ -14,26 +15,36 @@ var JSSoup = require('jssoup').default;
 var tasks = [];
 var authors = {};
 var categories = {};
-var writableStream = fs.createWriteStream("text-only.csv");
+var writableStream = fs.createWriteStream("hcap/hcap-news-2022-step-01.csv");
 //var stream = fs.createReadStream("input.csv");
 const stream = csv.format();
 stream.pipe(writableStream);
-headerOutput = ["id", "title", "author", "epoch", "date", "url", "categories", "slug", "snippet"];
+//format on incoming CSV file
+//ID,Title,Date,Post Type,Permalink,Image URL,Image Title,Image Alt Text,Image Featured,Categories,Department,page_description,Status,Author Username,Author Email,Slug,Post Modified Date
+//format of outgoing CSV file - only adding savinged snippet file URI (local disk)
+headerOutput = ["id", "title", "date", "permalink", "imageURL", "imageTitle", "imageAltText", "categories", "department", "status", "author", "authorEmail", "slug", "snippetURI"];
 stream.write(headerOutput);
 
 writableStream.on("finish", function(){ console.log("DONE!"); });
 
-fs.createReadStream('blog-posts.csv')
+fs.createReadStream('hcap/hcap-news-2022.csv')
   .pipe(csv.parse({ headers: true }))
   .on('data', function(obj) {
     // console.log("parsing row: " + obj.id);
+    //ID,Title,Date,Post Type,Permalink,Image URL,Image Title,Image Alt Text,Image Featured,Categories,Department,page_description,Status,Author Username,Author Email,Slug
     var parsedData = {
-      id: obj.id,
+      id: obj.ID,
       title: obj.Title,
       date: obj.Date,
-      formattedDate: obj.FromattedDate,
-      url: obj.Permalink,
+      permalink: obj.Permalink,
+      imageURL: obj["Image URL"],
+      imageTitle: obj["Image Title"],
+      imageAltText: obj["Image Alt Text"],
       categories: obj.Categories,
+      department: obj.Department,
+      status: obj.Status,
+      author: obj["Author Username"],
+      authorEmail: obj["Author Email"],
       slug: obj.Slug
     }
     tasks.push(parsedData);
@@ -65,7 +76,7 @@ fs.createReadStream('blog-posts.csv')
   console.log("waiting for tasks");
 
   function processEachTask(task, callback) {
-    var articleURL = task.url;
+    var articleURL = task.permalink;
     var articleName = task.id + "-" + task.slug + ".html";
     console.log('article file name will be: ' + articleName);
     var cats = task.categories.split('|');
@@ -84,24 +95,22 @@ fs.createReadStream('blog-posts.csv')
       });
   
       res.on('end', () => {
-      // execSync('sleep 1');
-      var divID = "post-" + task.id;
-        // console.log("soup search term: " + divID);
+        // execSync('sleep 1');
+        var divID = "post-content";
+        divID = "df-wysiwyg-layout";
+        console.log("soup search term: " + divID);
         console.log("finished grabbing html for article: " + articleURL);
         // console.log(articleHTML);
         var soup = new JSSoup(articleHTML, false);
-        var articleContent = soup.find('div', { 'id' : divID });
-        var articleHeader = articleContent.find('div', {'class': 'itemHeader'});
-        var author = articleHeader.find('a', {'class': 'kl-blog-post-author-link'}).getText().trim();
-        task.author = author;
-        authors[task.author] = author;
-        var articleBody = articleContent.find('div', {'class' : 'itemBody'});
-        var contentPath = "html/" + task.slug + ".html";
+        var articleContent = soup.find('section', { 'class' : divID });
+        var articleBody = articleContent.find('div', {'class' : 'cell'});
+        var contentPath = "hcap/html/2022/" + task.id + "-" + task.slug + ".html";
         task.content = contentPath
         saveSnippet(articleBody, contentPath);
         // console.log(articleHeader.prettify());
         // console.log(articleBody.prettify())
-        outputResult = [task.id, task.title, author, task.date, task.formattedDate, task.url, task.categories, task.slug, contentPath];
+        //headerOutput = ["id", "title", "date", "permalink", "imageURL", "imageTitle", "imageAltText", "categories", "department", "status", "author", "authorEmail", "slug", "snippetURI"];
+        outputResult = [task.id, task.title, task.date, task.permalink, task.imageURL, task.imageTitle, task.imageAltText, task.categories, task.department, task.status, task.author, task.authorEmail, task.slug, contentPath];
         // console.dir(outputResult);
         stream.write(outputResult);
         // console.log("authors");

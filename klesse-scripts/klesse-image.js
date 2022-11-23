@@ -1,3 +1,15 @@
+/* Process Tasks:
+  0) read incoming CSV
+  1) map authors and categories to authors and catHash hash objects (manual)
+  2) parse and reformat date object (it's given to us as epoch)
+  3) read snippet html from local disk
+  4) find any <img> in snippet content
+  5) download any image src references to local disk
+  6) rewrite img src attributes with new upload location "/<yyyy>/images/<image-file-name>"
+  7) save updated snippet content
+  8) output new csv data with updated image URI and upload location
+  9) save snippet is also trying to cleanup html entities
+  */
 var csv = require('fast-csv');
 const {execSync} = require('child_process');
 var moment = require('moment');
