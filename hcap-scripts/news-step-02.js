@@ -111,7 +111,7 @@
       task.content = contentPath
 
       saveSnippet(soup, contentPath);
-      outputResult = [task.id, task.title, task.author, task.epoch, task.date, task.url, task.categories, task.slug, task.image, task.parentFolderPath, task.snippet, task.content];
+      outputResult = [task.id, task.title, task.date, task.permalink, task.imageURL, task.imageTitle, task.imageAltText, task.categories, task.department, task.status, task.author, task.authorEmail, task.slug, task.snippetURI, contentPath];
       // console.dir(outputResult);
       stream.write(outputResult);
     }
