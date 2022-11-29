@@ -15,7 +15,10 @@ var JSSoup = require('jssoup').default;
 var tasks = [];
 var authors = {};
 var categories = {};
-var writableStream = fs.createWriteStream("hcap/hcap-news-2022-step-01.csv");
+var YEAR = "2018";
+var targetInput = "hcap/hcap-news-" + YEAR + ".csv";
+var targetOutput = "hcap/hcap-news-" + YEAR + "-step-01.csv";
+var writableStream = fs.createWriteStream(targetOutput);
 //var stream = fs.createReadStream("input.csv");
 const stream = csv.format();
 stream.pipe(writableStream);
@@ -27,7 +30,7 @@ stream.write(headerOutput);
 
 writableStream.on("finish", function(){ console.log("DONE!"); });
 
-fs.createReadStream('hcap/hcap-news-2022.csv')
+fs.createReadStream(targetInput)
   .pipe(csv.parse({ headers: true }))
   .on('data', function(obj) {
     // console.log("parsing row: " + obj.id);
@@ -99,24 +102,26 @@ fs.createReadStream('hcap/hcap-news-2022.csv')
         var divID = "post-content";
         divID = "df-wysiwyg-layout";
         console.log("soup search term: " + divID);
-        console.log("finished grabbing html for article: " + articleURL);
+        console.log("finished grabbing html for article: " + articleURL + " for ID: " + task.id);
         // console.log(articleHTML);
         var soup = new JSSoup(articleHTML, false);
         var articleContent = soup.find('section', { 'class' : divID });
-        var articleBody = articleContent.find('div', {'class' : 'cell'});
-        var contentPath = "hcap/html/2022/" + task.id + "-" + task.slug + ".html";
-        task.content = contentPath
-        saveSnippet(articleBody, contentPath);
-        // console.log(articleHeader.prettify());
-        // console.log(articleBody.prettify())
-        //headerOutput = ["id", "title", "date", "permalink", "imageURL", "imageTitle", "imageAltText", "categories", "department", "status", "author", "authorEmail", "slug", "snippetURI"];
-        outputResult = [task.id, task.title, task.date, task.permalink, task.imageURL, task.imageTitle, task.imageAltText, task.categories, task.department, task.status, task.author, task.authorEmail, task.slug, contentPath];
-        // console.dir(outputResult);
-        stream.write(outputResult);
-        // console.log("authors");
-        console.log(authors);
-        // console.log("categories");
-        // console.log(categories);
+        if (articleContent) {
+          var articleBody = articleContent.find('div', {'class' : 'cell'});
+          var contentPath = "hcap/html/" + YEAR + "/" + task.id + "-" + task.slug + ".html";
+          task.content = contentPath
+          saveSnippet(articleBody, contentPath);
+          // console.log(articleHeader.prettify());
+          // console.log(articleBody.prettify())
+          //headerOutput = ["id", "title", "date", "permalink", "imageURL", "imageTitle", "imageAltText", "categories", "department", "status", "author", "authorEmail", "slug", "snippetURI"];
+          outputResult = [task.id, task.title, task.date, task.permalink, task.imageURL, task.imageTitle, task.imageAltText, task.categories, task.department, task.status, task.author, task.authorEmail, task.slug, contentPath];
+          // console.dir(outputResult);
+          stream.write(outputResult);
+          // console.log("authors");
+          console.log(authors);
+          // console.log("categories");
+          // console.log(categories);
+        }
       });
     });
     req.end();

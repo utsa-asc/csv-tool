@@ -19,17 +19,36 @@
   var tasks = [];
   var authors = {};
   var categories = {};
-  var writableStream = fs.createWriteStream("hcap/hcap-news-2022-step-03.csv");
+  var YEAR = "2021";
+  var targetInput = "hcap/hcap-news-" + YEAR + "-step-02.csv";
+  var targetOutput = "hcap/hcap-news-" + YEAR + "-step-03.csv";
+  var writableStream = fs.createWriteStream(targetOutput);
   //var stream = fs.createReadStream("input.csv");
   const stream = csv.format();
   stream.pipe(writableStream);
   // outgoing header csv (should be the same, only making modifications to snippet content and maybe imageURL)
-  headerOutput = ["id", "title", "date", "permalink", "imageURL", "imageTitle", "imageAltText", "categories", "department", "status", "author", "authorEmail", "slug", "snippetURI", "contentURI"];
+  headerOutput = ["id", "title", "date", "rawDate", "permalink", "imageURL", "imageTitle", "imageAltText", "categories", "department", "status", "author", "authorEmail", "slug", "parentFolderPath", "leadPhotoURI", "snippetURI", "contentURI"];
   stream.write(headerOutput);
   writableStream.on("finish", function(){ console.log("DONE!"); });
   var authors = {
-    'amanda.cody@utsa.edu': 'Amanda Cody'
+    'Amanda Cody': 'Amanda Cerreto',
+    'amanda.cerreto@utsa.edu': 'Amanda Cerreto',
+    'amanda.cody@utsa.edu': 'Amanda Cerreto',
+    'Amanda Cerreto': 'Amanda Cerreto',
+    'Jana Schwartz': 'Jana Schwartz',
+    'jana.schwartz@utsa.edu': 'Jana Schwartz',
+    'Michelle Skidmore': 'Michelle Skidmore',
+    'webteam': 'Amanda Cerreto'
   };
+  var authorEmails = {
+    'Amanda Cerreto': 'amanda.cerreto@utsa.edu',
+    'Jana Schwartz': 'jana.schwartz@utsa.edu',
+    'Michelle Skidmore': 'amanda.cerreto@utsa.edu',
+    'webteam@utsa.edu': 'amanda.cerreto@utsa.edu'
+  };
+
+  var authorEmail = 'amanda.cerreto@utsa.edu';
+
   var catHash = {
     'News': 'news',
     'Research': 'research',
@@ -44,7 +63,7 @@
     "Dean's Office": 'deans-office'
   };
 
-  fs.createReadStream('hcap/hcap-news-2022-step-02.csv')
+  fs.createReadStream(targetInput)
     .pipe(csv.parse({ headers: true }))
     .on('data', function(obj) {
       // console.log("parsing row: " + obj.id);
@@ -75,9 +94,11 @@
   
     function processEachTask(task, callback) {
       //id,title,author,epoch,date,url,categories,slug,image,snippet
-      console.log("attempting to read task.snippet at: " + task.snippetURI)
+      console.log("attempting to read task.snippet at: " + task.contentURI)
       // console.dir(task);
-      var snippetHtml = fs.readFileSync(task.snippetURI);
+      var snippetHtml = fs.readFileSync(task.contentURI);
+      var author = authors[task.author];
+      var authorEmail = authorEmails[task.authorEmail];
       var soup = new JSSoup(snippetHtml, false);
       // do work here:
       var categories = []
@@ -100,33 +121,44 @@
             }
         }
       });
+
       console.log("new categories parsed:");
       console.dir(categories);
-      // if (categories.length > 0) {
-      //   var newCats = ""
-      //   task.categories = categories.join('|');
-      // } else {
-      //   task.categories = ""
-      // }
+      if (categories.length > 0) {
+        var newCats = ""
+        task.categories = categories.join('|');
+      } else {
+        task.categories = ""
+      }
 
-
-      // let contentPath = task.contentURI;
-      // saveSnippet(soup, contentPath);
-      // outputResult = [task.id, task.title, task.author, task.epoch, task.date, task.url, task.categories, task.slug, task.image, task.parentFolderPath, task.snippetURI, task.contentURI];
-      // // console.dir(outputResult);
-      // stream.write(outputResult);
+      saveSnippet(soup, task.contentURI);
+      outputResult = [task.id, task.title, task.date, task.rawDate, task.permalink, task.imageURL, task.imageTitle, task.imageAltText, task.categories, task.department, task.status, author, authorEmail, task.slug, task.parentFolderPath, task.leadPhotoURI, task.snippetURI, task.contentURI];
+      console.dir(outputResult);
+      stream.write(outputResult);
     }
 
     /* given text, save it to local disk at the fpath location */
     function saveSnippet(content, fpath) {
+      var divs = content.findAll('div');
+      divs.map(div => {
+        if (div.attrs.class == "auto cell") {
+          delete div.attrs.class;
+        };
+      });
+
       console.log("\t\t: SAVE SNIPPET:");
       console.log("\t" + fpath);
       var articleStream = fs.createWriteStream(fpath);
       var contentStr = content.prettify();
       contentStr = contentStr.replace('&nbsp;', '&#160;');
       contentStr = contentStr.replace(/\u00a0/g, " ");
+      contentStr = contentStr.replace(/\u2013/g, "-");
+      contentStr = contentStr.replace(/\u2019/g, "'");
+      contentStr = contentStr.replace('“', '"');
+      contentStr = contentStr.replace('”', '"');
       contentStr = contentStr.replace('&mdash;', '&#8212;');
       contentStr = contentStr.replace('<br>', '<br/>');
+      contentStr = contentStr.replace('<hr>', '<hr/>');
       articleStream.write(contentStr);
       articleStream.end();
     }
