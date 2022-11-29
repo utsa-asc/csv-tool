@@ -20,16 +20,17 @@
   var tasks = [];
   var authors = {};
   var categories = {};
-  var writableStream = fs.createWriteStream("hcap/hcap-news-2022-step-02.csv");
+  var writableStream = fs.createWriteStream("hcap/hcap-news-2022-step-04.csv");
   //var stream = fs.createReadStream("input.csv");
   const stream = csv.format();
   stream.pipe(writableStream);
   // outgoing header csv (should be the same, only making modifications to snippet content and maybe imageURL)
+  // id,title,date,permalink,imageURL,imageTitle,imageAltText,categories,department,status,author,authorEmail,slug,snippetURI,contentURI
   headerOutput = ["id", "title", "date", "permalink", "imageURL", "imageTitle", "imageAltText", "categories", "department", "status", "author", "authorEmail", "slug", "snippetURI", "contentURI"];
   stream.write(headerOutput);
   writableStream.on("finish", function(){ console.log("DONE!"); });
   
-  fs.createReadStream('hcap/hcap-news-2022-step-01.csv')
+  fs.createReadStream('hcap/hcap-news-2022-step-03.csv')
     .pipe(csv.parse({ headers: true }))
     .on('data', function(obj) {
       // console.log("parsing row: " + obj.id);
