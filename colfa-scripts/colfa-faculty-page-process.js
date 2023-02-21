@@ -24,7 +24,7 @@ if (CAS_PORT == 443) {
   protocol = https;
 }
 
-fs.createReadStream('colfa/colfa-faculty-problems.csv')
+fs.createReadStream('colfa/colfa-faculty-all.csv')
   .pipe(csv.parse({ headers: true }))
   .on('data', function(obj) {
     // console.log("parsing row: " + obj.id);
@@ -38,7 +38,7 @@ fs.createReadStream('colfa/colfa-faculty-problems.csv')
       email: obj.Email,
       research: obj.Research,
       education: obj.Education,
-      blockURI: obj.casURI,
+      casURI: obj.casURI,
       blockID: obj.casAssetID,
       uuid: obj.uuid
     }
@@ -66,8 +66,8 @@ fs.createReadStream('colfa/colfa-faculty-problems.csv')
   console.log("waiting for tasks");
 
   function processEachTask(task, callback) {
-    var name = task.pageURI;
-    name = name.toLowerCase();
+    var name = task.last + "-" + task.first;
+    name = name.replace(" ", "-").toLowerCase();
     let parentFolderPath = "faculty/_blocks/" + task.tag;
     let displayName = task.first + " " + task.last;
     let casUri = task.casURI;

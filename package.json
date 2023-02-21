@@ -6,6 +6,7 @@
   "scripts": {
     "colfa-faculty-block-process": "node colfa-scripts/colfa-faculty-block-process.js",
     "colfa-faculty-page-process": "node colfa-scripts/colfa-faculty-page-process.js",
+    "colfa-faculty-block-update": "node colfa-scripts/colfa-faculty-block-update.js",
     "klesse-main": "node ./index.js",
     "klesse-image": "node klesse-scripts/klesse-image.js",
     "klesse-process": "node klesse-scripts/klesse-process.js",

@@ -23,7 +23,7 @@ if (CAS_PORT == 443) {
   protocol = https;
 }
 
-fs.createReadStream('colfa/colfa-faculty-problems.csv')
+fs.createReadStream('colfa/colfa-faculty-all.csv')
   .pipe(csv.parse({ headers: true }))
   .on('data', function(obj) {
     // console.log("parsing row: " + obj.id);
