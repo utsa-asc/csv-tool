@@ -4,6 +4,7 @@
   "description": "quick and dirty csv parser that scrapes content from the web for later REST API usage",
   "main": "index.js",
   "scripts": {
+    "colfa-faculty-block-process": "node colfa-scripts/colfa-faculty-block-process.js",
     "klesse-main": "node ./index.js",
     "klesse-image": "node klesse-scripts/klesse-image.js",
     "klesse-process": "node klesse-scripts/klesse-process.js",
