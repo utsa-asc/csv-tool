@@ -7,4 +7,5 @@ images/**/*
 **/.DS_Store
 hcap/**/*
 klesse/**/*
+colfa/**/*
 .env
