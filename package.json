@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "colfa-faculty-block-process": "node colfa-scripts/colfa-faculty-block-process.js",
+    "colfa-faculty-page-process": "node colfa-scripts/colfa-faculty-page-process.js",
     "klesse-main": "node ./index.js",
     "klesse-image": "node klesse-scripts/klesse-image.js",
     "klesse-process": "node klesse-scripts/klesse-process.js",
