@@ -4,6 +4,7 @@
   "description": "quick and dirty csv parser that scrapes content from the web for later REST API usage",
   "main": "index.js",
   "scripts": {
+    "colfa-music-event-process": "node colfa-scripts/colfa-music-events-process.js",
     "colfa-staff-block-process": "node colfa-scripts/colfa-staff-block-process.js",
     "colfa-faculty-block-process": "node colfa-scripts/colfa-faculty-block-process.js",
     "colfa-faculty-page-process": "node colfa-scripts/colfa-faculty-page-process.js",
@@ -26,6 +27,7 @@
     "dotenv": "^16.0.3",
     "fast-csv": "^4.3.6",
     "jssoup": "^0.0.15",
-    "moment": "^2.29.4"
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1"
   }
 }
