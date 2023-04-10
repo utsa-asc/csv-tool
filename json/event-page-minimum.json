@@ -1,33 +1,29 @@
 {
 	"asset": {
 		"page": {
-			"contentTypeId": "2081d86381736a1b6f1791c0849c9f80",
 			"contentTypePath": "College-PROTOTYPE:Calendar/Event",
 			"structuredData": {
+				"definitionPath":"College-PROTOTYPE:Calendar/Event",
 				"structuredDataNodes": [
 					{
 						"type": "text",
 						"identifier": "featured",
-						"text": "::CONTENT-XML-CHECKBOX::Yes",
-						"recycled": false
+						"text": "::CONTENT-XML-CHECKBOX::"
 					},
 					{
 						"type": "text",
 						"identifier": "starts",
-						"text": "1682024400000",
-						"recycled": false
+						"text": "1682978400000"
 					},
 					{
 						"type": "text",
 						"identifier": "ends",
-						"text": "1682024400000",
-						"recycled": false
+						"text": "1682978400000"
 					},
 					{
 						"type": "text",
 						"identifier": "all-day",
-						"text": "::CONTENT-XML-CHECKBOX::",
-						"recycled": false
+						"text": "::CONTENT-XML-CHECKBOX::"
 					},
 					{
 						"type": "group",
@@ -35,45 +31,37 @@
 						"structuredDataNodes": [
 							{
 								"type": "text",
-								"identifier": "label",
-								"recycled": false
+								"identifier": "label"
 							},
 							{
 								"type": "text",
-								"identifier": "ariaLabel",
-								"recycled": false
+								"identifier": "ariaLabel"
 							},
 							{
 								"type": "text",
 								"identifier": "type",
-								"text": "No Link",
-								"recycled": false
+								"text": "No Link"
 							},
 							{
 								"type": "asset",
 								"identifier": "internal",
-								"assetType": "page,file,symlink",
-								"recycled": false
+								"assetType": "page,file,symlink"
 							},
 							{
 								"type": "text",
-								"identifier": "anchor",
-								"recycled": false
+								"identifier": "anchor"
 							},
 							{
 								"type": "text",
 								"identifier": "external",
-								"text": "https://",
-								"recycled": false
+								"text": "https://"
 							},
 							{
 								"type": "text",
 								"identifier": "target",
-								"text": "Parent Window/Tab",
-								"recycled": false
+								"text": "Parent Window/Tab"
 							}
-						],
-						"recycled": false
+						]
 					},
 					{
 						"type": "text",
@@ -87,19 +75,13 @@
 							{
 								"type": "asset",
 								"identifier": "file",
-								"fileId": "d8914f1381736a1b003cf7c3f7b9431f",
-								"filePath": "ASC-VPAA-Calendar-DEV:_files/images/general-event-image.png",
-								"assetType": "file",
-								"recycled": false
+								"assetType": "file"
 							},
 							{
 								"type": "text",
-								"identifier": "alt",
-								"text": "Students outside sombrilla",
-								"recycled": false
+								"identifier": "alt"
 							}
-						],
-						"recycled": false
+						]
 					},
 					{
 						"type": "group",
@@ -108,46 +90,36 @@
 							{
 								"type": "text",
 								"identifier": "frequency",
-								"text": "Once",
-								"recycled": false
+								"text": "Once"
 							},
 							{
 								"type": "text",
-								"identifier": "interval",
-								"text": "1",
-								"recycled": false
+								"identifier": "interval"
 							},
 							{
 								"type": "text",
 								"identifier": "day",
-								"text": "::CONTENT-XML-CHECKBOX::",
-								"recycled": false
+								"text": "::CONTENT-XML-CHECKBOX::"
 							},
 							{
 								"type": "text",
-								"identifier": "monthly-day",
-								"text": "day of the month",
-								"recycled": false
+								"identifier": "monthly-day"
 							},
 							{
 								"type": "text",
-								"identifier": "ends",
-								"recycled": false
+								"identifier": "ends"
 							}
-						],
-						"recycled": false
+						]
 					},
 					{
 						"type": "text",
 						"identifier": "details",
-						"text": "Example details",
-						"recycled": false
+						"text": "<p>Tyrique Ivey will perform his senior voice recital.</p>"
 					},
 					{
 						"type": "text",
 						"identifier": "location",
-						"text": "example location",
-						"recycled": false
+						"text": "Recital Hall"
 					},
 					{
 						"type": "group",
@@ -155,394 +127,52 @@
 						"structuredDataNodes": [
 							{
 								"type": "text",
-								"identifier": "name",
-								"recycled": false
+								"identifier": "name"
 							},
 							{
 								"type": "text",
-								"identifier": "website",
-								"recycled": false
+								"identifier": "website"
 							},
 							{
 								"type": "text",
-								"identifier": "phone",
-								"recycled": false
+								"identifier": "phone"
 							}
-						],
-						"recycled": false
+						]
 					},
 					{
 						"type": "group",
 						"identifier": "relatedlink",
 						"structuredDataNodes": [
 							{
-								"type": "text",
-								"identifier": "title",
-								"recycled": false
+								"type": "text"
 							},
 							{
 								"type": "asset",
 								"identifier": "internal",
-								"assetType": "page",
-								"recycled": false
+								"assetType": "page"
 							},
 							{
 								"type": "asset",
 								"identifier": "external",
-								"assetType": "symlink",
-								"recycled": false
+								"assetType": "symlink"
 							},
 							{
 								"type": "text",
-								"identifier": "custom",
-								"recycled": false
+								"identifier": "custom"
 							}
-						],
-						"recycled": false
+						]
 					}
 				]
 			},
-			"pageConfigurations": [
-				{
-					"name": "XML",
-					"defaultConfiguration": false,
-					"templateId": "207c647581736a1b6f1791c0d13f3989",
-					"templatePath": "College-PROTOTYPE:_cms/templates/calendar/xml",
-					"formatRecycled": false,
-					"pageRegions": [
-						{
-							"name": "DEFAULT",
-							"blockId": "7b64a66381736a1b003cf7c375223e3d",
-							"blockPath": "ASC-VPAA-Calendar-DEV:_cascade/blocks/index/current page",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "2089375281736a1b6f1791c03d6f5401"
-						}
-					],
-					"includeXMLDeclaration": false,
-					"publishable": false,
-					"id": "2089375281736a1b6f1791c0736f1d2c"
-				},
-				{
-					"name": "HTML",
-					"defaultConfiguration": true,
-					"templateId": "207c641881736a1b6f1791c0ec041f81",
-					"templatePath": "College-PROTOTYPE:_cms/templates/calendar/standard",
-					"formatRecycled": false,
-					"pageRegions": [
-						{
-							"name": "HEADER",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "207c641881736a1b6f1791c02dfa2bc2"
-						},
-						{
-							"name": "F03 CUSTOM",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "207c641881736a1b6f1791c03beca464"
-						},
-						{
-							"name": "SIDEBAR",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "77f9825c81736a1b6f1791c038ef3908"
-						},
-						{
-							"name": "F04 CUSTOM",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "207c641881736a1b6f1791c0b5faeb50"
-						},
-						{
-							"name": "H02 SITE-FOOTER",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatId": "d1f6422581736a1b3be11e063720827f",
-							"formatPath": "College-PROTOTYPE:_cms/formats/global/siteFooter",
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "2089375281736a1b6f1791c085457c0e"
-						},
-						{
-							"name": "A01 META",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatId": "7f4cb28381736a1b003cf7c3ca483ffd",
-							"formatPath": "College-PROTOTYPE:_cms/formats/global/meta",
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "2089375281736a1b6f1791c0cdd9aa93"
-						},
-						{
-							"name": "F05 CUSTOM",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "207c641881736a1b6f1791c025a3aa2a"
-						},
-						{
-							"name": "J01 GLOBAL-SCRIPTS",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatId": "d1f6420c81736a1b3be11e062c2262df",
-							"formatPath": "College-PROTOTYPE:_cms/formats/global/scripts",
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "2089375281736a1b6f1791c059dbb622"
-						},
-						{
-							"name": "EXTERNAL SOURCE SCRIPTS",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "207c641881736a1b6f1791c07c9fdcf3"
-						},
-						{
-							"name": "F02 CUSTOM",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "207c641881736a1b6f1791c046d4da36"
-						},
-						{
-							"name": "B01 HEADER",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatId": "d1f641f681736a1b3be11e06d11e2303",
-							"formatPath": "College-PROTOTYPE:_cms/formats/global/header",
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "2089375281736a1b6f1791c03f133b3d"
-						},
-						{
-							"name": "H03 GLOBAL-FOOTER",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatId": "d1f640bf81736a1b3be11e06ae5f3b28",
-							"formatPath": "College-PROTOTYPE:_cms/formats/global/globalFooter",
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "2089375281736a1b6f1791c04cf1f345"
-						},
-						{
-							"name": "A20 EMERGENCY ALERT",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "207c641881736a1b6f1791c00f57b1f5"
-						},
-						{
-							"name": "J01 PAGE-SCRIPTS",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "207c641881736a1b6f1791c0a62f709f"
-						},
-						{
-							"name": "DEFAULT",
-							"blockId": "207a248281736a1b6f1791c0f3143876",
-							"blockPath": "College-PROTOTYPE:_blocks/calendar/index/event category color mapping",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatId": "207b131781736a1b6f1791c08fba48ca",
-							"formatPath": "College-PROTOTYPE:_cms/formats/calendar/event details",
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "2089375281736a1b6f1791c0ebe5fec5"
-						},
-						{
-							"name": "BOTTOM SIDEBAR",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "77f9825c81736a1b6f1791c048cff843"
-						},
-						{
-							"name": "F01 CUSTOM",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "207c641881736a1b6f1791c0ce306c0e"
-						},
-						{
-							"name": "CUSTOM PAGE CSS",
-							"blockId": "207a248281736a1b6f1791c0f3143876",
-							"blockPath": "College-PROTOTYPE:_blocks/calendar/index/event category color mapping",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatId": "207b13bb81736a1b6f1791c06687a2bc",
-							"formatPath": "College-PROTOTYPE:_cms/formats/calendar/event category style generator",
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "2089375281736a1b6f1791c00eae0e9a"
-						},
-						{
-							"name": "J01 SITE-SCRIPTS",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "207c641881736a1b6f1791c09f9d73ff"
-						},
-						{
-							"name": "A30 GLOBAL-HEADER",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatId": "d1f640a881736a1b3be11e06a462a8b6",
-							"formatPath": "College-PROTOTYPE:_cms/formats/global/globalHeader",
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "2089375281736a1b6f1791c00d9931d3"
-						},
-						{
-							"name": "A01 SITE-HEAD-FILES",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "207c641881736a1b6f1791c0271459d0"
-						},
-						{
-							"name": "A10 GTM-POST",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "207c641881736a1b6f1791c053503d0e"
-						},
-						{
-							"name": "BELOW-DEFAULT",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "207c641881736a1b6f1791c0c83d78bd"
-						},
-						{
-							"name": "PAGETITLE",
-							"blockId": "207a244781736a1b6f1791c0f2291b5d",
-							"blockPath": "College-PROTOTYPE:_blocks/calendar/index/current page",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatId": "8f2cc62a81736a1b003cf7c34b8e5d1c",
-							"formatPath": "College-PROTOTYPE:_cms/formats/pages/calendarListing",
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "2089375281736a1b6f1791c0662fd8d1"
-						},
-						{
-							"name": "OUTPUT LINKS",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "77f9825c81736a1b6f1791c0899070be"
-						},
-						{
-							"name": "A01 GLOBAL-HEAD-FILES",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatId": "d1f641df81736a1b3be11e062c1c6b42",
-							"formatPath": "College-PROTOTYPE:_cms/formats/global/head",
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "2089375281736a1b6f1791c0cf3d2cee"
-						},
-						{
-							"name": "E01 FOOTER",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "207c641881736a1b6f1791c085b22ada"
-						},
-						{
-							"name": "A01 PAGE-HEAD-FILES",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "207c641881736a1b6f1791c0eeb19c2e"
-						},
-						{
-							"name": "ADDITIONAL SIDEBAR",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "77f9825c81736a1b6f1791c0c34aa173"
-						},
-						{
-							"name": "H01 SITE-CTA",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatId": "d1f640e881736a1b3be11e06d404b9fc",
-							"formatPath": "College-PROTOTYPE:_cms/formats/global/siteCTA",
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "2089375281736a1b6f1791c0f23127de"
-						}
-					],
-					"includeXMLDeclaration": false,
-					"publishable": false,
-					"id": "2089375281736a1b6f1791c008793205"
-				},
-				{
-					"name": "iCal",
-					"defaultConfiguration": false,
-					"templateId": "207c651a81736a1b6f1791c0fc872280",
-					"templatePath": "College-PROTOTYPE:_cms/templates/calendar/ical",
-					"formatRecycled": false,
-					"pageRegions": [
-						{
-							"name": "DEFAULT",
-							"blockId": "207a244781736a1b6f1791c0f2291b5d",
-							"blockPath": "College-PROTOTYPE:_blocks/calendar/index/current page",
-							"blockRecycled": false,
-							"noBlock": false,
-							"formatId": "207b0f8281736a1b6f1791c02977d2d1",
-							"formatPath": "College-PROTOTYPE:_cms/formats/calendar/outputs/ical/ical - minified",
-							"formatRecycled": false,
-							"noFormat": false,
-							"id": "2089375281736a1b6f1791c090f5d7fb"
-						}
-					],
-					"includeXMLDeclaration": false,
-					"publishable": false,
-					"id": "2089375281736a1b6f1791c0a4f8c1c1"
-				}
-			],
 			"linkRewriting": "inherit",
 			"shouldBePublished": true,
 			"shouldBeIndexed": true,
 			"expirationFolderRecycled": false,
 			"metadata": {
-				"displayName": "Test Event",
-				"title": "Test Event",
-				"summary": "Do not publish",
-				"teaser": "",
-				"keywords": "",
-				"metaDescription": "",
-				"author": "",
-				"startDate": "2023-04-01T21:20:00.000Z",
+				"displayName": "Student Recital: Tyrique Ivey",
+				"title": "Student Recital: Tyrique Ivey",
+				"summary": "Student Recital: Tyrique Ivey",
+				"startDate": "2020-01-01T01:00:00.000Z",
 				"dynamicFields": [
 					{
 						"name": "categories",
@@ -558,20 +188,10 @@
 				]
 			},
 			"reviewOnSchedule": false,
-			"reviewEvery": 180,
-			"parentFolderId": "9d01a17d81736a1b04b1b963695f8f76",
-			"parentFolderPath": "events/2023/04",
-			"lastModifiedDate": "2023-04-07T20:53:08.397Z",
-			"lastModifiedBy": "rjq475",
-			"createdDate": "2023-04-07T20:52:10.952Z",
-			"createdBy": "rjq475",
-			"path": "events/2023/04/test-event",
-			"siteId": "9d016a4e81736a1b04b1b96342db91a7",
+			"parentFolderPath": "events/2023/05",
 			"siteName": "COLFA-VPAA-ASC-HALSTORE",
 			"tags": [],
-			"name": "test-event",
-			"id": "5d7db06c81736a1b4e58a078522a67b9"
+			"name": "01-student-recital-tyrique-ivey1"
 		}
-	},
-	"success": true
+	}
 }
