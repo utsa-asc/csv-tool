@@ -14,6 +14,7 @@ const DB_HOST = process.env.DB_HOST;
 const DB_USER = process.env.DB_USER;
 const DB_PASS = process.env.DB_PASS;
 const DB_NAME = process.env.DB_NAME;
+const DO_POST = process.env.POST;
 if (!process.argv[2] || !process.argv[3] || !process.argv[4]) {
     console.log("sql query file, department name, and tag name required")
 } else {
@@ -249,9 +250,9 @@ if (!process.argv[2] || !process.argv[3] || !process.argv[4]) {
                 payload.asset.page.parentFolderPath = casPath;
                 payload.asset.page.name = uriFormat;
                 let postData = JSON.stringify(payload);
-                console.log("computed JSON payload:");
-                console.log(payload);
-                console.log(postData);
+                // console.log("computed JSON payload:");
+                // console.log(payload);
+                // console.log(postData);
                 //do POST
                 var postResponse = "";
                 var postOptions = {
@@ -269,26 +270,31 @@ if (!process.argv[2] || !process.argv[3] || !process.argv[4]) {
                     postOptions.requestCert = false;
                     postOptions.rejectUnauthorized = false;
                 }
-                console.dir(postOptions);
-                const post = protocol.request(postOptions, res => {
-                    // console.log('status code: ' + res.statusCode);
-                    // console.log('headers:', res.headers);
-                    res.on('data', d => {
-                        postResponse = postResponse + d;
-                        let responseObj = JSON.parse(d);
-                        process.stdout.write(d);
-                        process.stdout.write('\t' + payload.asset.page.parentFolderPath + "\t" + payload.asset.page.name);
-                        //   process.stdout.write(responseObj.createdAssetId);
-                        process.stdout.write('\n');
+                // console.dir(postOptions);
+                if (DO_POST == "YES") {
+                    const post = protocol.request(postOptions, res => {
+                        // console.log('status code: ' + res.statusCode);
+                        // console.log('headers:', res.headers);
+                        res.on('data', d => {
+                            postResponse = postResponse + d;
+                            let responseObj = JSON.parse(d);
+                            process.stdout.write(d);
+                            process.stdout.write('\t' + payload.asset.page.parentFolderPath + "\t" + payload.asset.page.name);
+                            //   process.stdout.write(responseObj.createdAssetId);
+                            process.stdout.write('\n');
+                        });
                     });
-                });
-                post.on('error', (e) => {
-                    console.log('error on POST');
-                    console.error(e);
-                });
-                post.write(postData);
-                post.end();
+                    post.on('error', (e) => {
+                        console.log('error on POST');
+                        console.error(e);
+                    });
+                    post.write(postData);
+                    post.end();
+                } else {
+                    console.log("SKIPPING POST TO API");
+                }
             });
+            connection.end();
         });
     });
 }
