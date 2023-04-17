@@ -164,14 +164,10 @@
 					}
 				]
 			},
-			"linkRewriting": "inherit",
-			"shouldBePublished": true,
-			"shouldBeIndexed": true,
-			"expirationFolderRecycled": false,
 			"metadata": {
-				"displayName": "Student Recital: Tyrique Ivey",
-				"title": "Student Recital: Tyrique Ivey",
-				"summary": "Student Recital: Tyrique Ivey",
+				"displayName": "",
+				"title": "",
+				"summary": "",
 				"startDate": "2020-01-01T01:00:00.000Z",
 				"dynamicFields": [
 					{
@@ -187,7 +183,6 @@
 					}
 				]
 			},
-			"reviewOnSchedule": false,
 			"parentFolderPath": "events/2023/05",
 			"siteName": "COLFA-VPAA-ASC-HALSTORE",
 			"tags": [],
