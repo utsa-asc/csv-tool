@@ -10,6 +10,7 @@
     "colfa-faculty-block-process": "node colfa-scripts/colfa-faculty-block-process.js",
     "colfa-faculty-page-process": "node colfa-scripts/colfa-faculty-page-process.js",
     "colfa-faculty-block-update": "node colfa-scripts/colfa-faculty-block-update.js",
+    "colfa-resolve-broken-images": "node colfa-scripts/colfa-images-fix-01.js",
     "klesse-main": "node ./index.js",
     "klesse-image": "node klesse-scripts/klesse-image.js",
     "klesse-process": "node klesse-scripts/klesse-process.js",
@@ -29,6 +30,7 @@
     "fast-csv": "^4.3.6",
     "jssoup": "^0.0.15",
     "moment": "^2.29.4",
-    "mysql2": "^3.2.0"
+    "mysql2": "^3.2.0",
+    "stream": "^0.0.2"
   }
 }
