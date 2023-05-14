@@ -101,7 +101,7 @@ fs.createReadStream('colfa/colfa-faculty-all.csv')
       path: GET_URI_BASE + task.blockURI,
       method: 'GET',
       headers: {
-        'Content-Type': 'application/application/json',
+        'Content-Type': 'application/json',
         Authorization: ' Bearer ' + API_KEY
       }
     };
@@ -111,7 +111,7 @@ fs.createReadStream('colfa/colfa-faculty-all.csv')
     }
     var getResponse = "";
     // console.log("GET options: ");
-    // console.log(getOptions);
+    console.log(getOptions);
     const get = protocol.request(getOptions, res => {
       res.on('data', d => {
         var editedAsset = {};
@@ -180,7 +180,7 @@ fs.createReadStream('colfa/colfa-faculty-all.csv')
         console.error(e);
       });
     });
-    get.end();
+    // get.end();
 
 
     //edit block JSON
