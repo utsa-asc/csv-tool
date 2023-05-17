@@ -1,77 +1,98 @@
-/* Image Process Tasks:
-    // refinement from HCAP tasks, only focusing on image download and content rewriting of <img> src attributes
-    // we save html entity and category fixing for other steps
+/* HONORS News Content Type Migration Tasks:
   0) read incoming CSV
-  1) read snippet html from local disk
-  2) find any <img> in snippet content
-  3) download any image src references to local disk
-  4) rewrite img src attributes with new upload location "/<yyyy>/images/<image-file-name>"
-  5) save updated snippet content
+  1) GET request URI from CSV data
+  2) construct new MINIMUM POST data
+    - update content type
+    - update structured data nodes []
+      - make sure to reformat WYSIWYG text
+      - make sure to reformat image1, image2 file asset
+    - update metadata {}
+  3) POST updated asset
   */
-  //"Apr 18, 2022, 8:09:58 PM", we will need to parse our target date based on the current article's post date
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 const https = require('https');
 const http = require('http');
 var fs = require('fs');
-const SOURCE_DIR = "/Users/garza/Downloads/tmp/car-resized";
-const PAYLOAD_DOCUMENT = fs.readFileSync("json/file-update.json");
+var csv = require('fast-csv');
+const CSV_INPUT = "honors/honors-news-uris.csv";
+const PAYLOAD_DOCUMENT = fs.readFileSync("json/honors-news-minimum.json");
 require('dotenv').config();
 const CAS_HOST = process.env.CAS_HOST;
 const CAS_PORT = process.env.CAS_PORT;
 const API_KEY = process.env.API_KEY;
-const GET_URI = "/api/v1/read/file/FILE-BLOB-TESTING";
+const GET_URI = "/api/v1/read/page/HONORS-VPAA-ASC-HALSTORE";
 const POST_URI = "/api/v1/edit";
+
 var protocol = http;
 if (CAS_PORT == 443) {
   protocol = https;
 }
 var tasks = [];
-fs.readdir(SOURCE_DIR, function (err, files) {
-  //handling error
-  if (err) {
-      return console.log('Unable to scan directory: ' + err);
-  } 
-  //listing all files using forEach
-  files.forEach(function (f) {
-      // Do whatever you want to do with the file
-      if (f.indexOf('.pdf') > 0) {
-        let taskData = {
-          "filePath": SOURCE_DIR + "/" + f,
-          "fileName": f,
-          "assetURL": "/_documents/car/" + f
-        }
-        tasks.push(taskData);
-        console.log("adding: " + f + " to tasks"); 
-      }
-  });
-  completeTasks();
-});
 
+// 0) read incoming CSV
+fs.createReadStream(CSV_INPUT)
+  .pipe(csv.parse({ headers: false }))
+  .on('data', function(obj) {
+    console.log("adding: " + obj[0] + " to tasks"); 
+    tasks.push({"uri": obj[0]});
+  })
+  .on('end', function() {
+    completeTasks();
+  });
 
 async function completeTasks() {
   var currentTask = {};
   try {
     for (let t of tasks) {
-      currentTask = t;
-      let updatedAsset = updateAsset(t);
-      console.log("POST ASSET: " + t.fileName);
-      // console.log(updatedAsset);
+      currentTask = t['uri'];
+      console.log("modify content type for asset at: " + currentTask);
+      // 1) GET request URI from CSV data
+      var content = await getAsset(currentTask);
+      // console.log(content);
+      // 2) construct new MINIMUM POST data
+      const updatedAsset = updateAsset(content);
+      // 3) POST updated asset
       let jsonPayload = JSON.stringify({asset: updatedAsset.asset});
+      console.log("updateAsset: " + currentTask)
+      // console.log(jsonPayload);
       let postedAsset = await postAsset(POST_URI, jsonPayload);
       console.log(postedAsset);
-    }  
+    }
   } catch (e) {
-    console.log("error with task");
-    console.log(currentTask);
+    console.log("\t error with task: " + currentTask.uri);
+    console.log(e);
   }
 }
 
-function updateAsset(task) {
-  var updated = JSON.parse(PAYLOAD_DOCUMENT);
-  var updatedContent = getByteArray(SOURCE_DIR + "/" + task.fileName);
-  updated.asset.file.path = task.assetURL;
-  updated.asset.file.data = updatedContent;
-  return updated;
+/*
+// 2) construct new MINIMUM POST data
+// - update content type
+// - update structured data nodes []
+//   - make sure to reformat WYSIWYG text
+//   - make sure to reformat image1, image2 file asset
+// - update metadata {}
+*/
+function updateAsset(content) {
+  var updatedContent = content;
+  const tags = [{ "name": "news"}, {"name": "honors" }];
+  updatedContent.asset.page['tags'] = tags;
+  return updatedContent;
+}
+
+function sanitizeText(content) {
+  var contentStr = content;
+  contentStr = contentStr.replace('&nbsp;', '&#160;');
+  contentStr = contentStr.replace(/\u00a0/g, " ");
+  contentStr = contentStr.replace(/\u2013/g, "-");
+  contentStr = contentStr.replace(/\u2019/g, "'");
+  contentStr = contentStr.replace(/\r?\n|\r/g, "");
+  contentStr = contentStr.replace('“', '"');
+  contentStr = contentStr.replace('”', '"');
+  contentStr = contentStr.replace('’', "'");
+  contentStr = contentStr.replace('&mdash;', '&#8212;');
+  contentStr = contentStr.replace('<br>', '<br/>');
+  contentStr = contentStr.replace('<hr>', '<hr/>');
+  contentStr = contentStr.replace(/[^\x00-\x7F]/g, "");
+  return contentStr;
 }
 
 async function postAsset(uri, payload) {
@@ -95,7 +116,7 @@ async function postAsset(uri, payload) {
   let p = new Promise((resolve, reject) => {
 		const req = protocol.request(postOptions, (response) => {
       // console.log(postOptions);
-      console.log(postOptions.headers['Content-Length']);
+      // console.log(postOptions.headers['Content-Length']);
       // console.log(payload);
       // console.log(payload.length);
 			let chunks_of_data = [];
@@ -139,7 +160,7 @@ async function getAsset(uri) {
   }
   let p = new Promise((resolve, reject) => {
     const req = protocol.request(getOptions, (response) => {
-      console.log(getOptions);
+      // console.log("GET: " + getOptions.path);
 			let chunks_of_data = [];
 
 			response.on('data', (fragments) => {
@@ -161,11 +182,4 @@ async function getAsset(uri) {
     req.end();
   });
   return await p;
-}
-
-function getByteArray(fpath){
-  let fdata = fs.readFileSync(fpath).toString('hex');
-  var arrByte = new Int8Array(Buffer.from(fdata, 'hex'));
-  var simpleArray = [].slice.call(arrByte);
-  return simpleArray;
 }
