@@ -1,0 +1,30 @@
+{
+	"asset": {
+		"xhtmlDataDefinitionBlock": {
+			"structuredData": {
+				"definitionPath": "College-PROTOTYPE:Program",
+				"structuredDataNodes": [
+					{
+						"type": "text",
+						"identifier": "program",
+						"text": "Certificate (CERT)"
+					},
+					{
+						"type": "text",
+						"identifier": "secondaryTitle",
+						"text": "Secondary Title"
+					},
+					{
+						"type": "text",
+						"identifier": "external",
+						"text": "https://future.utsa.edu/"
+					}
+				]
+			},
+			"parentFolderPath": "programs/_blocks/certificate",
+			"siteName": "COS-VPAA-ASC-HALSTORE",
+			"tags": [],
+			"name": "certificate-name"
+		}
+	}
+}

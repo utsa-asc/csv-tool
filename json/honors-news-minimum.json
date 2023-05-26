@@ -1,0 +1,19 @@
+{
+	"asset": {
+		"page": {
+			"contentTypePath": "College-PROTOTYPE:Blog",
+			"structuredData": {
+				"structuredDataNodes": []
+			},
+			"metadata": {
+                "replaceme": "with old content metadata set"
+			},
+			"parentFolderPath": "news/2020/01",
+			"path": "news/2020/01/Giving Back to the Global Community",
+			"siteName": "HONORS-VPAA-ASC-HALSTORE",
+			"tags": [{ "name": "news"}, {"name": "honors" }],
+			"name": "Giving Back to the Global Community",
+			"id": "262176cbac1600040826d23107cd0457"
+		}
+	}
+}

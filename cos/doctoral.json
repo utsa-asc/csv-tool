@@ -1,0 +1,134 @@
+[
+	{
+		"id": 21277,
+		"slug": "molecular-microbiology-immunology",
+		"status": "publish",
+		"type": "program_doctoral",
+		"link": "https:\/\/future.utsa.edu\/programs\/doctoral\/molecular-microbiology-immunology\/",
+		"title": {
+			"rendered": "Molecular Microbiology and Immunology (PhD)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			696
+		],
+		"degree_type": [
+			656
+		],
+		"yoast_head_json": {
+			"title": "PhD in Microbiology"
+		}
+	},
+	{
+		"id": 19670,
+		"slug": "chemistry",
+		"status": "publish",
+		"type": "program_doctoral",
+		"link": "https:\/\/future.utsa.edu\/programs\/doctoral\/chemistry\/",
+		"title": {
+			"rendered": "Chemistry (PhD)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			691
+		],
+		"degree_type": [
+			656
+		],
+		"yoast_head_json": {
+			"title": "PhD in Chemistry"
+		}
+	},
+	{
+		"id": 19785,
+		"slug": "physics",
+		"status": "publish",
+		"type": "program_doctoral",
+		"link": "https:\/\/future.utsa.edu\/programs\/doctoral\/physics\/",
+		"title": {
+			"rendered": "Physics (PhD)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			698
+		],
+		"degree_type": [
+			656
+		],
+		"yoast_head_json": {
+			"title": "PhD in Physics"
+		}
+	},
+	{
+		"id": 19769,
+		"slug": "neuroscience",
+		"status": "publish",
+		"type": "program_doctoral",
+		"link": "https:\/\/future.utsa.edu\/programs\/doctoral\/neuroscience\/",
+		"title": {
+			"rendered": "Neuroscience (PhD)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			697
+		],
+		"degree_type": [
+			656
+		],
+		"yoast_head_json": {
+			"title": "PhD in Neuroscience"
+		}
+	},
+	{
+		"id": 19754,
+		"slug": "computer-science",
+		"status": "publish",
+		"type": "program_doctoral",
+		"link": "https:\/\/future.utsa.edu\/programs\/doctoral\/computer-science\/",
+		"title": {
+			"rendered": "Computer Science (PhD)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			692
+		],
+		"degree_type": [
+			656
+		],
+		"yoast_head_json": {
+			"title": "PhD in Computer Science"
+		}
+	},
+	{
+		"id": 19658,
+		"slug": "developmental-regenerative-sciences",
+		"status": "publish",
+		"type": "program_doctoral",
+		"link": "https:\/\/future.utsa.edu\/programs\/doctoral\/developmental-regenerative-sciences\/",
+		"title": {
+			"rendered": "Developmental and Regenerative Sciences (PhD)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			697
+		],
+		"degree_type": [
+			656
+		],
+		"yoast_head_json": {
+			"title": "PhD in Developmental and Regenerative Sciences"
+		}
+	}
+]

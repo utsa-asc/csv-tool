@@ -1,0 +1,89 @@
+[
+	{
+		"id": 21433,
+		"slug": "geographic-information-science",
+		"status": "publish",
+		"type": "certificate",
+		"link": "https:\/\/future.utsa.edu\/programs\/graduate-certificate\/geographic-information-science\/",
+		"title": {
+			"rendered": "Geographic Information Science (CERT)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			693
+		],
+		"degree_type": [
+			651
+		],
+		"yoast_head_json": {
+			"title": "Graduate Certificate in Geographic Information Science"
+		}
+	},
+	{
+		"id": 21413,
+		"slug": "environmental-sustainability",
+		"status": "publish",
+		"type": "certificate",
+		"link": "https:\/\/future.utsa.edu\/programs\/graduate-certificate\/environmental-sustainability\/",
+		"title": {
+			"rendered": "Environmental Sustainability (CERT)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			694
+		],
+		"degree_type": [
+			651
+		],
+		"yoast_head_json": {
+			"title": "Graduate Certificate in Environmental Sustainability"
+		}
+	},
+	{
+		"id": 21387,
+		"slug": "environmental-science",
+		"status": "publish",
+		"type": "certificate",
+		"link": "https:\/\/future.utsa.edu\/programs\/graduate-certificate\/environmental-science\/",
+		"title": {
+			"rendered": "Environmental Science (CERT)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			694
+		],
+		"degree_type": [
+			651
+		],
+		"yoast_head_json": {
+			"title": "Graduate Certificate in Environmental Science"
+		}
+	},
+	{
+		"id": 21079,
+		"slug": "cloud-computing",
+		"status": "publish",
+		"type": "certificate",
+		"link": "https:\/\/future.utsa.edu\/programs\/graduate-certificate\/cloud-computing\/",
+		"title": {
+			"rendered": "Cloud Computing (CERT)"
+		},
+		"program_college": [
+			642,
+			647
+		],
+		"department": [],
+		"degree_type": [
+			651
+		],
+		"yoast_head_json": {
+			"title": "Graduate Certificate in Cloud Computing"
+		}
+	}
+]
