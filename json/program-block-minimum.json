@@ -11,8 +11,8 @@
 					},
 					{
 						"type": "text",
-						"identifier": "secondaryTitle"
-						"text": "Secondary Title",
+						"identifier": "secondaryTitle",
+						"text": "Secondary Title"
 					},
 					{
 						"type": "text",
