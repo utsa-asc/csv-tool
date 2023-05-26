@@ -1,0 +1,312 @@
+[
+	{
+		"id": 25240,
+		"slug": "environmental-studies",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/environmental-studies\/",
+		"title": {
+			"rendered": "Environmental Studies (BA)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			694
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Environmental Studies"
+		}
+	},
+	{
+		"id": 25256,
+		"slug": "mathematics-for-teaching",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/mathematics-for-teaching\/",
+		"title": {
+			"rendered": "Mathematics for Teaching (BS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			695
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Mathematics for Teaching"
+		}
+	},
+	{
+		"id": 19143,
+		"slug": "mathematics",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/mathematics\/",
+		"title": {
+			"rendered": "Mathematics (BS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			695
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Mathematics"
+		}
+	},
+	{
+		"id": 19084,
+		"slug": "neuroscience",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/neuroscience\/",
+		"title": {
+			"rendered": "Neuroscience (BS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			697
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Neuroscience"
+		}
+	},
+	{
+		"id": 19040,
+		"slug": "physics",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/physics\/",
+		"title": {
+			"rendered": "Physics (BS or BA)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			698
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Physics"
+		}
+	},
+	{
+		"id": 19021,
+		"slug": "multidisciplinary-science",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/multidisciplinary-science\/",
+		"title": {
+			"rendered": "Multidisciplinary Science (BS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			694
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Multidisciplinary Science"
+		}
+	},
+	{
+		"id": 18944,
+		"slug": "microbiology-immunology",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/microbiology-immunology\/",
+		"title": {
+			"rendered": "Microbiology and Immunology (BS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			692,
+			695
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Microbiology"
+		}
+	},
+	{
+		"id": 18741,
+		"slug": "geosciences",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/geosciences\/",
+		"title": {
+			"rendered": "Geosciences (BS or BA)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			693
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Geosciences"
+		}
+	},
+	{
+		"id": 18713,
+		"slug": "biochemistry",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/biochemistry\/",
+		"title": {
+			"rendered": "Biochemistry (BS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			691
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Biochemistry"
+		}
+	},
+	{
+		"id": 18659,
+		"slug": "computer-science",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/computer-science\/",
+		"title": {
+			"rendered": "Computer Science (BS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			692
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Computer Science"
+		}
+	},
+	{
+		"id": 18608,
+		"slug": "chemistry",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/chemistry\/",
+		"title": {
+			"rendered": "Chemistry (BS or BA)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			691
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Chemistry"
+		}
+	},
+	{
+		"id": 18471,
+		"slug": "mathematics-of-data-and-computing",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/mathematics-of-data-and-computing\/",
+		"title": {
+			"rendered": "Mathematics of Data and Computing (BS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			692,
+			695
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Mathematics of Data & Computing"
+		}
+	},
+	{
+		"id": 18525,
+		"slug": "environmental-science",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/environmental-science\/",
+		"title": {
+			"rendered": "Environmental Science (BS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			694
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Environmental Science"
+		}
+	},
+	{
+		"id": 18318,
+		"slug": "biology",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/biology\/",
+		"title": {
+			"rendered": "Biology (BS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			694
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Biology"
+		}
+	}
+]

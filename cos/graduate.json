@@ -1,0 +1,266 @@
+[
+	{
+		"id": 20661,
+		"slug": "physics",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/physics\/",
+		"title": {
+			"rendered": "Physics (MS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			698
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Physics"
+		}
+	},
+	{
+		"id": 20654,
+		"slug": "mathematics-education",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/mathematics-education\/",
+		"title": {
+			"rendered": "Mathematics Education (MS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			695
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Mathematics Education"
+		}
+	},
+	{
+		"id": 20647,
+		"slug": "mathematics",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/mathematics\/",
+		"title": {
+			"rendered": "Mathematics (MS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			695
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Mathematics"
+		}
+	},
+	{
+		"id": 20627,
+		"slug": "geosciences",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/geosciences\/",
+		"title": {
+			"rendered": "Geosciences (MS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			693
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Geosciences"
+		}
+	},
+	{
+		"id": 20587,
+		"slug": "geoinformatics",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/geoinformatics\/",
+		"title": {
+			"rendered": "Geoinformatics (MS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			693
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Geoinformatics"
+		}
+	},
+	{
+		"id": 20534,
+		"slug": "environmental-science",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/environmental-science\/",
+		"title": {
+			"rendered": "Environmental Science (MS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			694
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Environmental Science"
+		}
+	},
+	{
+		"id": 20487,
+		"slug": "cybersecurity-science",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/cybersecurity-science\/",
+		"title": {
+			"rendered": "Cybersecurity Science (MS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			692
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Cybersecurity"
+		}
+	},
+	{
+		"id": 20438,
+		"slug": "computer-science",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/computer-science\/",
+		"title": {
+			"rendered": "Computer Science (MS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			692
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Computer Science"
+		}
+	},
+	{
+		"id": 20236,
+		"slug": "chemistry",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/chemistry\/",
+		"title": {
+			"rendered": "Chemistry (MS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			691
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Chemistry"
+		}
+	},
+	{
+		"id": 20004,
+		"slug": "biology",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/biology\/",
+		"title": {
+			"rendered": "Biology (MS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			694
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Biology"
+		}
+	},
+	{
+		"id": 19962,
+		"slug": "applied-mathematics-industrial-mathematics",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/applied-mathematics-industrial-mathematics\/",
+		"title": {
+			"rendered": "Applied Mathematics – Industrial Mathematics (MS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			695
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Applied Mathematics"
+		}
+	},
+	{
+		"id": 20073,
+		"slug": "biotechnology",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/biotechnology\/",
+		"title": {
+			"rendered": "Biotechnology (MS)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			694
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Biotechnology"
+		}
+	}
+]
