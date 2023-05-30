@@ -11,22 +11,65 @@
 							{
 								"type": "text",
 								"identifier": "title",
-								"text": "Dietetic Director"
-							},
-							{
-								"type": "text",
-								"identifier": "title",
-								"text": "Assistant Professor of Instruction"
+								"text": "Professor"
 							},
 							{
 								"type": "text",
 								"identifier": "primaryDepartment",
-								"text": "Nutrition and Dietetics"
+								"text": "Integrative Biology"
+							},
+							{
+								"type": "text",
+								"identifier": "phone",
+								"text": "210-458-5491"
 							},
 							{
 								"type": "text",
 								"identifier": "email",
-								"text": "liset.lealvasquez@utsa.edu"
+								"text": "Aaron.Cassill@utsa.edu"
+							},
+							{
+								"type": "text",
+								"identifier": "office",
+								"text": "FLN 3.02.17"
+							},
+							{
+								"type": "text",
+								"identifier": "wysiwyg"
+							},
+							{
+								"type": "group",
+								"identifier": "cvlink",
+								"structuredDataNodes": [
+								]
+							},
+							{
+								"type": "group",
+								"identifier": "link",
+								"structuredDataNodes": [
+									{
+										"type": "text",
+										"identifier": "label",
+										"text": "MyNCB",
+										"recycled": false
+									},
+									{
+										"type": "text",
+										"identifier": "type",
+										"text": "external",
+										"recycled": false
+									},
+									{
+										"type": "text",
+										"identifier": "external",
+										"text": "https://www.ncbi.nlm.nih.gov/myncbi/1dSM8iS5v3_A7/bibliography/public/"
+									},
+									{
+										"type": "text",
+										"identifier": "target",
+										"text": "Parent Window/Tab"
+									}
+								]
 							}
 						]
 					},
@@ -37,19 +80,23 @@
 							{
 								"type": "asset",
 								"identifier": "file",
-								"fileId": "209dd37481736a1b6f1791c0514ff485",
 								"filePath": "faculty/headshots/_utsa-profile-placeholder-400x500.svg",
 								"assetType": "file"
 							},
 							{
 								"type": "text",
 								"identifier": "alt",
-								"text": "Megan Augustyn"
+								"text": "Placeholder"
 							},
 							{
 								"type": "text",
 								"identifier": "type",
 								"text": "No Link"
+							},
+							{
+								"type": "text",
+								"identifier": "target",
+								"text": "Parent Window/Tab"
 							}
 						]
 					}
@@ -57,12 +104,12 @@
 			},
 			"metadataSetPath": "College-PROTOTYPE:Faculty",
 			"metadata": {
-				"displayName": "Liset L. Vasquez, PhD, RDN, LD, CHES"
+				"displayName": "Aaron Cassill, Ph.D."
 			},
-			"parentFolderPath": "faculty/_blocks/nutrition-dietetics",
-			"siteName": "COLFA-VPAA-ASC-HALSTORE",
+			"parentFolderPath": "faculty/_blocks/integrative-biology",
+			"siteName": "COS-VPAA-ASC-HALSTORE",
 			"tags": [],
-			"name": "first-last"
+			"name": "cassill-aaron-rest"
 		}
 	}
 }

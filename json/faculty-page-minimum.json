@@ -7,23 +7,159 @@
 					{
 						"type": "asset",
 						"identifier": "block",
-						"blockPath": "faculty/_blocks/social-work/chanmugam-amy",
+						"blockPath": "faculty/_blocks/chemistry/bach-stephan",
 						"assetType": "block"
+						
 					},
 					{
 						"type": "text",
 						"identifier": "uuid",
-						"text": "000ahb758"
+						"text": "abc123"
+					},
+					{
+						"type": "group",
+						"identifier": "links",
+						"structuredDataNodes": [
+							{
+								"type": "group",
+								"identifier": "linkCollegeSite",
+								"structuredDataNodes": [
+									{
+										"type": "text",
+										"identifier": "label"
+										
+									},
+									{
+										"type": "text",
+										"identifier": "ariaLabel"
+									},
+									{
+										"type": "text",
+										"identifier": "type",
+										"text": "No Link"										
+									},
+									{
+										"type": "asset",
+										"identifier": "internal",
+										"assetType": "page,file,symlink"
+									},
+									{
+										"type": "text",
+										"identifier": "anchor"
+									},
+									{
+										"type": "text",
+										"identifier": "external",
+										"text": "https://"
+									},
+									{
+										"type": "text",
+										"identifier": "target",
+										"text": "Parent Window/Tab"
+									}
+								]
+							},
+							{
+								"type": "group",
+								"identifier": "linkSchoolSite",
+								"structuredDataNodes": [
+									{
+										"type": "text",
+										"identifier": "label"
+									},
+									{
+										"type": "text",
+										"identifier": "ariaLabel"
+									},
+									{
+										"type": "text",
+										"identifier": "type",
+										"text": "No Link"
+									},
+									{
+										"type": "asset",
+										"identifier": "internal",
+										"assetType": "page,file,symlink"
+									},
+									{
+										"type": "text",
+										"identifier": "anchor"
+										
+									},
+									{
+										"type": "text",
+										"identifier": "external",
+										"text": "https://"
+									},
+									{
+										"type": "text",
+										"identifier": "target",
+										"text": "Parent Window/Tab"
+									}
+								]
+							}
+						]
 					},
 					{
 						"type": "text",
 						"identifier": "researchInterests",
-						"text": "Intimate partner violence, especially child/adolescent exposure<br/>Family interventions &amp; support services, especially shelter-based<br/>Family systems &amp; psychological trauma<br/>Child abuse &amp; neglect<br/>Parent-child relationships<br/>Adoption &amp; foster care<br/>School social work &amp; school-based interventions<br/>Qualitative methods"
+						"text": ""						
 					},
 					{
 						"type": "text",
 						"identifier": "degrees",
-						"text": "Ph.D., Social Work, The University of Texas at Austin, 2009<br/>M.S., Social Work, The University of Texas at Austin, 1996<br/>B.A., Psychology and German Literature, Vassar College, 1990"
+						"text": ""
+					},
+					{
+						"type": "group",
+						"identifier": "recentMediaClips",
+						"structuredDataNodes": [
+							{
+								"type": "group",
+								"identifier": "link",
+								"structuredDataNodes": [
+									{
+										"type": "text",
+										"identifier": "label"
+										
+									},
+									{
+										"type": "text",
+										"identifier": "ariaLabel"
+										
+									},
+									{
+										"type": "text",
+										"identifier": "type",
+										"text": "No Link"
+										
+									},
+									{
+										"type": "asset",
+										"identifier": "internal",
+										"assetType": "page,file,symlink"
+										
+									},
+									{
+										"type": "text",
+										"identifier": "anchor"
+										
+									},
+									{
+										"type": "text",
+										"identifier": "external",
+										"text": "https://"
+										
+									},
+									{
+										"type": "text",
+										"identifier": "target",
+										"text": "Parent Window/Tab"
+										
+									}
+								]
+							}
+						]
 					},
 					{
 						"type": "group",
@@ -32,7 +168,24 @@
 							{
 								"type": "text",
 								"identifier": "awardInfo",
-								"text": "utsaDiscovery"
+								"text": "noAwardsInfo"
+								
+							},
+							{
+								"type": "text",
+								"identifier": "awardsCount",
+								"text": "500"
+							},
+							{
+								"type": "group",
+								"identifier": "section",
+								"structuredDataNodes": [
+									{
+										"type": "text",
+										"identifier": "accordionTitle",
+										"text": "Recent awards"
+									}
+								]
 							}
 						]
 					},
@@ -43,7 +196,8 @@
 							{
 								"type": "text",
 								"identifier": "presentationsInfo",
-								"text": "utsaDiscovery"
+								"text": "noPresentationInfo"
+								
 							}
 						]
 					},
@@ -54,7 +208,7 @@
 							{
 								"type": "text",
 								"identifier": "grantsInfo",
-								"text": "utsaDiscovery"
+								"text": "noGrants"
 							}
 						]
 					},
@@ -65,19 +219,19 @@
 							{
 								"type": "text",
 								"identifier": "publicationInfo",
-								"text": "utsaDiscovery"
+								"text": "noPublicationInfo"
 							}
 						]
 					}
 				]
 			},
 			"metadata": {
-				"title": "Amy Chanmugam"
+				"title": "John Doe, Ph.D."
 			},
 			"parentFolderPath": "faculty/profiles",
-			"siteName": "COLFA-VPAA-ASC-HALSTORE",
+			"siteName": "COS-VPAA-ASC-HALSTORE",
 			"tags": [],
-			"name": "chanmugam-amy"
+			"name": "doe-john"
 		}
 	}
 }

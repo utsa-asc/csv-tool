@@ -35,6 +35,9 @@
     "jssoup": "^0.0.15",
     "moment": "^2.29.4",
     "mysql2": "^3.2.0",
-    "stream": "^0.0.2"
+    "puppeteer": "^20.4.0",
+    "puppeteer-core": "^20.4.0",
+    "stream": "^0.0.2",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.19.3/xlsx-0.19.3.tgz"
   }
 }
