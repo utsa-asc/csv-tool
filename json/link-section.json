@@ -1,0 +1,28 @@
+{
+    "type": "group",
+    "identifier": "link",
+    "structuredDataNodes": [
+      {
+        "type": "text",
+        "identifier": "label",
+        "text": "MyNCB",
+        "recycled": false
+      },
+      {
+        "type": "text",
+        "identifier": "type",
+        "text": "external",
+        "recycled": false
+      },
+      {
+        "type": "text",
+        "identifier": "external",
+        "text": "https://www.ncbi.nlm.nih.gov/myncbi/1dSM8iS5v3_A7/bibliography/public/"
+      },
+      {
+        "type": "text",
+        "identifier": "target",
+        "text": "Parent Window/Tab"
+      }
+    ]
+  }

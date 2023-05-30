@@ -16,16 +16,16 @@ const UGRAD = fs.readFileSync("cos/undergraduate.json");
 const GRAD = fs.readFileSync("cos/graduate.json");
 const DOCT = fs.readFileSync("cos/doctoral.json");
 const TEST = fs.readFileSync("cos/test.json");
-
-const POST_URI = "/api/v1/create";
+const GET_URI = "/api/v1/read/block/COS-VPAA-ASC-HALSTORE/programs/_blocks/"
+const POST_URI = "/api/v1/edit";
 var protocol = http;
 if (CAS_PORT == 443) {
   protocol = https;
 }
 
 var tasks = [];
-const departments = prepDepts(DEPTS);
-console.dir(departments);
+// const departments = prepDepts(DEPTS);
+// console.dir(departments);
 
 // JSON.parse(CERTS).map(function(c) {
 //   let taskData = c;
@@ -48,20 +48,19 @@ console.dir(departments);
 //   tasks.push(taskData);
 // });
 
-// JSON.parse(DOCT).map(function(c) {
-//   let taskData = c;
-//   taskData.type = "doctoral";
-//   taskData.tag = "Doctoral";
-//   tasks.push(taskData);
-// });
-
-JSON.parse(TEST).map(function(c) {
+JSON.parse(DOCT).map(function(c) {
   let taskData = c;
-  taskData.type = "graduate";
-  taskData.tag = "Graduate";
+  taskData.type = "doctoral";
+  taskData.tag = "Doctoral";
   tasks.push(taskData);
 });
 
+// JSON.parse(TEST).map(function(c) {
+//   let taskData = c;
+//   taskData.type = "graduate";
+//   taskData.tag = "Graduate";
+//   tasks.push(taskData);
+// });
 completeTasks();
 
 async function completeTasks() {
@@ -69,9 +68,13 @@ async function completeTasks() {
   try {
     for (let t of tasks) {
       currentTask = t;
-      const payload = preparePayload(t);
+      const uri = t.type + "/" + t.slug;
+      console.log("GET uri: " + uri);
+      const assetJSON = await getAsset(uri);
+      // console.dir(assetJSON);
+      const payload = preparePayload(t, assetJSON);
       let stringPayload = JSON.stringify(payload);
-      console.log(stringPayload);
+      // console.log(stringPayload);
       let postedAsset = await postAsset(POST_URI, stringPayload);
       console.log(postedAsset);
     }
@@ -82,52 +85,39 @@ async function completeTasks() {
   }
 }
 
-function preparePayload(data) {
-  var programBlock = JSON.parse(PAYLOAD_DOCUMENT);
+function preparePayload(data, payloadJSON) {
+  var programBlock = payloadJSON;
   // console.log(JSON.stringify(data));
-  const sdns = [
-    {
-      "type": "text",
-      "identifier": "program",
-      "text": data.title.rendered
-    },
-    {
-      "type": "text",
-      "identifier": "secondaryTitle",
-      "text": data.yoast_head_json.title
-    },
-    {
-      "type": "text",
-      "identifier": "external",
-      "text": data.link
-    }
-  ];
-  var departmentSlug = departments[data.department[0]];
-  const departmentID = data.department[0];
-  if (departmentID) {
-    departmentSlug = departments[departmentID].slug;
+  const filePath = "images/programs/" + data.type + "-" + data.slug + ".jpg";
+  const newImage = {
+    "type": "group",
+    "identifier": "image",
+    "structuredDataNodes": [
+      {
+        "type": "asset",
+        "identifier": "file",
+        "filePath": filePath,
+        "assetType": "file"
+      },
+      {
+        "type": "text",
+        "identifier": "alt",
+        "text": data.yoast_head_json.title
+      }
+    ]
   }
-  // console.log("found department id: " + departmentID);
-  const tags = [{"name": data.tag}];
-  if (departmentSlug) {
-    tags.push({"name":departmentSlug});
-  }
-  programBlock.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes = sdns
-  let parentFolderPath = "programs/_blocks/" + data.type;
-  let name = data.slug
-  programBlock.asset.xhtmlDataDefinitionBlock.parentFolderPath = parentFolderPath;
-  programBlock.asset.xhtmlDataDefinitionBlock.name = name;
-  programBlock.asset.xhtmlDataDefinitionBlock.tags = tags;
-  return programBlock;
-}
 
-function prepDepts(data) {
-  var results = {};
-  const originData = JSON.parse(data);
-  originData.map(function(element) {
-    results[element.id] = {"name": element.name, "slug": element.slug};
-  })
-  return results;
+  var newSDNs = [];
+  programBlock.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes.map(function(d) {
+    if (d.identifier == "image") {
+      newSDNs.push(newImage);
+    } else {
+      newSDNs.push(d);
+    }
+  });
+  programBlock.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes = newSDNs;
+
+  return programBlock;
 }
 
 async function postAsset(uri, payload) {
@@ -195,7 +185,7 @@ async function getAsset(uri) {
   }
   let p = new Promise((resolve, reject) => {
     const req = protocol.request(getOptions, (response) => {
-      console.log(getOptions);
+      // console.log(getOptions);
 			let chunks_of_data = [];
 
 			response.on('data', (fragments) => {
