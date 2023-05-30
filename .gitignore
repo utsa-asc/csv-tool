@@ -10,3 +10,6 @@ klesse/**/*
 colfa/**/*
 .env
 events
+cos/cos-problems-02.xlsx
+.gitignore
+cos/cos-problems.xlsx
