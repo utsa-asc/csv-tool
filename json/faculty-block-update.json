@@ -1,0 +1,115 @@
+{
+	"asset": {
+		"xhtmlDataDefinitionBlock": {
+			"structuredData": {
+				"definitionPath": "College-PROTOTYPE:Components/Faculty",
+				"structuredDataNodes": [
+					{
+						"type": "group",
+						"identifier": "details",
+						"structuredDataNodes": [
+							{
+								"type": "text",
+								"identifier": "title",
+								"text": "Professor"
+							},
+							{
+								"type": "text",
+								"identifier": "primaryDepartment",
+								"text": "Integrative Biology"
+							},
+							{
+								"type": "text",
+								"identifier": "phone",
+								"text": "210-458-5491"
+							},
+							{
+								"type": "text",
+								"identifier": "email",
+								"text": "Aaron.Cassill@utsa.edu"
+							},
+							{
+								"type": "text",
+								"identifier": "office",
+								"text": "FLN 3.02.17"
+							},
+							{
+								"type": "text",
+								"identifier": "wysiwyg"
+							},
+							{
+								"type": "group",
+								"identifier": "cvlink",
+								"structuredDataNodes": [
+								]
+							},
+							{
+								"type": "group",
+								"identifier": "link",
+								"structuredDataNodes": [
+									{
+										"type": "text",
+										"identifier": "label",
+										"text": "MyNCB",
+										"recycled": false
+									},
+									{
+										"type": "text",
+										"identifier": "type",
+										"text": "external",
+										"recycled": false
+									},
+									{
+										"type": "text",
+										"identifier": "external",
+										"text": "https://www.ncbi.nlm.nih.gov/myncbi/1dSM8iS5v3_A7/bibliography/public/"
+									},
+									{
+										"type": "text",
+										"identifier": "target",
+										"text": "Parent Window/Tab"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"identifier": "image",
+						"structuredDataNodes": [
+							{
+								"type": "asset",
+								"identifier": "file",
+								"filePath": "faculty/headshots/_utsa-profile-placeholder-400x500.svg",
+								"assetType": "file"
+							},
+							{
+								"type": "text",
+								"identifier": "alt",
+								"text": "Placeholder"
+							},
+							{
+								"type": "text",
+								"identifier": "type",
+								"text": "No Link"
+							},
+							{
+								"type": "text",
+								"identifier": "target",
+								"text": "Parent Window/Tab"
+							}
+						]
+					}
+				]
+			},
+			"metadataSetPath": "College-PROTOTYPE:Faculty",
+			"metadata": {
+				"displayName": "Aaron Cassill, Ph.D."
+			},
+			"parentFolderPath": "faculty/_blocks/integrative-biology",
+			"siteName": "COS-VPAA-ASC-HALSTORE",
+			"tags": [],
+			"name": "cassill-aaron-rest"
+		}
+	}
+}
