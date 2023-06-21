@@ -4,6 +4,8 @@
   "description": "quick and dirty csv parser that scrapes content from the web for later REST API usage",
   "main": "index.js",
   "scripts": {
+    "cos-faculty-title-fix": "node cos-scripts/cos-faculty-title-fix.js",
+    "cos-faculty-link-fix": "node cos-scripts/cos-faculty-link-fix.js",
     "cos-faculty-headshot": "node cos-scripts/cos-faculty-block-update-headshot.js",
     "cos-program-block-process": "node cos-scripts/cos-program-block-process.js",
     "honors-news-tag-update": "node honors-scripts/news-tag-update.js",
