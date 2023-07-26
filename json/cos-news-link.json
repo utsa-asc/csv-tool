@@ -1,0 +1,93 @@
+{
+	"asset": {
+		"page": {
+			"contentTypePath": "College-PROTOTYPE:Blog",
+			"structuredData": {
+				"structuredDataNodes": [
+					{
+						"type": "text",
+						"identifier": "source",
+						"text": "UTSA Today"
+					},
+					{
+						"type": "group",
+						"identifier": "image1",
+						"structuredDataNodes": [
+							{
+								"type": "asset",
+								"identifier": "file",
+								"filePath": "news/2023/images/0613berriozabal.jpg",
+								"assetType": "file"
+							},
+							{
+								"type": "text",
+								"identifier": "alt",
+								"text": "Manuel and Maria Berriozábal"
+							}
+						]
+					},
+					{
+						"type": "text",
+						"identifier": "articleType",
+						"text": "custom"
+					},
+					{
+						"type": "text",
+						"identifier": "caption",
+						"text": "Manuel and Maria Berriozábal"
+					},
+					{
+						"type": "group",
+						"identifier": "link",
+						"structuredDataNodes": [
+							{
+								"type": "text",
+								"identifier": "label",
+								"text": "UTSA honors Manuel P. Berriozábal, Ph.D. and María Antonietta Berriozábal"
+							},
+							{
+								"type": "text",
+								"identifier": "ariaLabel",
+								"text": "UTSA honors Manuel P. Berriozábal, Ph.D. and María Antonietta Berriozábal"
+							},
+							{
+								"type": "text",
+								"identifier": "type",
+								"text": "external"
+							},
+							{
+								"type": "text",
+								"identifier": "external",
+								"text": "https://www.utsa.edu/today/2023/06/story/utsa-honors--manuel-and-maria-berriozabal.html"
+							},
+							{
+								"type": "text",
+								"identifier": "target",
+								"text": "Parent Window/Tab"
+							}
+						]
+					}
+				]
+			},
+			"metadata": {
+				"title": "UTSA honors Manuel P. Berriozábal, Ph.D. and María Antonietta Berriozábal",
+				"author": "College of Sciences",
+				"startDate": "2023-06-20T00:00:00.000Z"
+			},
+			"parentFolderPath": "news/2023/06",
+			"siteName": "COS-VPAA-ASC-HALSTORE",
+			"tags": [
+				{
+					"name": "mathematics"
+				},
+				{
+					"name": "news"
+				},
+				{
+					"name": "sciences"
+				}
+			],
+			"name": "20-utsa-honors-manuel-and-maria-berriozabal"
+		}
+	}
+}

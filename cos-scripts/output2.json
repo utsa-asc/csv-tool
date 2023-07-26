@@ -1,0 +1,73 @@
+{
+    "asset": {
+        "page": {
+            "contentTypePath": "College-PROTOTYPE:Blog",
+            "structuredData": {
+                "structuredDataNodes": [
+                    {
+                        "type": "text",
+                        "identifier": "source",
+                        "text": "College of Sciences"
+                    },
+                    {
+                        "type": "group",
+                        "identifier": "image1",
+                        "structuredDataNodes": [
+                            {
+                                "type": "asset",
+                                "identifier": "file",
+                                "filePath": "images/spotlights-alumni/2023/mcbride-caleb.jpg",
+                                "assetType": "file"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "alt",
+                                "text": "Caleb McBride"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "articleType",
+                        "text": "custom"
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "caption",
+                        "text": "Caleb McBride"
+                    },
+                    {
+                        "type": "group",
+                        "identifier": "link",
+                        "structuredDataNodes": []
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "wysiwyg",
+                        "text": "<div class=\"content\"> <!-- Title --> <!-- main content --> <div class=\"row\">  <div class=\"col-md-3\">   <img src=\"images/spotlights-alumni/2023/mcbride-caleb.jpg\" alt=\"Caleb McBride\" />  </div>  <!-- end column 1 -->  <div class=\"col-md-9\">   <h5>    Caleb McBride    <br />    <small>     May 2023    </small>   </h5>   <p>    Meet Caleb McBride, a former Data analyst for Shell, engineer at an oil and gas tech start-up, Wise Rock, and proud UTSA alum.   </p>   <p>    Being a proud Texan, Caleb was thrilled to return to South Texas and pursue his M.S. in Geology at the University of Texas at San Antonio. After completing his undergraduate studies in earth sciences at Rice University in 2014, he worked at a non-profit in Central Mexico for three years. Caleb recognized the value of character building and community, which made his non-profit work before UTSA even more fulfilling.   </p>   <p>    UTSA was the first-rate combination for Caleb to live close to his parents in Eldorado, TX while working on a world-class research project on the carbon cycle in Spain.   </p>   <p>    Caleb believes that UTSA fully embodies the rich cultural heritage, diverse communities, and natural beauty that defines South Texas as a whole. It is this important quality that made UTSA stand apart from other institutions in Caleb's mind.   </p>   <p>    After his graduation from UTSA in 2019, Caleb moved to Houston to work at Shell as a data analyst. As a digital geoscientist, he works with geologists to build subsurface data pipelines to compile data accurately and quickly, to visualize that same data in novel ways, and to automate repetitive processes. &quot;In a word, I make subsurface data more useful and powerful.&quot;   </p>   <p>    During his time as a Technical Data Management Analyst, Caleb has been able to work in several roles as a member of the Shell Graduate Program. These roles include global geochemistry, seismic data projects, and Mexico exploration.   </p>   <p>    While at UTSA, Caleb took care to develop his digital skills, which have become his most notable strength in his work as a geologist. During the second year of his master's program, he took courses in math and statistics where he utilized computational tools to solve complex data problems.   </p>   <p>    &quot;During that process, I began to pick up skills in data visualization and this opened so many opportunities for me,&quot; said Caleb. &quot;There are many opportunities at the intersection of data and science.&quot;   </p>   <p>    Caleb was very involved on UTSA's campus, mainly through his work on the Paisano, UTSA's independent student newspaper. &quot;I loved getting involved in the campus community as a writer and it has inspired me to see how I can use writing in my work to this day.&quot;   </p>   <p>    Similarly, Caleb's involvement manifested in his construction of an independent study project that investigated if ancient flood myths could be related to the global climate change narrative. The main idea of this study suggests that the need to reduce carbon emissions to avoid catastrophic consequences shares similarities with ancient deluge myths across the globe.   </p>   <p>    &quot;I loved getting to do research on this topic that was so different from my thesis research as an isotope geochemist,&quot; said Caleb. &quot;The UTSA faculty supported me in my goals and helped me with this exciting element of my work.&quot; Caleb emphasizes the importance of grounding yourself and having fortitude and the role it plays in his professional life. &quot;If you can find a way to get paid to study the earth, nature is transformed into holy ground because you realize how we really have to work together with nature to live in harmony.&quot;   </p>   <p>    This February, Caleb started his journey with Wise Rock, a company building production optimization software for the oil and natural gas industry, as a customer success engineer.   </p>  </div>  <!-- end column 2 --> </div> <!-- end row --> <!-- back to top --> <p>  &#160; </p></div>"
+                    }
+                ]
+            },
+            "metadata": {
+                "title": "Caleb McBride",
+                "author": "College of Sciences",
+                "startDate": "2023-05-01T05:00:00.000Z",
+                "teaser": "#AwesomeAlum"
+            },
+            "parentFolderPath": "/spotlights/alumni/2023",
+            "siteName": "COS-VPAA-ASC-HALSTORE",
+            "tags": [
+                {
+                    "name": "earth-and-planetary-sciences"
+                },
+                {
+                    "name": "spotlight"
+                },
+                {
+                    "name": "alumni"
+                }
+            ],
+            "name": "caleb-mcbride"
+        }
+    }
+}

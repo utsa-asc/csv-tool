@@ -14,3 +14,7 @@ cos/cos-problems-02.xlsx
 .gitignore
 cos/cos-problems.xlsx
 faculty
+spotlights
+spotlights/**
+cos/~$cos-spotlight-out.xlsx
+.gitignore

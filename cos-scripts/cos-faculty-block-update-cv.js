@@ -11,7 +11,7 @@ const CAS_HOST = process.env.CAS_HOST;
 const CAS_PORT = process.env.CAS_PORT;
 const API_KEY = process.env.API_KEY;
 const DO_POST = process.env.POST;
-const SOURCE_DOCUMENT = "cos/cos-adjoint.xlsx";
+const SOURCE_DOCUMENT = "cos/cos-faculty.xlsx";
 const PAYLOAD_DOCUMENT = fs.readFileSync("json/faculty-block-minimum.json");
 const LINK_GROUP = fs.readFileSync("json/link-section.json");
 const POST_URI = "/api/v1/edit";
@@ -24,7 +24,7 @@ if (CAS_PORT == 443) {
 var tasks = [];
 const workbook = XLSX.readFile(SOURCE_DOCUMENT);
 console.dir(workbook.SheetNames);
-const dataSheet = workbook.Sheets['adjoint'];
+const dataSheet = workbook.Sheets['test'];
 const sheetRange = XLSX.utils.decode_range(dataSheet['!ref']);
 const maxRow = sheetRange.e.r;
 
@@ -50,9 +50,9 @@ async function completeTasks() {
       // GET block
       var asset = await getAsset(t.blockURI);
       // update block
-      asset = updateImage(asset, t);
+      asset = updateCV(asset, t);
       if (asset == "") {
-        console.log("skipping " + t.name);
+        // console.log("skipping " + t.name);
       } else {
         // POST block
         let stringPayload = JSON.stringify(asset);
@@ -72,32 +72,60 @@ async function completeTasks() {
   }
 }
 
-
-function updateImage(asset, task) {
+function updateCV(asset, task) {
   var updatedAsset = asset;
-  var newFilePath = grabNewImageFilePath(task);
-  var nodes =[];
-  var image = [];
-  var newImageDNs = [
+  var newFilePath = grabCVFilePath(task);
+  var newLabelText = updatedAsset.asset.xhtmlDataDefinitionBlock.metadata.displayName + " CV";
+  var blockSDNs = [];
+  var detailsSDNs = [];
+  var newCVLinkSDNs = [
+    {
+      "type": "text",
+      "identifier": "label",
+      "text": newLabelText
+    },
+    {
+      "type": "text",
+      "identifier": "ariaLabel",
+      "text": newLabelText
+    },
+    {
+      "type": "text",
+      "identifier": "type",
+      "text": "internal"
+    },
     {
       "type": "asset",
-      "identifier": "file",
-      "filePath": "faculty/headshots/_utsa-profile-placeholder-400x500.svg",
-      "assetType": "file",
+      "identifier": "internal",
+      "filePath": newFilePath,
+      "assetType": "page,file,symlink"
+    },
+    {
+      "type": "text",
+      "identifier": "target",
+      "text": "Parent Window/Tab"
     }
   ];
+  var details = {}
+
   if (newFilePath != "") {
-    newImageDNs[0].filePath = newFilePath;
     updatedAsset.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes.map(function(d) {
-      if (d.identifier == "image") {
-        image = d;
+      if (d.identifier == "details") {
+        details = d;
       } else {
-        nodes.push(d);
+        blockSDNs.push(d);
       }
     });
-    image.structuredDataNodes = newImageDNs;
-    nodes.push(image);
-    updatedAsset.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes = nodes;
+
+    details.structuredDataNodes.map(function(n) {
+      if (n.identifier == "cvlink") {
+        n.structuredDataNodes = newCVLinkSDNs;
+      }
+      detailsSDNs.push(n);
+    })
+    details.structuredDataNodes = detailsSDNs;
+    blockSDNs.push(details);
+    updatedAsset.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes = blockSDNs;
     delete updatedAsset.success;
     return updatedAsset;
   } else {
@@ -105,17 +133,17 @@ function updateImage(asset, task) {
   }
 }
 
-function grabNewImageFilePath(task) {
+function grabCVFilePath(task) {
   var filePath = "";
-  var testURI = "faculty/headshots/adjoint/" + task.name + ".jpg";
+  var testURI = "faculty/documents/" + task.name + ".pdf";
   try {
     if (fs.existsSync(testURI)) {
       filePath = testURI;
     } else {
-      console.log("image not found: " + testURI);
+      console.log("pdf not found: " + testURI);
     }
   } catch (e) {
-    console.error("error while trying to search for headshot: ");
+    console.error("error while trying to search for cv: ");
     console.dir(task);
   }
   return filePath;

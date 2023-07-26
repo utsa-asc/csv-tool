@@ -1,0 +1,389 @@
+{
+	"asset": {
+		"page": {
+			"contentTypeId": "71c79f29ac16000623280b9fec3e25e8",
+			"contentTypePath": "College-PROTOTYPE:Blog",
+			"structuredData": {
+				"structuredDataNodes": [
+					{
+						"type": "text",
+						"identifier": "source",
+						"text": "College of Sciences",
+						"recycled": false
+					},
+					{
+						"type": "group",
+						"identifier": "image1",
+						"structuredDataNodes": [
+							{
+								"type": "asset",
+								"identifier": "file",
+								"fileId": "2661adbcac160004220308167364ddd9",
+								"filePath": "images/spotlights-alumni/2019/galindo-eleazar.jpg",
+								"assetType": "file",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "alt",
+								"text": "Eleazar Galindo",
+								"recycled": false
+							}
+						],
+						"recycled": false
+					},
+					{
+						"type": "group",
+						"identifier": "image2",
+						"structuredDataNodes": [
+							{
+								"type": "asset",
+								"identifier": "file",
+								"assetType": "file",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "alt",
+								"recycled": false
+							}
+						],
+						"recycled": false
+					},
+					{
+						"type": "text",
+						"identifier": "articleType",
+						"text": "custom",
+						"recycled": false
+					},
+					{
+						"type": "text",
+						"identifier": "caption",
+						"text": "Eleazar Galindo",
+						"recycled": false
+					},
+					{
+						"type": "group",
+						"identifier": "link",
+						"structuredDataNodes": [
+							{
+								"type": "text",
+								"identifier": "label",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "ariaLabel",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "type",
+								"text": "No Link",
+								"recycled": false
+							},
+							{
+								"type": "asset",
+								"identifier": "internal",
+								"assetType": "page,file,symlink",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "anchor",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "external",
+								"text": "https://",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "target",
+								"text": "Parent Window/Tab",
+								"recycled": false
+							}
+						],
+						"recycled": false
+					},
+					{
+						"type": "text",
+						"identifier": "wysiwyg",
+						"text": "<div class=\"content\"><!-- Title --> <!-- main content -->\n<div class=\"row\">\n<div class=\"col-md-3\"><img alt=\"Eleazar Galindo\" src=\"images/spotlights-alumni/2019/galindo-eleazar.jpg\"/></div>\n<!-- end column 1 -->\n<div class=\"col-md-9\">\n<h5>Eleazar Galindo</h5>\n<p>If you were to ask Eleazar Galindo ('11) who he owes his career to, his friends Zelda and Mario would rank high on the list. Always wanting to play video games with his older cousins, getting a Nintendo changed his whole perspective - and, ultimately, his destiny.</p>\n<p>\"I love games,\" he says. \"Playing them, selling them, the design of them. I can't get enough of them.\" And, he found that, like himself, others felt that way about old school versions. Even down to the consoles you'd play them on.</p>\n<p>His business, Piko Interactive, puts a twist on that, actually allowing you to play recent games on some of those very consoles. Like a classic car a beaming owner loves to take out on the road, these gamers are trotting out their old Segas and Game Boys with pride.</p>\n<p>But where does this nostalgia for consoles even come from? \"A lot of it would be people who really enjoy the story of video games to begin with,\" says the 25-year-old who grew up in Mexico until he was 13 and then moved to Eagle Pass, Texas. \"Many companies on the video game market were releasing consoles and there was a crash of the market in the 80s. Then, Nintendo literally saved everything. They were smart and didn't even call it a video game consoleit was marketed as an entertainment system. That time made an impact on kids from the 80s and 90s and many people have a special place in their heart for that time of growth.\"</p>\n<p>But that doesn't mean Galindo only lives in the past.</p>\n<p>Piko Interactive is partnering with homebrew creators to put out new small games for these consoles as well. \"There are many creative people out there and I love to see what they can come up with!\" he says, like someone as excited to play these creations as market them.</p>\n<p>In addition, the goal is to include slightly more recent consoles, such as Nintendo Wii, letting the kids who grew up in the first decade of this millennium in on the fun.</p>\n<p>Graduating in 2011 from UTSA with a degree in communications, Galindo is already giving back. His company is slated to hand out two scholarships during the school year to students who are interested in developing new games or game development. \"I remember how hard it can be to pay for things,\" he says. \"I feel I've been lucky to get to where I have and I just want to give them encouragement.\"</p>\n<p>And Galindo is encouraged by how his own company gives him countless chances to grow.</p>\n<p>\"You have to think about running a business and trying things out that may or may not work\" he says. \"Some of that isn't always fun. But the great part is It's still about games!\"</p>\n</div>\n<!-- end column 2 --></div>\n<!-- end row --> <!-- back to top -->\n<p>&amp;#160;</p>\n</div>",
+						"recycled": false
+					},
+					{
+						"type": "text",
+						"identifier": "postscript",
+						"recycled": false
+					}
+				]
+			},
+			"pageConfigurations": [
+				{
+					"name": "XML",
+					"defaultConfiguration": false,
+					"templateId": "71c7ed37ac16000623280b9f1f557838",
+					"templatePath": "College-PROTOTYPE:_cms/templates/XML",
+					"formatRecycled": false,
+					"pageRegions": [
+						{
+							"name": "DEFAULT",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed37ac16000623280b9fb8048cef"
+						}
+					],
+					"includeXMLDeclaration": false,
+					"publishable": false,
+					"id": "71c7e962ac16000623280b9f18fef3b2"
+				},
+				{
+					"name": "HTML",
+					"defaultConfiguration": true,
+					"templateId": "71c7ed28ac16000623280b9f4bbe303e",
+					"templatePath": "College-PROTOTYPE:_cms/templates/HTML",
+					"formatRecycled": false,
+					"pageRegions": [
+						{
+							"name": "E01 FOOTER",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9f435f063b"
+						},
+						{
+							"name": "DEFAULT",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "71c7efe7ac16000623280b9fda70e33d",
+							"formatPath": "College-PROTOTYPE:_cms/formats/pages/blog",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7e962ac16000623280b9f76af79df"
+						},
+						{
+							"name": "F02 CUSTOM",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9f7edfab5d"
+						},
+						{
+							"name": "A30 GLOBAL-HEADER",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "71c7ef1bac16000623280b9f59d5cb22",
+							"formatPath": "College-PROTOTYPE:_cms/formats/global/globalHeader",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9f9bd788df"
+						},
+						{
+							"name": "A01 SITE-TITLE",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "71c7ee97ac16000623280b9f702ea13a",
+							"formatPath": "College-PROTOTYPE:_cms/formats/global/a0-site-title",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9fb3a9280d"
+						},
+						{
+							"name": "A10 GTM-POST",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9f1dea4308"
+						},
+						{
+							"name": "H02 SITE-FOOTER",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "71c7ef92ac16000623280b9f30693159",
+							"formatPath": "College-PROTOTYPE:_cms/formats/global/siteFooter",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9f3aa012fc"
+						},
+						{
+							"name": "A01 GLOBAL-HEAD-FILES",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "71c7ef79ac16000623280b9f4f1ed160",
+							"formatPath": "College-PROTOTYPE:_cms/formats/global/head",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9f21c81beb"
+						},
+						{
+							"name": "H01 SITE-CTA",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "71c7ef36ac16000623280b9f06f0bd1a",
+							"formatPath": "College-PROTOTYPE:_cms/formats/global/siteCTA",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9f38d41aa3"
+						},
+						{
+							"name": "F05 CUSTOM",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9faab65680"
+						},
+						{
+							"name": "J01 PAGE-SCRIPTS",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9fb5bcf9e1"
+						},
+						{
+							"name": "F01 CUSTOM",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9f1d4740d8"
+						},
+						{
+							"name": "H03 GLOBAL-FOOTER",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "71c7ef24ac16000623280b9f6df1bd60",
+							"formatPath": "College-PROTOTYPE:_cms/formats/global/globalFooter",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9fa1332c80"
+						},
+						{
+							"name": "A01 SITE-HEAD-FILES",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9f1819fcb0"
+						},
+						{
+							"name": "A01 META",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "71c7ee7fac16000623280b9f9f96c344",
+							"formatPath": "College-PROTOTYPE:_cms/formats/global/meta",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9fb158e0d5"
+						},
+						{
+							"name": "J01 GLOBAL-SCRIPTS",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "71c7ef89ac16000623280b9f752deca9",
+							"formatPath": "College-PROTOTYPE:_cms/formats/global/scripts",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9f0d1ab83a"
+						},
+						{
+							"name": "A20 EMERGENCY ALERT",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9f706522c6"
+						},
+						{
+							"name": "F04 CUSTOM",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9fc06ee9e1"
+						},
+						{
+							"name": "J01 SITE-SCRIPTS",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9f4dcf2418"
+						},
+						{
+							"name": "A01 PAGE-HEAD-FILES",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9f7fe7b0d5"
+						},
+						{
+							"name": "B01 HEADER",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "71c7ef81ac16000623280b9f2f59f4dd",
+							"formatPath": "College-PROTOTYPE:_cms/formats/global/header",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9f3ed35414"
+						},
+						{
+							"name": "F03 CUSTOM",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "71c7ed28ac16000623280b9fa5071917"
+						}
+					],
+					"includeXMLDeclaration": false,
+					"publishable": false,
+					"id": "71c7e962ac16000623280b9f9b1f39e3"
+				}
+			],
+			"linkRewriting": "inherit",
+			"shouldBePublished": true,
+			"shouldBeIndexed": true,
+			"expirationFolderRecycled": false,
+			"metadata": {
+				"displayName": "",
+				"title": "Eleazar Galindo",
+				"summary": "",
+				"teaser": "test",
+				"keywords": "",
+				"metaDescription": "",
+				"author": "College of Sciences",
+				"startDate": "2019-02-15T06:00:00.000Z"
+			},
+			"reviewOnSchedule": false,
+			"reviewEvery": 0,
+			"parentFolderId": "2748ab50ac1600042203081673d07315",
+			"parentFolderPath": "spotlights/alumni/2019",
+			"lastModifiedDate": "2023-07-05T18:46:23.238Z",
+			"lastModifiedBy": "admin",
+			"createdDate": "2023-07-05T18:46:09.076Z",
+			"createdBy": "admin",
+			"path": "spotlights/alumni/2019/eleazar-galindo",
+			"siteId": "55ec5cd9ac1600040826d2311c89c7cc",
+			"siteName": "COS-VPAA-ASC-HALSTORE",
+			"tags": [
+				{
+					"name": "computer-science"
+				}
+			],
+			"name": "eleazar-galindo",
+			"id": "276049bbac16000422030816c32f850a"
+		}
+	},
+	"success": true
+}

@@ -1,0 +1,186 @@
+{
+    "asset": {
+        "page": {
+            "contentTypePath": "College-PROTOTYPE:Blog",
+            "structuredData": {
+                "structuredDataNodes": [
+                    {
+                        "type": "text",
+                        "identifier": "source",
+                        "text": "UTSA Today"
+                    },
+                    {
+                        "type": "group",
+                        "identifier": "image1",
+                        "structuredDataNodes": [
+                            {
+                                "type": "asset",
+                                "identifier": "file",
+                                "filePath": "news/2023/images/0124brain.jpg",
+                                "assetType": "file"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "alt",
+                                "text": "brain"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "articleType",
+                        "text": "link"
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "caption",
+                        "text": "brain"
+                    },
+                    {
+                        "type": "group",
+                        "identifier": "link",
+                        "structuredDataNodes": [
+                            {
+                                "type": "text",
+                                "identifier": "label",
+                                "text": "UTSA-UT Health San Antonio team studies compounds aimed at treating brain cancer"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "ariaLabel",
+                                "text": "UTSA-UT Health San Antonio team studies compounds aimed at treating brain cancer"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "type",
+                                "text": "external"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "external",
+                                "text": "https://www.utsa.edu/today/2023/01/story/UTSA-UT-health-team-studies-compounds-to-treat-brain-cancer.html"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "target",
+                                "text": "Parent Window/Tab"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "title": "UTSA-UT Health San Antonio team studies compounds aimed at treating brain cancer",
+                "author": "College of Science",
+                "startDate": "2023-01-24T06:00:00.000Z"
+            },
+            "parentFolderPath": "news/2023/01",
+            "siteName": "COS-VPAA-ASC-HALSTORE",
+            "tags": [
+                {
+                    "name": "news"
+                },
+                {
+                    "name": "sciences"
+                },
+                {
+                    "name": "chemistry"
+                }
+            ],
+            "name": "24-UTSA-UT-health-team-studies-compounds-to-treat-brain-cancer"
+        }
+    }
+}
+{
+    "asset": {
+        "page": {
+            "contentTypePath": "College-PROTOTYPE:Blog",
+            "structuredData": {
+                "structuredDataNodes": [
+                    {
+                        "type": "text",
+                        "identifier": "source",
+                        "text": ""
+                    },
+                    {
+                        "type": "group",
+                        "identifier": "image1",
+                        "structuredDataNodes": [
+                            {
+                                "type": "asset",
+                                "identifier": "file",
+                                "filePath": "news/2023/images/0123macpherson.jpg",
+                                "assetType": "file"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "alt",
+                                "text": "Lindsey Macpherson"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "articleType",
+                        "text": "link"
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "caption",
+                        "text": "Lindsey Macpherson"
+                    },
+                    {
+                        "type": "group",
+                        "identifier": "link",
+                        "structuredDataNodes": [
+                            {
+                                "type": "text",
+                                "identifier": "label",
+                                "text": "Lindsey Macpherson part of team awarded $9.8 million NIH grant "
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "ariaLabel",
+                                "text": "Lindsey Macpherson part of team awarded $9.8 million NIH grant "
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "type",
+                                "text": "external"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "external",
+                                "text": "https://news.uthscsa.edu/ut-health-san-antonio-school-of-dentistry-awarded-9-8-million-nih-grant-that-could-help-curb-opioid-use-2/"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "target",
+                                "text": "Parent Window/Tab"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "title": "Lindsey Macpherson part of team awarded $9.8 million NIH grant ",
+                "author": "College of Science",
+                "startDate": "2023-01-23T06:00:00.000Z"
+            },
+            "parentFolderPath": "news/2023/01",
+            "siteName": "COS-VPAA-ASC-HALSTORE",
+            "tags": [
+                {
+                    "name": "news"
+                },
+                {
+                    "name": "sciences"
+                },
+                {
+                    "name": "neuroscience-developmental-and-regenerative-biology"
+                }
+            ],
+            "name": "23-ut-health-san-antonio-school-of-dentistry-awarded"
+        }
+    }
+}

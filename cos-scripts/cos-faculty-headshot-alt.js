@@ -11,7 +11,7 @@ const CAS_HOST = process.env.CAS_HOST;
 const CAS_PORT = process.env.CAS_PORT;
 const API_KEY = process.env.API_KEY;
 const DO_POST = process.env.POST;
-const SOURCE_DOCUMENT = "cos/cos-faculty.xlsx";
+const SOURCE_DOCUMENT = "cos/cos-adjoint.xlsx";
 const PAYLOAD_DOCUMENT = fs.readFileSync("json/faculty-block-minimum.json");
 const LINK_GROUP = fs.readFileSync("json/link-section.json");
 const POST_URI = "/api/v1/edit";
@@ -24,7 +24,7 @@ if (CAS_PORT == 443) {
 var tasks = [];
 const workbook = XLSX.readFile(SOURCE_DOCUMENT);
 console.dir(workbook.SheetNames);
-const dataSheet = workbook.Sheets['test'];
+const dataSheet = workbook.Sheets['adjoint'];
 const sheetRange = XLSX.utils.decode_range(dataSheet['!ref']);
 const maxRow = sheetRange.e.r;
 
