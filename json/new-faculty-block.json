@@ -1,0 +1,48 @@
+{
+	"asset": {
+		"xhtmlDataDefinitionBlock": {
+			"structuredData": {
+				"definitionPath": "Block - New Faculty",
+				"structuredDataNodes": [
+					{
+						"type": "group",
+						"identifier": "staffMember",
+						"structuredDataNodes": [
+							{
+								"type": "asset",
+								"identifier": "headshot",
+								"filePath": "img/2022/Abbaas_Omar_3249.jpg",
+								"assetType": "file"
+							},
+							{
+								"type": "text",
+								"identifier": "title",
+								"text": "Assistant Professor, Mechanical Engineering"
+							},
+
+							{
+								"type": "text",
+								"identifier": "education",
+								"text": "Ph.D., Pennsylvania State University"
+							}
+						]
+					}
+				]
+			},
+			"metadataSetPath": "Faculty Block",
+			"metadata": {
+				"displayName": "Omar Abbaas",
+				"title": "Omar Abbaas",
+				"summary": "",
+				"teaser": "",
+				"keywords": "",
+				"metaDescription": "",
+				"author": ""
+			},
+			"parentFolderPath": "2023-faculty",
+			"siteName": "NEWFACULTY-VPAA-WWWROOT",
+			"tags": [],
+			"name": "Abbaas-Omar"
+		}
+	}
+}

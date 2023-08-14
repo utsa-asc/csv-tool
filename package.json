@@ -6,6 +6,7 @@
   "scripts": {
     "cos-spotlight-news-process": "node cos-scripts/cos-spotlight-news-process.js",
     "cos-spotlight-news-preprocess": "node cos-scripts/cos-spotlight-news-preprocess.js",
+    "new-faculty": "node new-faculty-scripts/new-faculty-process.js",
     "cos-spotlight-process": "node cos-scripts/cos-spotlight-process.js",
     "cos-spotlight-preprocess": "node cos-scripts/cos-spotlight-preprocess.js",
     "cos-news-create": "node cos-scripts/cos-news-process.js",
