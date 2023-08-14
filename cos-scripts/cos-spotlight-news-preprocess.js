@@ -192,18 +192,12 @@ async function fetchURL(url) {
 }
 
 function refactorContent(soupSnippet) {
+  //remove the script code at the bottom of the page
   var scr = soupSnippet.find("script");
   scr.extract();
+  //remove the back-to-top anchor at the bottom of the page
   var backA = soupSnippet.find("a", { id: "back-to-top" });
   backA.extract();
-  var firstRow = soupSnippet.find("div", { class: "row" });
-  firstRow.extract();
-  var hr = soupSnippet.find("hr", { class: "mt-4" });
-  hr.extract();
-  var pa = soupSnippet.findAll("p", { align: "right" });
-  pa.map((e) => {
-    e.extract();
-  });
   return soupSnippet;
 }
 
