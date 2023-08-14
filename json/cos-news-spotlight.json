@@ -1,0 +1,396 @@
+{
+	"asset": {
+		"page": {
+			"contentTypeId": "d1f6202981736a1b3be11e06e95af61a",
+			"contentTypePath": "College-PROTOTYPE:Blog",
+			"structuredData": {
+				"structuredDataNodes": [
+					{
+						"type": "text",
+						"identifier": "source",
+						"text": "UTSA Today",
+						"recycled": false
+					},
+					{
+						"type": "group",
+						"identifier": "image1",
+						"structuredDataNodes": [
+							{
+								"type": "asset",
+								"identifier": "file",
+								"fileId": "d1f627d381736a1b3be11e066f0fd77f",
+								"filePath": "College-PROTOTYPE:college-dls/college/images/News_Blog-1.png",
+								"assetType": "file",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "alt",
+								"text": "Lead Photo Example",
+								"recycled": false
+							}
+						],
+						"recycled": false
+					},
+					{
+						"type": "group",
+						"identifier": "image2",
+						"structuredDataNodes": [
+							{
+								"type": "asset",
+								"identifier": "file",
+								"assetType": "file",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "alt",
+								"recycled": false
+							}
+						],
+						"recycled": false
+					},
+					{
+						"type": "text",
+						"identifier": "articleType",
+						"text": "standard",
+						"recycled": false
+					},
+					{
+						"type": "text",
+						"identifier": "caption",
+						"text": "Example Caption",
+						"recycled": false
+					},
+					{
+						"type": "group",
+						"identifier": "link",
+						"structuredDataNodes": [
+							{
+								"type": "text",
+								"identifier": "label",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "ariaLabel",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "type",
+								"text": "No Link",
+								"recycled": false
+							},
+							{
+								"type": "asset",
+								"identifier": "internal",
+								"assetType": "page,file,symlink",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "anchor",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "external",
+								"text": "https://",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "target",
+								"text": "Parent Window/Tab",
+								"recycled": false
+							}
+						],
+						"recycled": false
+					},
+					{
+						"type": "text",
+						"identifier": "wysiwyg",
+						"text": "<p>Ball tip sausage boudin cow meatloaf tri-tip salami ribeye pastrami hamburger short ribs buffalo shank corned beef. Bresaola jerky kevin porchetta pork chop, shoulder pork loin strip steak t-bone drumstick biltong ground round pastrami chicken. Andouille tongue jerky venison buffalo shankle tenderloin ham boudin spare ribs ribeye pig burgdoggen meatloaf. Tongue shank rump meatloaf meatball sirloin pancetta picanha ball tip doner corned beef jowl andouille. Prosciutto kevin boudin pig doner andouille landjaeger t-bone ground round pancetta buffalo jowl drumstick turkey beef ribs. Cupim ground round kielbasa, shoulder biltong filet mignon meatloaf drumstick landjaeger ball tip jowl sirloin tail buffalo chicken.</p>\r\n<p>Chuck meatball shoulder short loin short ribs picanha flank jowl alcatra ground round burgdoggen kielbasa. Leberkas pork belly jowl sirloin ball tip venison fatback. Beef landjaeger venison meatball andouille, turducken turkey salami rump ball tip kevin ham tri-tip cow jerky. Tail pork belly landjaeger alcatra, turkey brisket tenderloin bresaola.</p>\r\n<p>T-bone tail shoulder doner swine sausage picanha hamburger burgdoggen salami pork loin chislic. Capicola kielbasa sirloin, beef ribs chuck doner venison shoulder rump pork shankle pancetta salami. Pork chop cow sirloin meatloaf fatback, strip steak shoulder hamburger meatball jowl pastrami. Boudin shoulder capicola sausage brisket.</p>\r\n<p>Alcatra burgdoggen pork belly, filet mignon leberkas strip steak tri-tip cow bresaola cupim pancetta meatloaf shank shankle. Turkey t-bone filet mignon bresaola, sausage shankle hamburger pork loin corned beef. Kielbasa ham hock tenderloin doner turducken. Sausage cow pork shank kielbasa pork loin ground round ham hock tenderloin prosciutto pig shoulder. Pork strip steak chicken tenderloin venison capicola burgdoggen prosciutto.</p>",
+						"recycled": false
+					},
+					{
+						"type": "text",
+						"identifier": "postscript",
+						"text": "<span>Short ribs burgdoggen short loin ham hock picanha drumstick tri-tip andouille shankle alcatra rump salami ham. Pastrami bresaola turducken alcatra leberkas. Leberkas shankle burgdoggen ham, sirloin hamburger turkey kielbasa cupim tongue tri-tip prosciutto spare ribs.</span>",
+						"recycled": false
+					}
+				]
+			},
+			"pageConfigurations": [
+				{
+					"name": "HTML",
+					"defaultConfiguration": true,
+					"templateId": "d1f6400781736a1b3be11e069e5e57e7",
+					"templatePath": "College-PROTOTYPE:_cms/templates/HTML",
+					"formatRecycled": false,
+					"pageRegions": [
+						{
+							"name": "A01 PAGE-HEAD-FILES",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e064ea696a8"
+						},
+						{
+							"name": "J01 GLOBAL-SCRIPTS",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "d1f6420c81736a1b3be11e062c2262df",
+							"formatPath": "College-PROTOTYPE:_cms/formats/global/scripts",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e066d9b87f8"
+						},
+						{
+							"name": "J01 PAGE-SCRIPTS",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e06767b19b1"
+						},
+						{
+							"name": "A20 EMERGENCY ALERT",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e06d4719fbc"
+						},
+						{
+							"name": "A01 GLOBAL-HEAD-FILES",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "d1f641df81736a1b3be11e062c1c6b42",
+							"formatPath": "College-PROTOTYPE:_cms/formats/global/head",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e067ade23dd"
+						},
+						{
+							"name": "J01 SITE-SCRIPTS",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e06e11928c2"
+						},
+						{
+							"name": "F01 CUSTOM",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e0662568abb"
+						},
+						{
+							"name": "A01 META",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "7f4cb28381736a1b003cf7c3ca483ffd",
+							"formatPath": "College-PROTOTYPE:_cms/formats/global/meta",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e0688270213"
+						},
+						{
+							"name": "F03 CUSTOM",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e068ecce581"
+						},
+						{
+							"name": "B01 HEADER",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "d1f641f681736a1b3be11e06d11e2303",
+							"formatPath": "College-PROTOTYPE:_cms/formats/global/header",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e06608f69e1"
+						},
+						{
+							"name": "H01 SITE-CTA",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "d1f640e881736a1b3be11e06d404b9fc",
+							"formatPath": "College-PROTOTYPE:_cms/formats/global/siteCTA",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e069eae8dce"
+						},
+						{
+							"name": "H03 GLOBAL-FOOTER",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "d1f640bf81736a1b3be11e06ae5f3b28",
+							"formatPath": "College-PROTOTYPE:_cms/formats/global/globalFooter",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e06c3602958"
+						},
+						{
+							"name": "DEFAULT",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "d1f642d281736a1b3be11e064b3e750d",
+							"formatPath": "College-PROTOTYPE:_cms/formats/pages/blog",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f63d6181736a1b3be11e06a69dcfd4"
+						},
+						{
+							"name": "A30 GLOBAL-HEADER",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "d1f640a881736a1b3be11e06a462a8b6",
+							"formatPath": "College-PROTOTYPE:_cms/formats/global/globalHeader",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e0690234eee"
+						},
+						{
+							"name": "H00 SITE-ANKLE",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "3594283181736a1b360560b317315b33",
+							"formatPath": "College-PROTOTYPE:_cms/formats/global/siteAnkle",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "358acebe81736a1b360560b3b9fa0c83"
+						},
+						{
+							"name": "F02 CUSTOM",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e063f47f95a"
+						},
+						{
+							"name": "A01 SITE-HEAD-FILES",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e06518fa190"
+						},
+						{
+							"name": "A01 SITE-TITLE",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "923d1b3c81736a1b6bf065e1d9394051",
+							"formatPath": "College-PROTOTYPE:_cms/formats/global/a0-site-title",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e061913bcb7"
+						},
+						{
+							"name": "H02 SITE-FOOTER",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "d1f6422581736a1b3be11e063720827f",
+							"formatPath": "College-PROTOTYPE:_cms/formats/global/siteFooter",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e06910c1619"
+						},
+						{
+							"name": "F05 CUSTOM",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e069d27869c"
+						},
+						{
+							"name": "F04 CUSTOM",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e06c61f1187"
+						},
+						{
+							"name": "E01 FOOTER",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e0661e014bf"
+						},
+						{
+							"name": "A10 GTM-POST",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6400781736a1b3be11e06e60cc6e7"
+						}
+					],
+					"includeXMLDeclaration": false,
+					"publishable": false,
+					"id": "d1f63d6181736a1b3be11e063d5ccd6f"
+				},
+				{
+					"name": "XML",
+					"defaultConfiguration": false,
+					"templateId": "d1f6401e81736a1b3be11e06314a4f61",
+					"templatePath": "College-PROTOTYPE:_cms/templates/XML",
+					"formatRecycled": false,
+					"pageRegions": [
+						{
+							"name": "DEFAULT",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "d1f6401e81736a1b3be11e06619aa722"
+						}
+					],
+					"includeXMLDeclaration": false,
+					"publishable": false,
+					"id": "d1f63d6181736a1b3be11e06814aa087"
+				}
+			],
+			"linkRewriting": "inherit",
+			"shouldBePublished": true,
+			"shouldBeIndexed": true,
+			"expirationFolderRecycled": false,
+			"metadata": {
+				"displayName": "",
+				"title": "Test Blog Page",
+				"summary": "",
+				"teaser": "Brisket pork chop meatball, pork loin andouille boudin landjaeger porchetta salami capicola. Landjaeger porchetta filet mignon tenderloin tail. Turkey t-bone filet mignon bresaola, sausage shankle hamburger pork loin corned beef. Kielbasa ham hock tenderloin doner turducken. Brisket pork chop meatball.",
+				"keywords": "",
+				"metaDescription": "",
+				"author": "Jane Doe",
+				"startDate": "2022-03-10T00:00:00.000Z"
+			},
+			"reviewOnSchedule": false,
+			"reviewEvery": 180,
+			"parentFolderId": "0369e19d81736a1b7a2fc07fd01c64a9",
+			"parentFolderPath": "news/2018/02",
+			"lastModifiedDate": "2023-08-10T21:24:03.157Z",
+			"lastModifiedBy": "cmk424",
+			"createdDate": "2023-08-10T21:24:03.157Z",
+			"createdBy": "cmk424",
+			"path": "news/2018/02/example-blog-post",
+			"siteId": "0b30cf4f81736a1b1321ce1ea4e53976",
+			"siteName": "COS-VPAA-ASC-HALSTORE",
+			"tags": [],
+			"name": "example-blog-post",
+			"id": "e155c9ea81736a1b5bc85d70e331ecf7"
+		}
+	},
+	"success": true
+}
