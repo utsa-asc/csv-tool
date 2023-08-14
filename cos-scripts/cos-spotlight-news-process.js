@@ -31,34 +31,42 @@ const maxRow = sheetRange.e.r;
 console.log(maxRow);
 for (let i = 3; i < maxRow + 3; i++) {
   console.log(i);
-  var newTask = {
-    title: clean(dataSheet["A" + i].v),
-    date: dataSheet["B" + i].v,
-    uri: parseURI(dataSheet["E" + i].v, dataSheet["E" + i].v),
-    url: dataSheet["F" + i].v,
-    image: dataSheet["K" + i].v,
-    imageAlt: clean(dataSheet["L" + i].v),
-    tags: parseTags(dataSheet["H" + i].v),
-    author: dataSheet["M" + i].v,
-    email: dataSheet["Q" + i].v,
-    parentFolderPath: parseParentFolderPath(dataSheet["N" + i].v),
-  };
-  newTask.title = newTask.title.trim();
-  newTask.image = newTask.image.replace(".png", ".jpg");
-  // console.dir(newTask);
-  tasks.push(newTask);
+  var newTask = {}
+  try {
+    var newTask = {
+      title: clean(dataSheet["A" + i].v),
+      year: dataSheet["B" + i].v,
+      uri: parseURI(dataSheet["B" + i].v, dataSheet["E" + i].v),
+      url: dataSheet["F" + i].v,
+      image: dataSheet["K" + i].v
+    };
+    newTask.title = newTask.title.trim();
+    newTask.image = newTask.image.replace(".png", ".jpg");
+    newTask.imageAlt = newTask.title;
+    newTask.author = "College of Sciences";
+    newTask.tags = parseTags("spotlights, news");
+    newTask.parentFolderPath = "spotlights-news/" + newTask.year;
+    console.dir(newTask);
+    tasks.push(newTask); 
+  } catch (pe) {
+    console.log(pe);
+    console.log("parse error: unable able to parse: row " + i + " skipping row");
+  }
 }
 // console.dir(testSheet.Workbook.Names);
 // console.log(testSheet);
 completeTasks();
 
-function parseURI(d, str) {
-  var uri = d.getDate();
-  if (uri < 10) {
-    uri = "0" + uri;
-  }
-  uri = uri + "-" + str.trim();
-  return uri;
+// function parseURI(d, str) {
+//   var uri = d.getDate();
+//   if (uri < 10) {
+//     uri = "0" + uri;
+//   }
+//   uri = uri + "-" + str.trim();
+//   return uri;
+// }
+function parseURI(month, uri) {
+  return "" + month + "/" + uri;
 }
 
 function parseTags(str) {
