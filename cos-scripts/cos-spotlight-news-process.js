@@ -209,7 +209,7 @@ function preparePayload(task) {
   page.asset.page.tags = task.tags;
   // page.asset.page.tags.push({ "name": "spotlight" });
   // page.asset.page.tags.push({ "name": task.class });
-  console.log("setting name: " + task.name);
+  // console.log("setting name: " + task.name);
   page.asset.page.name = task.uri;
   page.asset.page.parentFolderPath = task.parentFolderPath;
   page.asset.page.metadata.title = task.title;

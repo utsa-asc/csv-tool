@@ -198,6 +198,16 @@ function refactorContent(soupSnippet) {
   //remove the back-to-top anchor at the bottom of the page
   var backA = soupSnippet.find("a", { id: "back-to-top" });
   backA.extract();
+  //remove h1
+  var h1 = soupSnippet.find("h1");
+  h1.extract();
+  //remove hr
+  var hr = soupSnippet.find("hr");
+  hr.extract();
+  //remove img
+  var img = soupSnippet.find("img");
+  img.extract();
+
   return soupSnippet;
 }
 
