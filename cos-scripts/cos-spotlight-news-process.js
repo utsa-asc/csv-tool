@@ -48,7 +48,7 @@ for (let i = 3; i < maxRow + 3; i++) {
     newTask.author = "College of Sciences";
     newTask.tags = parseTags("spotlights, news");
     newTask.parentFolderPath = "spotlights-news/" + newTask.year;
-    console.dir(newTask);
+    // console.dir(newTask);
     tasks.push(newTask);
   } catch (pe) {
     console.log(pe);
