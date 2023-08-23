@@ -46,8 +46,8 @@ for (let i = 3; i < maxRow + 3; i++) {
     newTask.image = newTask.image.replace(".png", ".jpg");
     newTask.imageAlt = newTask.title;
     newTask.author = "College of Sciences";
-    newTask.tags = parseTags("spotlights, news");
-    newTask.parentFolderPath = "spotlights-news/" + newTask.year;
+    newTask.tags = parseTags("spotlight, news");
+    newTask.parentFolderPath = "spotlight-news/" + newTask.year;
     // console.dir(newTask);
     tasks.push(newTask);
   } catch (pe) {
@@ -209,6 +209,7 @@ function preparePayload(task) {
   page.asset.page.tags = task.tags;
   // page.asset.page.tags.push({ "name": "spotlight" });
   // page.asset.page.tags.push({ "name": task.class });
+  console.log("setting name: " + task.name);
   page.asset.page.name = task.uri;
   page.asset.page.parentFolderPath = task.parentFolderPath;
   page.asset.page.metadata.title = task.title;
