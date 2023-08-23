@@ -145,7 +145,7 @@ function clean(str) {
   cleanStr = cleanStr.replaceAll("á", "a");
   cleanStr = cleanStr.replaceAll("–", "-");
   cleanStr = cleanStr.replaceAll("’", "'");
-  // cleanStr = cleanStr.replaceAll(/[(]\d{4}[)][-]/g, "");
+  cleanStr = cleanStr.replaceAll(/[(]\d{4}[)][-]/g, "");
   cleanStr = cleanStr.replaceAll("(", "");
   cleanStr = cleanStr.replaceAll(")", "");
   console.log(cleanStr);

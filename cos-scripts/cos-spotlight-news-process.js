@@ -31,15 +31,17 @@ const maxRow = sheetRange.e.r;
 console.log(maxRow);
 for (let i = 3; i < maxRow + 3; i++) {
   console.log(i);
-  var newTask = {}
+  var newTask = {};
   try {
     var newTask = {
       title: clean(dataSheet["A" + i].v),
       year: dataSheet["B" + i].v,
       uri: parseURI(dataSheet["B" + i].v, dataSheet["E" + i].v),
       url: dataSheet["F" + i].v,
-      image: dataSheet["K" + i].v
+      image: dataSheet["K" + i].v,
+      localPath: dataSheet["O" + i].v.trim(),
     };
+    // newTask.localPath = newTask.parentFolderPath + "/" + newTask.name;
     newTask.title = newTask.title.trim();
     newTask.image = newTask.image.replace(".png", ".jpg");
     newTask.imageAlt = newTask.title;
@@ -47,10 +49,12 @@ for (let i = 3; i < maxRow + 3; i++) {
     newTask.tags = parseTags("spotlights, news");
     newTask.parentFolderPath = "spotlights-news/" + newTask.year;
     console.dir(newTask);
-    tasks.push(newTask); 
+    tasks.push(newTask);
   } catch (pe) {
     console.log(pe);
-    console.log("parse error: unable able to parse: row " + i + " skipping row");
+    console.log(
+      "parse error: unable able to parse: row " + i + " skipping row"
+    );
   }
 }
 // console.dir(testSheet.Workbook.Names);
@@ -83,11 +87,11 @@ function clean(str) {
   cleanStr = str.replaceAll("í", "i");
   cleanStr = cleanStr.replaceAll("é", "e");
   cleanStr = cleanStr.replaceAll("á", "a");
-  cleanStr = cleanStr.replaceAll("–", "-");
-  cleanStr = cleanStr.replaceAll("’", "'");
-  cleanStr = cleanStr.replaceAll("(", "'");
-  cleanStr = cleanStr.replaceAll(")", "'");
   cleanStr = cleanStr.replaceAll(/[(]\d{4}[)][-]/g, "");
+  // cleanStr = cleanStr.replaceAll("–", "-");
+  cleanStr = cleanStr.replaceAll("’", "'");
+  // cleanStr = cleanStr.replaceAll("(", "'");
+  // cleanStr = cleanStr.replaceAll(")", "'");
   console.log(cleanStr);
   return cleanStr;
 }
@@ -98,7 +102,7 @@ function parseParentFolderPath(d) {
     monthNum = "0" + monthNum;
   }
   var yearNum = d.getFullYear();
-  var path = "news/" + yearNum + "/" + monthNum;
+  var path = "spotlight-news/" + yearNum + "/" + monthNum;
   return path;
 }
 
@@ -110,7 +114,7 @@ async function completeTasks() {
       // console.dir(newSDNs);
       const payload = preparePayload(t);
       let stringPayload = JSON.stringify(payload);
-      // console.log(stringPayload);
+      console.log(stringPayload);
       if (DO_POST == "YES") {
         let postedAsset = await postAsset(POST_URI, stringPayload);
         console.log(postedAsset);
@@ -128,72 +132,126 @@ async function completeTasks() {
   }
 }
 
+// function preparePayload(task) {
+//   var page = JSON.parse(PAYLOAD_DOCUMENT);
+
+//   page.asset.page.tags = task.tags;
+//   page.asset.page.name = task.uri;
+//   page.asset.page.parentFolderPath = task.parentFolderPath;
+//   page.asset.page.metadata.title = task.title;
+//   page.asset.page.metadata.author = task.author;
+//   page.asset.page.metadata.startDate = task.date;
+
+//   page.asset.page.structuredData.structuredDataNodes.map(function (sdn) {
+//     if (sdn.identifier == "source") {
+//       if (task.url.includes("utsa.edu/today")) {
+//         sdn.text = "UTSA Today";
+//       } else {
+//         sdn.text = "";
+//       }
+//     }
+//     if (sdn.identifier == "image1") {
+//       sdn.structuredDataNodes = [
+//         {
+//           type: "asset",
+//           identifier: "file",
+//           filePath: "spotlight-news/" + task.image,
+//           assetType: "file",
+//         },
+//         {
+//           type: "text",
+//           identifier: "alt",
+//           text: task.imageAlt,
+//         },
+//       ];
+//     }
+//     if (sdn.identifier == "caption") {
+//       sdn.text = task.imageAlt;
+//     }
+//     if (sdn.identifier == "link") {
+//       sdn.structuredDataNodes = [
+//         {
+//           type: "text",
+//           identifier: "label",
+//           text: task.title,
+//         },
+//         {
+//           type: "text",
+//           identifier: "ariaLabel",
+//           text: task.title,
+//         },
+//         {
+//           type: "text",
+//           identifier: "type",
+//           text: "external",
+//         },
+//         {
+//           type: "text",
+//           identifier: "external",
+//           text: task.url,
+//         },
+//         {
+//           type: "text",
+//           identifier: "target",
+//           text: "Parent Window/Tab",
+//         },
+//       ];
+//     }
+//   });
+
+//   return page;
+// }
+
 function preparePayload(task) {
   var page = JSON.parse(PAYLOAD_DOCUMENT);
-
+  task.tags = parseTags(task.tags);
+  //
   page.asset.page.tags = task.tags;
-  page.asset.page.name = task.uri;
+  page.asset.page.tags.push({ "name": "spotlight" });
+  page.asset.page.tags.push({ "name": task.class });
+  page.asset.page.name = task.name;
   page.asset.page.parentFolderPath = task.parentFolderPath;
   page.asset.page.metadata.title = task.title;
+  page.asset.page.metadata.teaser = TEASER;
   page.asset.page.metadata.author = task.author;
-  page.asset.page.metadata.startDate = task.date;
+  page.asset.page.metadata.startDate = createDate(task);
+  // page.asset.page.metadata.startDate = new Date(task.year, 1, 15, 0, 0, 0, 0);
 
-  page.asset.page.structuredData.structuredDataNodes.map(function (sdn) {
+  page.asset.page.structuredData.structuredDataNodes.map(function(sdn) {
     if (sdn.identifier == "source") {
-      if (task.url.includes("utsa.edu/today")) {
-        sdn.text = "UTSA Today";
-      } else {
-        sdn.text = "";
-      }
+      sdn.text = "College of Sciences";
     }
     if (sdn.identifier == "image1") {
       sdn.structuredDataNodes = [
         {
-          type: "asset",
-          identifier: "file",
-          filePath: "news/" + task.image,
-          assetType: "file",
+          "type": "asset",
+          "identifier": "file",
+          "filePath": task.image,
+          "assetType": "file"
         },
         {
-          type: "text",
-          identifier: "alt",
-          text: task.imageAlt,
-        },
+          "type": "text",
+          "identifier": "alt",
+          "text": task.title
+        }
       ];
     }
     if (sdn.identifier == "caption") {
-      sdn.text = task.imageAlt;
+      sdn.text = task.title;
     }
     if (sdn.identifier == "link") {
-      sdn.structuredDataNodes = [
-        {
-          type: "text",
-          identifier: "label",
-          text: task.title,
-        },
-        {
-          type: "text",
-          identifier: "ariaLabel",
-          text: task.title,
-        },
-        {
-          type: "text",
-          identifier: "type",
-          text: "external",
-        },
-        {
-          type: "text",
-          identifier: "external",
-          text: task.url,
-        },
-        {
-          type: "text",
-          identifier: "target",
-          text: "Parent Window/Tab",
-        },
-      ];
+      sdn.structuredDataNodes = [];
     }
   });
+  let contentHTML = sanitizeText(fs.readFileSync(task.localPath, 'utf8'));
+  // console.log("parsed html content is");
+  // console.log(contentHTML);
+  let contentNode = {
+    "type": "text",
+    "identifier": "wysiwyg",
+    "text": contentHTML
+  };
+  page.asset.page.structuredData.structuredDataNodes.push(contentNode);
 
   return page;
 }
