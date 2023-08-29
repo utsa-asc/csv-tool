@@ -1,0 +1,25 @@
+[
+
+	{
+		"id": 25543,
+		"slug": "msit-cyber-security",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/msit-cyber-security\/",
+		"title": {
+			"rendered": "Cyber Security &#8211; Information Technology (MS)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			687
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Cyber Security | UTSA"
+		}
+	}
+]

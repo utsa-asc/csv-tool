@@ -10,12 +10,12 @@ const CAS_HOST = process.env.CAS_HOST;
 const CAS_PORT = process.env.CAS_PORT;
 const API_KEY = process.env.API_KEY;
 const PAYLOAD_DOCUMENT = fs.readFileSync("json/program-block-minimum.json");
-const DEPTS = fs.readFileSync("cos/departments.json");
-const CERTS = fs.readFileSync("cos/certificate.json");
-const UGRAD = fs.readFileSync("cos/undergraduate.json");
-const GRAD = fs.readFileSync("cos/graduate.json");
-const DOCT = fs.readFileSync("cos/doctoral.json");
-const TEST = fs.readFileSync("cos/test.json");
+const DEPTS = fs.readFileSync("acob/departments.json");
+const CERTS = fs.readFileSync("acob/certificate.json");
+const UGRAD = fs.readFileSync("acob/undergraduate.json");
+const GRAD = fs.readFileSync("acob/graduate.json");
+const DOCT = fs.readFileSync("acob/doctoral.json");
+const TEST = fs.readFileSync("acob/test.json");
 
 const POST_URI = "/api/v1/create";
 var protocol = http;
@@ -76,8 +76,8 @@ async function completeTasks() {
       console.log(postedAsset);
     }
   } catch (e) {
-    console.log("Error while running tasks");
     console.log(e);
+    console.log("Error while running tasks:");
     console.dir(currentTask);
   }
 }

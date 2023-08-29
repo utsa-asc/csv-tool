@@ -11,52 +11,52 @@ const CAS_HOST = process.env.CAS_HOST;
 const CAS_PORT = process.env.CAS_PORT;
 const API_KEY = process.env.API_KEY;
 const PAYLOAD_DOCUMENT = fs.readFileSync("json/program-block-minimum.json");
-const DEPTS = fs.readFileSync("cos/departments.json");
-const CERTS = fs.readFileSync("cos/certificate.json");
-const UGRAD = fs.readFileSync("cos/undergraduate.json");
-const GRAD = fs.readFileSync("cos/graduate.json");
-const DOCT = fs.readFileSync("cos/doctoral.json");
-const TEST = fs.readFileSync("cos/test.json");
+const DEPTS = fs.readFileSync("acob/departments.json");
+const CERTS = fs.readFileSync("acob/certificate.json");
+const UGRAD = fs.readFileSync("acob/undergraduate.json");
+const GRAD = fs.readFileSync("acob/graduate.json");
+const DOCT = fs.readFileSync("acob/doctoral.json");
+// const TEST = fs.readFileSync("acob/test.json");
 
 const SELECTOR = "section.content-img-design img.clip-mask-top-right";
 //.attr('src')";
-const IMAGE_PATH = "images/cos/";
+const IMAGE_PATH = "images/acob/";
 var tasks = [];
 
-// JSON.parse(CERTS).map(function(c) {
-//   let taskData = c;
-//   taskData.type = "certificate";
-//   taskData.tag = "Certificate";
-//   tasks.push(taskData);
-// });
+JSON.parse(CERTS).map(function(c) {
+  let taskData = c;
+  taskData.type = "certificate";
+  taskData.tag = "Certificate";
+  tasks.push(taskData);
+});
 
-// JSON.parse(UGRAD).map(function(c) {
-//   let taskData = c;
-//   taskData.type = "undergraduate";
-//   taskData.tag = "Undergraduate";
-//   tasks.push(taskData);
-// });
+JSON.parse(UGRAD).map(function(c) {
+  let taskData = c;
+  taskData.type = "undergraduate";
+  taskData.tag = "Undergraduate";
+  tasks.push(taskData);
+});
 
-// JSON.parse(GRAD).map(function(c) {
-//   let taskData = c;
-//   taskData.type = "graduate";
-//   taskData.tag = "Graduate";
-//   tasks.push(taskData);
-// });
-
-// JSON.parse(DOCT).map(function(c) {
-//   let taskData = c;
-//   taskData.type = "doctoral";
-//   taskData.tag = "Doctoral";
-//   tasks.push(taskData);
-// });
-
-JSON.parse(TEST).map(function(c) {
+JSON.parse(GRAD).map(function(c) {
   let taskData = c;
   taskData.type = "graduate";
   taskData.tag = "Graduate";
   tasks.push(taskData);
 });
+
+JSON.parse(DOCT).map(function(c) {
+  let taskData = c;
+  taskData.type = "doctoral";
+  taskData.tag = "Doctoral";
+  tasks.push(taskData);
+});
+
+// JSON.parse(TEST).map(function(c) {
+//   let taskData = c;
+//   taskData.type = "graduate";
+//   taskData.tag = "Graduate";
+//   tasks.push(taskData);
+// });
 
 completeTasks();
 

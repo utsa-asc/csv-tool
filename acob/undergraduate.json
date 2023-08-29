@@ -1,0 +1,311 @@
+[
+	{
+		"id": 30906,
+		"slug": "human-resources-management",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/human-resources-management\/",
+		"title": {
+			"rendered": "Human Resources Management (BBA)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			688
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in HR Management | UTSA"
+		}
+	},
+	{
+		"id": 19319,
+		"slug": "statistics",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/statistics\/",
+		"title": {
+			"rendered": "Statistics &#038; Data Science (BS)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			689
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Statistics | UTSA"
+		}
+	},
+	{
+		"id": 19146,
+		"slug": "real-estate-finance-development",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/real-estate-finance-development\/",
+		"title": {
+			"rendered": "Real Estate Finance and Development (BBA)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			686
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Real Estate Finance and Development | UTSA"
+		}
+	},
+	{
+		"id": 19134,
+		"slug": "operations-supply-chain-management",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/operations-supply-chain-management\/",
+		"title": {
+			"rendered": "Operations and Supply Chain Management (BBA)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			689
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Supply Chain Management Bachelor's Degree | UTSA"
+		}
+	},
+	{
+		"id": 19115,
+		"slug": "marketing",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/marketing\/",
+		"title": {
+			"rendered": "Marketing (BBA)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			688
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Marketing | UTSA"
+		}
+	},
+	{
+		"id": 19108,
+		"slug": "management",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/management\/",
+		"title": {
+			"rendered": "Management (BBA)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			688
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Business Management | UTSA"
+		}
+	},
+	{
+		"id": 19086,
+		"slug": "information-systems",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/information-systems\/",
+		"title": {
+			"rendered": "Information Systems (BBA)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			643,
+			687
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Computer Information Systems | UTSA"
+		}
+	},
+	{
+		"id": 18934,
+		"slug": "economics",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/economics\/",
+		"title": {
+			"rendered": "Economics (BBA or BA)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			685
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Economics | UTSA"
+		}
+	},
+	{
+		"id": 18730,
+		"slug": "business-analytics",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/business-analytics\/",
+		"title": {
+			"rendered": "Business Analytics (BBA)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			689
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Business Analytics | UTSA"
+		}
+	},
+	{
+		"id": 18716,
+		"slug": "cyber-security",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/cyber-security\/",
+		"title": {
+			"rendered": "Cyber Security (BBA)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			687
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Cyber Security | UTSA"
+		}
+	},
+	{
+		"id": 18694,
+		"slug": "applied-cyber-analytics",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/applied-cyber-analytics\/",
+		"title": {
+			"rendered": "Applied Cyber Analytics (BS)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			687
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Applied Cyber Analytics | UTSA"
+		}
+	},
+	{
+		"id": 18668,
+		"slug": "actuarial-science",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/actuarial-science\/",
+		"title": {
+			"rendered": "Actuarial Science (BBA)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			689
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Actuarial Science | UTSA"
+		}
+	},
+	{
+		"id": 18530,
+		"slug": "finance",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/finance\/",
+		"title": {
+			"rendered": "Finance (BBA)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			686
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor of Business Administration in Finance Degree | UTSA"
+		}
+	},
+	{
+		"id": 17907,
+		"slug": "accounting",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/accounting\/",
+		"title": {
+			"rendered": "Accounting (BBA)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			643
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor of Business Administration in Accounting Degree | UTSA"
+		}
+	}
+]

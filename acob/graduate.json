@@ -1,0 +1,302 @@
+[
+	{
+		"id": 25515,
+		"slug": "finance-real-estate",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/finance-real-estate\/",
+		"title": {
+			"rendered": "Real Estate Finance and Development (MS)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			686
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Real Estate Finance | UTSA"
+		}
+	},
+	{
+		"id": 25543,
+		"slug": "msit-cyber-security",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/msit-cyber-security\/",
+		"title": {
+			"rendered": "Cyber Security &#8211; Information Technology (MS)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			687
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Cyber Security | UTSA"
+		}
+	},
+	{
+		"id": 21493,
+		"slug": "mba-md",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/mba-md\/",
+		"title": {
+			"rendered": "MBA\/MD Dual Program"
+		},
+		"program_college": [
+			642
+		],
+		"department": [],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "MD\/MBA Dual Degree Program | UTSA"
+		}
+	},
+	{
+		"id": 20447,
+		"slug": "mba-mph",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/mba-mph\/",
+		"title": {
+			"rendered": "MBA\/MPH Dual Program"
+		},
+		"program_college": [
+			642
+		],
+		"department": [],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "MBA and MPH Dual Degree | UTSA"
+		}
+	},
+	{
+		"id": 20253,
+		"slug": "emba",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/business.utsa.edu\/executive-programs\/cpe-emba\/",
+		"title": {
+			"rendered": "Executive MBA (EMBA)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "EMBA | UTSA Graduate School"
+		}
+	},
+	{
+		"id": 20225,
+		"slug": "business",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/business\/",
+		"title": {
+			"rendered": "Business (MS)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Business | UTSA"
+		}
+	},
+	{
+		"id": 20195,
+		"slug": "statistics-data-science",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/statistics-data-science\/",
+		"title": {
+			"rendered": "Statistics and Data Science (MS)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			689
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Statistics and Data Science | UTSA"
+		}
+	},
+	{
+		"id": 20117,
+		"slug": "management-of-technology",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/management-of-technology\/",
+		"title": {
+			"rendered": "Management of Technology (MS)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			687
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Management of Technology (MS) | UTSA"
+		}
+	},
+	{
+		"id": 19995,
+		"slug": "mba",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/mba\/",
+		"title": {
+			"rendered": "MBA"
+		},
+		"program_college": [
+			642
+		],
+		"department": [],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's in Business Administration | MBA | UTSA"
+		}
+	},
+	{
+		"id": 19970,
+		"slug": "information-technology",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/information-technology\/",
+		"title": {
+			"rendered": "Information Technology (MS)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			687
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Information Technology | UTSA"
+		}
+	},
+	{
+		"id": 19735,
+		"slug": "finance",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/finance\/",
+		"title": {
+			"rendered": "Finance (MS)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			686
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Finance | UTSA"
+		}
+	},
+	{
+		"id": 19721,
+		"slug": "economics",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/economics\/",
+		"title": {
+			"rendered": "Economics (MA)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			685
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Economics | UTSA"
+		}
+	},
+	{
+		"id": 19710,
+		"slug": "data-analytics",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/data-analytics\/",
+		"title": {
+			"rendered": "Data Analytics (MS)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			687,
+			689,
+			690
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Data Analytics | UTSA"
+		}
+	},
+	{
+		"id": 19232,
+		"slug": "accountancy",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/accountancy\/",
+		"title": {
+			"rendered": "Accountancy (MACY)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			643
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Accounting | UTSA"
+		}
+	}
+]

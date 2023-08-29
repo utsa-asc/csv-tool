@@ -1,0 +1,45 @@
+[
+	{
+		"id": 643,
+		"name": "Accounting",
+		"slug": "acob-accounting"
+	},
+
+	{
+		"id": 685,
+		"name": "Economics",
+		"slug": "acob-economics"
+	},
+
+	{
+		"id": 686,
+		"name": "Finance",
+		"slug": "acob-finance"
+	},
+
+	{
+		"id": 687,
+		"name": "Information Systems and Cyber Security",
+		"slug": "acob-information-systems-and-cyber-security"
+	},
+	{
+		"id": 688,
+		"name": "Management",
+		"slug": "acob-management"
+	},
+	{
+		"id": 689,
+		"name": "Management Science and Statistics",
+		"slug": "acob-management-science-and-statistics"
+	},
+	{
+		"id": 690,
+		"name": "Marketing",
+		"slug": "acob-marketing"
+	},
+    {
+		"id": 693,
+		"name": "Earth and Planetary Sciences",
+		"slug": "cos-earth-and-planetary-sciences"
+	}
+]
