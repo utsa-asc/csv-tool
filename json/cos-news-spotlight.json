@@ -52,8 +52,7 @@
 					{
 						"type": "text",
 						"identifier": "articleType",
-						"text": "standard",
-						"recycled": false
+						"text": "custom"
 					},
 					{
 						"type": "text",

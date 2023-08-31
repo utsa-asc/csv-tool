@@ -204,9 +204,6 @@ function refactorContent(soupSnippet) {
   //remove hr
   var hr = soupSnippet.find("hr");
   hr.extract();
-  //remove img
-  var img = soupSnippet.find("img");
-  img.extract();
 
   return soupSnippet;
 }

@@ -15,6 +15,7 @@ const SOURCE_DOCUMENT = "cos/cos-spotlight-news.xlsx";
 const PAYLOAD_DOCUMENT = fs.readFileSync("json/cos-news-spotlight.json");
 const POST_URI = "/api/v1/create";
 const SHEET_NAME = "news";
+const TEASER = "#CollegeNews";
 
 var protocol = http;
 if (CAS_PORT == 443) {
@@ -46,7 +47,7 @@ for (let i = 3; i < maxRow + 3; i++) {
     newTask.image = newTask.image.replace(".png", ".jpg");
     newTask.imageAlt = newTask.title;
     newTask.author = "College of Sciences";
-    newTask.tags = parseTags("spotlight, news");
+    newTask.tags = parseTags("spotlight,news");
     newTask.parentFolderPath = "spotlight-news/" + newTask.year;
     // console.dir(newTask);
     tasks.push(newTask);
@@ -213,28 +214,28 @@ function preparePayload(task) {
   page.asset.page.name = task.uri;
   page.asset.page.parentFolderPath = task.parentFolderPath;
   page.asset.page.metadata.title = task.title;
-  page.asset.page.metadata.teaser = "";
+  page.asset.page.metadata.teaser = TEASER;
   page.asset.page.metadata.author = task.author;
   // page.asset.page.metadata.startDate = createDate(task);
   page.asset.page.metadata.startDate = new Date(task.year, 1, 15, 0, 0, 0, 0);
 
-  page.asset.page.structuredData.structuredDataNodes.map(function(sdn) {
+  page.asset.page.structuredData.structuredDataNodes.map(function (sdn) {
     if (sdn.identifier == "source") {
       sdn.text = "College of Sciences";
     }
     if (sdn.identifier == "image1") {
       sdn.structuredDataNodes = [
         {
-          "type": "asset",
-          "identifier": "file",
-          "filePath": task.image,
-          "assetType": "file"
+          type: "asset",
+          identifier: "file",
+          filePath: task.image,
+          assetType: "file",
         },
         {
-          "type": "text",
-          "identifier": "alt",
-          "text": task.title
-        }
+          type: "text",
+          identifier: "alt",
+          text: task.title,
+        },
       ];
     }
     if (sdn.identifier == "caption") {
@@ -244,13 +245,13 @@ function preparePayload(task) {
       sdn.structuredDataNodes = [];
     }
   });
-  let contentHTML = sanitizeText(fs.readFileSync(task.localPath, 'utf8'));
+  let contentHTML = sanitizeText(fs.readFileSync(task.localPath, "utf8"));
   // console.log("parsed html content is");
   // console.log(contentHTML);
   let contentNode = {
-    "type": "text",
-    "identifier": "wysiwyg",
-    "text": contentHTML
+    type: "text",
+    identifier: "wysiwyg",
+    text: contentHTML,
   };
   page.asset.page.structuredData.structuredDataNodes.push(contentNode);
 
@@ -353,17 +354,17 @@ async function getAsset(uri) {
 
 function sanitizeText(content) {
   var contentStr = content;
-  contentStr = contentStr.replace('&nbsp;', '&#160;');
+  contentStr = contentStr.replace("&nbsp;", "&#160;");
   contentStr = contentStr.replace(/\u00a0/g, " ");
   contentStr = contentStr.replace(/\u2013/g, "-");
   contentStr = contentStr.replace(/\u2019/g, "'");
   contentStr = contentStr.replace(/\r?\n|\r/g, "");
-  contentStr = contentStr.replace('“', '"');
-  contentStr = contentStr.replace('”', '"');
-  contentStr = contentStr.replace('’', "'");
-  contentStr = contentStr.replace('&mdash;', '&#8212;');
-  contentStr = contentStr.replace('<br>', '<br/>');
-  contentStr = contentStr.replace('<hr>', '<hr/>');
+  contentStr = contentStr.replace("“", '"');
+  contentStr = contentStr.replace("”", '"');
+  contentStr = contentStr.replace("’", "'");
+  contentStr = contentStr.replace("&mdash;", "&#8212;");
+  contentStr = contentStr.replace("<br>", "<br/>");
+  contentStr = contentStr.replace("<hr>", "<hr/>");
   contentStr = contentStr.replace(/[^\x00-\x7F]/g, "");
   return contentStr;
 }
