@@ -1,0 +1,126 @@
+{
+	"asset": {
+		"page": {
+			"contentTypePath": "College-PROTOTYPE:Blog",
+			"structuredData": {
+				"structuredDataNodes": [
+					{
+						"type": "text",
+						"identifier": "source",
+						"text": "UTSA Today",
+						"recycled": false
+					},
+					{
+						"type": "group",
+						"identifier": "image1",
+						"structuredDataNodes": [
+							{
+								"type": "asset",
+								"identifier": "file",
+								"fileId": "d1f627d381736a1b3be11e066f0fd77f",
+								"filePath": "College-PROTOTYPE:college-dls/college/images/News_Blog-1.png",
+								"assetType": "file",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "alt",
+								"text": "Lead Photo Example",
+								"recycled": false
+							}
+						],
+						"recycled": false
+					},
+					{
+						"type": "group",
+						"identifier": "image2",
+						"structuredDataNodes": [
+							{
+								"type": "asset",
+								"identifier": "file",
+								"assetType": "file",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "alt",
+								"recycled": false
+							}
+						],
+						"recycled": false
+					},
+					{
+						"type": "text",
+						"identifier": "articleType",
+						"text": "custom"
+					},
+					{
+						"type": "text",
+						"identifier": "caption",
+						"text": "Example Caption",
+						"recycled": false
+					},
+					{
+						"type": "group",
+						"identifier": "link",
+						"structuredDataNodes": [
+							{
+								"type": "text",
+								"identifier": "label",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "ariaLabel",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "type",
+								"text": "No Link",
+								"recycled": false
+							},
+							{
+								"type": "asset",
+								"identifier": "internal",
+								"assetType": "page,file,symlink",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "anchor",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "external",
+								"text": "https://",
+								"recycled": false
+							},
+							{
+								"type": "text",
+								"identifier": "target",
+								"text": "Parent Window/Tab",
+								"recycled": false
+							}
+						],
+						"recycled": false
+					}
+				]
+			},
+			"metadata": {
+				"displayName": "",
+				"title": "Test Blog Page",
+				"summary": "",
+				"teaser": "Brisket pork chop meatball, pork loin andouille boudin landjaeger porchetta salami capicola. Landjaeger porchetta filet mignon tenderloin tail. Turkey t-bone filet mignon bresaola, sausage shankle hamburger pork loin corned beef. Kielbasa ham hock tenderloin doner turducken. Brisket pork chop meatball.",
+				"keywords": "",
+				"metaDescription": "",
+				"author": "Jane Doe",
+				"startDate": "2022-03-10T00:00:00.000Z"
+			},
+			"parentFolderPath": "news/2018/02",
+			"siteName": "COS-VPAA-ASC-HALSTORE",
+			"tags": []
+		}
+	}
+}
