@@ -93,7 +93,7 @@ async function completeTasks() {
         _links: { wp:attachment [{ href: string }] media url (headshot)
         // $.media_details.sizes.full.source_url for original
         // $.media_details.sizes.medium_large.source_url for 768ish
-
+        */
     //   currentTask = t;
     //   const payload = preparePayload(t);
     //   let stringPayload = JSON.stringify(payload);
