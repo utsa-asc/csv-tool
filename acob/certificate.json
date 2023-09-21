@@ -1,0 +1,24 @@
+[
+	{
+		"id": 30129,
+		"slug": "geographic-information-system",
+		"status": "publish",
+		"type": "certificate_under",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate-certificate\/geographic-information-system\/",
+		"title": {
+			"rendered": "Geographic Information System (CERT)"
+		},
+		"program_college": [
+			647
+		],
+		"department": [
+			693
+		],
+		"degree_type": [
+			1960
+		],
+		"yoast_head_json": {
+			"title": "Undergraduate certificate in Geographic Information Systems"
+		}
+	}
+]

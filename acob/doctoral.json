@@ -1,0 +1,134 @@
+[
+	{
+		"id": 19415,
+		"slug": "information-technology",
+		"status": "publish",
+		"type": "program_doctoral",
+		"link": "https:\/\/future.utsa.edu\/programs\/doctoral\/information-technology\/",
+		"title": {
+			"rendered": "Information Technology (PhD)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			687
+		],
+		"degree_type": [
+			656
+		],
+		"yoast_head_json": {
+			"title": "PhD in Information Technology | UTSA"
+		}
+	},
+	{
+		"id": 19332,
+		"slug": "marketing",
+		"status": "publish",
+		"type": "program_doctoral",
+		"link": "https:\/\/future.utsa.edu\/programs\/doctoral\/marketing\/",
+		"title": {
+			"rendered": "Marketing (PhD)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			690
+		],
+		"degree_type": [
+			656
+		],
+		"yoast_head_json": {
+			"title": "PhD in Marketing | UTSA"
+		}
+	},
+	{
+		"id": 19314,
+		"slug": "management-organization-studies",
+		"status": "publish",
+		"type": "program_doctoral",
+		"link": "https:\/\/future.utsa.edu\/programs\/doctoral\/management-organization-studies\/",
+		"title": {
+			"rendered": "Management and Organization Studies (PhD)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			689
+		],
+		"degree_type": [
+			656
+		],
+		"yoast_head_json": {
+			"title": "Doctorate in Management and Organization Studies | UTSA"
+		}
+	},
+	{
+		"id": 19297,
+		"slug": "finance",
+		"status": "publish",
+		"type": "program_doctoral",
+		"link": "https:\/\/future.utsa.edu\/programs\/doctoral\/finance\/",
+		"title": {
+			"rendered": "Finance (PhD)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			686
+		],
+		"degree_type": [
+			656
+		],
+		"yoast_head_json": {
+			"title": "Finance PhD | UTSA Graduate School"
+		}
+	},
+	{
+		"id": 19293,
+		"slug": "applied-statistics",
+		"status": "publish",
+		"type": "program_doctoral",
+		"link": "https:\/\/future.utsa.edu\/programs\/doctoral\/applied-statistics\/",
+		"title": {
+			"rendered": "Applied Statistics (PhD)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			689
+		],
+		"degree_type": [
+			656
+		],
+		"yoast_head_json": {
+			"title": "PhD in Applied Statistics | UTSA"
+		}
+	},
+	{
+		"id": 19219,
+		"slug": "accounting",
+		"status": "publish",
+		"type": "program_doctoral",
+		"link": "https:\/\/future.utsa.edu\/programs\/doctoral\/accounting\/",
+		"title": {
+			"rendered": "Accounting (PhD)"
+		},
+		"program_college": [
+			642
+		],
+		"department": [
+			643
+		],
+		"degree_type": [
+			656
+		],
+		"yoast_head_json": {
+			"title": "PhD in Accounting | UTSA"
+		}
+	}
+]
