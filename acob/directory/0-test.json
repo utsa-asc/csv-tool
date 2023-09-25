@@ -1,0 +1,87 @@
+[
+    {
+        "id": 23934,
+        "date": "2023-01-11T12:48:48",
+        "date_gmt": "2023-01-11T18:48:48",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=23934"
+        },
+        "modified": "2023-08-24T11:08:59",
+        "modified_gmt": "2023-08-24T16:08:59",
+        "slug": "sayed-akbari",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/sayed-akbari/",
+        "title": {
+            "rendered": "Sayed Akbari"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 24372,
+        "template": "",
+        "faculty_departments": [
+            30
+        ],
+        "acf": {
+            "first_name": "Sayed",
+            "last_name": "Akbari",
+            "faculty_title": "Assistant Professor of Practice in Accounting",
+            "faculty_email": "sayed.akbari@utsa.edu",
+            "faculty_phone": "210-458-4321",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.04.28",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Accounting",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/23934"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/24372"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=23934"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=23934"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]
