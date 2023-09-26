@@ -11,6 +11,7 @@ const CAS_HOST = process.env.CAS_HOST;
 const CAS_PORT = process.env.CAS_PORT;
 const API_KEY = process.env.API_KEY;
 const POST_URI = "/api/v1/create";
+const PAYLOAD_DOCUMENT = fs.readFileSync("json/faculty-block-minimum.json");
 /* WP REST API constants */
 const WP_HOST = "business.utsa.edu";
 const WP_PORT = "443";
@@ -20,6 +21,7 @@ var protocol = http;
 if (CAS_PORT == 443) {
   protocol = https;
 }
+const ROLE = "Faculty";
 
 var tasks = [];
 
@@ -50,8 +52,10 @@ dkeys.map(function(k) {
 console.log(directories.length + " departments parsed");
 directories.map(function(d) {
   let dirdata = JSON.parse(fs.readFileSync(d.data));
-  console.log("dfile has: " + dirdata.length + " entries");
+  console.log("dept has: " + dirdata.length + " entries");
   dirdata.map(function(p) {
+    p.dslug = d.slug;
+    p.department = d.name;
     tasks.push(p);
   });
 });
@@ -62,7 +66,6 @@ async function completeTasks() {
   var currentTask = {}
   try {
     for (let t of tasks) {
-      console.dir(t);
       // data points to collect from WP JSON API Faculty object:
       /*
       id: numeric
@@ -84,9 +87,36 @@ async function completeTasks() {
           - department_role_repeater: [ { department: string, role: string }]
       _links: { self: { href: string } } link to JSON api endpoint
       _links: { wp:attachment [{ href: string }] media url (headshot)
+      */
+      // console.dir(t);
+      // console.dir(t.acf.department_role_repeater);
+      var newPerson = t.acf;
+      newPerson.uri = t.slug;
+      newPerson.id = t.id;
+      newPerson.status = t.status;
+      newPerson.link = t.link;
+      newPerson.json = t._links.self[0].href;
+      newPerson.media = t._links['wp:featuredmedia'];
+      newPerson.attachment = t._links['wp:attachment'];
+      newPerson.department = t.department;
+      newPerson.dslug = t.dslug;
+      newPerson.content = t.content.rendered;
+      // console.dir(newPerson);
+      let roles = reduceRoles(newPerson);
+      // console.dir(roles);
+      let depts = reduceDepartments(newPerson);
+      // console.dir(depts);
+      newPerson.department = depts;
+      newPerson.roles = roles;
+      /*
       // $.media_details.sizes.full.source_url for original
       // $.media_details.sizes.medium_large.source_url for 768ish
       */
+      // TODO let's leave headshot and CV download/upload to another task
+
+      const payload = preparePayload(newPerson);
+
+      //   older workflow
       //   currentTask = t;
       //   const payload = preparePayload(t);
       //   let stringPayload = JSON.stringify(payload);
@@ -101,8 +131,27 @@ async function completeTasks() {
   }
 }
 
+function reduceDepartments(p) {
+  var depts = [];
+  // console.log(p.department_role_repeater);
+  p.department_role_repeater.map(function(r) {
+    depts.push(r.department.toLowerCase());
+  });
+  return depts;
+}
+
+function reduceRoles(p) {
+  var roles = [];
+  // console.log(p.department_role_repeater);
+  p.department_role_repeater.map(function(r) {
+    // console.log(r.role);
+    roles.push(r.role.toLowerCase());
+  });
+  return roles;
+}
+
 function preparePayload(data) {
-  var programBlock = JSON.parse(PAYLOAD_DOCUMENT);
+  var block = JSON.parse(PAYLOAD_DOCUMENT);
   // console.log(JSON.stringify(data));
   const sdns = [
     {

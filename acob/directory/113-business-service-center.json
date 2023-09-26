@@ -1,1 +1,682 @@
-[{"id":19747,"date":"2021-11-08T14:00:06","date_gmt":"2021-11-08T20:00:06","guid":{"rendered":"https://business.utsa.edu/?post_type=faculty&#038;p=19747"},"modified":"2023-05-17T09:01:37","modified_gmt":"2023-05-17T14:01:37","slug":"eduardo-alvarez","status":"publish","type":"faculty","link":"https://business.utsa.edu/faculty/eduardo-alvarez/","title":{"rendered":"Eduardo Alvarez"},"content":{"rendered":"","protected":false},"featured_media":22847,"template":"","faculty_departments":[113],"acf":{"first_name":"Eduardo","last_name":"Alvarez","faculty_title":"Business Service Center Manager","faculty_email":"eduardo.alvarez@utsa.edu","faculty_phone":"210-458-5247","faculty_fax":"","faculty_office_number":"BB 4.06.02","faculty_pdf":"","faculty_additional_info":"","department_role_repeater":[{"department":"Business Service Center","role":"Staff"}]},"_links":{"self":[{"href":"https://business.utsa.edu/wp-json/wp/v2/faculty/19747"}],"collection":[{"href":"https://business.utsa.edu/wp-json/wp/v2/faculty"}],"about":[{"href":"https://business.utsa.edu/wp-json/wp/v2/types/faculty"}],"wp:featuredmedia":[{"embeddable":true,"href":"https://business.utsa.edu/wp-json/wp/v2/media/22847"}],"wp:attachment":[{"href":"https://business.utsa.edu/wp-json/wp/v2/media?parent=19747"}],"wp:term":[{"taxonomy":"faculty_departments","embeddable":true,"href":"https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=19747"}],"curies":[{"name":"wp","href":"https://api.w.org/{rel}","templated":true}]}},{"id":24345,"date":"2023-02-15T07:58:12","date_gmt":"2023-02-15T13:58:12","guid":{"rendered":"https://business.utsa.edu/?post_type=faculty&#038;p=24345"},"modified":"2023-02-15T07:58:12","modified_gmt":"2023-02-15T13:58:12","slug":"eunice-chen","status":"publish","type":"faculty","link":"https://business.utsa.edu/faculty/eunice-chen/","title":{"rendered":"Eunice Chen"},"content":{"rendered":"","protected":false},"featured_media":13293,"template":"","faculty_departments":[113],"acf":{"first_name":"Eunice","last_name":"Chen","faculty_title":"Financial Analyst","faculty_email":"Eunice.chen@utsa.edu","faculty_phone":"","faculty_fax":"","faculty_office_number":"","faculty_pdf":"","faculty_additional_info":"","department_role_repeater":[{"department":"Business Service Center","role":"Staff"}]},"_links":{"self":[{"href":"https://business.utsa.edu/wp-json/wp/v2/faculty/24345"}],"collection":[{"href":"https://business.utsa.edu/wp-json/wp/v2/faculty"}],"about":[{"href":"https://business.utsa.edu/wp-json/wp/v2/types/faculty"}],"wp:featuredmedia":[{"embeddable":true,"href":"https://business.utsa.edu/wp-json/wp/v2/media/13293"}],"wp:attachment":[{"href":"https://business.utsa.edu/wp-json/wp/v2/media?parent=24345"}],"wp:term":[{"taxonomy":"faculty_departments","embeddable":true,"href":"https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=24345"}],"curies":[{"name":"wp","href":"https://api.w.org/{rel}","templated":true}]}},{"id":6584,"date":"2018-08-10T23:41:53","date_gmt":"2018-08-10T23:41:53","guid":{"rendered":"https://business.utsa.edu/?post_type=faculty&#038;p=6584"},"modified":"2023-05-18T08:24:57","modified_gmt":"2023-05-18T13:24:57","slug":"tracy-martin","status":"publish","type":"faculty","link":"https://business.utsa.edu/faculty/tracy-martin/","title":{"rendered":"Tracy Martin"},"content":{"rendered":"","protected":false},"featured_media":9792,"template":"","faculty_departments":[113],"acf":{"first_name":"Tracy","last_name":"Martin","faculty_title":"Department Fiscal Specialist","faculty_email":"tracy.martin@utsa.edu","faculty_phone":"210-458-6407","faculty_fax":"","faculty_office_number":"BB 4.03.34","faculty_pdf":"","faculty_additional_info":"","department_role_repeater":[{"department":"Business Service Center","role":"Staff"}]},"_links":{"self":[{"href":"https://business.utsa.edu/wp-json/wp/v2/faculty/6584"}],"collection":[{"href":"https://business.utsa.edu/wp-json/wp/v2/faculty"}],"about":[{"href":"https://business.utsa.edu/wp-json/wp/v2/types/faculty"}],"wp:featuredmedia":[{"embeddable":true,"href":"https://business.utsa.edu/wp-json/wp/v2/media/9792"}],"wp:attachment":[{"href":"https://business.utsa.edu/wp-json/wp/v2/media?parent=6584"}],"wp:term":[{"taxonomy":"faculty_departments","embeddable":true,"href":"https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=6584"}],"curies":[{"name":"wp","href":"https://api.w.org/{rel}","templated":true}]}},{"id":24208,"date":"2023-02-06T08:19:53","date_gmt":"2023-02-06T14:19:53","guid":{"rendered":"https://business.utsa.edu/?post_type=faculty&#038;p=24208"},"modified":"2023-05-18T08:47:10","modified_gmt":"2023-05-18T13:47:10","slug":"john-mcgee","status":"publish","type":"faculty","link":"https://business.utsa.edu/faculty/john-mcgee/","title":{"rendered":"John McGee"},"content":{"rendered":"","protected":false},"featured_media":24877,"template":"","faculty_departments":[113],"acf":{"first_name":"John","last_name":"McGee","faculty_title":"Business Service Center Specialist II","faculty_email":"john.mcgee@utsa.edu","faculty_phone":"210-458-3117","faculty_fax":"","faculty_office_number":"BB 4.06.02","faculty_pdf":"","faculty_additional_info":"","department_role_repeater":[{"department":"Business Service Center","role":"Staff"}]},"_links":{"self":[{"href":"https://business.utsa.edu/wp-json/wp/v2/faculty/24208"}],"collection":[{"href":"https://business.utsa.edu/wp-json/wp/v2/faculty"}],"about":[{"href":"https://business.utsa.edu/wp-json/wp/v2/types/faculty"}],"wp:featuredmedia":[{"embeddable":true,"href":"https://business.utsa.edu/wp-json/wp/v2/media/24877"}],"wp:attachment":[{"href":"https://business.utsa.edu/wp-json/wp/v2/media?parent=24208"}],"wp:term":[{"taxonomy":"faculty_departments","embeddable":true,"href":"https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=24208"}],"curies":[{"name":"wp","href":"https://api.w.org/{rel}","templated":true}]}},{"id":24161,"date":"2023-01-30T08:53:12","date_gmt":"2023-01-30T14:53:12","guid":{"rendered":"https://business.utsa.edu/?post_type=faculty&#038;p=24161"},"modified":"2023-01-30T08:54:34","modified_gmt":"2023-01-30T14:54:34","slug":"joseph-ortiz","status":"publish","type":"faculty","link":"https://business.utsa.edu/faculty/joseph-ortiz/","title":{"rendered":"Joseph Ortiz"},"content":{"rendered":"","protected":false},"featured_media":1687,"template":"","faculty_departments":[113],"acf":{"first_name":"Joseph","last_name":"Ortiz","faculty_title":"Financial Data/Reporting Manager","faculty_email":"joseph.ortiz@utsa.edu","faculty_phone":"","faculty_fax":"","faculty_office_number":"BB 4.06.02","faculty_pdf":"","faculty_additional_info":"","department_role_repeater":[{"department":"Business Service Center","role":"Staff"}]},"_links":{"self":[{"href":"https://business.utsa.edu/wp-json/wp/v2/faculty/24161"}],"collection":[{"href":"https://business.utsa.edu/wp-json/wp/v2/faculty"}],"about":[{"href":"https://business.utsa.edu/wp-json/wp/v2/types/faculty"}],"wp:featuredmedia":[{"embeddable":true,"href":"https://business.utsa.edu/wp-json/wp/v2/media/1687"}],"wp:attachment":[{"href":"https://business.utsa.edu/wp-json/wp/v2/media?parent=24161"}],"wp:term":[{"taxonomy":"faculty_departments","embeddable":true,"href":"https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=24161"}],"curies":[{"name":"wp","href":"https://api.w.org/{rel}","templated":true}]}},{"id":23714,"date":"2022-12-06T07:52:23","date_gmt":"2022-12-06T13:52:23","guid":{"rendered":"https://business.utsa.edu/?post_type=faculty&#038;p=23714"},"modified":"2023-09-20T09:18:35","modified_gmt":"2023-09-20T14:18:35","slug":"sylvia-rayko","status":"publish","type":"faculty","link":"https://business.utsa.edu/faculty/sylvia-rayko/","title":{"rendered":"Sylvia Rayko"},"content":{"rendered":"","protected":false},"featured_media":13293,"template":"","faculty_departments":[113],"acf":{"first_name":"Sylvia","last_name":"Rayko","faculty_title":"Business Service Center Specialist II","faculty_email":"sylvia.rayko@utsa.edu","faculty_phone":"210-458-7465","faculty_fax":"","faculty_office_number":"BB 4.06.02","faculty_pdf":"","faculty_additional_info":"","department_role_repeater":[{"department":"Business Service Center","role":"Staff"}]},"_links":{"self":[{"href":"https://business.utsa.edu/wp-json/wp/v2/faculty/23714"}],"collection":[{"href":"https://business.utsa.edu/wp-json/wp/v2/faculty"}],"about":[{"href":"https://business.utsa.edu/wp-json/wp/v2/types/faculty"}],"wp:featuredmedia":[{"embeddable":true,"href":"https://business.utsa.edu/wp-json/wp/v2/media/13293"}],"wp:attachment":[{"href":"https://business.utsa.edu/wp-json/wp/v2/media?parent=23714"}],"wp:term":[{"taxonomy":"faculty_departments","embeddable":true,"href":"https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=23714"}],"curies":[{"name":"wp","href":"https://api.w.org/{rel}","templated":true}]}},{"id":1361,"date":"2017-11-06T22:07:46","date_gmt":"2017-11-06T22:07:46","guid":{"rendered":"http://business.utsa.edu/?post_type=faculty&#038;p=1361"},"modified":"2022-10-19T08:35:57","modified_gmt":"2022-10-19T13:35:57","slug":"sharon-stevens","status":"publish","type":"faculty","link":"https://business.utsa.edu/faculty/sharon-stevens/","title":{"rendered":"Sharon Stevens"},"content":{"rendered":"","protected":false},"featured_media":9878,"template":"","faculty_departments":[113],"acf":{"first_name":"Sharon","last_name":"Stevens","faculty_title":"Business Service Center Specialist III","faculty_email":"sharon.stevens@utsa.edu","faculty_phone":"210-458-6408","faculty_fax":"","faculty_office_number":"BB 4.06.02","faculty_pdf":"","faculty_additional_info":"","department_role_repeater":[{"department":"Business Service Center","role":"Staff"}]},"_links":{"self":[{"href":"https://business.utsa.edu/wp-json/wp/v2/faculty/1361"}],"collection":[{"href":"https://business.utsa.edu/wp-json/wp/v2/faculty"}],"about":[{"href":"https://business.utsa.edu/wp-json/wp/v2/types/faculty"}],"wp:featuredmedia":[{"embeddable":true,"href":"https://business.utsa.edu/wp-json/wp/v2/media/9878"}],"wp:attachment":[{"href":"https://business.utsa.edu/wp-json/wp/v2/media?parent=1361"}],"wp:term":[{"taxonomy":"faculty_departments","embeddable":true,"href":"https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1361"}],"curies":[{"name":"wp","href":"https://api.w.org/{rel}","templated":true}]}},{"id":6585,"date":"2018-08-10T23:45:24","date_gmt":"2018-08-10T23:45:24","guid":{"rendered":"https://business.utsa.edu/?post_type=faculty&#038;p=6585"},"modified":"2023-05-18T09:34:50","modified_gmt":"2023-05-18T14:34:50","slug":"lily-wang","status":"publish","type":"faculty","link":"https://business.utsa.edu/faculty/lily-wang/","title":{"rendered":"Lily Wang"},"content":{"rendered":"","protected":false},"featured_media":9780,"template":"","faculty_departments":[113],"acf":{"first_name":"Lily","last_name":"Wang","faculty_title":"Supervisor of Accounts","faculty_email":"lily.wang@utsa.edu","faculty_phone":"210-458-8063","faculty_fax":"","faculty_office_number":"BB 4.03.34","faculty_pdf":"","faculty_additional_info":"","department_role_repeater":[{"department":"Business Service Center","role":"Staff"}]},"_links":{"self":[{"href":"https://business.utsa.edu/wp-json/wp/v2/faculty/6585"}],"collection":[{"href":"https://business.utsa.edu/wp-json/wp/v2/faculty"}],"about":[{"href":"https://business.utsa.edu/wp-json/wp/v2/types/faculty"}],"wp:featuredmedia":[{"embeddable":true,"href":"https://business.utsa.edu/wp-json/wp/v2/media/9780"}],"wp:attachment":[{"href":"https://business.utsa.edu/wp-json/wp/v2/media?parent=6585"}],"wp:term":[{"taxonomy":"faculty_departments","embeddable":true,"href":"https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=6585"}],"curies":[{"name":"wp","href":"https://api.w.org/{rel}","templated":true}]}}]
+[
+    {
+        "id": 19747,
+        "date": "2021-11-08T14:00:06",
+        "date_gmt": "2021-11-08T20:00:06",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=19747"
+        },
+        "modified": "2023-05-17T09:01:37",
+        "modified_gmt": "2023-05-17T14:01:37",
+        "slug": "eduardo-alvarez",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/eduardo-alvarez/",
+        "title": {
+            "rendered": "Eduardo Alvarez"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 22847,
+        "template": "",
+        "faculty_departments": [
+            113
+        ],
+        "acf": {
+            "first_name": "Eduardo",
+            "last_name": "Alvarez",
+            "faculty_title": "Business Service Center Manager",
+            "faculty_email": "eduardo.alvarez@utsa.edu",
+            "faculty_phone": "210-458-5247",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.06.02",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Business Service Center",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/19747"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/22847"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=19747"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=19747"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 24345,
+        "date": "2023-02-15T07:58:12",
+        "date_gmt": "2023-02-15T13:58:12",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=24345"
+        },
+        "modified": "2023-02-15T07:58:12",
+        "modified_gmt": "2023-02-15T13:58:12",
+        "slug": "eunice-chen",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/eunice-chen/",
+        "title": {
+            "rendered": "Eunice Chen"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 13293,
+        "template": "",
+        "faculty_departments": [
+            113
+        ],
+        "acf": {
+            "first_name": "Eunice",
+            "last_name": "Chen",
+            "faculty_title": "Financial Analyst",
+            "faculty_email": "Eunice.chen@utsa.edu",
+            "faculty_phone": "",
+            "faculty_fax": "",
+            "faculty_office_number": "",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Business Service Center",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/24345"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/13293"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=24345"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=24345"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 6584,
+        "date": "2018-08-10T23:41:53",
+        "date_gmt": "2018-08-10T23:41:53",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=6584"
+        },
+        "modified": "2023-05-18T08:24:57",
+        "modified_gmt": "2023-05-18T13:24:57",
+        "slug": "tracy-martin",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/tracy-martin/",
+        "title": {
+            "rendered": "Tracy Martin"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 9792,
+        "template": "",
+        "faculty_departments": [
+            113
+        ],
+        "acf": {
+            "first_name": "Tracy",
+            "last_name": "Martin",
+            "faculty_title": "Department Fiscal Specialist",
+            "faculty_email": "tracy.martin@utsa.edu",
+            "faculty_phone": "210-458-6407",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.03.34",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Business Service Center",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/6584"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/9792"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=6584"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=6584"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 24208,
+        "date": "2023-02-06T08:19:53",
+        "date_gmt": "2023-02-06T14:19:53",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=24208"
+        },
+        "modified": "2023-05-18T08:47:10",
+        "modified_gmt": "2023-05-18T13:47:10",
+        "slug": "john-mcgee",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/john-mcgee/",
+        "title": {
+            "rendered": "John McGee"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 24877,
+        "template": "",
+        "faculty_departments": [
+            113
+        ],
+        "acf": {
+            "first_name": "John",
+            "last_name": "McGee",
+            "faculty_title": "Business Service Center Specialist II",
+            "faculty_email": "john.mcgee@utsa.edu",
+            "faculty_phone": "210-458-3117",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.06.02",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Business Service Center",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/24208"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/24877"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=24208"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=24208"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 24161,
+        "date": "2023-01-30T08:53:12",
+        "date_gmt": "2023-01-30T14:53:12",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=24161"
+        },
+        "modified": "2023-01-30T08:54:34",
+        "modified_gmt": "2023-01-30T14:54:34",
+        "slug": "joseph-ortiz",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/joseph-ortiz/",
+        "title": {
+            "rendered": "Joseph Ortiz"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 1687,
+        "template": "",
+        "faculty_departments": [
+            113
+        ],
+        "acf": {
+            "first_name": "Joseph",
+            "last_name": "Ortiz",
+            "faculty_title": "Financial Data/Reporting Manager",
+            "faculty_email": "joseph.ortiz@utsa.edu",
+            "faculty_phone": "",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.06.02",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Business Service Center",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/24161"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1687"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=24161"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=24161"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 23714,
+        "date": "2022-12-06T07:52:23",
+        "date_gmt": "2022-12-06T13:52:23",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=23714"
+        },
+        "modified": "2023-09-20T09:18:35",
+        "modified_gmt": "2023-09-20T14:18:35",
+        "slug": "sylvia-rayko",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/sylvia-rayko/",
+        "title": {
+            "rendered": "Sylvia Rayko"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 13293,
+        "template": "",
+        "faculty_departments": [
+            113
+        ],
+        "acf": {
+            "first_name": "Sylvia",
+            "last_name": "Rayko",
+            "faculty_title": "Business Service Center Specialist II",
+            "faculty_email": "sylvia.rayko@utsa.edu",
+            "faculty_phone": "210-458-7465",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.06.02",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Business Service Center",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/23714"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/13293"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=23714"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=23714"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1361,
+        "date": "2017-11-06T22:07:46",
+        "date_gmt": "2017-11-06T22:07:46",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1361"
+        },
+        "modified": "2022-10-19T08:35:57",
+        "modified_gmt": "2022-10-19T13:35:57",
+        "slug": "sharon-stevens",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/sharon-stevens/",
+        "title": {
+            "rendered": "Sharon Stevens"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 9878,
+        "template": "",
+        "faculty_departments": [
+            113
+        ],
+        "acf": {
+            "first_name": "Sharon",
+            "last_name": "Stevens",
+            "faculty_title": "Business Service Center Specialist III",
+            "faculty_email": "sharon.stevens@utsa.edu",
+            "faculty_phone": "210-458-6408",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.06.02",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Business Service Center",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1361"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/9878"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1361"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1361"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 6585,
+        "date": "2018-08-10T23:45:24",
+        "date_gmt": "2018-08-10T23:45:24",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=6585"
+        },
+        "modified": "2023-05-18T09:34:50",
+        "modified_gmt": "2023-05-18T14:34:50",
+        "slug": "lily-wang",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/lily-wang/",
+        "title": {
+            "rendered": "Lily Wang"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 9780,
+        "template": "",
+        "faculty_departments": [
+            113
+        ],
+        "acf": {
+            "first_name": "Lily",
+            "last_name": "Wang",
+            "faculty_title": "Supervisor of Accounts",
+            "faculty_email": "lily.wang@utsa.edu",
+            "faculty_phone": "210-458-8063",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.03.34",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Business Service Center",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/6585"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/9780"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=6585"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=6585"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]
