@@ -11,27 +11,27 @@
 							{
 								"type": "text",
 								"identifier": "title",
-								"text": "Professor"
+								"text": ""
 							},
 							{
 								"type": "text",
 								"identifier": "primaryDepartment",
-								"text": "Integrative Biology"
+								"text": ""
 							},
 							{
 								"type": "text",
 								"identifier": "phone",
-								"text": "210-458-5491"
+								"text": ""
 							},
 							{
 								"type": "text",
 								"identifier": "email",
-								"text": "Aaron.Cassill@utsa.edu"
+								"text": ""
 							},
 							{
 								"type": "text",
 								"identifier": "office",
-								"text": "FLN 3.02.17"
+								"text": ""
 							},
 							{
 								"type": "text",
@@ -49,20 +49,9 @@
 								"structuredDataNodes": [
 									{
 										"type": "text",
-										"identifier": "label",
-										"text": "MyNCB",
-										"recycled": false
-									},
-									{
-										"type": "text",
 										"identifier": "type",
 										"text": "external",
 										"recycled": false
-									},
-									{
-										"type": "text",
-										"identifier": "external",
-										"text": "https://www.ncbi.nlm.nih.gov/myncbi/1dSM8iS5v3_A7/bibliography/public/"
 									},
 									{
 										"type": "text",

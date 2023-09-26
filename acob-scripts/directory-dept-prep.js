@@ -8,6 +8,7 @@ var tasks = [];
 require('dotenv').config();
 /* defining some constants */
 const CAS_HOST = process.env.CAS_HOST;
+const POST = process.env.POST;
 const CAS_PORT = process.env.CAS_PORT;
 const API_KEY = process.env.API_KEY;
 const POST_URI = "/api/v1/create";
@@ -92,13 +93,14 @@ async function completeTasks() {
       // console.dir(t.acf.department_role_repeater);
       var newPerson = t.acf;
       newPerson.uri = t.slug;
+      newPerson.fullname = t.title.rendered;
       newPerson.id = t.id;
       newPerson.status = t.status;
       newPerson.link = t.link;
       newPerson.json = t._links.self[0].href;
       newPerson.media = t._links['wp:featuredmedia'];
       newPerson.attachment = t._links['wp:attachment'];
-      newPerson.department = t.department;
+      newPerson.topd = t.department;
       newPerson.dslug = t.dslug;
       newPerson.content = t.content.rendered;
       // console.dir(newPerson);
@@ -115,14 +117,14 @@ async function completeTasks() {
       // TODO let's leave headshot and CV download/upload to another task
 
       const payload = preparePayload(newPerson);
-
-      //   older workflow
-      //   currentTask = t;
-      //   const payload = preparePayload(t);
-      //   let stringPayload = JSON.stringify(payload);
-      //   console.log(stringPayload);
-      //   let postedAsset = await postAsset(POST_URI, stringPayload);
-      //   console.log(postedAsset);
+      let stringPayload = JSON.stringify(payload);
+      // console.log(stringPayload);
+      if (POST == "YES") {
+        let postedAsset = await postAsset(POST_URI, stringPayload);
+        console.log(postedAsset);
+      } else {
+        console.log("skipping POST");
+      }
     }
   } catch (e) {
     console.log(e);
@@ -150,43 +152,76 @@ function reduceRoles(p) {
   return roles;
 }
 
+function createTags(depts, roles) {
+  var tags = [];
+  depts.map(function(d) {
+    tags.push({ name: d });
+  });
+
+  roles.map(function(r) {
+    tags.push({ name: r});
+  });
+  return tags;
+}
+
+function createFolderPath(p) {
+  //potential roles:
+  // Faculty | Staff | Administrators | Doctoral Students | Emeritus Faculty
+  var folderPath = "faculty/_blocks/" + p.topd.toLowerCase() + "";
+  // console.dir(p.roles);
+  if (p.roles.includes('faculty')) {
+    //going to assume emeritus also goes in faculty
+  } else if (p.roles.includes('staff')) {
+    //always use staff first even if they are also student (below)
+    folderPath = folderPath + "/staff";
+  } else if (p.roles.includes('doctoral students')) {
+    folderPath = folderPath + "/student";
+  }
+  return folderPath;
+}
+
 function preparePayload(data) {
+  // console.log("*** preparePayload ***");
+  // console.dir(data);
   var block = JSON.parse(PAYLOAD_DOCUMENT);
-  // console.log(JSON.stringify(data));
-  const sdns = [
-    {
-      "type": "text",
-      "identifier": "program",
-      "text": data.title.rendered
-    },
-    {
-      "type": "text",
-      "identifier": "secondaryTitle",
-      "text": data.yoast_head_json.title
-    },
-    {
-      "type": "text",
-      "identifier": "external",
-      "text": data.link
+  block.asset.xhtmlDataDefinitionBlock.metadata.displayName = data.fullname;
+  block.asset.xhtmlDataDefinitionBlock.parentFolderPath = createFolderPath(data);
+  block.asset.xhtmlDataDefinitionBlock.tags = createTags(data.department, data.roles);
+  block.asset.xhtmlDataDefinitionBlock.name = data.last_name.toLowerCase() + "-" + data.first_name.toLowerCase();
+
+  var sdns = block.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes;
+  sdns.map(function(node) {
+    if (node.identifier == "details") {
+      node.structuredDataNodes.map(function(detailNode) {
+        if (detailNode.identifier == "title") {
+          detailNode.text = data.faculty_title;
+          detailNode.text = detailNode.text.replace('<br/>', '<br>');
+          detailNode.text = detailNode.text.replace(' <br> ', '<br>');
+          detailNode.text = detailNode.text.replace('<br>', ', ');
+        }
+        if (detailNode.identifier == "primaryDepartment") {
+          detailNode.text = data.topd;
+        }
+        if (detailNode.identifier == "phone") {
+          detailNode.text = data.faculty_phone;
+        }
+        if (detailNode.identifier == "email") {
+          detailNode.text = data.faculty_email.toLowerCase();
+        }
+        if (detailNode.identifier == "office") {
+          detailNode.text = data.faculty_office_number;
+        }
+      });
+      // console.dir(node);
     }
-  ];
-  var departmentSlug = departments[data.department[0]];
-  const departmentID = data.department[0];
-  if (departmentID) {
-    departmentSlug = departments[departmentID].slug;
-  }
-  // console.log("found department id: " + departmentID);
-  const tags = [{"name": data.tag}];
-  if (departmentSlug) {
-    tags.push({"name":departmentSlug});
-  }
-  programBlock.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes = sdns
-  let parentFolderPath = "programs/_blocks/" + data.type;
-  let name = data.slug
-  programBlock.asset.xhtmlDataDefinitionBlock.parentFolderPath = parentFolderPath;
-  programBlock.asset.xhtmlDataDefinitionBlock.name = name;
-  programBlock.asset.xhtmlDataDefinitionBlock.tags = tags;
-  return programBlock;
+  })
+
+  // console.log("*** prepped payload ***");
+  // console.dir(block);
+  // block.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes.map(function(sd) {
+  //   console.dir(sd);
+  // });
+  return block;
 }
 
 function prepDepts(data) {
@@ -323,53 +358,4 @@ function saveSnippet(content, fpath) {
   var snippetStream = fs.createWriteStream(fpath);
   snippetStream.write(content.prettify());
   snippetStream.end();
-}
-
-async function grabImage(url, fpath) {
-  try {
-    if (!fs.existsSync(fpath)) {
-      let image_promise = getPromise(url, fpath);
-      let image = await image_promise;
-      console.log("attempting to save to disk:" + fpath);
-      // fs.writeFileSync( fpath, image );
-    } else {
-      console.log("image already cached! " + fpath);
-    }
-
-    return true
-  } catch (error) {
-    console.log(error);
-    console.log(url);
-    return false
-  }
-}
-
-function sanitizeTextHTML(inputText) {
-  var contentStr = inputText.replaceAll('&euml;', '&#235;');
-  contentStr = contentStr.replaceAll('<p>&#160;</p>', '');
-  contentStr = contentStr.replaceAll('&rdquo;', '"');
-  contentStr = contentStr.replaceAll('&ldquo;', '"');
-  contentStr = contentStr.replaceAll('&nbsp;', ' ');
-  contentStr = contentStr.replaceAll(/\u00a0/g, " ");
-  contentStr = contentStr.replaceAll('&mdash;', '&#8212;');
-  contentStr = contentStr.replaceAll('<br>', '<br/>');
-  contentStr = contentStr.replaceAll('\n', '');
-  return contentStr;
-}
-
-function sanitizeImageName(fileName) {
-  fileName = fileName.toLowerCase()
-  fileName = fileName.replaceAll('(', '');
-  fileName = fileName.replaceAll(')', '');
-  fileName = fileName.replaceAll('_', '-');
-  fileName = fileName.replaceAll('-.', '.');
-  return fileName;
-}
-
-function contentClean(content) {
-  var contentStr = content.replace('&nbsp;', '&#160;');
-  contentStr = contentStr.replace(/\u00a0/g, " ");
-  contentStr = contentStr.replace('&mdash;', '&#8212;');
-  contentStr = contentStr.replace('<br>', '<br/>');
-  return contentStr;
 }
