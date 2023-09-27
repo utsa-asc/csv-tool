@@ -1,0 +1,43 @@
+[
+	{
+		"id": 34,
+		"count": 28,
+		"description": "",
+		"link": "https:\/\/business.utsa.edu\/departments\/marketing\/",
+		"name": "Marketing",
+		"slug": "marketing",
+		"taxonomy": "faculty_departments",
+		"parent": 0,
+		"meta": [],
+		"acf": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments\/34"
+				}
+			],
+			"collection": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments"
+				}
+			],
+			"about": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/taxonomies\/faculty_departments"
+				}
+			],
+			"wp:post_type": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty?faculty_departments=34"
+				}
+			],
+			"curies": [
+				{
+					"name": "wp",
+					"href": "https:\/\/api.w.org\/{rel}",
+					"templated": true
+				}
+			]
+		}
+	}
+]

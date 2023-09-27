@@ -1,0 +1,88 @@
+[
+    {
+        "id": 1497,
+        "date": "2017-11-07T18:21:42",
+        "date_gmt": "2017-11-07T18:21:42",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1497"
+        },
+        "modified": "2023-05-17T14:13:53",
+        "modified_gmt": "2023-05-17T19:13:53",
+        "slug": "lynda-de-la-vina",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/lynda-de-la-vina/",
+        "title": {
+            "rendered": "Lynda Y. de la Viña, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. Rice University</li>\n<li>M.A. Rice University</li>\n<li>B.A. University of Texas, Pan American</li>\n<li>Post-Graduate Study Columbia University</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Dr. Lynda de la Viña is the Peter Flawn Professor in the Department of Entrepreneurship and Technology Management and the Director of the Center for Global Entrepreneurship. She previously served as Dean of the Carlos Alvarez College of Business from 2004-2012.</p>\n<p>Dr. de la Viña was named one of the 100 Most Influential Hispanics by <em>Hispanic Business</em> magazine, and has received both the Ford Salute to Education Award as well as the Jessie and Sue Oppenheimer Award of Excellence. She was an inaugural member of the advisory committee for the State of Texas Emerging Technology Fund, a $200 million fund created to foster innovation, research and job creation in emerging high-tech industries. She also completed a prestigious Kellogg Leadership Fellows Program.</p>\n<p>With a distinguished career in academia and government service, Dr. de la Viña was the first Mexican-American woman at the secretarial level of the U.S. Treasury, where she served as Deputy Assistant Secretary for Economic Policy from 1998-2001. While her work portfolio was expansive dealing with domestic and international economic policy issues, she led Treasury teams on issues of personal commitment such as financial literacy, entrepreneurship development and U.S.-Mexico border development. Following her role at the Treasury, she joined Johns Hopkins University as associate dean of the Graduate Division of Business and Management, full professor and chair of the Department of Finance and International Business.</p>\n<p>Prior to her career in Washington, D.C. and Baltimore, Maryland, Dr. de la Viña served 19 years at UTSA in ascending positions of administrative responsibility. She joined the Department of Economics faculty in 1982 and was named executive director of the Institute for Studies in Business in 1985. She served as associate dean of graduate studies and research in the college from 1993-1998.</p>\n<p>She has co-founded several companies including Operational Technologies Corporation (OpTech) and Pronucleotein Biotechnologies in San Antonio, TX. Under her tenure, OpTech rose from a small incubator operation in downtown San Antonio to one of the largest minority-owned businesses in San Antonio. She continues to serve on the Board of Directors of OpTech. She also serves on the boards of the Center for International Private Enterprise, an affiliate of the U.S. Chamber of Commerce; the World Affairs Council; the Free Trade Alliance; and the Alamo Public Telecommunications Council.</p>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“Equity Crowdfunding,” (with Stephanie Black), in <em>Educating Social Entrepreneurs: A Workbook of Cases, Exercises and Commentaries</em>, Business Expert Press, 2017</li>\n<li>“The Impact of Lean Enterprise Transformation on Production Learning Curves Used by Technology Managers in Aerospace Companies: A Decomposition-Based Model of Unit Derived Learning Curve Data,” with Cory Hallam, <em>Proceedings of Portland International Conference on Management of Engineering and Technology</em> (PICMET), Portland, OR, August 2011.</li>\n<li>“Comparative Analysis of Work Force Management Techniques Between Lean and Traditional Manufacturing Companies: A Quantitative Decision Tool for Choosing Between Layoffs and Continual Improvements,” with Cory Hallam and Susan Hammond, <em>Proceedings of the Portland International Conference on Management of Engineering and Technology </em>(PICMET), Phuket, Thailand, July 2010.</li>\n<li>“Analysis of the Toyota Production System and the Genesis of Six Sigma Programs: An Imperative for Understanding Failures in Technology Management Culture Transformation in Traditional Manufacturing Companies,” with Cory R. A. Hallam and Justin Muesel, <em>Proceedings of the Portland International Conference on Management of Engineering and Technology</em> (PICMET), Phuket, Thailand, July 2010.</li>\n<li>“Improve Technology Transfer with this Alliance Scorecard,” with J. Michael Munson, Woodie Spivey and Fu-Sen Tsai, in <em>Research-Technology Management</em>, Vol. 52, No. 1, Jan-Feb 2009, pp. 10-18.</li>\n</ul>\n<div class=\"off-canvas-wrapper\">\n<div class=\"off-canvas-content\" data-off-canvas-content=\"\">\n<div id=\"content\">\n<div id=\"inner-content\" class=\"row expanded\">\n<div class=\"content-wrap\"></div>\n</div>\n</div>\n</div>\n</div>\n",
+            "protected": false
+        },
+        "featured_media": 1510,
+        "template": "",
+        "faculty_departments": [
+            92,
+            32
+        ],
+        "acf": {
+            "first_name": "Lynda",
+            "last_name": "de la Viña",
+            "faculty_title": "Emeritus Professor",
+            "faculty_email": "lynda.delavina@utsa.edu",
+            "faculty_phone": "210-458-8127",
+            "faculty_fax": "210-458-4308",
+            "faculty_office_number": "",
+            "faculty_pdf": 13251,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Emeritus Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1497"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1510"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1497"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1497"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]

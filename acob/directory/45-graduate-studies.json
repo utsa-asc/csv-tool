@@ -1,0 +1,1037 @@
+[
+    {
+        "id": 4343,
+        "date": "2018-03-07T21:17:27",
+        "date_gmt": "2018-03-07T21:17:27",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=4343"
+        },
+        "modified": "2023-05-17T09:09:46",
+        "modified_gmt": "2023-05-17T14:09:46",
+        "slug": "jim-aviles",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/jim-aviles/",
+        "title": {
+            "rendered": "Jim Aviles"
+        },
+        "content": {
+            "rendered": "<p>Graduate Advisor for:</p>\n<ul>\n<li>Master of Accountancy and 150-hour program</li>\n<li>MS IT</li>\n<li>Graduate Certificates:\n<ul>\n<li>Cloud Computing</li>\n<li>Cyber Security</li>\n</ul>\n</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 23429,
+        "template": "",
+        "faculty_departments": [
+            45
+        ],
+        "acf": {
+            "first_name": "Jim",
+            "last_name": "Aviles",
+            "faculty_title": "Student Development Specialist",
+            "faculty_email": "james.aviles@utsa.edu",
+            "faculty_phone": "210-458-7315",
+            "faculty_fax": "210-458-4398",
+            "faculty_office_number": "BB 4.01.18",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Graduate Studies",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/4343"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/23429"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=4343"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=4343"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 25177,
+        "date": "2023-05-15T08:06:36",
+        "date_gmt": "2023-05-15T13:06:36",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=25177"
+        },
+        "modified": "2023-07-13T15:43:14",
+        "modified_gmt": "2023-07-13T20:43:14",
+        "slug": "don-carrington",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/don-carrington/",
+        "title": {
+            "rendered": "Don Carrington"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 25202,
+        "template": "",
+        "faculty_departments": [
+            872,
+            45
+        ],
+        "acf": {
+            "first_name": "Don",
+            "last_name": "Carrington",
+            "faculty_title": "Assistant Director Doctoral Programs and Fiscal Administration",
+            "faculty_email": "Don.Carrington@utsa.edu",
+            "faculty_phone": "210-458-5281",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.18D",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Faculty Success and Research",
+                    "role": "Staff"
+                },
+                {
+                    "department": "Doctoral Studies",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/25177"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/25202"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=25177"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=25177"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 25178,
+        "date": "2023-05-15T08:14:34",
+        "date_gmt": "2023-05-15T13:14:34",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=25178"
+        },
+        "modified": "2023-05-15T11:57:05",
+        "modified_gmt": "2023-05-15T16:57:05",
+        "slug": "helena-fischer",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/helena-fischer/",
+        "title": {
+            "rendered": "Helena Fischer"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 13293,
+        "template": "",
+        "faculty_departments": [
+            45
+        ],
+        "acf": {
+            "first_name": "Helena",
+            "last_name": "Fischer",
+            "faculty_title": "Senior Grant Development Manager",
+            "faculty_email": "helena.fischer@utsa.edu",
+            "faculty_phone": "",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.03.35A",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Faculty Success and Research",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/25178"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/13293"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=25178"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=25178"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 4405,
+        "date": "2018-03-08T15:15:19",
+        "date_gmt": "2018-03-08T15:15:19",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=4405"
+        },
+        "modified": "2023-09-14T14:57:19",
+        "modified_gmt": "2023-09-14T19:57:19",
+        "slug": "cara-jones",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/cara-jones/",
+        "title": {
+            "rendered": "Cara Jones"
+        },
+        "content": {
+            "rendered": "<p>Graduate Advisor for:</p>\n<ul>\n<li>Dual MBA/MD</li>\n<li>Dual MBA/MPH</li>\n</ul>\n<p><a class=\"btn btnCTA\" href=\"https://calendly.com/cara-jones\" target=\"_blank\" rel=\"noopener noreferrer\">Book a virtual advising session</a></p>\n",
+            "protected": false
+        },
+        "featured_media": 23428,
+        "template": "",
+        "faculty_departments": [
+            45
+        ],
+        "acf": {
+            "first_name": "Cara",
+            "last_name": "Jones",
+            "faculty_title": "Associate Director of Graduate Studies",
+            "faculty_email": "cara.jones@utsa.edu",
+            "faculty_phone": "210-458-4641",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.18",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Graduate Studies",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/4405"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/23428"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=4405"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=4405"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 21010,
+        "date": "2022-02-01T12:01:50",
+        "date_gmt": "2022-02-01T18:01:50",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=21010"
+        },
+        "modified": "2023-05-18T08:03:39",
+        "modified_gmt": "2023-05-18T13:03:39",
+        "slug": "francisco-marquez-2",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/francisco-marquez-2/",
+        "title": {
+            "rendered": "Francisco Marquez"
+        },
+        "content": {
+            "rendered": "<p>Francisco Marquez’ career includes over 17 years of experience leading graduate admissions, national and international recruitment efforts, program operations and assessment and student services and support in public universities. Before joining UTSA, he was director of graduate studies at Florida Gulf Coast University for seven years and assistant director of the Chapman Graduate School of Business at Florida International University.</p>\n<p>Marquez holds a Bachelor’s in Business Administration from Javeriana University in Colombia and a Master of Science in Management Information Systems from Florida International University.</p>\n",
+            "protected": false
+        },
+        "featured_media": 21228,
+        "template": "",
+        "faculty_departments": [
+            45
+        ],
+        "acf": {
+            "first_name": "Francisco",
+            "last_name": "Marquez",
+            "faculty_title": "Assistant Dean of Graduate Studies and Research",
+            "faculty_email": "Francisco.marquez@utsa.edu",
+            "faculty_phone": "210-458-4312",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.18G",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Graduate Studies",
+                    "role": "Administrators"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/21010"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/21228"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=21010"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=21010"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 4423,
+        "date": "2018-03-08T16:46:49",
+        "date_gmt": "2018-03-08T16:46:49",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=4423"
+        },
+        "modified": "2023-09-14T14:58:01",
+        "modified_gmt": "2023-09-14T19:58:01",
+        "slug": "tammy-mcdaniel",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/tammy-mcdaniel/",
+        "title": {
+            "rendered": "Tammy McDaniel"
+        },
+        "content": {
+            "rendered": "<p>Graduate Advisor for:</p>\n<ul>\n<li>M.S. Data Analytics</li>\n<li>M.S. Statistics and Data Science</li>\n<li>Graduate Certificate:\n<ul>\n<li>Intelligence Studies</li>\n</ul>\n</li>\n</ul>\n<p>&nbsp;</p>\n",
+            "protected": false
+        },
+        "featured_media": 14074,
+        "template": "",
+        "faculty_departments": [
+            45
+        ],
+        "acf": {
+            "first_name": "Tammy",
+            "last_name": "McDaniel",
+            "faculty_title": "Assistant Director of Graduate Studies",
+            "faculty_email": "tammy.mcdaniel@utsa.edu",
+            "faculty_phone": "210-458-5946",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.18",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Graduate Studies",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/4423"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/14074"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=4423"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=4423"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 26232,
+        "date": "2023-09-05T08:48:56",
+        "date_gmt": "2023-09-05T13:48:56",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=26232"
+        },
+        "modified": "2023-09-14T15:14:26",
+        "modified_gmt": "2023-09-14T20:14:26",
+        "slug": "haley-meyer",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/haley-meyer/",
+        "title": {
+            "rendered": "Haley Meyer"
+        },
+        "content": {
+            "rendered": "<p>Graduate Advisor for:</p>\n<ul>\n<li>M.A. Economics</li>\n<li>M.S. Business</li>\n<li>M.S. Finance</li>\n<li>M.S. Management of Technology</li>\n</ul>\n<p>Graduate Certificates:</p>\n<ul>\n<li style=\"list-style-type: none;\">\n<ul>\n<li>Project Management</li>\n<li>Real Estate Finance and Development</li>\n<li>Technology, Entrepreneurship and Management</li>\n</ul>\n</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 26316,
+        "template": "",
+        "faculty_departments": [
+            45
+        ],
+        "acf": {
+            "first_name": "Haley",
+            "last_name": "Meyer",
+            "faculty_title": "Student Development Specialist III",
+            "faculty_email": "haley.meyer@utsa.edu",
+            "faculty_phone": "",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.18C",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Graduate Studies",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/26232"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/26316"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=26232"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=26232"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 23484,
+        "date": "2022-10-24T08:14:34",
+        "date_gmt": "2022-10-24T13:14:34",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=23484"
+        },
+        "modified": "2023-05-18T08:48:53",
+        "modified_gmt": "2023-05-18T13:48:53",
+        "slug": "molly-miller",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/molly-miller/",
+        "title": {
+            "rendered": "Molly Miller"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 23566,
+        "template": "",
+        "faculty_departments": [
+            45
+        ],
+        "acf": {
+            "first_name": "Molly",
+            "last_name": "Miller",
+            "faculty_title": "Program Manager",
+            "faculty_email": "molly.miller@utsa.edu",
+            "faculty_phone": "210-458-7301",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01-18 A2",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Graduate Studies",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/23484"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/23566"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=23484"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=23484"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 25180,
+        "date": "2023-05-15T08:17:47",
+        "date_gmt": "2023-05-15T13:17:47",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=25180"
+        },
+        "modified": "2023-05-16T10:01:01",
+        "modified_gmt": "2023-05-16T15:01:01",
+        "slug": "claudia-ortiz",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/claudia-ortiz/",
+        "title": {
+            "rendered": "Claudia Ortiz"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 25204,
+        "template": "",
+        "faculty_departments": [
+            45
+        ],
+        "acf": {
+            "first_name": "Claudia",
+            "last_name": "Ortiz",
+            "faculty_title": "Manager of Strategic Initiatives",
+            "faculty_email": "claudia.ortiz@utsa.edu",
+            "faculty_phone": "",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.03.35B",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Faculty Success and Research",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/25180"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/25204"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=25180"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=25180"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1408,
+        "date": "2017-11-06T23:07:23",
+        "date_gmt": "2017-11-06T23:07:23",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1408"
+        },
+        "modified": "2023-05-18T09:14:29",
+        "modified_gmt": "2023-05-18T14:14:29",
+        "slug": "juan-manuel-sanchez",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/juan-manuel-sanchez/",
+        "title": {
+            "rendered": "Juan Manuel Sanchez, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. The University of Texas at San Antonio</li>\n<li>M.S. St. Mary&#8217;s University</li>\n<li>MBA St. Mary&#8217;s University</li>\n<li>BBA St. Mary&#8217;s University</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Dr. Juan Manuel Sanchez obtained his Ph.D. in accounting from The University of Texas at San Antonio in 2006 after working for global firms including Deloitte (a global accounting firm) and SBC Communications (now AT&amp;T). Dr. Sanchez has published in elite accounting, finance and multidisciplinary journals such as <em>The Accounting Review</em>, <em>Journal of Accounting Research</em>, <em>Journal of Financial Economics</em>, <em>Journal of Business Ethics</em>, <em>Journal of Business Finance and Accounting</em>, <em>Accounting Horizons</em>, <em>Journal of Accounting and Public Policy</em>, <em>Journal of Accounting</em>, <em>Auditing and Finance</em>, and <em>Journal of Information Systems</em>.</p>\n<p>His research is widely cited by academics and major media outlets including, <em>The Wall Street Journal</em>, CFO.com, <em>Accounting Today</em>, <em>Compliance Week</em>, and <em>Harvard Law School Forum on Corporate Governance and Financial Regulation</em>. According to BYU Author Rankings Sanchez&#8217; research ranks him in the first (top) decile among all accounting researchers. For more details about his research, please visit his <a href=\"https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=397223\" target=\"_blank\" rel=\"noopener noreferrer\">SSRN Author Page</a>.</p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Executive compensation</li>\n<li>Corporate governance</li>\n<li>Financial reporting issues</li>\n<li>Accounting information systems</li>\n</ul>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“Investor Sentiment and Stock Option Vesting Terms,” with Sami Keskek and Shawn Huang, <em>Management Science</em>, forthcoming.</li>\n<li>“The Influence of Chief Sustainability Officers on Performance,” with Andrea Romi and Gary Peters, <em>Journal of Business Ethics</em>, forthcoming.</li>\n<li>“Examining the Stock Performance of Acquirers where the Acquirer or Target Hold Patents,” with Derek Oler and Kevin Kim, <em>Review of Quantitative Finance and Accounting,</em> Vol. 56, 2021, pp. 185-217.</li>\n<li>“The Influence of CSR on Investment Efficiency and Innovation,” with Kirsten Cook, Andrea Romi and Daniela Sanchez, J<em>ournal of Business Finance and Accounting,</em> (Vol. 46, No. 3-4, 2019, pp. 494-537.</li>\n<li>&#8220;How Powerful CFOs Camouflage and Exploit Equity-Based Incentive Compensation,&#8221; with Stacey Kaden, Denton Collins and Gary Fleischman, <em>Journal of Business Ethics</em>, Vol. 153, No. 2, 2018, pp. 591-613.</li>\n<li>&#8220;CEO Inside Debt Incentives and Corporate Tax Sheltering,&#8221; with Sabrina Chi and Shawn Huang, <em>Journal of Accounting Research</em>, Vol. 55, No. 4, 2017, pp. 837-876.</li>\n<li>&#8220;Non-Compliance in CEO Compensation Disclosure: The Brazilian Experience,&#8221; with Cristiano Costa, Fernando Galdi and Fabio Motoki, <em>Journal of Business Finance and Accounting</em>, Vol. 43, No. 3, 2016, pp. 329-369.</li>\n<li>&#8220;Forecasting Without Consequence? Evidence on the Properties of Retiring CEOs&#8217; Forecasts of Future Earnings,&#8221; with Cory Cassell, Shawn Huang, <em>The Accounting Review</em>, Vol. 88, No. 6), 2013, pp. 1909-1937.</li>\n<li>&#8220;Seeking Safety: The Relation Between CEO Inside Debt Holdings and the Riskiness of Firm Investment and Financial Policies,&#8221; with Cory Cassell, Shawn Huang and Mike Stuart, <em>Journal of Financial Economics</em>, Vol. 103, No. 3, 2012, pp. 588-610.</li>\n<li>&#8220;Special Items: A Descriptive Analysis,&#8221; with Peter M. Johnson and Thomas Lopez, <em>Accounting Horizons</em>, Vol. 25, No. 3, 2011, pp. 511-536.</li>\n<li>&#8220;Examining the Potential Benefits of Internal Control Monitoring Technology,&#8221; with Adi Masli, Vernon Richardson and Gary Peters, <em>The Accounting Review</em>, Vol. 85, No. 3, 2010, pp. 1001-1034.</li>\n<li>&#8220;Layoffs and CEO Compensation: Does CEO Power Influence the Relationship?&#8221; with Charlene Henderson, Adi Masli, and Vernon Richardson, <em>The Journal of Accounting, Auditing and Finance</em>, Vol. 25, No. 4, 2010, pp. 673-707.</li>\n<li>&#8220;Social Responsibility and Corporate Reputation: The Case of the Arthur Andersen Enron Audit Failure,&#8221; with Cheryl Linthicum and Austin L. Reitenga, <em>Journal of Accounting and Public Policy</em>, Vol. 29, No. 2, Mar/Apr 2010, pp. 160-176.</li>\n<li>&#8220;Earnings Restatements, the Sarbanes-Oxley Act and the Disciplining of Chief Financial Officers,&#8221; with Denton Collins, Adi Masli and Austin L. Reitenga, <em>The Journal of Accounting, Auditing and Finance</em>, Vol. 24, No. 1, 2009, pp. 1-34. (Lead Article)</li>\n<li>&#8220;Repairing Organizational Legitimacy Following Information Technology (IT) Material Weaknesses: Executive Turnover, IT Expertise, IT System Upgrades,&#8221; with Jacob Haislip, Adi Masli and Vern Richardson, <em>Journal of Information Systems</em>, Vol. 30, No. 1, 2016, pp. 41-70.</li>\n<li>&#8220;The Interrelationships Between Information Technology Spending, CEO Compensation and Firm Value,&#8221; with Adi Masli, Vernon Richardson and Rodney Smith, <em>Journal of Information Systems</em>, Vol. 28, No. 2, 2014, pp. 41-65.</li>\n<li>&#8220;The Business Value of IT Research: A Synthesis and Framework of Archival Research,&#8221; with Adi Masli, Vernon Richardson and Rod E. Smith, <em>Journal of Information Systems</em>, Vol. 25, No. 2, 2011, pp. 81-116.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 6272,
+        "template": "",
+        "faculty_departments": [
+            30,
+            44,
+            45
+        ],
+        "acf": {
+            "first_name": "Juan Manuel",
+            "last_name": "Sanchez",
+            "faculty_title": "Senior Associate Dean for Faculty Success and Research<br>Professor of Accounting",
+            "faculty_email": "juan.manuel.sanchez@utsa.edu",
+            "faculty_phone": "210-458-5572",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.02",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Accounting",
+                    "role": "Faculty"
+                },
+                {
+                    "department": "Doctoral Studies",
+                    "role": "Administrators"
+                },
+                {
+                    "department": "Faculty Success and Research",
+                    "role": "Administrators"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1408"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/6272"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1408"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1408"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 23715,
+        "date": "2022-12-06T07:54:29",
+        "date_gmt": "2022-12-06T13:54:29",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=23715"
+        },
+        "modified": "2023-09-11T10:43:40",
+        "modified_gmt": "2023-09-11T15:43:40",
+        "slug": "elizabeth-sandoval",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/elizabeth-sandoval/",
+        "title": {
+            "rendered": "Elizabeth Sandoval"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 26264,
+        "template": "",
+        "faculty_departments": [
+            45
+        ],
+        "acf": {
+            "first_name": "Elizabeth",
+            "last_name": "Sandoval",
+            "faculty_title": "Research Program Manager",
+            "faculty_email": "elizabeth.sandoval@utsa.edu",
+            "faculty_phone": "210-458-8134",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.03.35C",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Faculty Success and Research",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/23715"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/26264"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=23715"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=23715"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 7936,
+        "date": "2019-01-08T17:43:47",
+        "date_gmt": "2019-01-08T17:43:47",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=7936"
+        },
+        "modified": "2023-09-14T14:58:44",
+        "modified_gmt": "2023-09-14T19:58:44",
+        "slug": "daisy-saucedo",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/daisy-saucedo/",
+        "title": {
+            "rendered": "Daisy Saucedo"
+        },
+        "content": {
+            "rendered": "<p>Graduate Advisor for:</p>\n<ul>\n<li>MBA</li>\n<li>Graduate Certificate:\n<ul>\n<li>Operations and Supply Chain Management</li>\n</ul>\n</li>\n</ul>\n<p><a class=\"btn btnCTA\" href=\"https://calendly.com/daisy-saucedo\" target=\"_blank\" rel=\"noopener noreferrer\">Book a virtual advising session</a></p>\n",
+            "protected": false
+        },
+        "featured_media": 24781,
+        "template": "",
+        "faculty_departments": [
+            45
+        ],
+        "acf": {
+            "first_name": "Daisy",
+            "last_name": "Saucedo",
+            "faculty_title": "Student Development Specialist",
+            "faculty_email": "daisy.saucedo@utsa.edu",
+            "faculty_phone": "210-458-7328",
+            "faculty_fax": "",
+            "faculty_office_number": "Business Building 4.01.18",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Graduate Studies",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/7936"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/24781"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=7936"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=7936"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]

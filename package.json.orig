@@ -4,13 +4,14 @@
   "description": "quick and dirty csv parser that scrapes content from the web for later REST API usage",
   "main": "index.js",
   "scripts": {
-    "acob-directory-dept-prep": "node acob-scripts/directory-dept-prep.js",
-    "acob-directory-filtered-download": "node acob-scripts/directory-filtered-download.js",
+<<<<<<< HEAD
     "acob-program-update": "node acob-scripts/program-block-update.js",
     "acob-program-process": "node acob-scripts/program-block-process.js",
     "acob-program": "node acob-scripts/program-image-download.js",
+=======
     "cos-spotlight-news-process": "node cos-scripts/cos-spotlight-news-process.js",
     "cos-spotlight-news-preprocess": "node cos-scripts/cos-spotlight-news-preprocess.js",
+>>>>>>> main
     "new-faculty": "node new-faculty-scripts/new-faculty-process.js",
     "cos-spotlight-process": "node cos-scripts/cos-spotlight-process.js",
     "cos-spotlight-preprocess": "node cos-scripts/cos-spotlight-preprocess.js",

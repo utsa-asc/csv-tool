@@ -1,0 +1,1112 @@
+[
+    {
+        "id": 22976,
+        "date": "2022-09-02T10:12:02",
+        "date_gmt": "2022-09-02T15:12:02",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=22976"
+        },
+        "modified": "2022-09-02T10:12:02",
+        "modified_gmt": "2022-09-02T15:12:02",
+        "slug": "rebekah-alegria",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/rebekah-alegria/",
+        "title": {
+            "rendered": "Rebekah Alegria"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 22977,
+        "template": "",
+        "faculty_departments": [
+            93
+        ],
+        "acf": {
+            "first_name": "Rebekah",
+            "last_name": "Alegria",
+            "faculty_title": "Communications Specialist",
+            "faculty_email": "rebekah.alegria@utsa.edu",
+            "faculty_phone": "210-458-6909",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.08",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Dean’s Office",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/22976"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/22977"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=22976"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=22976"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 22508,
+        "date": "2022-07-19T14:00:46",
+        "date_gmt": "2022-07-19T19:00:46",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=22508"
+        },
+        "modified": "2023-06-07T11:44:53",
+        "modified_gmt": "2023-06-07T16:44:53",
+        "slug": "jagmeet-cheema",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/jagmeet-cheema/",
+        "title": {
+            "rendered": "Jagmeet Cheema"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 25372,
+        "template": "",
+        "faculty_departments": [
+            93
+        ],
+        "acf": {
+            "first_name": "Jagmeet",
+            "last_name": "Cheema",
+            "faculty_title": "Director of Business Intelligence",
+            "faculty_email": "jagmeet.cheema@utsa.edu",
+            "faculty_phone": "210-458-7316",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.04.26B",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Faculty Success and Research",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/22508"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/25372"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=22508"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=22508"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 4370,
+        "date": "2018-03-07T22:24:12",
+        "date_gmt": "2018-03-07T22:24:12",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=4370"
+        },
+        "modified": "2023-07-12T11:38:36",
+        "modified_gmt": "2023-07-12T16:38:36",
+        "slug": "annette-cox",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/annette-cox/",
+        "title": {
+            "rendered": "Annette Cox"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 4372,
+        "template": "",
+        "faculty_departments": [
+            93,
+            109
+        ],
+        "acf": {
+            "first_name": "Annette",
+            "last_name": "Cox",
+            "faculty_title": "Senior Administrative Associate",
+            "faculty_email": "annette.cox@utsa.edu",
+            "faculty_phone": "210-458-7039",
+            "faculty_fax": "210-458-7040",
+            "faculty_office_number": "BB 4.03.54",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Dean’s Office",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/4370"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/4372"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=4370"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=4370"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 4380,
+        "date": "2018-03-07T22:41:34",
+        "date_gmt": "2018-03-07T22:41:34",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=4380"
+        },
+        "modified": "2023-09-01T14:52:24",
+        "modified_gmt": "2023-09-01T19:52:24",
+        "slug": "shelly-dotson",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/shelly-dotson/",
+        "title": {
+            "rendered": "Shelly Dotson"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 26221,
+        "template": "",
+        "faculty_departments": [
+            93
+        ],
+        "acf": {
+            "first_name": "Shelly",
+            "last_name": "Dotson",
+            "faculty_title": "Assistant to the Dean",
+            "faculty_email": "shelly.dotson",
+            "faculty_phone": "210-458-7337",
+            "faculty_fax": "210-458-4308",
+            "faculty_office_number": "BB 4.01.02",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Dean’s Office",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/4380"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/26221"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=4380"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=4380"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 4386,
+        "date": "2018-03-07T22:55:47",
+        "date_gmt": "2018-03-07T22:55:47",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=4386"
+        },
+        "modified": "2023-05-17T14:20:40",
+        "modified_gmt": "2023-05-17T19:20:40",
+        "slug": "wendy-frost",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/wendy-frost/",
+        "title": {
+            "rendered": "Wendy Frost"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 4387,
+        "template": "",
+        "faculty_departments": [
+            93
+        ],
+        "acf": {
+            "first_name": "Wendy",
+            "last_name": "Frost",
+            "faculty_title": "Director of Communications",
+            "faculty_email": "wendy.frost@utsa.edu",
+            "faculty_phone": "210-458-7313",
+            "faculty_fax": "210-458-4308",
+            "faculty_office_number": "BB 4.01.08",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Dean’s Office",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/4386"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/4387"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=4386"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=4386"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 21928,
+        "date": "2022-06-01T08:09:59",
+        "date_gmt": "2022-06-01T13:09:59",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=21928"
+        },
+        "modified": "2023-06-16T16:04:49",
+        "modified_gmt": "2023-06-16T21:04:49",
+        "slug": "jonathon-halbesleben",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/jonathon-halbesleben/",
+        "title": {
+            "rendered": "Jonathon Halbesleben, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. University of Oklahoma</li>\n<li>M.S. University of Oklahoma</li>\n<li>B.S. Winona State University</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Jonathon Halbesleben began his duties as the seventh dean of the Carlos Alvarez College of Business at The University of Texas at San Antonio on June 1, 2022. He is the first dean to hold two chaired appointments as the Bodenstedt Chair for the Dean of Business and Tom C. Frost Distinguished University Chair for Business Excellence.</p>\n<p>Halbesleben has a demonstrated record of collaboration in leading complex educational enterprises that advance the goals of the university, support faculty and students and meet the needs of the regional and local business community.</p>\n<p>In addition to his administrative duties at UTSA, Halbesleben will serve as a professor of management. He has written or edited 17 books and published over 95 peer-reviewed journal articles.</p>\n<p>His research has been funded by the National Institute for Occupational Safety and Health, Agency for Healthcare Research and Quality, Centers for Disease Control and Prevention and Department of Defense, among others. He is a fellow of the American Psychological Association and Society for Industrial and Organizational Psychology.</p>\n<p>Prior to joining UTSA, Halbesleben was an administrator at the University of Alabama, first as senior associate dean and Russell Professor of Business Administration in the Culverhouse College of Business and then as dean of the College of Continuing Studies. Previous faculty positions included stints at the University of Wisconsin-Eau Claire and the University of Missouri.</p>\n<p>Halbesleben earned his Ph.D. and M.S. in industrial/organizational psychology from the University of Oklahoma and a bachelor’s degree from Winona State University.</p>\n<p><a class=\"btn btnCTA\" href=\"https://business.utsa.edu/dean-event-request/\" target=\"_blank\" rel=\"noopener noreferrer\">Invite to an Event</a></p>\n<p><iframe loading=\"lazy\" src=\"https://player.simplecast.com/0c905698-65d9-46cf-a12e-ec7fb0f8209d?dark=false\" width=\"60%\" height=\"200px\" frameborder=\"no\" scrolling=\"no\" seamless=\"\"></iframe></p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Employee well-being</li>\n<li>Work-family issues</li>\n<li>Relationships in and out of the workplace</li>\n</ul>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li><em>Research in Personnel and Human Resource Management,</em> with M. R. Buckley, A. R. Wheeler and J. Baur,  Vol. 40, Bingley, UK: Emerald, 2022.</li>\n<li><em>Managing Stress and Preventing Burnout in the Healthcare Workplace</em> (2nd edition), Chicago: Health Administration Press, 2022.</li>\n<li>&#8220;Decomposing the Reciprocal Nature of Workplace Mistreatment: A Social Network Perspective,&#8221; with D. Kluemper, M. Bowler, S. Taylor and M. Bing, <em>Journal of Applied Psychology</em>, Vol. 104, 2019, pp. 946-964.</li>\n<li>&#8220;Conservation of Resources in the Organizational Context: The Reality of Resources and Their Consequences,&#8221; with S. E. Hobfoll,  J. Neveu  and M. Westman,  <em>Annual Review of Organizational Psychology and Organizational Behavior</em>, Vol. 5, 2018, pp. 103-128.</li>\n<li>&#8220;Misalignment and Misperception in Preferences to Utilize Family-friendly Benefits: Implications for Benefit Utilization and Work-family Conflict,&#8221; with A. M. Mandeville and M. V. Whitman, <em>Personnel Psychology</em>, Vol. 69, 2016, pp. 895-929.</li>\n<li>&#8220;The Work-family Interface and Promotability: A Double-edged Sword,&#8221; with S. C. Paustian-Underdahl, D.C. Carlson and K. M. Kacmar, <em>Journal of Management</em>, Vol. 42, 2016, pp. 960-981.</li>\n<li>&#8220;Getting to the COR: Understanding the Role of Resources in Conservation of Resources Theory,&#8221; with J. P. Neveu, S. C. Paustian-Underdahl and M. Westman, <em>Journal of Management</em>, Vol. 40, 2014, pp. 1334-1364.</li>\n<li>&#8220;The Impact of Furloughs on Emotional Exhaustion, Performance, and Recovery Experiences,&#8221; with A. R. Wheeler and S.C. Paustian-Underdahl,  <em>Journal of Applied Psychology</em>, Vol. 98, 2013, pp. 492-503.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 23790,
+        "template": "",
+        "faculty_departments": [
+            93
+        ],
+        "acf": {
+            "first_name": "Jonathon",
+            "last_name": "Halbesleben",
+            "faculty_title": "Dean and Bodenstedt Chair <br> Tom C. Frost Distinguished University Chair for Business Excellence <br> Professor of Management",
+            "faculty_email": "jonathon.halbesleben@utsa.edu",
+            "faculty_phone": "210-458-4313",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.02",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Management",
+                    "role": "Faculty"
+                },
+                {
+                    "department": "Dean’s Office",
+                    "role": "Administrators"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/21928"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/23790"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=21928"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=21928"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 22087,
+        "date": "2022-06-20T09:37:23",
+        "date_gmt": "2022-06-20T14:37:23",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=22087"
+        },
+        "modified": "2022-06-21T00:55:40",
+        "modified_gmt": "2022-06-21T05:55:40",
+        "slug": "brittney-johnson",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/brittney-johnson/",
+        "title": {
+            "rendered": "Brittney Johnson"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 22089,
+        "template": "",
+        "faculty_departments": [
+            93
+        ],
+        "acf": {
+            "first_name": "Brittney",
+            "last_name": "Johnson",
+            "faculty_title": "Multimedia Specialist II",
+            "faculty_email": "Brittney.Johnson@utsa.edu",
+            "faculty_phone": "210-458-3501",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.08",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Dean’s Office",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/22087"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/22089"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=22087"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=22087"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 7880,
+        "date": "2019-01-04T15:17:13",
+        "date_gmt": "2019-01-04T15:17:13",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=7880"
+        },
+        "modified": "2023-05-17T15:07:19",
+        "modified_gmt": "2023-05-17T20:07:19",
+        "slug": "kyo-koo",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/kyo-koo/",
+        "title": {
+            "rendered": "Kyo Koo"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 9794,
+        "template": "",
+        "faculty_departments": [
+            93
+        ],
+        "acf": {
+            "first_name": "Kyo",
+            "last_name": "Koo",
+            "faculty_title": "Director of Educational Technology",
+            "faculty_email": "kyo.koo@utsa.edu",
+            "faculty_phone": "210-458-4773",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.04.26",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Faculty Success and Research",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/7880"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/9794"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=7880"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=7880"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 4412,
+        "date": "2018-03-08T16:07:51",
+        "date_gmt": "2018-03-08T16:07:51",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=4412"
+        },
+        "modified": "2023-05-17T15:09:22",
+        "modified_gmt": "2023-05-17T20:09:22",
+        "slug": "melissa-lackey",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/melissa-lackey/",
+        "title": {
+            "rendered": "Melissa Lackey"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 18579,
+        "template": "",
+        "faculty_departments": [
+            93
+        ],
+        "acf": {
+            "first_name": "Melissa",
+            "last_name": "Lackey",
+            "faculty_title": "Director of Marketing",
+            "faculty_email": "melissa.lackey@utsa.edu",
+            "faculty_phone": "210-458-8291",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.08",
+            "faculty_pdf": "",
+            "faculty_additional_info": "<strong>Director of Marketing\r\n</strong>College of Business",
+            "department_role_repeater": [
+                {
+                    "department": "Dean’s Office",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/4412"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/18579"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=4412"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=4412"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 9753,
+        "date": "2019-06-11T21:49:35",
+        "date_gmt": "2019-06-11T21:49:35",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=9753"
+        },
+        "modified": "2023-05-17T15:19:56",
+        "modified_gmt": "2023-05-17T20:19:56",
+        "slug": "min-liu",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/min-liu/",
+        "title": {
+            "rendered": "Min Liu"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 18584,
+        "template": "",
+        "faculty_departments": [
+            93
+        ],
+        "acf": {
+            "first_name": "Min",
+            "last_name": "Liu",
+            "faculty_title": "Administrative Analyst",
+            "faculty_email": "min.liu2@utsa.edu",
+            "faculty_phone": "210-458-8675",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.06.12",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Faculty Success and Research",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/9753"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/18584"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=9753"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=9753"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 26052,
+        "date": "2023-08-23T09:27:33",
+        "date_gmt": "2023-08-23T14:27:33",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=26052"
+        },
+        "modified": "2023-08-23T12:20:48",
+        "modified_gmt": "2023-08-23T17:20:48",
+        "slug": "sarah-miller",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/sarah-miller/",
+        "title": {
+            "rendered": "Sarah Miller"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 13293,
+        "template": "",
+        "faculty_departments": [
+            93
+        ],
+        "acf": {
+            "first_name": "Sarah",
+            "last_name": "Miller",
+            "faculty_title": "Associate Director of Development",
+            "faculty_email": "sarah.osborn@utsa.edu",
+            "faculty_phone": "210-458-7298",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.02L2",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Dean’s Office",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/26052"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/13293"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=26052"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=26052"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 25448,
+        "date": "2023-06-20T12:50:44",
+        "date_gmt": "2023-06-20T17:50:44",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=25448"
+        },
+        "modified": "2023-06-20T13:09:19",
+        "modified_gmt": "2023-06-20T18:09:19",
+        "slug": "marissa-orozco",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/marissa-orozco/",
+        "title": {
+            "rendered": "Marissa Orozco"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 25449,
+        "template": "",
+        "faculty_departments": [
+            93
+        ],
+        "acf": {
+            "first_name": "Marisa",
+            "last_name": "Orozco",
+            "faculty_title": "Senior Program Coordinator",
+            "faculty_email": "marissa.orozco@utsa.edu",
+            "faculty_phone": "210-458-4494",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.02",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Dean’s Office",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/25448"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/25449"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=25448"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=25448"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 19704,
+        "date": "2021-11-04T10:28:41",
+        "date_gmt": "2021-11-04T15:28:41",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=19704"
+        },
+        "modified": "2023-05-18T09:33:04",
+        "modified_gmt": "2023-05-18T14:33:04",
+        "slug": "kailey-renee-villarreal",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/kailey-renee-villarreal/",
+        "title": {
+            "rendered": "Kailey Villarreal"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 20092,
+        "template": "",
+        "faculty_departments": [
+            93
+        ],
+        "acf": {
+            "first_name": "Kailey",
+            "last_name": "Villarreal",
+            "faculty_title": "Program Coordinator",
+            "faculty_email": "kailey.villarreal@utsa.edu",
+            "faculty_phone": "210-458-7311",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.08",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Dean’s Office",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/19704"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/20092"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=19704"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=19704"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "id": 25177,
+        "date": "2023-05-15T08:06:36",
+        "date_gmt": "2023-05-15T13:06:36",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=25177"
+        },
+        "modified": "2023-07-13T15:43:14",
+        "modified_gmt": "2023-07-13T20:43:14",
+        "slug": "don-carrington",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/don-carrington/",
+        "title": {
+            "rendered": "Don Carrington"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 25202,
+        "template": "",
+        "faculty_departments": [
+            872,
+            45
+        ],
+        "acf": {
+            "first_name": "Don",
+            "last_name": "Carrington",
+            "faculty_title": "Assistant Director Doctoral Programs and Fiscal Administration",
+            "faculty_email": "Don.Carrington@utsa.edu",
+            "faculty_phone": "210-458-5281",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.18D",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Faculty Success and Research",
+                    "role": "Staff"
+                },
+                {
+                    "department": "Doctoral Studies",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/25177"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/25202"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=25177"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=25177"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,2391 @@
+[
+    {
+        "id": 18893,
+        "date": "2021-08-31T15:16:04",
+        "date_gmt": "2021-08-31T20:16:04",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=18893"
+        },
+        "modified": "2023-05-17T09:04:23",
+        "modified_gmt": "2023-05-17T14:04:23",
+        "slug": "ana-arellano",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/ana-arellano/",
+        "title": {
+            "rendered": "Ana Arellano"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 18894,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Ana",
+            "last_name": "Arellano",
+            "faculty_title": "Senior Administrative Associate",
+            "faculty_email": "ana.arellano@utsa.edu",
+            "faculty_phone": "210-458-6330",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.06",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/18893"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/18894"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=18893"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=18893"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 19745,
+        "date": "2021-11-08T11:32:32",
+        "date_gmt": "2021-11-08T17:32:32",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=19745"
+        },
+        "modified": "2023-08-24T13:20:40",
+        "modified_gmt": "2023-08-24T18:20:40",
+        "slug": "lecturer-in-marketing",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/lecturer-in-marketing/",
+        "title": {
+            "rendered": "David Blank"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 19746,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "David",
+            "last_name": "Blank",
+            "faculty_title": "Lecturer in Marketing",
+            "faculty_email": "david.blank@utsa.edu",
+            "faculty_phone": "210-458-6330",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.06",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/19745"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/19746"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=19745"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=19745"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1584,
+        "date": "2017-11-08T17:31:31",
+        "date_gmt": "2017-11-08T17:31:31",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1584"
+        },
+        "modified": "2023-08-28T10:32:50",
+        "modified_gmt": "2023-08-28T15:32:50",
+        "slug": "wendy-boaglio",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/wendy-boaglio/",
+        "title": {
+            "rendered": "Wendy Boaglio Gratereaux, MBA"
+        },
+        "content": {
+            "rendered": "<p>Gratereaux is currently a top-rated global marketing consultant and a full-time digital and social media marketing lecturer at the University of Texas at San Antonio (UTSA), teaching undergraduate and graduate students. She started at UTSA as a teaching and research assistant in 2009 in consumer behavior, market research, advertising, multicultural marketing, international marketing and marketing foundations. Gratereaux also assisted with scientific research studies and contributed to the book Transcultural Marketing by Dr. Marye Tharp. Prior to UTSA, Gratereaux was a corporate marketing and business executive for 10 years.</p>\n",
+            "protected": false
+        },
+        "featured_media": 4529,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Wendy",
+            "last_name": "Boaglio Gratereaux",
+            "faculty_title": "Associate Professor of Practice in Marketing",
+            "faculty_email": "wendy.boaglio@utsa.edu",
+            "faculty_phone": "",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.05.06",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1584"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/4529"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1584"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1584"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1364,
+        "date": "2017-11-06T22:17:34",
+        "date_gmt": "2017-11-06T22:17:34",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1364"
+        },
+        "modified": "2023-05-17T09:21:53",
+        "modified_gmt": "2023-05-17T14:21:53",
+        "slug": "thomas-f-cannon",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/thomas-f-cannon/",
+        "title": {
+            "rendered": "Thomas F. Cannon, J.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>J.D. South Texas College of Law Houston</li>\n<li>M.A. Western Michigan University</li>\n<li>B.S. Western Michigan University</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Dr. Cannon is a <em>Distinguished Teaching Professor</em> and <em>Professor of Practice</em>. During his tenure at UTSA, he served for more than 10 years as Director of the former Tourism Management Program in the Carlos Alvarez College of Business and as Interim Chair of the Marketing Department.</p>\n<p>His consistently high student evaluations have resulted in numerous teaching awards including the coveted <em>University of Texas Regents’ Outstanding Teaching Award</em>; <em>President’s Distinguished Achievement Award for Teaching Excellence</em>; <em>Dean’s Teaching Excellence Award</em>; and induction into the UTSA Academy of Distinguished Teaching Scholars.</p>\n<p>Dr. Cannon has served on more than 40 committees, often in leadership positions. Highlights include Co-Founding Chair of the Provost’s Instructional Advisory Board; Chair, Executive Committee – Carlos Alvarez College of Business; Chair, University Standing Committee on Parking and Transportation;  Chair, University Fees Taskforce for Athletics and Transportation Student Referendums;  Chair, Shared Experiences Forum – Academy of Distinguished Teaching Scholars;­­­­­­ Chair, Carlos Alvarez College of Business Scholarship Committee; Chair, University SACS Committee on Recruitment and Admission; and Chair, University Online Instruction Task Force.</p>\n<p>His peers have awarded him the <em>President’s Distinguished Achievement Award for Excellence in University Service</em> and the <em>Dean’s Excellence Award for University Service</em>. He is also a four times recipient of <em>The Amber Award</em> for outstanding contributions and service to students.</p>\n<p>Dr. Cannon’s service has extended into the community. He has been appointed by the San Antonio City Council to the City’s Convention &amp; Visitors Bureau (now Visit San Antonio) where he was elected Chair of the Budget Committee; elected Vice Chair of the San Antonio Area Tourism Council; appointed to the Executive Committee of the City of San Antonio Cultural Collaborative, and appointed Chair of the Collaborative’s Community Awareness Committee for the Arts.</p>\n<p>Nationally he has served as Chair, American Marketing Association Tourism, Hospitality &amp; Leisure Marketing Special Interest Group; founding Chair, Student &amp; Faculty Advisory Council – Destination Marketing Association International; Chair, Sales &amp; Marketing Faculty Special Interest Group – Hospitality Sales &amp; Marketing Association, International; and member Marketing &amp; Convention Services Committee – Destination International.</p>\n<p>He earned his Bachelor and Master degrees from Western Michigan University and a Doctor of Jurisprudence degree from South Texas College of Law Houston and is a licensed Texas attorney.</p>\n<p>Prior to teaching at UTSA, he served in senior management positions in a variety of industries and established a consulting practice which he maintains today.</p>\n<p><strong> </strong></p>\n<h3><strong>Selected Applied Research</strong></h3>\n<ul>\n<li><em>The Dolph and Janey Briscoe Western Art Museum &#8211; Business Projections and Economic Impact Assessment (2007), </em>Commissioned by the National Western Art Foundation. Co-principal investigator.</li>\n<li><em>Operations, Construction, and Tourism Impacts of a Proposed Athletics Complex at the University of Texas at San Antonio </em>(2007), Commissioned by the Athletic Department of the University of Texas at San Antonio. Co-principal investigator</li>\n<li><em>The Economic Impact of the 2002 Dallas Cowboys Training Camp on the Economy of San Antonio</em>. (2002) Commissioned by the City of San Antonio.</li>\n<li><em>The Economic Impact of the Big 12 Championship Game and the SYLVANIA Alamo Bowl</em>. This study estimated the economic impact of the Big 12 Championship and the seventh annual SYLVANIA Alamo Bowl on the economy of San Antonio. (1999 &#8211; 2000) Commissioned by the Alamo Bowl.</li>\n<li><em>Potential Date Change for Texas Folklife Festival.</em> This study surveyed stakeholders (vendors, participants, attendees, volunteers, staff) regarding a date change for this 25-year-old festival. (2000) Commissioned by the Texas Folklife Festival</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 5619,
+        "template": "",
+        "faculty_departments": [
+            30,
+            34
+        ],
+        "acf": {
+            "first_name": "Thomas",
+            "last_name": "Cannon",
+            "faculty_title": "Professor of Practice in Marketing <br> Distinguished Teaching Professor",
+            "faculty_email": "thomas.cannon@utsa.edu",
+            "faculty_phone": "210-458-3111",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.03.14",
+            "faculty_pdf": 1382,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Faculty"
+                },
+                {
+                    "department": "Accounting",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1364"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/5619"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1364"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1364"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 13615,
+        "date": "2020-08-17T21:29:56",
+        "date_gmt": "2020-08-17T21:29:56",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=13615"
+        },
+        "modified": "2021-03-25T21:34:41",
+        "modified_gmt": "2021-03-25T21:34:41",
+        "slug": "stephany-castruita",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/stephany-castruita/",
+        "title": {
+            "rendered": "Stephany Castruita"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 13616,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Stephany",
+            "last_name": "Castruita",
+            "faculty_title": "Doctoral Student - Marketing",
+            "faculty_email": "stephany.castruita@utsa.edu",
+            "faculty_phone": "",
+            "faculty_fax": "",
+            "faculty_office_number": "",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Doctoral Students"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/13615"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/13616"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=13615"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=13615"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1621,
+        "date": "2017-11-08T18:41:10",
+        "date_gmt": "2017-11-08T18:41:10",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1621"
+        },
+        "modified": "2023-08-16T09:55:14",
+        "modified_gmt": "2023-08-16T14:55:14",
+        "slug": "deepa-chandrasekaran",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/deepa-chandrasekaran/",
+        "title": {
+            "rendered": "Deepa Chandrasekaran, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. University of Southern California</li>\n<li>MBA Indian Institute of Management Bangalore</li>\n<li>M.A. Stella Maris College</li>\n<li>B.A. Stella Maris College</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Dr. Deepa Chandrasekaran is an associate professor of marketing in the Department of Marketing and is currently serving as the Department Chair of Marketing.</p>\n<p>Chandrasekaran is an expert in the areas of new product diffusion, innovation management and international marketing strategy. Her research articles have been published in top marketing journals such as <em>Journal of Marketing</em>, <em>Marketing Science, Journal of the Academy of Marketing Science</em>, <em>Journal of Product Innovation Management</em>, <em>Journal of Consumer Psychology</em> and the <em>International Journal of Research in Marketing</em>.</p>\n<p>She has won several research awards including the American Marketing Association Global Marketing SIG’s Excellence in Global Marketing Research Award, the Christian and Mary Lindback Foundation’s Minority Junior Faculty award, the Best Paper award at the Product Development and Management Association Research Forum, the Carlos Alvarez College of Business Dean’s Faculty Research Excellence Awards. Her work was a finalist for the Marketing Science Institute/H. Paul Root Award.</p>\n<p>Deepa currently serves as Associate Editor of the <em>Journal of Product Innovation Management</em><em> and the Journal of International Marketing</em>. She also serves on the Editorial Review Board of the <em>Journal of Marketing</em> and the <em>Journal of the Academy of Marketing Science</em>. She has served as secretary of the ISMS Board (INFORMS Society for Marketing Science). Her service contributions were recognized with the Alvarez College of Business Patrick J. Clynes Excellence in Service Endowed Faculty Award.</p>\n<p>Her teaching interests include International Marketing, Marketing Strategy, Principles of Marketing, Market Research, and New Product Development. Her teaching has been recognized with the College of Business Dean’s Faculty Teaching Excellence Award for Tenure Track Faculty.</p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Innovation</li>\n<li>Digital platforms</li>\n<li>New product adoption and diffusion</li>\n<li>New product development</li>\n<li>Marketing strategy</li>\n<li>Crowdsourcing</li>\n<li>Emerging markets</li>\n</ul>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“Leapfrogging, Cannibalization, and Survival During Disruptive Technological Change: The Critical Role of Rate of Disengagement,” with Gerard J. Tellis and Gareth M. James<em>, Journal of Marketing</em>, Vol. 86, No. 1, 2022, 149-166.</li>\n<li>“How Can Platforms Decrease Their Dependence on Traditional Indirect Network Effects? Innovating Using Platform Envelopment,&#8221; with BJ Allen and Rick Gretz, <em>Journal of Product Innovation Management</em>, Vol. 38, No. 5, 2021, 497-522.</li>\n<li>“The Association Between the Attitude of Food-Waste-Aversion and BMI: An Exploration in India and the US,” with Rajagopal Raghunathan, <em>Journal of Consumer Psychology,</em> Vol. 31, No. 1, 2021, 81-90.</li>\n<li>“How Parental Love Received in Childhood Affects Consumers’ Future Financial Discipline,” with Rajagopal Raghunathan and Zhiyong Yang, <em>Journal of the Association for Consumer Research, </em>Vol. 5, No. 3, 2020, 248-258.</li>\n<li>“Design Crowdsourcing: The Impact on New Product Performance of Sourcing Design Solutions from the “Crowd,” with B.J. Allen and Suman Basuroy, <em>Journal of Marketing</em>, Vol. 82, No. 2, 2018, 106-123.</li>\n<li>“Effects of Offline Ad Content on Online Brand Search: Insights from Super Bowl Advertising,” with R. Srinivasan and D. Sihi, <em>Journal of the Academy of Marketing Science</em>, Vol. 46, No. 3, 2018, 403-430.</li>\n<li>&#8220;Open Innovation, Product Portfolio Innovativeness and Firm Performance: The Dual Role of New Product Development Capabilities,&#8221; with G. Rubera and A. Ordanini, <em>Journal of the Academy of Marketing Science</em>, Vol. 44, Issue 2, March 2016, pp. 166-184.</li>\n<li>&#8220;Pricing and International Takeoff of New Products,&#8221; with J. Arts, G. J. Tellis and R. Frambach, <em>International Journal of Research in Marketing</em>, Vol. 30, No. 3, 2013, pp. 249-264.</li>\n<li>&#8220;Getting a Grip on the Saddle: Cycles or Chasms?&#8221; with G. J. Tellis, <em>Journal of Marketing</em>, Vol. 75, No. 4, 2011, pp. 21-34.</li>\n<li>&#8220;Extent and Impact of Response Biases in Cross-National Survey Research,&#8221; with G. J. Tellis, <em>International Journal of Research in Marketing</em>, Vol. 27, No. 4, 2010, pp. 329-341.</li>\n<li>&#8220;Global Takeoff of New Products: Culture, Wealth or Vanishing Differences,&#8221; with G. J. Tellis, <em>Marketing Science</em>, Vol. 27, No. 5, 2008, pp. 844-860.</li>\n<li>&#8220;A Critical Review of Marketing Research on Diffusion of New Products,&#8221; with G. J. Tellis, <em>Review of Marketing Research</em>, Vol. 3, 2007, pp. 39-80.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 6271,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Deepa",
+            "last_name": "Chandrasekaran",
+            "faculty_title": "Department Chair of Marketing <br> Anheuser-Busch Endowed Professor <br> Associate Professor of Marketing",
+            "faculty_email": "deepa.chandrasekaran@utsa.edu",
+            "faculty_phone": "210-458-5733",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.06",
+            "faculty_pdf": 25789,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Administrators"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1621"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/6271"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1621"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1621"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1629,
+        "date": "2017-11-08T18:55:48",
+        "date_gmt": "2017-11-08T18:55:48",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1629"
+        },
+        "modified": "2023-05-17T14:12:54",
+        "modified_gmt": "2023-05-17T19:12:54",
+        "slug": "daniel-j-davied",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/daniel-j-davied/",
+        "title": {
+            "rendered": "Daniel J. Davied, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. Saint Louis University</li>\n<li>MBA Saint Louis University</li>\n<li>B.S.E.T. Pittsburg State University</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Dan Davied has more than 30 years of industry and leadership experience, including 16 years in vice president and executive director positions. His background spans a broad spectrum of responsibilities in the areas of marketing, sales, market research, financial management, project management, operations, strategic planning, digital marketing and quality development.</p>\n<p>At AT&amp;T, Dr. Davied directed a $500 million annual budget and developed financial models for the prioritization and allocation of capital funds for new projects. He also assessed new technologies and defined the strategy for the development, deployment and placement of new services and has spoken at global trade conferences on the timely launch of new innovations.</p>\n<p>Before retiring from industry, Dr. Davied designed and launched a new line of business that penetrated national and global markets and guided business operations to grow to annual revenues over $300 million. In his role, he guided the acquisition of a complementary provider, directed operations for an 800-person sales and customer care team, and oversaw all profit &amp; loss activities.</p>\n<p>Dr. Davied retired from AT&amp;T in 2014 to pursue a second career in academia. While working full time for AT&amp;T, he gained more than 20 years experience in adjunct teaching positions at Saint Louis University, Webster University, DeVry University, Concordia University and The University of Texas at San Antonio.</p>\n<p>He holds a Ph.D. in marketing and an MBA with an emphasis in finance from Saint Louis University, and a B.S. in Engineering Technology from Pittsburg State University. His teaching and research areas of interest focus on marketing strategies and new product development.</p>\n<p><a class=\"btn btnCTA\" href=\"https://calendly.com/danieldavied\" target=\"_blank\" rel=\"noopener noreferrer\">Book a virtual advising session</a></p>\n",
+            "protected": false
+        },
+        "featured_media": 3466,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Daniel",
+            "last_name": "Davied",
+            "faculty_title": "Professor of Practice of Marketing",
+            "faculty_email": "Daniel.davied@utsa.edu",
+            "faculty_phone": "210-458-6358",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.04.29",
+            "faculty_pdf": 12826,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1629"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/3466"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1629"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1629"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 25758,
+        "date": "2023-08-02T10:59:58",
+        "date_gmt": "2023-08-02T15:59:58",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=25758"
+        },
+        "modified": "2023-08-09T08:27:02",
+        "modified_gmt": "2023-08-09T13:27:02",
+        "slug": "matthew-flores",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/matthew-flores/",
+        "title": {
+            "rendered": "Matthew Flores"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 25847,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Matthew",
+            "last_name": "Flores",
+            "faculty_title": "Senior Lecturer in Marketing",
+            "faculty_email": "matthew.flores@utsa.edu",
+            "faculty_phone": "",
+            "faculty_fax": "",
+            "faculty_office_number": "",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/25758"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/25847"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=25758"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=25758"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 10431,
+        "date": "2019-09-16T20:55:42",
+        "date_gmt": "2019-09-16T20:55:42",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=10431"
+        },
+        "modified": "2022-03-08T08:49:02",
+        "modified_gmt": "2022-03-08T14:49:02",
+        "slug": "emma-gibbons",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/emma-gibbons/",
+        "title": {
+            "rendered": "Emma Gibbons"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 18545,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Emma",
+            "last_name": "Gibbons",
+            "faculty_title": "Doctoral Student - Marketing",
+            "faculty_email": "emma.gibbons@utsa.edu",
+            "faculty_phone": "210-458-7310",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.04.02",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Doctoral Students"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/10431"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/18545"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=10431"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=10431"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1634,
+        "date": "2017-11-08T19:00:03",
+        "date_gmt": "2017-11-08T19:00:03",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1634"
+        },
+        "modified": "2022-06-20T15:07:20",
+        "modified_gmt": "2022-06-20T20:07:20",
+        "slug": "richard-gretz",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/richard-gretz/",
+        "title": {
+            "rendered": "Richard Gretz, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. Claremont Graduate University</li>\n<li>M.A. Claremont Graduate University</li>\n<li>B.A. Westfield State College</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Dr. Richard T. Gretz joined The University of Texas at San Antonio in 2015 as an associate professor of marketing. He received his Ph.D. in economics from Claremont Graduate University in 2005 and holds undergraduate degrees in economics and political science from Westfield State College. Prior to joining UTSA, Richard held the position of associate professor of economics at Bradley University’s Foster College of Business where he also served as academic director for MBA and EMBA Programs from 2013-2015.</p>\n<p>Richard’s specialty is empirical industrial organization, quantitative marketing and modeling and applied game theory. His research focuses on product lifecycles, marketing and market performance of entertainment goods, specifically video games and motion pictures. Additionally, he has had significant consulting experience with local government and Fortune 500 companies. He has published several scholarly articles in academic journals including <em>The Journal of Monetary Economics</em>, <em>Journal of Economic Behavior and Organization</em> and <em>Journal of Retailing</em>.</p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Empirical modeling</li>\n<li>Entertainment industries</li>\n<li>Two-sided markets</li>\n<li>Network effects</li>\n<li>Product lifecycles</li>\n</ul>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“Why Quality May Not Always Win: The Impact of Product Generation Life Cycles on Quality and Network Effects in High-Tech Markets,” with Suman Basuroy, <em>Journal of Retailing</em>, Vol. 89, No. 3, 2013, pp. 231-300.</li>\n<li>“Hardware Quality vs. Network Size in the Home Video Game Industry,” <em>Journal of Economic Behavior and Organization</em>, Vol. 76, No. 2, 2010, pp. 168-183.</li>\n<li>“Strategic R&amp;D Policy: Societal Objectives and the Corporate Welfare Argument,” with Jannett Highfill and Robert C. Scott, <em>Contemporary Economic Policy</em>, Vol. 27, No. 1, 2009, pp.  28-45.</li>\n<li>“Strategic Innovation and Technology Adoption in an Evolving Industry,” with Darren Filson, <em>Journal of Monetary Economics</em>, Vol. 51, No. 1, January 2004, pp. 89-121.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 1638,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Richard",
+            "last_name": "Gretz",
+            "faculty_title": "Associate Professor of Marketing <br>Ph.D. Advisor",
+            "faculty_email": "richard.gretz@utsa.edu",
+            "faculty_phone": "210.458.5741",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.04.08",
+            "faculty_pdf": 22088,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Faculty"
+                },
+                {
+                    "department": "Doctoral Studies",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1634"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1638"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1634"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1634"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 25738,
+        "date": "2023-08-01T15:38:13",
+        "date_gmt": "2023-08-01T20:38:13",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=25738"
+        },
+        "modified": "2023-08-30T15:01:19",
+        "modified_gmt": "2023-08-30T20:01:19",
+        "slug": "stephen-he",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/stephen-he/",
+        "title": {
+            "rendered": "Stephen He, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. Georgia Institute of Technology</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Dr. Stephen He received his Ph.D. in marketing from the Scheller College of Business, Georgia Institute of Technology. As a marketing professor and researcher, He is interested in how consumers process information and make decisions in digital marketplaces. His research examines the dynamics among word of mouth, new technology, new ways of communication and the consumer decision journey. His works have been published in the Journal of Marketing Research, the Journal of Consumer Psychology, the Journal of Consumer Research and featured on Science Daily.</p>\n<p>He&#8217;s research allows marketers to better promote their brands, products and services and improves the quality of consumer decisions. His work has been sponsored by the Marketing Science Institute, the Sloan Foundation funded Research Program on the Economics of Knowledge Contribution and Distribution and the Society for Consumer Psychology.</p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Consumer Decision Process</li>\n<li>Word of Mouth Marketing</li>\n</ul>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“<a href=\"https://journals.sagepub.com/doi/full/10.1177/0022243718821957\" target=\"_blank\" rel=\"noopener\">Speaking for &#8220;Free&#8221;: Word of Mouth in Free- and Paid- Product Settings</a>,” with S. Bond and W.Wen, <em>Journal of Marketing Research</em>, Vol. 56, Issue 2<span data-contrast=\"none\">, 2019, pp. 276-290. </span></li>\n<li>&#8220;<a href=\"https://academic.oup.com/jcr/article/41/6/1509/2379584\" target=\"_blank\" rel=\"noopener\">Why is the Crowd Divided? Attribution for Dispersion in Online Word of Mouth</a>,&#8221; with S. Bond, <em>Journal of Consumer Research</em>, Vol. 41, Issue 6, 2015, pp. 1509-27.</li>\n<li>&#8220;<a href=\"https://www.sciencedirect.com/science/article/pii/S1057740813000296\" target=\"_blank\" rel=\"noopener\">Word of Mouth and the Forecasting of Consumption Enjoyment</a>,&#8221; with S.Bond, <em>Journal of Consumer Psychology</em>, Vol. 23, Issue 4, 2013, pp. 464-82.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 25786,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Stephen",
+            "last_name": "He",
+            "faculty_title": "Assistant Professor of Marketing",
+            "faculty_email": "stephen.he@utsa.edu",
+            "faculty_phone": "",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 04.04.30",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/25738"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/25786"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=25738"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=25738"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 25935,
+        "date": "2023-08-15T09:53:12",
+        "date_gmt": "2023-08-15T14:53:12",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=25935"
+        },
+        "modified": "2023-08-15T09:53:12",
+        "modified_gmt": "2023-08-15T14:53:12",
+        "slug": "madison-henry",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/madison-henry/",
+        "title": {
+            "rendered": "Madison Henry"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 13293,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Madison",
+            "last_name": "Henry",
+            "faculty_title": "Doctoral Student - Marketing",
+            "faculty_email": "madison.henry2@my.utsa.edu",
+            "faculty_phone": "",
+            "faculty_fax": "",
+            "faculty_office_number": "",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Doctoral Students"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/25935"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/13293"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=25935"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=25935"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 25936,
+        "date": "2023-08-15T09:54:09",
+        "date_gmt": "2023-08-15T14:54:09",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=25936"
+        },
+        "modified": "2023-08-15T09:54:09",
+        "modified_gmt": "2023-08-15T14:54:09",
+        "slug": "bryson-hilton",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/bryson-hilton/",
+        "title": {
+            "rendered": "Bryson Hilton"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 1687,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Bryson",
+            "last_name": "Hilton",
+            "faculty_title": "Doctoral Student - Marketing",
+            "faculty_email": "bryson.hilton@my.utsa.edu",
+            "faculty_phone": "",
+            "faculty_fax": "",
+            "faculty_office_number": "",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Doctoral Students"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/25936"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1687"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=25936"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=25936"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 10537,
+        "date": "2019-10-18T20:29:36",
+        "date_gmt": "2019-10-18T20:29:36",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=10537"
+        },
+        "modified": "2023-08-28T10:32:43",
+        "modified_gmt": "2023-08-28T15:32:43",
+        "slug": "ricard-jensen",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/ricard-jensen/",
+        "title": {
+            "rendered": "Ricard Jensen, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. Texas A&amp;M University</li>\n<li>M. Ed. Texas A&amp;M University</li>\n<li>B.A. Brigham Young University</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Ricard Jensen joined UTSA in 2017 as a senior lecturer in the Department of Marketing. His expertise is in sport management, sport marketing and event management.</p>\n<p>Jensen has published 28 articles in peer-reviewed academic journals as well as 15 book chapters. He has made 50 presentations at academic conferences.</p>\n<p>Jensen&#8217;s academic interests focus on sport fandom, sport media, sport events and event management.</p>\n<h3><strong>Courses Taught</strong></h3>\n<ul>\n<li>Sport Management</li>\n<li>Event Management</li>\n<li>Mega-event Management</li>\n<li>Principles of Marketing</li>\n<li>International Marketing</li>\n<li>Consumer Behavior</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 10538,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Ricard",
+            "last_name": "Jensen",
+            "faculty_title": "Assistant Professor of Practice",
+            "faculty_email": "ricard.jensen@utsa.edu",
+            "faculty_phone": "979-574-5187",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.05.12",
+            "faculty_pdf": 10722,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/10537"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/10538"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=10537"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=10537"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 10294,
+        "date": "2019-08-26T20:00:18",
+        "date_gmt": "2019-08-26T20:00:18",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=10294"
+        },
+        "modified": "2023-05-17T14:58:32",
+        "modified_gmt": "2023-05-17T19:58:32",
+        "slug": "jihye-jung-ph-d",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/jihye-jung-ph-d/",
+        "title": {
+            "rendered": "Jihye Jung, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. Rice University</li>\n<li>MBA KDI School of Public Policy and Management</li>\n<li>B.A. Yonsei University</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Jihye Jung joined the Carlos Alvarez College of Business in 2019 as an assistant professor of marketing. Her research focuses on consumer identity and affect, cross-cultural consumer psychology and social influence on judgement and choice. Her interests also include understanding nonconscious downstream effects of consumer political identity. She has published in <em>Journal of Marketing Research</em>, <em>Journal of Retailing</em> and <em>Journal of Public Policy and Marketing</em>.</p>\n<p>Prior to entering academia, she worked as a business consultant and marketing researcher for 10 years and was involved in developing strategic plans for various industries, including both consumer and B2B products and services. She received her doctorate in marketing from the Jones Graduate School of Business at Rice University.</p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Consumer identity</li>\n<li>Social influence</li>\n<li>Financial decision making</li>\n</ul>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“Political Identity and the Consumer Journey: A Research Review,” with Vikas Mittal, <em>Journal of Retailing</em>, forthcoming.</li>\n<li>“Political Identity and Financial Risk-Taking: Insights from Social Dominance Orientation,” with Kyuhong Han, Vikas Mittal, Jinyong Zyung and Hajo Adam, <em>Journal of Marketing Research</em>, Vol. 56, No. 4, August 2019, pp. 581-601.</li>\n<li>“Should I Buy This When I Have So Much? Reflection on Personal Possessions as an Anti-Consumption Strategy,” with Utpal Dholakia and Nivriti Chowdhry, <em>Journal of Public Policy and Marketing</em>, Vol. 37, No. 2, December 2018, pp. 260-273.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 21669,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Jihye",
+            "last_name": "Jung",
+            "faculty_title": "Assistant Professor of Marketing",
+            "faculty_email": "jihye.jung@utsa.edu",
+            "faculty_phone": "210-458-7484",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.02.52",
+            "faculty_pdf": 21668,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/10294"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/21669"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=10294"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=10294"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 18959,
+        "date": "2021-09-03T11:49:17",
+        "date_gmt": "2021-09-03T16:49:17",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=18959"
+        },
+        "modified": "2023-05-17T15:00:03",
+        "modified_gmt": "2023-05-17T20:00:03",
+        "slug": "imran-khan-dba",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/imran-khan-dba/",
+        "title": {
+            "rendered": "Imran Khan, DBA"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 18960,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Imran",
+            "last_name": "Khan",
+            "faculty_title": "Senior Lecturer in Marketing",
+            "faculty_email": "imran.khan@utsa.edu",
+            "faculty_phone": "210-458-6330",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.06",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/18959"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/18960"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=18959"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=18959"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 22990,
+        "date": "2022-09-02T14:59:59",
+        "date_gmt": "2022-09-02T19:59:59",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=22990"
+        },
+        "modified": "2023-09-20T09:15:49",
+        "modified_gmt": "2023-09-20T14:15:49",
+        "slug": "youngjin-kim",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/youngjin-kim/",
+        "title": {
+            "rendered": "Youngjin Kim"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 26379,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Youngjin",
+            "last_name": "Kim",
+            "faculty_title": "Doctoral Student - Marketing",
+            "faculty_email": "youngjin.kim@utsa.edu",
+            "faculty_phone": "210-458-7310",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.04.02",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Doctoral Students"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/22990"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/26379"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=22990"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=22990"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1657,
+        "date": "2017-11-08T19:19:19",
+        "date_gmt": "2017-11-08T19:19:19",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1657"
+        },
+        "modified": "2023-05-17T15:27:17",
+        "modified_gmt": "2023-05-17T20:27:17",
+        "slug": "ashwin-malshe",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/ashwin-malshe/",
+        "title": {
+            "rendered": "Ashwin Malshe, Ph.D."
+        },
+        "content": {
+            "rendered": "<p>&nbsp;</p>\n<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. SUNY-Binghamton</li>\n<li>M.M.S Mumbai University</li>\n<li>B.E. Mumbai University</li>\n</ul>\n<p><strong><a href=\"https://www.ashwinmalshe.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Personal Faculty Website</a></strong></p>\n<h3><strong>About</strong></h3>\n<p>Dr. Ashwin Malshe is an associate professor of marketing in the Department of Marketing at The University of Texas at San Antonio. He joined the UTSA faculty in 2016 after serving as an assistant professor at ESSEC Business School, Paris-Singapore for 5 years. He has been a visiting professor at Mannheim Business School in Germany since 2013. His Ph.D. is from SUNY-Binghamton in marketing with a minor in econometrics, and his undergraduate and master&#8217;s degrees are from Mumbai University, India.</p>\n<p>Dr. Malshe has research interests in social media marketing, marketing-finance interface and consumer behavior. In particular his research focuses on measuring the impact of marketing strategy in the financial markets. Dr. Malshe has teaching interests in social media marketing, marketing analytics and data visualization. He is a core faculty member for the M.S. in Data Analytics program at the Carlos Alvarez College of Business.</p>\n<p>Dr. Malshe has published in the <em>Journal of Marketing</em>, <em>Journal of Consumer Psychology</em> and <em>Journal of Business Research</em> among others. He is an ad hoc reviewer for the <em>Journal of Marketing</em>, <em>Journal of Consumer Psychology</em>, <em>International Journal of Research in Marketing</em>, <em>Journal of Business Research</em> and <em>Financial Review</em>. He writes a WordPress blog titled Micro-Positioning through which he shares his social media analysis.</p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Social media marketing</li>\n<li>Marketing-finance interface</li>\n<li>Consumer behavior</li>\n</ul>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“How Main Street Drives Wall Street: Customer (Dis)Satisfaction, Short Sellers, and Abnormal Returns,” with Anatoli Colicev and Vikas Mittal, <em>Journal of Marketing</em> Research, forthcoming. [UTSA Elite, ABS Tier 4]</li>\n<li>“Rejoinder to ‘Endogeneity Bias in Marketing Research: Problem, Causes and Remedies’,” with Richard Gretz, <em>Industrial Marketing Management</em>,  Vol. 77, 2019, pp. 57-62. [ABS Tier 3]</li>\n<li>“Transcription Errors of Blood Glucose Values and Insulin Errors in an Intensive Care Unit: Toward Electronic Medical Record &#8211; Glucometer Interoperability,” with Azizeh Khaled Sowan, Ana Vera and Charles Reed, <em>JMIR Medical Informatics</em>, Vol. 7, No. 1, 2019.</li>\n<li>“The Impact of Superstar and Non-Superstar Software on Hardware Sales: The Moderating Role of Hardware Lifecycle,” with Richard Gretz, Carlos Bauer and Suman Basuroy, <em>Journal of the Academy of Marketing Science, </em>Vol. 47, No. 3, 2019, pp. 394-416. [ABS Tier 4]</li>\n<li>&#8220;Improving Consumer Mind-Set Metrics and Shareholder Value Through Social Media: The Different Roles of Owned and Earned,” with Anatoli Colicev, Koen Pauwels and Peter O’Connor, <em>Journal of Marketing</em>, Vol. 82, No. 1, 2018, pp. 37-56. [UTSA Elite, ABS Tier 4]</li>\n<li>&#8220;Social Media and Customer-Based Brand Equity: An Empirial Investigation in Retail Industry,&#8221; <em>Administrative Sciences</em>, Vol. 8, No. 55, 2018.</li>\n<li>&#8220;The Unequal Effects of Partisanship on Brands,&#8221; with Vikas Mittal and Shrihari Sridhar, <em>Harvard Business Review</em>, 2018. [ABS Tier 3]</li>\n<li>“From Finance to Marketing: The Impact of Financial Leverage on Customer Satisfaction,” with Manoj K. Agarwal, <em>Journal of Marketing</em>, Vol. 79, No. 5, 2015, pp. 21-38.</li>\n<li>“The Role of Regulatory Fit on the Attraction Effect,” with Subimal Chatterjee and Rajat Roy, <em>Journal of Consumer Psychology</em>, Vol. 21, No. 4, 2011, pp. 473-481.</li>\n<li>“The Effect of Mixed Versus Blocked Sequencing of Promotion and Prevention Features on Brand Evaluation: The Moderating Role of Regulatory Focus,” with Subimal Chatterjee and Timothy Heath, <em>Journal of Business Research</em>, Vol. 63, No. 12, 2010, pp. 1290-1294.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 1659,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Ashwin",
+            "last_name": "Malshe",
+            "faculty_title": "Associate Professor of Marketing <br> Lutcher Brown Fellow",
+            "faculty_email": "ashwin.malshe@utsa.edu",
+            "faculty_phone": "210-458-5239",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.06.20",
+            "faculty_pdf": 8098,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1657"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1659"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1657"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1657"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 22875,
+        "date": "2022-08-23T16:19:54",
+        "date_gmt": "2022-08-23T21:19:54",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=22875"
+        },
+        "modified": "2023-05-18T08:01:47",
+        "modified_gmt": "2023-05-18T13:01:47",
+        "slug": "siva-shanmugam-mariappan",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/siva-shanmugam-mariappan/",
+        "title": {
+            "rendered": "Siva Shanmugam Mariappan"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 1687,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Siva Shanmugam",
+            "last_name": "Mariappan",
+            "faculty_title": "Doctoral Student - Marketing",
+            "faculty_email": "sivashanmugam.mariappan@my.utsa.edu",
+            "faculty_phone": "210-458-7310",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.04.02",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Doctoral Students"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/22875"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1687"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=22875"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=22875"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 2221,
+        "date": "2017-11-21T19:52:27",
+        "date_gmt": "2017-11-21T19:52:27",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=2221"
+        },
+        "modified": "2023-05-18T08:47:02",
+        "modified_gmt": "2023-05-18T13:47:02",
+        "slug": "michael-mcdonald",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/michael-mcdonald/",
+        "title": {
+            "rendered": "Michael L. McDonald, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. University of Texas at Austin</li>\n<li>B.A. Emory University</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Dr. Michael McDonald is a professor in the Department of Management at The University of Texas at San Antonio. He joined UTSA in 2010. He earned his Ph.D. in management from the University of Texas at Austin. He holds a B.A. in economics from Emory University.</p>\n<p>Dr. McDonald teaches courses in strategic management and organization theory. He primarily studies executive leaders. His research has focused on how executives help one another to succeed, with a special emphasis on how CEOs’ effectiveness can be influenced by the various kinds of help (e.g., advice on strategic issues) that they receive from CEOs at other firms. He has also published studies on board of director effectiveness and racial and gender diversity in corporate leadership.</p>\n<p>Dr. McDonald’s research has appeared in the <em>Academy of Management Journal</em>, <em>Administrative Science Quarterly</em>, and the <em>Strategic Management Journal</em>. He is a member of the editorial review board of the <em>Academy of Management Journal</em>.</p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Executive leadership</li>\n<li>CEO effectiveness</li>\n<li>CEOs’ informal helping networks and CEO effectiveness</li>\n<li>Board of director effectiveness</li>\n<li>Gender and racial diversity in corporate leadership</li>\n</ul>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“Helping Other CEOs Avoid Bad Press: Social Exchange and Impression Management Support Among CEOs in Communication with Journalists,” with J.D. Westphal, S.H. Park and M.L.A. Hayward, <em>Administrative Science Quarterly<strong>, </strong></em>Vol. 57, 2012, pp. 217-268.</li>\n<li>“My Brother’s Keeper? CEO Identification with the Corporate Elite, Social Support Among CEOs, and Leader Effectiveness,” with J.D. Westphal, <em>Academy of Management Journal<strong>, </strong></em>Vol. 54, 2011, pp. 661-693.</li>\n<li>“Me or We? The Effects of CEO Organizational Identification on Agency Costs,” with S. Boivie, D.A. Lange and J.D. Westphal, <em>Academy of Management Journal<strong>, </strong></em>Vol. 54, 2011, pp. 551-576<strong><em>.</em></strong></li>\n<li>“A Little Help Here? Board Control, CEO Social Identification with the Corporate Elite, and CEO Tendencies to Provide Strategic Help to CEOs at Other Firms, with J.D. Westphal, <em>Academy of Management Journal<strong>, </strong></em>Vol. 53, 2010, pp. 343-370.</li>\n<li>“What Do They Know? The Effects of Outside Director Acquisition Experience on Firm Acquisition Performance,” with J.D. Westphal and M.E. Graebner, <em>Strategic Management Journal<strong>,</strong></em> Vol. 29, 2008, pp. 1155-1177.</li>\n<li>“Getting Them to Think Outside the Circle: Corporate Governance, CEOs’ External Advice Networks, and Firm Performance,” with P. Khanna and J.D. Westphal, <em>Academy of Management Journal<strong>,</strong></em> Vol. 51, 2008, pp. 453-475.</li>\n<li>“Getting By with the Advice of Their Friends: CEOs’ Advice Networks and Firms’ Strategic Responses to Poor Performance,” with J.D. Westphal, <em>Administrative Science Quarterly<strong>,</strong></em> Vol. 48, 2003, pp. 1-32.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 2233,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Michael",
+            "last_name": "McDonald",
+            "faculty_title": "Professor of Management",
+            "faculty_email": "michael.mcdonald@utsa.edu",
+            "faculty_phone": "",
+            "faculty_fax": "210-458-5783",
+            "faculty_office_number": "BB 4.03.12",
+            "faculty_pdf": 2232,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Management",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/2221"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/2233"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=2221"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=2221"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 25735,
+        "date": "2023-08-01T14:03:38",
+        "date_gmt": "2023-08-01T19:03:38",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=25735"
+        },
+        "modified": "2023-09-05T08:36:09",
+        "modified_gmt": "2023-09-05T13:36:09",
+        "slug": "eunho-park",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/eunho-park/",
+        "title": {
+            "rendered": "Eunho Park"
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<p>Ph.D. Texas A&amp;M University<br />\nM.S. Seoul National University<br />\nB.S. Korea Advanced Institute of Science and Technology</p>\n<h3><strong>About</strong></h3>\n<p>Eunho Park is an Assistant Professor in the Marketing Department at the Alvarez College of Business, University of Texas at San Antonio (UTSA). Prior to joining UTSA in 2023, he served as an Assistant Professor at California State University Long Beach and earned his doctoral degree from Texas A&amp;M University.</p>\n<p>He is an empirical modeler and his research focuses on understanding customers’ behaviors in the domains of digital marketing and healthcare marketing. His research has been published in the Journal of Marketing, Management Science, and the Journal of Interactive Marketing. He has taught undergraduate- and graduate-level marketing courses, including Marketing Research, Marketing Analytics, and Machine Learning in Marketing.</p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Digital Marketing</li>\n<li>Health Care</li>\n<li>Online Communities</li>\n</ul>\n<h3><strong>Selected Publications </strong></h3>\n<p>&#8220;The Effects of Health Information Exchange Access on Healthcare Quality and Efficiency: An Empirical Investigation,&#8221; with Ramkumar Janakiraman, Emre M. Demirezen and Subodha Kumar, <em>Management Science</em>, Vol. 69, No. 2, 2023, pp. 723-1322<br />\n&#8220;Social Dollars in Online Communities: The Effect of Product, User, and Network Characteristics,&#8221; with Rishika Rishika, Ramkumar Janakiraman, Mark B. Houston, Byungjoon Yoo, <em>Journal of Marketing</em>, Vol. 82, No. 1, 2018, pp. 93-114<br />\n&#8220;Is the Daily Deal Social Shopping?: An Empirical Analysis of Customer Panel Data,&#8221; with Minjae Song, Byungjoon Yoo, and Seongmin Jeon, <em>Journal of Interactive Marketing</em>, Vol. 33, No. 1, 2016, pp. 57-76</p>\n",
+            "protected": false
+        },
+        "featured_media": 25782,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Eunho",
+            "last_name": "Park",
+            "faculty_title": "Assistant Professor of Marketing",
+            "faculty_email": "eunho.park@utsa.edu",
+            "faculty_phone": "",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 04.04.18",
+            "faculty_pdf": 26231,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/25735"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/25782"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=25735"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=25735"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 6894,
+        "date": "2018-08-29T17:05:49",
+        "date_gmt": "2018-08-29T17:05:49",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=6894"
+        },
+        "modified": "2023-05-18T09:12:21",
+        "modified_gmt": "2023-05-18T14:12:21",
+        "slug": "federica-rossetti",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/federica-rossetti/",
+        "title": {
+            "rendered": "Federica Rossetti"
+        },
+        "content": {
+            "rendered": "<p>Personal website: <a href=\"https://federicarossetti657d.myportfolio.com/welcome-1\" target=\"_blank\" rel=\"noopener\">https://federicarossetti657d.myportfolio.com/welcome-1</a></p>\n",
+            "protected": false
+        },
+        "featured_media": 6968,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Federica",
+            "last_name": "Rossetti",
+            "faculty_title": "Doctoral Student - Marketing",
+            "faculty_email": "",
+            "faculty_phone": "210-458-7310",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.04.02",
+            "faculty_pdf": 22606,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Doctoral Students"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/6894"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/6968"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=6894"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=6894"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 23935,
+        "date": "2023-01-11T12:50:25",
+        "date_gmt": "2023-01-11T18:50:25",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=23935"
+        },
+        "modified": "2023-05-18T09:19:39",
+        "modified_gmt": "2023-05-18T14:19:39",
+        "slug": "henry-shu",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/henry-shu/",
+        "title": {
+            "rendered": "Henry Shu"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 1687,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Henry",
+            "last_name": "Shu",
+            "faculty_title": "Senior Lecturer",
+            "faculty_email": "henry.shu@utsa.edu",
+            "faculty_phone": "210-458-6330",
+            "faculty_fax": "",
+            "faculty_office_number": "",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/23935"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1687"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=23935"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=23935"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 10432,
+        "date": "2019-09-16T20:57:59",
+        "date_gmt": "2019-09-16T20:57:59",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=10432"
+        },
+        "modified": "2023-05-18T09:20:29",
+        "modified_gmt": "2023-05-18T14:20:29",
+        "slug": "sonam-singh",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/sonam-singh/",
+        "title": {
+            "rendered": "Sonam Singh"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 18546,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Sonam",
+            "last_name": "Singh",
+            "faculty_title": "Doctoral Student - Marketing",
+            "faculty_email": "sonam.singh@utsa.edu",
+            "faculty_phone": "210-458-7310",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.04.02",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Doctoral Students"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/10432"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/18546"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=10432"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=10432"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1665,
+        "date": "2017-11-08T19:33:06",
+        "date_gmt": "2017-11-08T19:33:06",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1665"
+        },
+        "modified": "2023-05-18T09:30:26",
+        "modified_gmt": "2023-05-18T14:30:26",
+        "slug": "richard-l-utecht",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/richard-l-utecht/",
+        "title": {
+            "rendered": "Richard L. Utecht, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. University of North Texas</li>\n<li>MBA Texas A&amp;I University</li>\n<li>B.B.A. Texas A&amp;I University</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Dr. Utecht is a marketing professor in the Carlos Alvarez College of Business. He received his BBA and MBA from Texas A&amp;I University and his Ph.D. from the University of North Texas. He is from San Antonio and graduated from Judson High School. He is a loyal Spurs fan and a Level Five Sudoku.</p>\n",
+            "protected": false
+        },
+        "featured_media": 1667,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Richard",
+            "last_name": "Utecht",
+            "faculty_title": "Associate Professor of Marketing",
+            "faculty_email": "richard.utecht@utsa.edu",
+            "faculty_phone": "210-458-2525",
+            "faculty_fax": "210-458-6335",
+            "faculty_office_number": "BB 4.06.10",
+            "faculty_pdf": 13262,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1665"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1667"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1665"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1665"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 6725,
+        "date": "2018-08-21T17:37:01",
+        "date_gmt": "2018-08-21T17:37:01",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=6725"
+        },
+        "modified": "2023-05-18T09:34:35",
+        "modified_gmt": "2023-05-18T14:34:35",
+        "slug": "dian-wang-ph-d",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/dian-wang-ph-d/",
+        "title": {
+            "rendered": "Dian Wang, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D Texas A&amp;M University</li>\n<li>MBA The University of Texas at Arlington</li>\n<li>B.A. Texas Tech University</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p><span style=\"font-size: 13.5pt; font-family: 'Arial',sans-serif; color: black;\">Dian Wang holds a Ph.D in marketing from the Mays Business School at Texas A&amp;M University. He joined the Carlos Alvarez College of Business in 2018 as an assistant professor.</span></p>\n<p><span style=\"font-size: 13.5pt; font-family: 'Arial',sans-serif; color: black;\">He conducts research in the area of behavioral decision theory (BDT). His research interests include creativity, cross-cultural marketing and behavioral pricing.</span></p>\n<p><span style=\"font-size: 13.5pt; font-family: 'Arial',sans-serif; color: black;\">He has published in the <em><span style=\"font-family: 'Arial',sans-serif;\">Journal of Consumer Research</span></em>, <i>Journal of Marketing Research</i>, <em><span style=\"font-family: 'Arial',sans-serif;\">Journal of Marketing Behavior</span></em> and <em><span style=\"font-family: 'Arial',sans-serif;\">Customer Needs and Solutions</span></em>.</span></p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Consumer creativity</li>\n<li>Cross-culture marketing</li>\n<li>Behavioral pricing</li>\n</ul>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>&#8220;Will Online Shopping Lead to More Brand Loyalty than Offline Shopping,” with Bingxuan Guo, accepted at Journal of <em>Marketing Research</em>.</li>\n<li>“Replication Note Dual Entitlement Revisited: Cultural Differences in Asymmetric Pricing,” with Haipeng Allan Chen, Lisa Bolton and Sharon Ng, <em>Journal of Marketing Behavior</em>, Vol. 4, No. 2-4, 2020, pp. 213-225.</li>\n<li>“I Paid More Than You (Before)?! The Effects of Self-Construal and Comparison Target on Price Unfairness Perceptions,” with Wenjing Dou, Wei Lu, Brady Hodges and Haipeng Allan Chen, <em>Customer Needs and Solutions,</em> 2019, pp. 1-7.</li>\n<li>“Culture, Relationship Norm, and Dual Entitlement,” with Haipeng Allan Chen, Lisa Bolton, Sharon Ng and Dongwon Lee, <em>Journal of Consumer Research</em>, Vol. 45, No. 1, 2018, pp. 1-20.</li>\n</ul>\n<p>&nbsp;</p>\n",
+            "protected": false
+        },
+        "featured_media": 6726,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Dian",
+            "last_name": "Wang",
+            "faculty_title": "Assistant Professor of Marketing",
+            "faculty_email": "dian.wang@utsa.edu",
+            "faculty_phone": "210-458-7182",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.05.20",
+            "faculty_pdf": 24085,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/6725"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/6726"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=6725"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=6725"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1674,
+        "date": "2017-11-08T20:04:31",
+        "date_gmt": "2017-11-08T20:04:31",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1674"
+        },
+        "modified": "2023-08-01T08:13:44",
+        "modified_gmt": "2023-08-01T13:13:44",
+        "slug": "yinlong-allen-zhang",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/yinlong-allen-zhang/",
+        "title": {
+            "rendered": "Yinlong (Allen) Zhang, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. University of Pittsburgh</li>\n<li>M.Phil. Hong Kong University of Science &amp;Technology</li>\n<li>B.H. Renmin University of China</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Yinlong Zhang holds a Ph.D. in marketing from The Katz Graduate School of Business at the University of Pittsburgh, a Master of Philosophy in marketing from the Hong Kong University of Science &amp;Technology, and a Bachelor of history from Renmin University of China.</p>\n<p>His recent research focuses on consumer psychological issues and their marketing implications for globalization and cross-cultural differences. Professor Zhang&#8217;s research has been published in leading journals in both marketing and psychology, including <em>International Journal of Research in Marketing</em>, <em>Journal of Consumer Research</em>, <em>Journal of Marketing Research</em> and <em>Personality and Social Psychology Bulletin</em>.</p>\n<p>He was voted one of the Top 3 marketing professors by the MBA Student Association, and he received the Dean&#8217;s Research Excellence Award for tenured faculty. One of his doctoral students received the prestigious Sheth dissertation proposal award.</p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Self-construal</li>\n<li>Global identity</li>\n<li>Cross-cultural consumer psychology</li>\n</ul>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“How Does Local-Global Identity Affect Price Sensitivity?” with Gao, H. &amp; Mittal, V., <em>Journal of Marketing</em>, Vol. 81, May 2017, pp. 62-79.</li>\n<li>“All That Glitters Is Not Gold: How Others’ Status Influences the Effect of Power Distance Belief on Status Consumption,” with Gao, H., &amp; Winterich, K., <em>Journal of Consumer Research</em>, Vol. 42, No. 2, 2016, p. 265-281.</li>\n<li>&#8220;Accepting Inequality Deters Responsibility: How Power Distance Decreases Charitable Behavior,” with Winterich, K., &amp; Zhang, Y., <em>Journal of Consumer Research</em>, Vol. 41, No. 2, 2014, p. 274-293.</li>\n<li>&#8220;How Males and Females Differ in Their Likelihood of Transmitting Negative Word of Mouth,” with Zhang, Y., Feick L., &amp; Mittal V., <em>Journal of Consumer Research</em>, Vol. 40, No. 6, 2014, p. 1097-1108.</li>\n<li>“How Political Identity and Charity Positioning Increase Donations: Insights from Moral Foundations Theory,” with Winterich, K., Zhang ,Y, &amp; Mittal, V., <em>International Journal of Research in Marketing</em>, Vol. 29, Issue 4, 2012, p. 346-354.</li>\n<li>“A Short 8-item Scale for Measuring Consumers’ Local-Global Identity,” with Tu, L., Khare, A. &amp; Zhang Y., <em>International Journal of Research in Marketing</em>, Vol. 29, Issue 1, 2012, p. 35-42.</li>\n<li>“Power-Distance Belief and Impulsive Buying,” with Zhang, Y., Winterich, K. &amp; Mittal, V., <em>Journal of Marketing Research</em>, October 2010, p. 945-954.</li>\n<li>“The Impact of Accessible Identities on the Evaluation of Global Versus Local Products,” with Zhang, Y., &amp; Khare, A., <em>Journal of Consumer Research</em>, October 2009, p. 524-537.</li>\n<li>&#8220;The Influence of Self-Construal on Impulsive Consumption,” with Zhang, Y., &amp; Shrum, L.J., <em>Journal of Consumer Research</em>, February 2009, p. 838-850, cited by 35.</li>\n<li>&#8220;The Attractiveness of Enriched and Impoverished Options: Culture, Self-Construal, and Regulatory Focus,” with Zhang, Y., &amp; Mittal, V., <em>Personality and Social Psychology Bulletin</em>, April 2007, p. 588-598.</li>\n<li>“The Impact of Self-Construal on Aesthetic Preference for Angular versus Rounded Shapes,” with Zhang, Y., Feich, L. &amp; Price, L., <em>Personality and Social Psychology Bulletin</em>, June 2006, p. 794-805. [A French translation of this paper was reprinted in Recherche et Applications en Marketing, Vol. 22, Issue 2, 2007, p. 77-92].</li>\n<li>“Decision Difficulty: Effects of Procedural and Outcome Accountability,” with Zhang, Y., &amp; Mittal, V., <em>Journal of Consumer Research</em>, December 2005, p. 465-472.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 1676,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Yinlong (Allen)",
+            "last_name": "Zhang",
+            "faculty_title": "Tom C. Frost Endowed Professor in International Business and Professor of Marketing",
+            "faculty_email": "yinlong.zhang@utsa.edu",
+            "faculty_phone": "210-458-6331",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.04.22",
+            "faculty_pdf": 18648,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1674"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1676"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1674"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1674"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 13967,
+        "date": "2020-09-01T19:46:59",
+        "date_gmt": "2020-09-01T19:46:59",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=13967"
+        },
+        "modified": "2023-05-18T09:48:52",
+        "modified_gmt": "2023-05-18T14:48:52",
+        "slug": "erika-zuloaga-2",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/erika-zuloaga-2/",
+        "title": {
+            "rendered": "Erika Zuloaga"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 23431,
+        "template": "",
+        "faculty_departments": [
+            34
+        ],
+        "acf": {
+            "first_name": "Erika",
+            "last_name": "Zuloaga",
+            "faculty_title": "Doctoral Student - Marketing",
+            "faculty_email": "erika.zuloagacosme@utsa.edu",
+            "faculty_phone": "210-458-7310",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.04.02",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Marketing",
+                    "role": "Doctoral Students"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/13967"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/23431"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=13967"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=13967"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]

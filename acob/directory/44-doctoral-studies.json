@@ -1,0 +1,269 @@
+[
+    {
+        "id": 1816,
+        "date": "2017-11-09T21:00:13",
+        "date_gmt": "2017-11-09T21:00:13",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1816"
+        },
+        "modified": "2023-09-01T10:51:30",
+        "modified_gmt": "2023-09-01T15:51:30",
+        "slug": "kim-kwang-raymond-choo",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/kim-kwang-raymond-choo/",
+        "title": {
+            "rendered": "Kim-Kwang Raymond Choo, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. Queensland University of Technology</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"wp-image-15842 alignnone\" src=\"http://business.utsa.edu/wp-content/uploads/2017/11/Raymond_Choo_RibbonGraphic-127x150.png\" alt=\"Highly Cited Research 2020\" width=\"90\" height=\"106\" /><br />\n<a href=\"https://recognition.webofscience.com/awards/highly-cited/2020/\" target=\"_blank\" rel=\"noopener noreferrer\">Highly-Cited Researcher in the Field of Cross-Field-2020</a><br />\n<img decoding=\"async\" loading=\"lazy\" class=\"wp-image-19982 alignnone\" src=\"http://business.utsa.edu/wp-content/uploads/2017/11/Raymond-Choo-citation-ribbon_2021.png\" alt=\"Highly Cited Researcher 2021\" width=\"86\" height=\"118\" /><br />\n<a href=\"https://recognition.webofscience.com/awards/highly-cited/2021/\">Highly-Cited Researcher in the Field of Computer Science-2021</a></p>\n<h5><a href=\"https://sites.google.com/site/raymondchooau/\">Personal Faculty Website</a></h5>\n<h5><a href=\"https://www.acm.org/articles/people-of-acm/2021/raymond-choo\">People of ACM Profile</a></h5>\n<p><strong>Kim-Kwang Raymond Choo</strong> graduated with a Ph.D. in information technology from Queensland University of Technology, Australia, and holds the Cloud Technology Endowed Professorship at UTSA. Earlier in his career, Raymond worked for the Singapore Police Force, the Australian Government’s Australian Institute of Criminology, and the University of South Australia. He was also a visiting scholar at Australian National University’s School of Regulation and Global Governance, a visiting expert at INTERPOL Global Complex for Innovation in 2015, a visiting Fulbright scholar at Rutgers University’s School of Criminal Justice and at Palo Alto Research Center in 2009, and an Honorary Commander, 502nd Air Base Wing, Joint Base San Antonio-Fort Sam Houston, from 2017 to 2019.</p>\n<p>He is the founding co-Editor-in-Chief of <em>ACM Distributed Ledger Technologies: Research &amp; Practice</em>, and founding Chair of IEEE Technology and Engineering Management Society (TEMS)’s Technical Committee on Blockchain and Distributed Ledger Technologies. He currently serves as an Advisory Council Member of the Anti-Human Trafficking Intelligence Initiative (a 501(c)3 US-based nonprofit, aims to disrupt the market of human trafficking, child exploitation, and child sexual abuse material), and is an Adjunct Professor (Courtesy Appointment) at the University of South Australia and Singapore University of Technology and Design.</p>\n<p>He is an ACM Distinguished Speaker and IEEE Computer Society Distinguished Visitor (2021 – 2023). In 2015 he and his team won the Digital Forensics Research Challenge organized by Germany’s University of Erlangen-Nuremberg. He is the recipient of the 2022 IEEE Hyper-Intelligence TC Award for Excellence in Hyper-Intelligence Systems (Technical Achievement award), the 2022 IEEE TC on Homeland Security Research and Innovation Award, the 2022 IEEE TC on Secure and Dependable Measurement Mid-Career Award, and the 2019 IEEE TC on Scalable Computing Award for Excellence in Scalable Computing (Middle Career Researcher). He has also received best paper awards from IEEE Systems Journal in 2021, IEEE Computer Society’s Bio-Inspired Computing Special Technical Committee Outstanding Paper Award for 2021, IEEE DSC 2021, IEEE Consumer Electronics Magazine for 2020, Journal of Network and Computer Applications for 2020, EURASIP Journal on Wireless Communications and Networking in 2019, IEEE TrustCom 2018, and ESORICS 2015, and Best Student Paper Awards from Inscrypt 2019 and ACISP 2005.</p>\n<p>He also has two granted regular U.S. patent applications on lightweight cryptographic scheme for mobile devices.</p>\n<p><strong>Research Interests</strong></p>\n<ul>\n<li>Big data analytics, including privacy-preserving analytics</li>\n<li>Blockchain and distributed ledger technology</li>\n<li>Cyber security</li>\n<li>Digital forensics, including forensics-by-design</li>\n</ul>\n<p>His research has been funded by funding agencies in</p>\n<ul>\n<li>S.: NASA, National Security Agency, National Science Foundation, U.S. Department of Defense, U.S. Office of Juvenile Justice and Delinquency, CPS Energy, LGS Innovations, MITRE, Texas National Security Network Excellence Fund; and</li>\n<li>Australia: National Health and Medical Research Council, Australian Government National Drug Law Enforcement Research Fund, Australian Government Cooperative Research Centre for Data to Decision, Lockheed Martin Australia, auDA Foundation, Government of South Australia, BAE Systems stratsec, Australasian Institute of Judicial Administration Incorporated, Australian Research Council</li>\n</ul>\n<p>His research has been widely cited, including in government reports of the Australian Government, United Nations Office on Drugs and Crime (UNODC), U.S. CRS Report for Congress (Prepared for Members and Committees of Congress), International Centre for Missing &amp; Exploited Children, International Telecommunication Union (ITU), and UK Home Office. One of his published cryptographic protocols was included in two independent submissions to the IEEE 802.11, the working group setting the standards for wireless LANs, by computer scientists from Fujitsu Labs in America; and the IETF / Network Working Group by a team of computer scientists from Tropos Networks (U.S.), Toshiba, Huawei, and University of Murcia. Another of his published protocol was used in the P2P solution of the Milagro TLS (pairing-based cryptography for Transport Layer Security) presented to the IETF by researchers from MIRACL Ltd in 2016. His published design principle about how session keys should be constructed in cryptographic (key establishment) protocols that result in significant benefits for their security was cited in a special publication (SP 800-56A) – Recommendation for Pair-Wise Key Establishment Schemes Using Discrete Logarithm Cryptography – by the U.S. National Institute of Standards and Technology, as well as the subsequent versions (Revision 2, 2013, and Revision 3, April 2018).</p>\n",
+            "protected": false
+        },
+        "featured_media": 6392,
+        "template": "",
+        "faculty_departments": [
+            44,
+            47
+        ],
+        "acf": {
+            "first_name": "Kim-Kwang Raymond",
+            "last_name": "Choo",
+            "faculty_title": "Professor & Cloud Technology Endowed Professorship<br> Assistant Department Chair of ISCS",
+            "faculty_email": "Raymond.Choo@utsa.edu",
+            "faculty_phone": "210-458-7876",
+            "faculty_fax": "",
+            "faculty_office_number": "NPB 3.356",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Information Systems and Cyber Security",
+                    "role": "Administrators"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1816"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/6392"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1816"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1816"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1348,
+        "date": "2017-11-06T21:29:13",
+        "date_gmt": "2017-11-06T21:29:13",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1348"
+        },
+        "modified": "2023-05-18T08:56:11",
+        "modified_gmt": "2023-05-18T13:56:11",
+        "slug": "emeka-nwaeze",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/emeka-nwaeze/",
+        "title": {
+            "rendered": "Emeka Nwaeze, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. University of Connecticut</li>\n<li>M.P.A. Southern University, Louisiana</li>\n<li>B.S.A Southern University, Louisiana</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Dr. Nwaeze is a professor of accounting at The University of Texas at San Antonio. He has taught at UTSA since 2006. He previously taught at Rutgers University. He teaches at the undergraduate, graduate and doctoral level. Courses have included Accounting for Financial Analysis, Business Analysis and Valuation, Cost Accounting, Financial Statement Analysis and Management Accounting.</p>\n<p>He is a member of the American Accounting Association and the Financial Management Association. He received the Accounting Teaching Award in 2011 from the MBA Association.</p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Institutions of regulation, accounting information and corporate performance</li>\n<li>Firm information environment and security prices</li>\n</ul>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“Public Re-Release of Going-Concern Opinions and Market Reaction,” <em>Accounting and Business Research</em>, Vol. 47, No. 3, 2017, pp. 237-267.\n<div class=\"off-canvas-content\" data-off-canvas-content=\"\">\n<div id=\"content\"></div>\n</div>\n</li>\n<li>“Directors and Officers Liability Insurance: Implications for Abnormal Coverage,” (with R. Kalelkar), <em>Journal of Accounting, Auditing, and Finance</em>, Vol. 30, No. 1, 2015, pp. 3-34.</li>\n<li>“Healthcare Reform Proposal and the Behavior of Pharmaceutical Companies: The Role of Political Costs,” (with M. Hao), <em>Accounting Horizons</em>, Vol. 29, No. 1, 2015, pp. 171-198.</li>\n<li>“Are Incentives for Earnings Management Reflected in the ERC: Large Sample Evidence,” <em>Advances in Accounting</em>, Vol. 27, June 2011, pp. 26-38.</li>\n<li>“Sarbanes-Oxley Act and the Quality of Earnings and Accruals: Market-based Evidence,” with R. Kalelkar, <em>Journal of Accounting and Public Policy</em>, Vol. 30, May/June 2011, pp. 275-294.</li>\n<li>“Accounting Information and CEO Compensation: The Role of Cash Flow from Operations in the Presence of Earnings,” with S. M. Simon, Q. Yang and Jennifer Yin, <em>Contemporary Accounting Research</em>, Vol. 23, Spring 2006, pp. 227-265.</li>\n<li>“Replacement Versus Adaptation Investments and Equity Value,” <em>Journal of Corporate Finance</em>, Vol. 11, June 2005, pp. 523-549.</li>\n<li>“Valuation Relevance of Allowance for Funds Used During Construction and Operating Income: The Effects of Regulatory Climates and Deregulation,” with A. Lulseged, <em>Review of Quantitative Finance &amp; Accounting</em>, Vol. 9, September 2002, pp. 131-152.</li>\n<li>“The Adjustment Process of Accruals: Empirical Evidence and Implication for Accrual Research,” <em>Review of Quantitative Finance and Accounting</em>, Vol. 17, September 2001, pp. 187-211.</li>\n<li>“Deregulation of the Electric Power Industry: The Earnings, Risk, and Return Effects,” <em>Journal of Regulatory Economics</em>, Vol. 17, January 2000, pp. 49-67.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 1349,
+        "template": "",
+        "faculty_departments": [
+            30,
+            44
+        ],
+        "acf": {
+            "first_name": "Emeka",
+            "last_name": "Nwaeze",
+            "faculty_title": "Professor of Accounting",
+            "faculty_email": "emeka.nwaeze@utsa.edu",
+            "faculty_phone": "210-458-7462",
+            "faculty_fax": "",
+            "faculty_office_number": "",
+            "faculty_pdf": 10443,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Accounting",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1348"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1349"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1348"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1348"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1408,
+        "date": "2017-11-06T23:07:23",
+        "date_gmt": "2017-11-06T23:07:23",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1408"
+        },
+        "modified": "2023-05-18T09:14:29",
+        "modified_gmt": "2023-05-18T14:14:29",
+        "slug": "juan-manuel-sanchez",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/juan-manuel-sanchez/",
+        "title": {
+            "rendered": "Juan Manuel Sanchez, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. The University of Texas at San Antonio</li>\n<li>M.S. St. Mary&#8217;s University</li>\n<li>MBA St. Mary&#8217;s University</li>\n<li>BBA St. Mary&#8217;s University</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Dr. Juan Manuel Sanchez obtained his Ph.D. in accounting from The University of Texas at San Antonio in 2006 after working for global firms including Deloitte (a global accounting firm) and SBC Communications (now AT&amp;T). Dr. Sanchez has published in elite accounting, finance and multidisciplinary journals such as <em>The Accounting Review</em>, <em>Journal of Accounting Research</em>, <em>Journal of Financial Economics</em>, <em>Journal of Business Ethics</em>, <em>Journal of Business Finance and Accounting</em>, <em>Accounting Horizons</em>, <em>Journal of Accounting and Public Policy</em>, <em>Journal of Accounting</em>, <em>Auditing and Finance</em>, and <em>Journal of Information Systems</em>.</p>\n<p>His research is widely cited by academics and major media outlets including, <em>The Wall Street Journal</em>, CFO.com, <em>Accounting Today</em>, <em>Compliance Week</em>, and <em>Harvard Law School Forum on Corporate Governance and Financial Regulation</em>. According to BYU Author Rankings Sanchez&#8217; research ranks him in the first (top) decile among all accounting researchers. For more details about his research, please visit his <a href=\"https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=397223\" target=\"_blank\" rel=\"noopener noreferrer\">SSRN Author Page</a>.</p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Executive compensation</li>\n<li>Corporate governance</li>\n<li>Financial reporting issues</li>\n<li>Accounting information systems</li>\n</ul>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“Investor Sentiment and Stock Option Vesting Terms,” with Sami Keskek and Shawn Huang, <em>Management Science</em>, forthcoming.</li>\n<li>“The Influence of Chief Sustainability Officers on Performance,” with Andrea Romi and Gary Peters, <em>Journal of Business Ethics</em>, forthcoming.</li>\n<li>“Examining the Stock Performance of Acquirers where the Acquirer or Target Hold Patents,” with Derek Oler and Kevin Kim, <em>Review of Quantitative Finance and Accounting,</em> Vol. 56, 2021, pp. 185-217.</li>\n<li>“The Influence of CSR on Investment Efficiency and Innovation,” with Kirsten Cook, Andrea Romi and Daniela Sanchez, J<em>ournal of Business Finance and Accounting,</em> (Vol. 46, No. 3-4, 2019, pp. 494-537.</li>\n<li>&#8220;How Powerful CFOs Camouflage and Exploit Equity-Based Incentive Compensation,&#8221; with Stacey Kaden, Denton Collins and Gary Fleischman, <em>Journal of Business Ethics</em>, Vol. 153, No. 2, 2018, pp. 591-613.</li>\n<li>&#8220;CEO Inside Debt Incentives and Corporate Tax Sheltering,&#8221; with Sabrina Chi and Shawn Huang, <em>Journal of Accounting Research</em>, Vol. 55, No. 4, 2017, pp. 837-876.</li>\n<li>&#8220;Non-Compliance in CEO Compensation Disclosure: The Brazilian Experience,&#8221; with Cristiano Costa, Fernando Galdi and Fabio Motoki, <em>Journal of Business Finance and Accounting</em>, Vol. 43, No. 3, 2016, pp. 329-369.</li>\n<li>&#8220;Forecasting Without Consequence? Evidence on the Properties of Retiring CEOs&#8217; Forecasts of Future Earnings,&#8221; with Cory Cassell, Shawn Huang, <em>The Accounting Review</em>, Vol. 88, No. 6), 2013, pp. 1909-1937.</li>\n<li>&#8220;Seeking Safety: The Relation Between CEO Inside Debt Holdings and the Riskiness of Firm Investment and Financial Policies,&#8221; with Cory Cassell, Shawn Huang and Mike Stuart, <em>Journal of Financial Economics</em>, Vol. 103, No. 3, 2012, pp. 588-610.</li>\n<li>&#8220;Special Items: A Descriptive Analysis,&#8221; with Peter M. Johnson and Thomas Lopez, <em>Accounting Horizons</em>, Vol. 25, No. 3, 2011, pp. 511-536.</li>\n<li>&#8220;Examining the Potential Benefits of Internal Control Monitoring Technology,&#8221; with Adi Masli, Vernon Richardson and Gary Peters, <em>The Accounting Review</em>, Vol. 85, No. 3, 2010, pp. 1001-1034.</li>\n<li>&#8220;Layoffs and CEO Compensation: Does CEO Power Influence the Relationship?&#8221; with Charlene Henderson, Adi Masli, and Vernon Richardson, <em>The Journal of Accounting, Auditing and Finance</em>, Vol. 25, No. 4, 2010, pp. 673-707.</li>\n<li>&#8220;Social Responsibility and Corporate Reputation: The Case of the Arthur Andersen Enron Audit Failure,&#8221; with Cheryl Linthicum and Austin L. Reitenga, <em>Journal of Accounting and Public Policy</em>, Vol. 29, No. 2, Mar/Apr 2010, pp. 160-176.</li>\n<li>&#8220;Earnings Restatements, the Sarbanes-Oxley Act and the Disciplining of Chief Financial Officers,&#8221; with Denton Collins, Adi Masli and Austin L. Reitenga, <em>The Journal of Accounting, Auditing and Finance</em>, Vol. 24, No. 1, 2009, pp. 1-34. (Lead Article)</li>\n<li>&#8220;Repairing Organizational Legitimacy Following Information Technology (IT) Material Weaknesses: Executive Turnover, IT Expertise, IT System Upgrades,&#8221; with Jacob Haislip, Adi Masli and Vern Richardson, <em>Journal of Information Systems</em>, Vol. 30, No. 1, 2016, pp. 41-70.</li>\n<li>&#8220;The Interrelationships Between Information Technology Spending, CEO Compensation and Firm Value,&#8221; with Adi Masli, Vernon Richardson and Rodney Smith, <em>Journal of Information Systems</em>, Vol. 28, No. 2, 2014, pp. 41-65.</li>\n<li>&#8220;The Business Value of IT Research: A Synthesis and Framework of Archival Research,&#8221; with Adi Masli, Vernon Richardson and Rod E. Smith, <em>Journal of Information Systems</em>, Vol. 25, No. 2, 2011, pp. 81-116.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 6272,
+        "template": "",
+        "faculty_departments": [
+            30,
+            44,
+            45
+        ],
+        "acf": {
+            "first_name": "Juan Manuel",
+            "last_name": "Sanchez",
+            "faculty_title": "Senior Associate Dean for Faculty Success and Research<br>Professor of Accounting",
+            "faculty_email": "juan.manuel.sanchez@utsa.edu",
+            "faculty_phone": "210-458-5572",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.02",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Accounting",
+                    "role": "Faculty"
+                },
+                {
+                    "department": "Doctoral Studies",
+                    "role": "Administrators"
+                },
+                {
+                    "department": "Faculty Success and Research",
+                    "role": "Administrators"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1408"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/6272"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1408"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1408"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]

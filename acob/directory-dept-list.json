@@ -1,0 +1,289 @@
+[
+	{
+		"id": 30,
+		"count": 36,
+		"description": "",
+		"link": "https:\/\/business.utsa.edu\/departments\/accounting\/",
+		"name": "Accounting",
+		"slug": "accounting",
+		"taxonomy": "faculty_departments",
+		"parent": 0,
+		"meta": [],
+		"acf": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments\/30"
+				}
+			],
+			"collection": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments"
+				}
+			],
+			"about": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/taxonomies\/faculty_departments"
+				}
+			],
+			"wp:post_type": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty?faculty_departments=30"
+				}
+			],
+			"curies": [
+				{
+					"name": "wp",
+					"href": "https:\/\/api.w.org\/{rel}",
+					"templated": true
+				}
+			]
+		}
+	},
+	{
+		"id": 32,
+		"count": 25,
+		"description": "",
+		"link": "https:\/\/business.utsa.edu\/departments\/economics\/",
+		"name": "Economics",
+		"slug": "economics",
+		"taxonomy": "faculty_departments",
+		"parent": 0,
+		"meta": [],
+		"acf": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments\/32"
+				}
+			],
+			"collection": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments"
+				}
+			],
+			"about": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/taxonomies\/faculty_departments"
+				}
+			],
+			"wp:post_type": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty?faculty_departments=32"
+				}
+			],
+			"curies": [
+				{
+					"name": "wp",
+					"href": "https:\/\/api.w.org\/{rel}",
+					"templated": true
+				}
+			]
+		}
+	},
+	{
+		"id": 33,
+		"count": 34,
+		"description": "",
+		"link": "https:\/\/business.utsa.edu\/departments\/finance\/",
+		"name": "Finance",
+		"slug": "finance",
+		"taxonomy": "faculty_departments",
+		"parent": 0,
+		"meta": [],
+		"acf": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments\/33"
+				}
+			],
+			"collection": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments"
+				}
+			],
+			"about": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/taxonomies\/faculty_departments"
+				}
+			],
+			"wp:post_type": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty?faculty_departments=33"
+				}
+			],
+			"curies": [
+				{
+					"name": "wp",
+					"href": "https:\/\/api.w.org\/{rel}",
+					"templated": true
+				}
+			]
+		}
+	},
+	{
+		"id": 47,
+		"count": 117,
+		"description": "",
+		"link": "https:\/\/business.utsa.edu\/departments\/information-systems-and-cyber-security\/",
+		"name": "Information Systems and Cyber Security",
+		"slug": "information-systems-and-cyber-security",
+		"taxonomy": "faculty_departments",
+		"parent": 0,
+		"meta": [],
+		"acf": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments\/47"
+				}
+			],
+			"collection": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments"
+				}
+			],
+			"about": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/taxonomies\/faculty_departments"
+				}
+			],
+			"wp:post_type": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty?faculty_departments=47"
+				}
+			],
+			"curies": [
+				{
+					"name": "wp",
+					"href": "https:\/\/api.w.org\/{rel}",
+					"templated": true
+				}
+			]
+		}
+	},
+	{
+		"id": 41,
+		"count": 47,
+		"description": "",
+		"link": "https:\/\/business.utsa.edu\/departments\/management\/",
+		"name": "Management",
+		"slug": "management",
+		"taxonomy": "faculty_departments",
+		"parent": 0,
+		"meta": [],
+		"acf": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments\/41"
+				}
+			],
+			"collection": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments"
+				}
+			],
+			"about": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/taxonomies\/faculty_departments"
+				}
+			],
+			"wp:post_type": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty?faculty_departments=41"
+				}
+			],
+			"curies": [
+				{
+					"name": "wp",
+					"href": "https:\/\/api.w.org\/{rel}",
+					"templated": true
+				}
+			]
+		}
+	},
+	{
+		"id": 59,
+		"count": 51,
+		"description": "",
+		"link": "https:\/\/business.utsa.edu\/departments\/management-science-and-statistics\/",
+		"name": "Management Science and Statistics",
+		"slug": "management-science-and-statistics",
+		"taxonomy": "faculty_departments",
+		"parent": 0,
+		"meta": [],
+		"acf": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments\/59"
+				}
+			],
+			"collection": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments"
+				}
+			],
+			"about": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/taxonomies\/faculty_departments"
+				}
+			],
+			"wp:post_type": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty?faculty_departments=59"
+				}
+			],
+			"curies": [
+				{
+					"name": "wp",
+					"href": "https:\/\/api.w.org\/{rel}",
+					"templated": true
+				}
+			]
+		}
+	},
+	{
+		"id": 34,
+		"count": 28,
+		"description": "",
+		"link": "https:\/\/business.utsa.edu\/departments\/marketing\/",
+		"name": "Marketing",
+		"slug": "marketing",
+		"taxonomy": "faculty_departments",
+		"parent": 0,
+		"meta": [],
+		"acf": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments\/34"
+				}
+			],
+			"collection": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments"
+				}
+			],
+			"about": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/taxonomies\/faculty_departments"
+				}
+			],
+			"wp:post_type": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty?faculty_departments=34"
+				}
+			],
+			"curies": [
+				{
+					"name": "wp",
+					"href": "https:\/\/api.w.org\/{rel}",
+					"templated": true
+				}
+			]
+		}
+	}
+]

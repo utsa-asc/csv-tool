@@ -1,0 +1,2128 @@
+[
+    {
+        "id": 1488,
+        "date": "2017-11-07T18:09:11",
+        "date_gmt": "2017-11-07T18:09:11",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1488"
+        },
+        "modified": "2023-06-02T10:30:06",
+        "modified_gmt": "2023-06-02T15:30:06",
+        "slug": "samson-alva-ph-d",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/samson-alva-ph-d/",
+        "title": {
+            "rendered": "Samson Alva, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. Boston College</li>\n<li>M.A. Boston College</li>\n<li>B.S. Mercer University</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p><a href=\"https://samsonalva.com\" target=\"_blank\" rel=\"noopener\">Personal Faculty Website</a></p>\n<p><a href=\"http://samsonalva.com/SamsonAlva_CV.pdf\" target=\"_blank\" rel=\"noopener\">Vita</a></p>\n<p>Samson Alva joined the Department of Economics at UTSA in 2013. He has a Ph.D. in economics from Boston College and undergraduate degrees in physics, mathematics and economics from Mercer University.</p>\n<p>Dr. Alva&#8217;s primary area of research is market and mechanism design, particularly focusing on matching problems and on the allocation of indivisible goods. His other research areas include industrial organization and political economy.</p>\n<p>Dr. Alva teaches graduate and undergraduate microeconomics, as well as a course in game theory and strategy.</p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Market design</li>\n<li>Matching theory</li>\n<li>Industrial organization</li>\n<li>Applied game theory</li>\n</ul>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>&#8220;Strategy-proof Pareto-improvement,&#8221; with Vikram Manjunath, <em>Journal of Economic Theory</em>, Vol. 181, 2019, p. 121-142.</li>\n<li>&#8220;WARP and Combinatorial Choice,&#8221;<em> Journal of Economic Theory</em>, Vol. 173, 2018, p. 320-333.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 1495,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Samson",
+            "last_name": "Alva",
+            "faculty_title": "Department Chair of Economics<br>Associate Professor of Economics",
+            "faculty_email": "samson.alva@utsa.edu",
+            "faculty_phone": "210-458-5312",
+            "faculty_fax": "210-458-5837",
+            "faculty_office_number": "BB 4.02.56",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Administrators"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1488"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1495"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1488"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1488"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 13613,
+        "date": "2020-08-17T20:25:15",
+        "date_gmt": "2020-08-17T20:25:15",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=13613"
+        },
+        "modified": "2023-05-17T09:09:04",
+        "modified_gmt": "2023-05-17T14:09:04",
+        "slug": "alper-arslan-ph-d",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/alper-arslan-ph-d/",
+        "title": {
+            "rendered": "Alper Arslan, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3 class=\"x_MsoNormal\"><b>Degrees</b></h3>\n<ul type=\"disc\">\n<li class=\"x_MsoNormal\">Ph.D. Vanderbilt University</li>\n<li class=\"x_MsoNormal\">M.S. Sabanci University, Turkey</li>\n<li class=\"x_MsoNormal\">B.A. Bogazici University, Turkey</li>\n</ul>\n<p><a href=\"https://sites.google.com/site/halperarslan/\" target=\"_blank\" rel=\"noopener\">Personal Faculty Webpage</a></p>\n<h3 class=\"x_MsoNormal\"><b>About</b></h3>\n<p class=\"x_MsoNormal\">Dr. Arslan joined the Carlos Alvarez College of Business faculty in 2020. He holds a Ph.D. in economics from Vanderbilt University. He previously worked in the Department of Economics at Queen’s University, Canada as a postdoctoral researcher. He teaches intermediate microeconomics and applied econometrics. He is a member of the American Economic Association, the Econometric Society and INFORMS.</p>\n<div>\n<h3 class=\"x_MsoNormal\"><b>Research Interests</b></h3>\n</div>\n<ul type=\"disc\">\n<li class=\"x_MsoNormal\">Empirical industrial organization</li>\n<li class=\"x_MsoNormal\">Econometrics</li>\n<li class=\"x_MsoNormal\">Revenue management and pricing</li>\n<li class=\"x_MsoNormal\">Market design</li>\n</ul>\n<div>\n<h3 class=\"x_MsoNormal\"><b>Selected Publications</b></h3>\n</div>\n<div>\n<p class=\"x_MsoNormal\">&#8220;Data-Driven Sports Ticket Pricing for Multiple Sales Channels with Heterogeneous Customers,&#8221; with Rob Easley, Ruxian Wang and Ovunc Yilmaz, <em>Manufacturing and Service Operations Management, </em>forthcoming.</p>\n</div>\n",
+            "protected": false
+        },
+        "featured_media": 18571,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Alper",
+            "last_name": "Arslan",
+            "faculty_title": "Assistant Professor of Economics",
+            "faculty_email": "hayri.arslan@utsa.edu",
+            "faculty_phone": "210-458-5315",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.02.50",
+            "faculty_pdf": 14627,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/13613"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/18571"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=13613"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=13613"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 13687,
+        "date": "2020-08-19T17:14:49",
+        "date_gmt": "2020-08-19T17:14:49",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=13687"
+        },
+        "modified": "2023-05-17T09:11:28",
+        "modified_gmt": "2023-05-17T14:11:28",
+        "slug": "david-beheshti-ph-d",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/david-beheshti-ph-d/",
+        "title": {
+            "rendered": "David Beheshti, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. UT-Austin</li>\n<li>M.A. UT-Austin</li>\n<li>B.A. Brigham Young University</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p><a href=\"https://sites.google.com/view/davidbeheshti\">Personal Faculty Website</a></p>\n<p>David Beheshti joined the Department of Economics at UTSA in 2020. He received his Ph.D. in economics from the University of Texas at Austin and undergraduate degrees in mathematics and economics from Brigham Young University. He teaches both the undergraduate and graduate introductory econometrics courses.</p>\n<p>His research focuses primarily on topics in health economics, labor economics and public finance. His recent work addresses how public policy affects health and economics conditions, specifically in the context of the U.S. opioid crisis.</p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Health economics</li>\n<li>Labor economics</li>\n<li>Public finance</li>\n</ul>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>&#8220;Adverse Health Effects of Abuse-Deterrent Opioids: Evidence from the Reformulation of Oxycontin,&#8221; <em>Health Economics, </em>Vol. 28, 2019, pp. 1449-1461. <a href=\"https://doi.org/10.1002/hec.3944\">https://doi.org/10.1002/hec.3944</a></li>\n</ul>\n<p>&nbsp;</p>\n<h3></h3>\n",
+            "protected": false
+        },
+        "featured_media": 14040,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "David",
+            "last_name": "Beheshti",
+            "faculty_title": "Assistant Professor of Economics",
+            "faculty_email": "david.beheshti@utsa.edu",
+            "faculty_phone": "210-458-5313",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.02.52",
+            "faculty_pdf": 17527,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/13687"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/14040"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=13687"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=13687"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1496,
+        "date": "2017-11-07T18:17:31",
+        "date_gmt": "2017-11-07T18:17:31",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1496"
+        },
+        "modified": "2023-05-17T09:11:56",
+        "modified_gmt": "2023-05-17T14:11:56",
+        "slug": "hamid-beladi-ph-d",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/hamid-beladi-ph-d/",
+        "title": {
+            "rendered": "Hamid Beladi, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>About</strong></h3>\n<h5><a href=\"http://faculty.business.utsa.edu/hbeladi/index.php\" target=\"_blank\" rel=\"noopener noreferrer\">Personal Faculty Website</a></h5>\n<p>Hamid Beladi is the Janey S. Briscoe Endowed Chair in Business and professor of economics at The University of Texas at San Antonio. He is the co-founder of the <em>International Review of Economics and Finance </em>and served as editor from 1992-2018. He is the editor-in-chief of the <em>North American Journal of Economics and Finance</em> (since 2010), series editor of <em>Frontiers of Economics and Globalization</em> (since 2006) and associate editor of <em>Review of International Economics</em> (since 1992). He also serves as a member of the editorial boards of several other journals. He is a co-founder of the International Economics and Finance Society (IEFS).</p>\n<p>Professor Beladi has published extensively in a wide spectrum of scholarly journals including <em>Journal of International Economics,</em> <em>Review of International Economics</em>,<em> Journal of Banking and Finance, Review of Economics &amp; Statistics</em>, <em>Journal of Economic Theory, Journal of Development Economics, Journal of Economic Behavior &amp; Organization, Journal of Mathematical Economics</em>, <em>Review of Development Economics, Research Policy, </em><em>Economica </em>and<em> European Economic Review.</em></p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>The economics of migration of skilled and unskilled labor</li>\n<li>International trade in technology</li>\n<li>Global outsourcing and bi-sourcing</li>\n<li>Exchange rate pass-through</li>\n<li>Fraudulent financial practices</li>\n</ul>\n<h3><strong>Recent Selected Publications</strong></h3>\n<ul>\n<li>&#8220;On Stability of Economic Networks,&#8221; with R. Oladi and X. Luo, <em>Theory and Decision</em>, 2023.</li>\n<li>“R&amp;D Competition and the Persistence of Technology Leadership,&#8221; with A. Mukherjee, <em>International Journal of Economic Theory</em>, Vol. 18, 2022, pp. 272-284.</li>\n<li>“Malnutrition in the Shadow of Economic Growth,” with S. Marjit, L. Yang and R. Oladi, <em>Review of Development Economics</em>, Vol. 25, 2021, pp. 500-514.</li>\n<li>“Urban Development, Excessive Entry of Firms and Wage Inequality in Developing Countries,” with C.C. Chao, D. Hollas and M. Ee, <em>The World Economy,</em> Vol. 45, 2020, pp. 212-238.</li>\n<li>“The Optimal Provision of Information and Communication Technologies in Smart Cities,&#8221; <em>Technological Forecasting and Social Change,</em> Vol. 147, 2019, pp. 216-220.</li>\n<li>“Multidivisional Firms, Internal Competition and Comparative Advantage: Baye et al. Meet Neary,” with A. Chakrabarti, <em>Journal of International Economics</em>,” Vol. 116, 2019, pp. 50-57.</li>\n<li>“Reform, Informal Sector and Extortion,” with S. Marjit and B. Mandal, <em>Economics &amp; Politics</em>, Vol. 30, No. 1, 2018, pp. 106-123.</li>\n<li>&#8220;Union Bargaining Power, Subcontracting and Innovation,&#8221; with A. Mukherjee, <em>Journal of Economic Behavior &amp; Organization</em>, Vol. 137, 2017, pp. 90-104.</li>\n<li>&#8220;FDI and Business Internationalization of the Unorganized Sector: Evidence from Indian Manufacturing,&#8221; with M. Dutta and S. Kar, <em>World Development</em>, Vol. 83, 2016, pp. 340-349.</li>\n<li>&#8220;Knowledge Goods, Ordinary Goods, and the Effects of Trade Between Leading and Lagging Regions,&#8221; with A. Batabyal, <em>Research Policy</em>, Vol. 44, 2015, pp. 1537-1542.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 1508,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Hamid",
+            "last_name": "Beladi",
+            "faculty_title": "Janey S. Briscoe Endowed Chair in Business",
+            "faculty_email": "Hamid.Beladi@utsa.edu",
+            "faculty_phone": "210-458-7038",
+            "faculty_fax": "210-458-7040",
+            "faculty_office_number": "BB 4.03.56",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1496"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1508"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1496"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1496"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1497,
+        "date": "2017-11-07T18:21:42",
+        "date_gmt": "2017-11-07T18:21:42",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1497"
+        },
+        "modified": "2023-05-17T14:13:53",
+        "modified_gmt": "2023-05-17T19:13:53",
+        "slug": "lynda-de-la-vina",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/lynda-de-la-vina/",
+        "title": {
+            "rendered": "Lynda Y. de la Vina, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. Rice University</li>\n<li>M.A. Rice University</li>\n<li>B.A. University of Texas, Pan American</li>\n<li>Post-Graduate Study Columbia University</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Dr. Lynda de la Viña is the Peter Flawn Professor in the Department of Entrepreneurship and Technology Management and the Director of the Center for Global Entrepreneurship. She previously served as Dean of the Carlos Alvarez College of Business from 2004-2012.</p>\n<p>Dr. de la Viña was named one of the 100 Most Influential Hispanics by <em>Hispanic Business</em> magazine, and has received both the Ford Salute to Education Award as well as the Jessie and Sue Oppenheimer Award of Excellence. She was an inaugural member of the advisory committee for the State of Texas Emerging Technology Fund, a $200 million fund created to foster innovation, research and job creation in emerging high-tech industries. She also completed a prestigious Kellogg Leadership Fellows Program.</p>\n<p>With a distinguished career in academia and government service, Dr. de la Viña was the first Mexican-American woman at the secretarial level of the U.S. Treasury, where she served as Deputy Assistant Secretary for Economic Policy from 1998-2001. While her work portfolio was expansive dealing with domestic and international economic policy issues, she led Treasury teams on issues of personal commitment such as financial literacy, entrepreneurship development and U.S.-Mexico border development. Following her role at the Treasury, she joined Johns Hopkins University as associate dean of the Graduate Division of Business and Management, full professor and chair of the Department of Finance and International Business.</p>\n<p>Prior to her career in Washington, D.C. and Baltimore, Maryland, Dr. de la Viña served 19 years at UTSA in ascending positions of administrative responsibility. She joined the Department of Economics faculty in 1982 and was named executive director of the Institute for Studies in Business in 1985. She served as associate dean of graduate studies and research in the college from 1993-1998.</p>\n<p>She has co-founded several companies including Operational Technologies Corporation (OpTech) and Pronucleotein Biotechnologies in San Antonio, TX. Under her tenure, OpTech rose from a small incubator operation in downtown San Antonio to one of the largest minority-owned businesses in San Antonio. She continues to serve on the Board of Directors of OpTech. She also serves on the boards of the Center for International Private Enterprise, an affiliate of the U.S. Chamber of Commerce; the World Affairs Council; the Free Trade Alliance; and the Alamo Public Telecommunications Council.</p>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“Equity Crowdfunding,” (with Stephanie Black), in <em>Educating Social Entrepreneurs: A Workbook of Cases, Exercises and Commentaries</em>, Business Expert Press, 2017</li>\n<li>“The Impact of Lean Enterprise Transformation on Production Learning Curves Used by Technology Managers in Aerospace Companies: A Decomposition-Based Model of Unit Derived Learning Curve Data,” with Cory Hallam, <em>Proceedings of Portland International Conference on Management of Engineering and Technology</em> (PICMET), Portland, OR, August 2011.</li>\n<li>“Comparative Analysis of Work Force Management Techniques Between Lean and Traditional Manufacturing Companies: A Quantitative Decision Tool for Choosing Between Layoffs and Continual Improvements,” with Cory Hallam and Susan Hammond, <em>Proceedings of the Portland International Conference on Management of Engineering and Technology </em>(PICMET), Phuket, Thailand, July 2010.</li>\n<li>“Analysis of the Toyota Production System and the Genesis of Six Sigma Programs: An Imperative for Understanding Failures in Technology Management Culture Transformation in Traditional Manufacturing Companies,” with Cory R. A. Hallam and Justin Muesel, <em>Proceedings of the Portland International Conference on Management of Engineering and Technology</em> (PICMET), Phuket, Thailand, July 2010.</li>\n<li>“Improve Technology Transfer with this Alliance Scorecard,” with J. Michael Munson, Woodie Spivey and Fu-Sen Tsai, in <em>Research-Technology Management</em>, Vol. 52, No. 1, Jan-Feb 2009, pp. 10-18.</li>\n</ul>\n<div class=\"off-canvas-wrapper\">\n<div class=\"off-canvas-content\" data-off-canvas-content=\"\">\n<div id=\"content\">\n<div id=\"inner-content\" class=\"row expanded\">\n<div class=\"content-wrap\"></div>\n</div>\n</div>\n</div>\n</div>\n",
+            "protected": false
+        },
+        "featured_media": 1510,
+        "template": "",
+        "faculty_departments": [
+            92,
+            32
+        ],
+        "acf": {
+            "first_name": "Lynda",
+            "last_name": "de la Vina",
+            "faculty_title": "Emeritus Professor",
+            "faculty_email": "lynda.delavina@utsa.edu",
+            "faculty_phone": "210-458-8127",
+            "faculty_fax": "210-458-4308",
+            "faculty_office_number": "",
+            "faculty_pdf": 13251,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Emeritus Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1497"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1510"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1497"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1497"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1498,
+        "date": "2017-11-07T18:23:21",
+        "date_gmt": "2017-11-07T18:23:21",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1498"
+        },
+        "modified": "2023-05-17T14:16:37",
+        "modified_gmt": "2023-05-17T19:16:37",
+        "slug": "leslie-doss",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/leslie-doss/",
+        "title": {
+            "rendered": "Leslie Doss"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 1512,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Leslie",
+            "last_name": "Doss",
+            "faculty_title": "Associate Professor of Practice in Economics",
+            "faculty_email": "Leslie.Doss@utsa.edu",
+            "faculty_phone": "210-458-4438",
+            "faculty_fax": "210-458-5837",
+            "faculty_office_number": "BB 4.02.28",
+            "faculty_pdf": "",
+            "faculty_additional_info": "<i class=\"fa fa-building\" aria-hidden=\"true\"></i> BB 4.02.48\r\n<i class=\"fa fa-phone\" aria-hidden=\"true\"></i> <a href=\"&quot;tel:\"> 210-458-7392 </a>",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1498"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1512"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1498"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1498"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1499,
+        "date": "2017-11-07T18:26:08",
+        "date_gmt": "2017-11-07T18:26:08",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1499"
+        },
+        "modified": "2023-05-17T14:18:35",
+        "modified_gmt": "2023-05-17T19:18:35",
+        "slug": "fathali-firoozi-ph-d",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/fathali-firoozi-ph-d/",
+        "title": {
+            "rendered": "Fathali Firoozi, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D., MS University of Oklahoma</li>\n<li>M.A. University of Texas at Austin</li>\n<li>MBA Oklahoma City University</li>\n<li>B.A. Iran College of Banking</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Dr. Fathali Firoozi began teaching at UTSA in 1988. He has been the recipient of the President&#8217;s Distinguished Research Achievement Award and the Carlos Alvarez College of Business Advisory Council Research Award.</p>\n<p>He specializes in mathematical modeling and econometric methods. He has performed research in various fields related to economics and finance and has taught courses at various levels from freshman to Ph.D.</p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Quantitative methods</li>\n<li>Econometrics</li>\n</ul>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“Information Asymmetry and Adverse Wealth Effects of Crowd-funding,” <em>Journal of Entrepreneurial Finance</em>, Vol. 18, No. 1, 2017, pp. 1-8.</li>\n<li>“On the Joint Fourier-ESTAR testing of PPP,” (with Don Lien), <em>Applied Economics Letter</em>, Vol. 23, No. 14, 2016, pp. 979-983.</li>\n<li>“A Procedure for Testing Granger Causality of Infinite Order,” <em>International Journal of Business and Economics</em>, Vol. 10, No. 2, 2011, pp. 165-170.</li>\n<li>“The Tax-spending Nexus: Evidence from a Panel of U.S. State-Governments,” <em>Economic Modelling</em>, Vol. 28, 2011, pp. 885-890.</li>\n<li>&#8220;A Linear Model Test of Sufficiency for Non-Orthogonality of Matrices,&#8221; <em>Advances and Applications in Statistics</em>, Vol. 22, No. 2, 2011, pp. 119-127.</li>\n<li>&#8220;On Capital Structure and Entry Deterrence,&#8221; <em>Handbook of Quantitative Finance and Risk Management</em>, Vol. 1, 2010, pp. 1381-1390.</li>\n<li>“A Monte Carlo Power Comparison of the Classical and One-sided Procedures for Testing Linear Inequalities,” <em>Journal of Quantitative Economics</em>, Vol. 6, Issues 1&amp;2, 2008, pp. 233-239.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 23432,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Fathali",
+            "last_name": "Firoozi",
+            "faculty_title": "Professor of Economics",
+            "faculty_email": "fathali.firoozi@utsa.edu",
+            "faculty_phone": "210-458-5395",
+            "faculty_fax": "210-458-5837",
+            "faculty_office_number": "BB 4.02.62",
+            "faculty_pdf": 18844,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1499"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/23432"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1499"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1499"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1502,
+        "date": "2017-11-07T18:37:00",
+        "date_gmt": "2017-11-07T18:37:00",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1502"
+        },
+        "modified": "2023-08-15T10:43:30",
+        "modified_gmt": "2023-08-15T15:43:30",
+        "slug": "shakira-flores",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/shakira-flores/",
+        "title": {
+            "rendered": "Shakira Flores"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 1520,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Shakira",
+            "last_name": "Flores",
+            "faculty_title": "Assistant Professor of Practice in Economics",
+            "faculty_email": "shakira.flores@utsa.edu",
+            "faculty_phone": "210-458-5085",
+            "faculty_fax": "210-458-5837",
+            "faculty_office_number": "BB 4.02.28",
+            "faculty_pdf": "",
+            "faculty_additional_info": "<i class=\"fa fa-building\" aria-hidden=\"true\"></i>FS 4.520\r\n<i class=\"fa fa-phone\" aria-hidden=\"true\"></i> <a href=\"tel:\">210-458-2513</a>\r\n<i class=\"fa fa-fax\" aria-hidden=\"true\"></i> <a href=\"tel:\">210-458-5837</a>",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1502"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1520"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1502"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1502"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1500,
+        "date": "2017-11-07T18:29:47",
+        "date_gmt": "2017-11-07T18:29:47",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1500"
+        },
+        "modified": "2023-08-15T10:42:22",
+        "modified_gmt": "2023-08-15T15:42:22",
+        "slug": "edgar-ghossoub",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/edgar-ghossoub/",
+        "title": {
+            "rendered": "Edgar Ghossoub, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. University of Kentucky</li>\n<li>M.S. University of North Carolina at Charlotte</li>\n<li>B.A. Notre Dame University, Lebanon</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p><a href=\"https://www.edgarghossoub.net/\" target=\"_blank\" rel=\"noopener\">Personal Faculty Website</a></p>\n<p>Dr. Ghossoub joined the UTSA faculty in 2007. He holds a Ph.D. in economics from the University of Kentucky. He teaches Introduction to Political Economics, Principles of Macroeconomics, Macroeconomic Theory and Money and Banking. He is a member of the Southern Economic Association and the American Economic Association.</p>\n<p>His research interests are macroeconomics, monetary economics, industrial organization, economic development and open-economy macroeconomics.</p>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“Financial Development and the Distributional Effects of Monetary Policy,” (with R. Reed),<em> Journal of Development Economics</em>, Vol. 126, 2017, pp. 167-189.</li>\n<li>“The Size Distribution of the Banking Sector and the Effects of Monetary Policy,” (with R. Reed), <em>European Economic Review, Vol</em>. 75, 2015, pp. 156-176.</li>\n<li>“The Cost of Capital, Asset Prices, and the Effects of Monetary Policy,” with R. Reed, <em>Journal of Macroeconomics</em>, Vol. 42, 2014, pp. 211-228.</li>\n<li>“The Stock Market, Monetary Policy and Economic Development,” with R. Reed, <em>Southern Economic Journal</em>, January 2013.</li>\n<li>“Financial Market Participation, Financial Intermediation, and Monetary Policy,” <em>Economics Letters</em>, Vol. 117, October 2012, pp. 127-130.</li>\n<li>“The Effects of Monetary Policy at Different Stages of Economic Development,” with R. Reed, <em>Economics Letters</em>, Vol. 117, October 2012, pp. 138-141.</li>\n<li>“The Role of Financial Sector Competition for Monetary Policy,” with T. Laosuthi and R. Reed, <em>Canadian Journal of Economics</em>, Vol. 45, February 2012, pp. 270-287.</li>\n<li>“Liquidity Risk and Financial Competition: Implications for Asset Prices and Monetary Policy,” <em>European Economic Review</em>, Vol. 56, February 2012, pp. 155-173 (lead article).</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 23622,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Edgar",
+            "last_name": "Ghossoub",
+            "faculty_title": "Associate Professor of Economics",
+            "faculty_email": "edgar.ghossoub@utsa.edu",
+            "faculty_phone": "210-458-6322",
+            "faculty_fax": "210-458-6322",
+            "faculty_office_number": "BB 4.02.46",
+            "faculty_pdf": 18087,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1500"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/23622"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1500"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1500"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 20386,
+        "date": "2022-01-05T09:10:05",
+        "date_gmt": "2022-01-05T15:10:05",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=20386"
+        },
+        "modified": "2022-01-28T10:49:51",
+        "modified_gmt": "2022-01-28T16:49:51",
+        "slug": "carl-gustafson",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/carl-gustafson/",
+        "title": {
+            "rendered": "Carl Gustafson"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 1687,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Carl",
+            "last_name": "Gustafson",
+            "faculty_title": "Lecturer in Economics ",
+            "faculty_email": "carl.gustafson@utsa.edu",
+            "faculty_phone": "",
+            "faculty_fax": "",
+            "faculty_office_number": "",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/20386"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1687"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=20386"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=20386"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1501,
+        "date": "2017-11-07T18:33:31",
+        "date_gmt": "2017-11-07T18:33:31",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1501"
+        },
+        "modified": "2023-05-17T14:44:41",
+        "modified_gmt": "2023-05-17T19:44:41",
+        "slug": "daniel-r-hollas",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/daniel-r-hollas/",
+        "title": {
+            "rendered": "Daniel R. Hollas, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. University of Illinois at Urbana-Champaign</li>\n<li>M.A. University of Illinois at Urbana-Champaign</li>\n<li>B.B.A. University of Houston</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Daniel R. Hollas was awarded M.A. and Ph.D. degrees in economics from the University of Illinois at Urbana- Champaign. He holds a B.B.A. degree in economics from the University of Houston. Prior to joining the faculty at UTSA, he was an associate professor and department chair at the University of Mississippi in Oxford. A common thread of his research since the 1970&#8217;s has been the effects of competition in regulated industries. He has served as an external reviewer for a number of journals, including the <em>Energy Journal, Southern Economic Journal, International Economic Review, Journal of Productivity Analysis, </em>and <em>Journal of Regulatory Economics</em>.</p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Restructuring of electric and gas industries</li>\n<li>Real estate issues</li>\n<li>International economics</li>\n</ul>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“Cross-Border Mergers and Upstreaming,” <em>The World Economy</em>, Vol. 40, No. 3, 2017, pp. 598-611.</li>\n<li>“A Public Firm in a Vertically Linked Price Discriminating Spatial Duopoly,” (with Hamid Beladi and A. Chakrabarti), <em>Economic Systems</em>, Vol. 40, 2016, pp. 59-63</li>\n<li>“Medical Tourism and Health Worker Migration in Developing Countries,” (with Hamid Beladi, C.C. Chao, M.S. Ee), <em>Economic Modeling</em>, Vol. 46, 2015, pp. 391-396.</li>\n<li>“Fair Wages, Urban Unemployment and Welfare in a Developing Economy,” with Hamid Beladi and Chi-chur Chao, <em>Economics Bulletin</em>, Vol. 31, No. 1, Winter 2011, pp. 273-285.</li>\n<li>“Zillow’s Estimates of Single-Family Housing Values,” with Ronald C. Rutherford and Thomas Thomson, <em>The Appraisal Journal, </em>Vol. LXXVIII, No. 1, Winter 2010, pp. 26-32.</li>\n<li>“A Data Envelopment Analysis of Gas Utilities’ Efficiency,” with Kenneth R. Macleod and Stanley R. Stansell, <em>Journal of Economics and Finance,</em> Vol. 26, No. 2, Summer 2002, pp. 123-137.</li>\n<li>“Downstream Gas Pricing in an Era of Upstream Deregulation,”  <em>Journal of Regulatory Economics</em>, Vol. 6, September 1994, pp. 227-245.</li>\n<li>“An Examination of the Relative Economic Efficiency of Mutual vs. Stock Savings Institutions,” with Stanley R. Stansell, <em>The Journal of Real Estate Finance and Economics,</em> Vol. 3, 1990, pp. 73-89.</li>\n<li>“Firm and Interruptible Pricing Patterns: Public Versus Private Gas Distribution Utilities,” <em>Southern Economic Journal, </em>Vol. 57, October 1990, pp. 371-393.</li>\n<li>“Firm/Interruptible Gas Pricing Patterns in a Regulated Environment<em>.” Journal of Regulatory Economics,</em> Vol. 1, March 1989, pp. 47-68.</li>\n<li>“An Examination of the Effect of Ownership Form on Price Efficiency:  Proprietary, Cooperative and Municipal Electric Utilities,” with Stanley R. Stansell, <em>Southern Economic Journal</em>, Vol. 55, October 1988, pp. 336-350.</li>\n<li>“Regulation, Interfirm Rivalry, and the Economic Efficiency of Natural Gas Distribution Facilities,” with Stanley R. Stansell, <em>Quarterly Review of Economics and Business,</em> Vol. 28, Winter 1988, pp. 21-37.</li>\n<li>“An Estimation of the Deadweight and X-Efficiency Losses in the Municipal Electric Industry,” with Robert S. Herren, <em>Journal of Economics and Business,</em> Vol. 34, 1982, pp. 269-280.</li>\n<li>“Competition, Regulation and Second Degree Price Discrimination in the Municipal Electric Industry,” with Thomas S. Friedland, <em>Quarterly Review of Economics and Business, </em>Vol. 20, Autumn 1980, pp. 41-59.</li>\n<li>“The Effect of Shortages on Industrial Concentration,” with Thomas S. Friedland, <em>The Antitrust Bulletin</em>, Vol. 22, Spring 1977, pp. 106-117.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 4762,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Daniel",
+            "last_name": "Hollas",
+            "faculty_title": "Emeritus Professor of Economics",
+            "faculty_email": "Daniel.hollas@utsa.edu",
+            "faculty_phone": "210-458-4777",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.04.16",
+            "faculty_pdf": 13254,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Emeritus Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1501"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/4762"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1501"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1501"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1503,
+        "date": "2017-11-07T18:40:45",
+        "date_gmt": "2017-11-07T18:40:45",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1503"
+        },
+        "modified": "2023-05-17T15:19:04",
+        "modified_gmt": "2023-05-17T20:19:04",
+        "slug": "don-lien",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/don-lien/",
+        "title": {
+            "rendered": "Don Lien, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. California Institute of Technology</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Dr. Lien is a world-renowned researcher who has published more than 250 papers in academic journals in the fields of economics, finance and statistics. He earned his Ph.D. from the California Institute of Technology. Dr. Lien is currently the Richard S. Liu Distinguished Chair in Business at UTSA.</p>\n<p>Dr. Lien&#8217;s primary field of interest is in the futures market with supporting areas in econometrics and development economics. He has served as a reviewer for more than 50 academic journals and has twice received the President&#8217;s Distinguished Achievement Award in Research from UTSA. His teaching honors include the Kemper Fellowship for Teaching Excellence and the Excellence in Teaching Award from the University of Kansas.</p>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“Subjective Well-Being and Income: A Reexamination of Satiation Using Regression Kink Model With an Unknown Threshold,” <em>Journal of Applied</em> <em>Econometrics</em>, Vol. 32, No. 2, 2017, pp. 463-469.</li>\n<li>“A Note on Using Ration Variables in Regression Analysis,” <em>Economics Letters</em>, Vol. 150, 2017, pp. 114-117.</li>\n<li>“The Effects of China’s Split-Share Reform on Firms’ Capital Structure Choice,” (with Liang Guo and Ya Dai), <em>Applied Economics</em>, Vol. 48, 2016, pp. 2530-2549.</li>\n<li>“Estimation of Market Information Shares: A Comparison,” <em>Journal of Futures Markets</em>, Vol. 36, No. 11, 2016, pp. 1108-1124</li>\n<li>“Effects of Passive Intensity on Aggregate Price Dynamics,” (with Sina Ehsani), <em>Financial Review</em>, Vol. 50, 2015, pp. 363-391.</li>\n<li>“Industry Herding and Momentum Strategies,” (with Riza Demirer and Huacheng Zhang), <em>Pacific-Basin Finance Journal</em>, Vol. 32, 2015, pp. 95-110</li>\n<li>“Optimal Managerial Hedging and Contracting with Self-Esteem Concerns,” <em>International Review of Economics and Finance</em>, Vol. 37, 2015, pp. 354-367.</li>\n<li>“Implied Volatility Dynamics Among Exchange Traded Funds and Their Largest Component Stocks,” with Timothy Krause, <em>Journal of Derivatives</em>, Vol. 22, 2014, pp. 7-26.</li>\n<li>“Democracy, Foreign Direct Investment and Natural Resources,” with Elizabeth Asiedu, <em>Journal of International Economics</em>, Vol. 84, 2011, pp. 99-111.</li>\n<li>“The Value of Planned Death,” with Leo Chan, <em>Journal of Socio-Economics</em>, Vol. 39, 2010, pp. 392-395.</li>\n<li>“A New Information Share Measure,” with Keshab Shrestha, <em>Journal of Futures Markets</em>, Vol. 29, 2009, pp. 377-395 .</li>\n<li>“International Accreditation and Brain Drain: A Simple Model,” <em>Economics of Education Review</em>, Vol. 25, 2006, pp. 335-340.</li>\n<li>“On Regression Analysis with Data Cleaning via Trimming, Winsorization and Dichotomization,” with N. Balakrishnan, <em>Communications in Statistics-Simulation and Computation</em>, Vol. 34, 2005, pp. 839-849.</li>\n<li>“Measuring the Effect of Sexual Orientation on Income: Evidence of Discrimination?” with Nathan Berg, <em>Contemporary Economic Policy</em>, Vol. 20, 2002, pp. 394-414.</li>\n<li>“The Effects of China’s Split-Share Reform on Firms’ Capital Structure Choice,” (with Liang Guo and Ya Dai), <em>Applied Economics</em>, Vol. 48, 2016, pp. 2530-2549.</li>\n<li>“Estimation of Market Information Shares: A Comparison,”<em> Journal of Futures Markets</em>, Vol. 36, No. 11, 2016, pp. 1108-1124<br />\nEconomic Analysis of Brain Drain,” <em>Journal of Development Economics</em>, Vol. 25, 1987, pp. 33-43.</li>\n<li>“A Note on Competitive Bribery Games,” <em>Economics Letters</em>, Vol. 22, 1986, pp. 337-341.</li>\n<li>“A Note on Taxation, Development, and Representative Government,” with Robert Bates, <em>Politics and Society</em>, Vol. 14, 1985, pp. 53-70.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 1523,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Don",
+            "last_name": "Lien",
+            "faculty_title": "Richard S. Liu Distinguished Chair in Business",
+            "faculty_email": "Don.Lien@utsa.edu",
+            "faculty_phone": "210-458-8070",
+            "faculty_fax": "210-458-5837",
+            "faculty_office_number": "BB 4.02.66",
+            "faculty_pdf": 12955,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1503"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1523"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1503"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1503"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1505,
+        "date": "2017-11-07T18:46:44",
+        "date_gmt": "2017-11-07T18:46:44",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1505"
+        },
+        "modified": "2023-05-17T15:23:56",
+        "modified_gmt": "2023-05-17T20:23:56",
+        "slug": "saeid-mahdavi-ph-d",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/saeid-mahdavi-ph-d/",
+        "title": {
+            "rendered": "Saeid Mahdavi, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. The University of California at Santa Barbara</li>\n<li>M.A. The University of California at Santa Barbara</li>\n<li>B.A. National University of Iran</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Dr. Mahdavi is an associate professor emeritus of economics. He holds a Ph.D. in economics from the University of California at Santa Barbara. He joined the Department of Economics at UTSA in 1984 as a visiting assistant professor and retired in 2019. Since then, Dr. Mahdavi has taught courses in Principles of Micro and Macroeconomics, Managerial Economics, Economics of Developing Countries and Economics Theory and Policy.</p>\n<h3><strong>Research Interests</strong></h3>\n<p>Dr. Mahdavi&#8217;s primary research interests include issues related to developing countries and government finances. His recent research efforts focus on the budgetary aspects of the American state and local governments. Dr. Mahdavi is a three-time recipient of the Carlos Alvarez College of Business Advisory Council Research Award in the 1990s.</p>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“Are State–local Government Expenditures Converging? New Evidence Based on Sequential Unit Root Tests,” (with Joakim Westerlund), <em>Empirical</em> <em>Economics</em>, Vol. 53, Fall 2017.</li>\n<li>“The Level and Composition of Tax Revenue in Developing Countries: Evidence from Unbalanced Panel Data,” in <em>Tax Reform in Developing Countries</em>, Edgar Elgar Publishing, Vol. 2, 2015.</li>\n<li>“Bohn&#8217;s Test of Fiscal Sustainability of the American State Governments,” <em>Southern Economic Journal</em>, Vol. 80, No. 4, April 2014, pp. 1028-1054.</li>\n<li>“Public Expenditures and the Unemployment Rate in the American States: Panel Evidence,&#8221; <em>Applied Economics</em>, Vol. 45, January 2013, pp. 2926-2937.</li>\n<li>“Fiscal Stringency and Fiscal Sustainability: Panel Evidence from the American State and Local Governments,” with Joakim Westerlund, <em>Journal of Policy Modeling</em>, Vol. 33, Issue 6, Nov.-Dec. 2011, pp. 953-69.</li>\n<li>“The Tax-Spending Nexus: Evidence from a Panel of US State-Local Governments,” with Joakim Westerlund, <em>Economic Modelling</em>, Vol. 28, Issue 3, May 2011, pp. 885-890.</li>\n<li>“The Level and Composition of Tax Revenue in Developing Countries: Evidence from Unbalanced Panel Data,” <em>International Review of Economics and Finance, </em>Vol. 17, Issue 4, October 2008, pp. 607-617.</li>\n<li>“Shifts in the Composition of Government Spending in Response to External Debt Burden,” <em>World Development</em>, Vol. 32, No. 7, July 2004, pp. 1139-1157.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 1527,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Saeid",
+            "last_name": "Mahdavi",
+            "faculty_title": "Associate Professor Emeritus of Economics",
+            "faculty_email": "saeid.mahdavi@utsa.edu",
+            "faculty_phone": "210-458-4315",
+            "faculty_fax": "210-458-5837",
+            "faculty_office_number": "BB 4.01.10",
+            "faculty_pdf": 1526,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Emeritus Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1505"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1527"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1505"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1505"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 24387,
+        "date": "2023-02-17T13:21:55",
+        "date_gmt": "2023-02-17T19:21:55",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=24387"
+        },
+        "modified": "2023-08-09T11:57:23",
+        "modified_gmt": "2023-08-09T16:57:23",
+        "slug": "katharine-mcbride",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/katharine-mcbride/",
+        "title": {
+            "rendered": "Katharine McBride"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 13293,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Katharine",
+            "last_name": "McBride",
+            "faculty_title": "Senior Administrative Associate",
+            "faculty_email": "katharine.mcbride@utsa.edu",
+            "faculty_phone": "210-458-4315",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.10",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Staff"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/24387"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/13293"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=24387"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=24387"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1529,
+        "date": "2017-11-07T21:45:37",
+        "date_gmt": "2017-11-07T21:45:37",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1529"
+        },
+        "modified": "2023-05-18T08:48:12",
+        "modified_gmt": "2023-05-18T13:48:12",
+        "slug": "john-merrifield-ph-d",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/john-merrifield-ph-d/",
+        "title": {
+            "rendered": "John Merrifield, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. University of Wyoming</li>\n<li>M.A. University of Illinois</li>\n<li>B.S. Cal Poly San Luis Obispo</li>\n</ul>\n<h3><strong>About</strong></h3>\n<h5><a href=\"http://faculty.business.utsa.edu/jmerrifi/index.htm\" target=\"_blank\" rel=\"noopener\">Personal Faculty Website</a></h5>\n<p>Dr. Merrifield was a University of Texas at San Antonio faculty member for 32 years.  He retired from teaching and faculty meetings to devote additional time to critical research issues, and to have more time with his wife and ‘high-maintenance’ teenage adopted boys.</p>\n<p>He’s the Editor of the <em>School System Reform Journal</em>, and past editor of the <em>Journal of School Choice</em>. He has just published <em>School System Reform: Why and How is a Price-less Tale</em>, plus <em>Can the Debt Growth be Stopped</em>, <em>The School Choice Wars</em>, <em>School Choices</em>, <em>Parental Choice as an Education Reform Catalyst: Global Lessons</em>, <em>Basic Economic Tools</em>, 55 peer-reviewed journal articles and several chapters in edited books in his primary teaching and research fields of education economics, public finance, urban and regional economics and environmental and natural resource economics. Two books are in the works.</p>\n<p>Dr. Merrifield received a BS in Natural Resource Management from Cal Poly San Luis Obispo in 1977, a MA in Economic Geography from the University of Illinois in 1979 and a PhD in Economics from the University of Wyoming in 1984. Dr. Merrifield is a first generation German immigrant; born a Hamburger, and raised a Frankfurter (tall – John 6&#8217;6&#8243;). He came with his mother, (now) Dr. Doris Merrifield-Leffingwell, to the United States in 1960 at the age of five. He resides in downtown San Antonio, Texas with his wife Gayla, and their adopted human children, Christopher and Joshua (14 and 13), and their four-legged children, canines Ted, Lindsay and DeLorean.</p>\n<p>&nbsp;</p>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“A Dynamic Scoring Simulation Analysis of How TEL Design Choices Impact Government Expansion,” <em>Journal of Economic and Financial Studies</em>, Vol. 4, No. 2, 2016, pp. 60-68.</li>\n<li>“Swedish and Swiss Fiscal Rule Outcomes Contain Key Lessons for the U.S.,” <em>The Independent Review</em>, Vol. 21, No. 2, Fall 2016, pp. 251-274.</li>\n<li>“Can the Debt Growth be Stopped? <em>Rules-Based Policy Options for Addressing the Federal Fiscal Crisis</em>,” (with Barry Poulson), Lexington, MA: Lexington Press, 2016.</li>\n<li>“Aquifer Storage Wellfield Assessment and Design Through Benefit-Cost-Sensibility Analysis,” <em>Water Resources and Economics</em>, Vol. 9, January 2015, pp. 80-93.</li>\n<li>“A Private Universal Voucher Program’s Effects on Traditional Public Schools,” (with N. Gray and K. Adzima), <em>Journal of Economics and Finance</em>, Vol. 39, Issue 1, 2015, pp. 1-26.</li>\n<li>“Aquifer Storage and Recovery Project Optimization Through User-Friendly Benefit-Cost Analysis,&#8221; <em>Water Resources and Economics</em>, 2014.</li>\n<li>“State Fiscal Policies for Budget Stabilization and Economics Growth: A Dynamic Scoring Analysis,&#8221; with Poulson, <em>Cato Journal</em>, Vol. 34, No. 1, 2014, pp. 47-82.</li>\n<li>“School Choice and Development: Evidence from the Edgewood Experiment,” with Gray, <em>Cato Journal</em>, Vol. 33, No. 1, 2013, pp. 127-142.</li>\n<li>“Fiscal Notes for School Choice Programs: Issues, Past Practice and Moving Forward,&#8221; with Ford, <em>Journal of School Choice</em>, Vol. 7, No. 1, 2013, pp. 37-60.</li>\n<li>“The Property Value Effects of Universal Tuition Vouchers,” with Adzima, Nesbit and Gunasekara, <em>Journal of Housing Research,</em> Vol. 20, No. 2, 2011, pp. 225-238.</li>\n<li>“An Education Freedom Index,” <em>Journal of School Choice,</em> Vol. 5, No. 3, 2011, pp. 319-349.</li>\n<li>“The Potential for System-Friendly K-12 Reform,” <em>Cato Journal,</em> Vol. 29, No. 2, 2009, pp. 373-387.</li>\n<li>“The School Choice Evidence and its Significance,” <em>Journal of School Choice,</em> Vol. 2, No. 3, 2008, pp. 223-259.</li>\n<li><u></u>“Groundwater Resources: The Transition from Capture to Allocation,” <em>Policy Studies Review</em>, Vol. 17, No. 1, 2000, pp. 105-124.</li>\n<li>“State Government Expenditure Determinants and Tax Revenue Determinants Revisited,” <em>Public Choice</em>, Vol. 102, 2000, pp. 25-50.</li>\n<li>“Monopsony Power in the Market for Teachers,” <em>Journal of Labor Research</em>, Vol. 20, No. 3, 199, pp. 377-391.</li>\n<li>“A Market Approach to Conserving Biodiversity,” <em>Ecological Economics</em>, Vol. 16, 1996, pp. 217-226.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 10795,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "John",
+            "last_name": "Merrifield",
+            "faculty_title": "Professor Emeritus of Economics",
+            "faculty_email": "john.merrifield@utsa.edu",
+            "faculty_phone": "210-458-4315",
+            "faculty_fax": "210-458-5837",
+            "faculty_office_number": "BB 4.01.10",
+            "faculty_pdf": 21523,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Emeritus Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1529"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/10795"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1529"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1529"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 18697,
+        "date": "2021-08-14T02:56:26",
+        "date_gmt": "2021-08-14T02:56:26",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=18697"
+        },
+        "modified": "2023-08-15T10:42:51",
+        "modified_gmt": "2023-08-15T15:42:51",
+        "slug": "jonathan-moreno-medina",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/jonathan-moreno-medina/",
+        "title": {
+            "rendered": "Jon Moreno-Medina, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees<br />\n</strong></h3>\n<ul>\n<li>Ph.D. Duke University</li>\n<li>M.S. Université Catholique de Louvain</li>\n<li>B.A. Universidad Nacional de Colombia</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p><a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.jmorenomedina.com%2F&amp;data=04%7C01%7CWendy.Frost%40utsa.edu%7C1c613aa50fbb40b47f9408d9585adf3b%7C3a228dfbc64744cb88357b20617fc906%7C0%7C0%7C637637969583167505%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=mf%2By44KGOy64MsUQiFBHElDHUFa8Rr2nVOJCifPRPII%3D&amp;reserved=0\">Personal website</a></p>\n<p><a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.jmorenomedina.com%2Fs%2FCV_Moreno_academic_jul_2021.pdf&amp;data=04%7C01%7CWendy.Frost%40utsa.edu%7C1c613aa50fbb40b47f9408d9585adf3b%7C3a228dfbc64744cb88357b20617fc906%7C0%7C0%7C637637969583177497%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=xIIT1RTSpmOc4F6lIbZc8o5pHz8O3UW2JWDqSJDNZBc%3D&amp;reserved=0\">CV</a></p>\n<p>Jon Moreno-Medina joined the Department of Economics at UTSA in the fall of 2021. He has a Ph.D. in economics from Duke University, a master’s degree in economics from UCLouvain in Belgium and an undergraduate degree in economics from Universidad Nacional de Colombia.</p>\n<p>Jon’s research focuses on urban, public and media economics. His other research areas include development economics and political economy.</p>\n<p>Jon teaches a graduate course on causal inference and machine learning, and an undergraduate course on public and urban economics.</p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Urban economics</li>\n<li>Public economics</li>\n<li>Media economics</li>\n<li>Housing markets</li>\n<li>Discrimination</li>\n<li>Segregation</li>\n</ul>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“Sinning in the Rain: Weather Shocks, Church Attendance and Crime,” <em>Review of Economics and Statistics</em>, forthcoming.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 18690,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Jon",
+            "last_name": "Moreno-Medina",
+            "faculty_title": "Assistant Professor of Economics",
+            "faculty_email": "jonathan.moreno-medina@utsa.edu",
+            "faculty_phone": "210-458-5308",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.05.02",
+            "faculty_pdf": 18698,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/18697"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/18690"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=18697"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=18697"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 20387,
+        "date": "2022-01-05T09:24:43",
+        "date_gmt": "2022-01-05T15:24:43",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=20387"
+        },
+        "modified": "2022-01-28T10:52:45",
+        "modified_gmt": "2022-01-28T16:52:45",
+        "slug": "mohammed-partapurwala",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/mohammed-partapurwala/",
+        "title": {
+            "rendered": "Mohammed Partapurwala"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 1687,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Mohammed",
+            "last_name": "Partapurwala",
+            "faculty_title": "Lecturer in Economics ",
+            "faculty_email": "mohammed.partapurwala@utsa.edu",
+            "faculty_phone": "",
+            "faculty_fax": "",
+            "faculty_office_number": "",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/20387"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1687"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=20387"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=20387"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 8686,
+        "date": "2019-03-20T20:58:40",
+        "date_gmt": "2019-03-20T20:58:40",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=8686"
+        },
+        "modified": "2023-05-18T09:01:14",
+        "modified_gmt": "2023-05-18T14:01:14",
+        "slug": "keith-phillips",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/keith-phillips/",
+        "title": {
+            "rendered": "Keith Phillips, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3>Degrees</h3>\n<ul>\n<li>Ph.D. Southern Methodist University</li>\n<li>M.A. University of Missouri at Columbia</li>\n<li>B.A. University of Missouri at Columbia</li>\n<li>Bachelor of Journalism University of Missouri at Columbia</li>\n</ul>\n<h3>About</h3>\n<p>Keith R. Phillips joined the Federal Reserve bank of Dallas in January 1984. In his most recent position, he served as assistant vice president and senior economist until his retirement in February 2022.</p>\n<p>During his 38 years at the Dallas Fed, Phillips regularly participated in policy briefings to the bank president in preparation for FOMC meetings. He was also co-editor of the Southwest Economy and Dallas Fed Economics and participated in Federal Reserve System projects such as the Beige Book Working Group.</p>\n<p>Phillips has published numerous articles on economic topics in Dallas Fed publications and academic journals. <em>Research Papers in Economics</em>, which tracks publications in economics, ranks Phillips in the top five percent of economists across the world in terms of the number of distinct publications. Over the past eighteen years, he has been the most accurate forecaster for Texas job growth in the Western Blue Chip Economic Forecast.</p>\n<p>Since 2009, Phillips has served as an adjunct professor of economics in the Executive MBA program at The University of Texas at San Antonio.</p>\n<p>Phillips enjoys the many outdoor opportunities in Texas, including hiking, camping, hunting and fishing.</p>\n",
+            "protected": false
+        },
+        "featured_media": 8688,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Keith ",
+            "last_name": "Phillips",
+            "faculty_title": "Associate Professor of Practice in Economics",
+            "faculty_email": "keith.phillips@utsa.edu",
+            "faculty_phone": "210-458-4315",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.10",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/8686"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/8688"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=8686"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=8686"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 23051,
+        "date": "2022-09-08T14:52:59",
+        "date_gmt": "2022-09-08T19:52:59",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=23051"
+        },
+        "modified": "2023-08-24T11:19:06",
+        "modified_gmt": "2023-08-24T16:19:06",
+        "slug": "viviana-rodriguez",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/viviana-rodriguez/",
+        "title": {
+            "rendered": "Viviana Rodriguez, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3>Degrees</h3>\n<ul>\n<li>Ph.D. Columbia University</li>\n<li>M.A. Universidad de Los Andes</li>\n<li>B.A. Universidad de Los Andes</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p><a href=\"https://www.vivianarodriguez.com\">Personal Faculty Website</a></p>\n<p>Viviana Rodriguez is an Assistant Professor at the University of Texas at San Antonio in the Department of Economics at the Alvarez College of Business. She has a joint appointment with the Department of Educational Leadership and Policy Studies. Rodriguez’s research focuses on economics of education, labor economics, cost-effectiveness analysis, and program evaluation. Rodriguez is a research affiliate to the Center for Benefit-Cost Studies in Education (CBCSE).</p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Economics of Education,</li>\n<li>Labor Economics</li>\n<li>Cost-effectiveness Analysis</li>\n<li>Program Evaluation</li>\n</ul>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>&#8220;Unequal Worker Exposure to Establishment Deaths,&#8221; in <em>Labour Economics, </em>Vol. 73, 2021, 102073.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 24482,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Viviana",
+            "last_name": "Rodriguez",
+            "faculty_title": "Assistant Professor of Economics",
+            "faculty_email": "viviana.rodriguez@utsa.edu",
+            "faculty_phone": "",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.02.14",
+            "faculty_pdf": 23356,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/23051"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/24482"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=23051"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=23051"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 23023,
+        "date": "2022-09-07T16:00:03",
+        "date_gmt": "2022-09-07T21:00:03",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=23023"
+        },
+        "modified": "2023-08-24T11:19:47",
+        "modified_gmt": "2023-08-24T16:19:47",
+        "slug": "bulent-temel",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/bulent-temel/",
+        "title": {
+            "rendered": "Bulent Temel, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Harvard University, London School of Economics</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p><a href=\"https://sites.google.com/view/bulent-temel\" target=\"_blank\" rel=\"noopener\">Personal Faculty Website</a></p>\n<p>Bülent Temel, Ph.D. is an assistant professor of practice in economics at the University of Texas at San Antonio Alvarez College of Business. He has taught around 140 classes and delivered lectures in nine American and European universities, and published around 60 publications to date. Dr. Temel is the recipient of a <em>Life-Changing Educator Award in 2018</em> and a <em>Best Financial Advisor in Southern California Award</em> in 2008. He had ten years of experience as a financier in corporate America prior to academia.</p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Neo-institutionalism</li>\n<li>Pluralistic economics</li>\n<li>Public choice theory</li>\n<li>Cooperativism</li>\n<li>Community economic development</li>\n</ul>\n<h3><strong>Select Publications:</strong></h3>\n<ul>\n<li><em>The Great Catalyst: European Union Project and Lessons from Greece and Turkey</em>. Lanham, MD: Lexington Books, 2013. ISBN 9780739174487.</li>\n<li>“Co-operative Organizations and Institutional Stability: Evidence from the Canadian Financial Sector.” <em>Review of International Co-operation,</em> 2013, pp. 48-66.</li>\n<li>“Divided We Stand: A Game Theoretic Analysis of the Semi-Centennial Cyprus Dispute.” <em>Journal of Cyprus Studies, Vol. </em>17, No. 40, 2012, pp. 1-14.1.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 24898,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Bulent",
+            "last_name": "Temel",
+            "faculty_title": "Assistant Professor of Practice in Economics",
+            "faculty_email": "bulent.temel@utsa.edu",
+            "faculty_phone": "210-458-4777",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.05.04",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/23023"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/24898"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=23023"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=23023"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1530,
+        "date": "2017-11-07T21:49:14",
+        "date_gmt": "2017-11-07T21:49:14",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1530"
+        },
+        "modified": "2023-05-18T09:28:56",
+        "modified_gmt": "2023-05-18T14:28:56",
+        "slug": "dale-truett",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/dale-truett/",
+        "title": {
+            "rendered": "Dale Truett, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. University of Texas at Austin</li>\n<li>M.A. University of Texas at Austin</li>\n<li>B.A. Purdue University</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Dale Truett is a professor emeritus of economics. He joined the UTSA faculty in 1973 after teaching at the University of Florida and Florida International University. He retired in 2019. He received his Ph.D. in economics from the University of Texas at Austin in 1967, his M.A. in Latin American studies from the University of Texas at Austin and his B.A. in social sciences from Purdue University. He was founding chairman of the Department of Economics at Florida International University and was UTSA&#8217;s first director of the Division of Economics and Finance. His biographical data have appeared in the following Marquis publications: <em>Who&#8217;s Who in America</em>; <em>Who&#8217;s Who in American Education</em>; <em>Who&#8217;s Who in Finance and Business; </em>and<em> Who&#8217;s Who in the South and Southwest</em>.</p>\n<h3><strong>Research Interests</strong></h3>\n<p>Dr. Truett&#8217;s current research activities, frequently carried out with his co-author, Dr. Lila Truett, include industry studies, applied international trade issues and topics in the theory of the firm. He has also co-authored three textbooks with Dr. Lila Truett. He has twice received the Carlos Alvarez College of Business Advisory Council Research Award. In recognition of his contributions to research and teaching, he was awarded an Ashbel Smith Professorship, UTSA&#8217;s highest honor for professional scholarship in 1997. He has held visiting professorships at the University of Texas at Austin and the Instituto Tecnologico y de Estudios Superiores de Monterrey in Mexico. Also, he has traveled to over 35 countries and has done research in many of these.</p>\n<p>Dr. Truett&#8217;s current areas of teaching include managerial economics, microeconomic theory and macroeconomics. He has previously taught courses in international economics, international finance and financial management.</p>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>&#8220;Cost Relationships and Challenges in the Spanish Apparel Industry,&#8221; with L. J. Truett, <em>Applied Economics</em>, forthcoming.</li>\n<li>“Cost Relationships and Globalization in the Australian Clothing Industry,” <em>Applied Economics</em>, Vol. 49, No. 46, July 2017, pp. 4638-4656.</li>\n<li>“The German Motor Vehicle Industry: Costs and Crisis,” (with Lila Truett), <em>International Review of Economics and Finance</em>, Vol. 48, March 2017, pp. 49-55.</li>\n<li>“The Motor Vehicle Industry in an Emerging Nation: The Case of Brazil,” (with L. J. Truett), <em>Applied Economics</em>, Vol. 48, No. 23, 2016, pp. 2170-2182.</li>\n<li>“The Spanish Textile Industry Sans ATC Quota Protection,” (with L. J. Truett), <em>International Review of Applied Economics</em>, Vol. 30, No. 3, May 2016, pp. 357-376.</li>\n<li>&#8220;The South Korean Auto Industry&#8217;s Path to Maturity,&#8221; with L. J. Truett, <em>International Review of Economics and Finance</em>, Vol. 31, May 2014, pp. 86-94.</li>\n<li>&#8220;A Ray of Hope? Another Look at the Italian Textile Industry,&#8221; with L. J. Truett, <em>Empirical Economics</em>, Vol. 46, No. 2, March 2014, pp. 525-542.</li>\n<li>&#8220;Whither Germany and the EMU in a Challenging Environment?&#8221; with L. J. Truett,  <em>Australian Economic Papers</em>, Vol. 51, No. 1, March 2012, pp. 55-69.</li>\n<li>&#8220;The Korean Textile Industry:  Still Competitive After All These Years?&#8221; with L. J. Truett, <em>Applied Economics</em>, Vol. 43, No. 22, September 2011, pp. 2983-2992.</li>\n<li>&#8220;New Challenges for the South African Textile and Apparel Industries in the Global Economy,&#8221; with L. J. Truett, <em>Journal of Economic Development</em>, Vol. 35, No. 4, December 2010, pp. 73-91.</li>\n<li>&#8220;Globalization Challenges for the Mexican Textile Industry,&#8221; with L. J. Truett,<em>The International Review of Economics and Finance</em>, Vol. 19, No. 4, October 2010, pp. 733-741.</li>\n<li>&#8220;Firm Size and Efficiency in the South African Motor Vehicle Industry,&#8221;with L. J. Truett,<em>  Australian Economic Papers</em>, Vol. 48, No. 4, December 2009, pp. 333-41.</li>\n<li>“Challenges for France in the Emerging International Environment: A Dynamic Analysis,” with L. J. Truett, <em>Contemporary Economic Policy</em>, Vol. 27, No. 4, October 2009, pp. 566-573.</li>\n<li>“Insourcing, Outsouring, and Unemployment in the Spanish Auto Industry,” with L. J. Truett, <em>Review of Development Economics</em>, Vol. 12, No. 4, 2008, pp. 702-713.</li>\n<li>“A Cost-Based Analysis of Scale Economies in the French Auto Industry,” with L. J. Truett, <em>International Review of Economics and Finance</em>, Vol. 16, No. 3, 2007, pp. 369-382.</li>\n<li>“Production and Cost Characteristics of the South African Motor Vehicle Industry,” with L. J. Truett, <em>Applied Economics</em>, Vol. 38, No. 20, November 2007, pp. 2381-2392.</li>\n<li>“A Cost Function Analysis of Import Demand in South Africa,” with L. J. Truett, <em>Journal of Development Economics</em>, Vol. 70, April 2003, pp. 425-442.</li>\n<li>“The Aggregate Demand/Aggregate Supply Model:Â A Premature Requiem?” with L. J. Truett, <em>The American Economist</em>, Vol. 42, No. 1, Spring 1998, pp. 71-75.</li>\n<li>“Economies of Scale in the Mexican Automotive Sector,” with L. J. Truett, <em>Journal of Productivity Analysis</em>, Vol. 7, No. 4, October 1996, pp. 429-446.</li>\n<li>“The Translog Cost Function and Demand for Imports:Â The Case of Mexico,” with L. J. Truett and B. Apostolakis, <em>Southern Economic Journal</em>, Vol. 60, No. 3, January 1994, pp. 685-700.</li>\n<li>“The Demand for Life Insurance in Mexico and the United States,” with L. J. Truett, <em>Journal of Risk and Insurance</em>, Vol. 57, No. 2, June 1990, pp. 321-328.</li>\n<li><em>Economics</em> with L. J. Truett, St. Louis, Missouri:Â  Times Mirror/Mosby College Publishing, 1987.</li>\n<li>&#8220;Texas in International Trade,&#8221; with Paul Bartlett and Lila Flory, in Louis J. Rodriguez, ed., <em>Dynamics of Growth: An Economic Profile of Texas</em>, Austin:Â Madrona Press, 1978, pp. 222-43..</li>\n<li>&#8220;Comment: Professor Kaldor on Inflation, Growth, and Technological Change,&#8221; in D. Geithman, ed., <em>Fiscal Policy for Industrial Development in Latin America</em>, University of Florida Press: 1974.</li>\n<li>&#8220;Returns to Scale and Outlay: An Ambiguity in the Theory of Production and Cost,&#8221; with D. Geithman, <em>Economia Internazionale</em>, Maggio 1974, pp. 3-13.</li>\n<li>&#8220;Classical Production Functions, Technical Optimality, and Scale Adjustments of the Firm,&#8221; with B. Roberts, <em>American Economic Review</em>, December 1973, pp. 975-82.<u></u></li>\n<li>&#8220;The Elasticity of Expansion and Scale Adjustments of the Firm,&#8221; <em>American Economic Review</em>, December 1971, pp. 962-65.<u></u></li>\n<li>&#8220;Industrial Promotion Policies and Strategies in Latin America,&#8221; appears as a substantial part of Ch. 5 in <em>United Nations Industrial Development Survey</em>, Vienna: United Nations Industrial Development Organization, 1971.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 1539,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Dale",
+            "last_name": "Truett",
+            "faculty_title": "Professor Emeritus of Economics",
+            "faculty_email": "dale.truett@utsa.edu",
+            "faculty_phone": "210-458-4315",
+            "faculty_fax": "210-458-5837",
+            "faculty_office_number": "BB 4.01.10",
+            "faculty_pdf": 1538,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Emeritus Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1530"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1539"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1530"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1530"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1531,
+        "date": "2017-11-07T21:50:17",
+        "date_gmt": "2017-11-07T21:50:17",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1531"
+        },
+        "modified": "2023-05-18T09:29:36",
+        "modified_gmt": "2023-05-18T14:29:36",
+        "slug": "lila-truett",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/lila-truett/",
+        "title": {
+            "rendered": "Lila Truett, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. University of Iowa</li>\n<li>M.A. University of Iowa</li>\n<li>B.A. Kansas State University</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Lila Truett is a professor emeritus of economics. She was named a Dean&#8217;s Distinguished Fellow for 2012-2014. She joined the UTSA faculty in 1975 after teaching at Appalachian State University and Iowa Wesleyan University. She received her Ph.D. in economics from the University of Iowa in 1972, her M.A. in economics from the University of Iowa, and her B.A. in mathematics from Kansas State University. She served as interim chair and later chair of the Division of Economics and Finance from January 1980 until September 2001. She served as chair of the Department of Economics from September 2001 to December 2001. She retired in 2019.</p>\n<h3><strong>Research Interests</strong></h3>\n<p>Dr. Truett&#8217;s current areas of research, co-authored with Dr. Dale Truett, include industry studies, applied international trade issues and topics in the theory of the firm. Her early research was in macroeconomics, particularly concerning a Keynesian interpretation of the empirical Phillips curve phenomenon. She has also co-authored three textbooks with Dr. Dale Truett. She previously served on the Board of Trustees of the Southern Economic Association and on the Advisory Board and as treasurer for the San Antonio Business and Economics Society.</p>\n<p>Dr. Truett&#8217;s current areas of teaching include Managerial Economics and Microeconomic Theory. She has previously taught courses in Managerial Finance, Mathematical Economics, Statistics, Macroeconomics, Money and Banking, and Financial Institutions. She has received the UTSA Alumni Association Distinguished Faculty Teaching Award and the MBA Association Outstanding Professor in Economics.</p>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>&#8220;Cost Relationships and Challenges in the Spanish Apparel Industry,&#8221; with D.B. Truett, <em>Applied Economics</em>, forthcoming.</li>\n<li>“Cost Relationships and Globalization in the Australian Clothing Industry,” <em>Applied Economics</em>, Vol. 49, No. 46, July 2017, pp. 4638-4656.</li>\n<li>“The German Motor Vehicle Industry: Costs and Crisis,” (with D.B. Truett), <em>International Review of Economics and Finance</em>, Vol. 48, March 2017, pp. 49-55.</li>\n<li>“The Motor Vehicle Industry in an Emerging Nation: The Case of Brazil,” (with D. B. Truett), <em>Applied Economics</em>, Vol. 48, No. 23, 2016, pp. 2170-2182.</li>\n<li>“The Spanish Textile Industry Sans ATC Quota Protection,” (with D. B. Truett), <em>International Review of Applied Economics</em>, Vol. 30, No. 3, May 2016, pp. 357-376.</li>\n<li>&#8220;The South Korean Auto Industry&#8217;s Path to Maturity,&#8221; with D.B. Truett, <em>International Review of Economics and Finance</em>, Vol. 31, May 2014, pp. 86-94.</li>\n<li>&#8220;A Ray of Hope? Another Look at the Italian Textile Industry,&#8221; with D.B. Truett, <em>Empirical Economics</em>, Vol. 46, No. 2, March 2014, pp. 525-542.</li>\n<li>&#8220;Whither Germany and the EMU in a Challenging Environment?&#8221; with D. B. Truett,  <em>Australian Economic Papers</em>, Vol. 51, No. 1, March 2012, pp. 55-69.</li>\n<li>&#8220;The Korean Textile Industry:  Still Competitive After All These Years?&#8221; with D. B. Truett, <em>Applied Economics</em>, Vol. 43, No. 22, September 2011, pp. 2983-2992.</li>\n<li>&#8220;New Challenges for the South African Textile and Apparel Industries in the Global Economy,&#8221; with D.B. Truett, <em>Journal of Economic Development</em>, Vol. 35, No. 4, December 2010, pp. 73-91.</li>\n<li>&#8220;Globalization Challenges for the Mexican Textile Industry,&#8221; with D. B. Truett, <em>The International Review of Economics and Finance</em>, Vol. 19, No. 4, October 2010, pp. 733-741.</li>\n<li>&#8220;Firm Size and Efficiency in the South African Motor Vehicle Industry,&#8221;with D. B. Truett,<em>  Australian Economic Papers</em>, Vol. 48, No. 4, December 2009, pp. 333-41.</li>\n<li>“Challenges for France in the Emerging International Environment: A Dynamic Analysis,” with D. B. Truett, <em>Contemporary Economic Policy</em>, Vol. 27, No. 4, October 2009, pp. 566-573.</li>\n<li>“Insourcing, Outsouring, and Unemployment in the Spanish Auto Industry,” with D. B. Truett, <em>Review of Development Economics</em>, Vol. 12, No. 4, 2008, pp. 702-713.</li>\n<li>“A Cost-Based Analysis of Scale Economies in the French Auto Industry,” with D. B. Truett, <em>International Review of Economics and Finance</em>, Vol. 16, No. 3, 2007, pp. 369-382.</li>\n<li>“Production and Cost Characteristics of the South African Motor Vehicle Industry,” with D. B. Truett, <em>Applied Economics</em>, Vol. 38, No. 20, November 2007, pp. 2381-2392.</li>\n<li>“A Cost Function Analysis of Import Demand in South Africa,” with D. B. Truett, <em>Journal of Development Economics</em>, Vol. 70, April 2003, pp. 425-442.</li>\n<li>“The Aggregate Demand/Aggregate Supply Model: A Premature Requiem?” with D. B. Truett, <em>The American Economist</em>, Vol. 42, No. 1, Spring 1998, pp. 71-75.</li>\n<li>“Economies of Scale in the Mexican Automotive Sector,” with D. B. Truett, <em>Journal of Productivity Analysis</em>, Vol. 7, No. 4, October 1996, pp. 429-446.</li>\n<li>“The Translog Cost Function and Demand for Imports: The Case of Mexico,” with D. B. Truett and B. Apostolakis, <em>Southern Economic Journal</em>, Vol. 60, No. 3, January 1994, pp. 685-700.</li>\n<li>“The Demand for Life Insurance in Mexico and the United States,” with D.B. Truett, <em>Journal of Risk and Insurance</em>, Vol. 57, No. 2, June 1990, pp. 321-328.</li>\n<li><em>Economics</em> with D.B. Truett, St. Louis, Missouri: Times Mirror/Mosby College Publishing, 1987.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 1541,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Lila",
+            "last_name": "Truett",
+            "faculty_title": "Professor Emeritus of Economics",
+            "faculty_email": "lila.truett@utsa.edu",
+            "faculty_phone": "210-458-4315",
+            "faculty_fax": "210-458-5837",
+            "faculty_office_number": "BB 4.01.10",
+            "faculty_pdf": 1542,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Emeritus Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1531"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1541"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1531"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1531"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 25739,
+        "date": "2023-08-01T15:54:51",
+        "date_gmt": "2023-08-01T20:54:51",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=25739"
+        },
+        "modified": "2023-08-24T11:20:47",
+        "modified_gmt": "2023-08-24T16:20:47",
+        "slug": "rodrigo-velez",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/rodrigo-velez/",
+        "title": {
+            "rendered": "Rodrigo Velez"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 25906,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Rodrigo",
+            "last_name": "Velez",
+            "faculty_title": "Professor of Economics",
+            "faculty_email": "rodrigo.velez@utsa.edu",
+            "faculty_phone": "",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.03.20",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/25739"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/25906"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=25739"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=25739"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1532,
+        "date": "2017-11-07T21:52:55",
+        "date_gmt": "2017-11-07T21:52:55",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1532"
+        },
+        "modified": "2023-05-18T09:36:46",
+        "modified_gmt": "2023-05-18T14:36:46",
+        "slug": "kenneth-weiher",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/kenneth-weiher/",
+        "title": {
+            "rendered": "Kenneth Weiher, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. Indiana University</li>\n<li>M.A. Indiana University</li>\n<li>B.A. College of William and Mary</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Ken Weiher is an associate professor emeritus of economics and served as chair of the Department of Economics from 2002-2014. He joined the UTSA faculty in 1975 after completing his Ph.D. in economics at Indiana University. Prior to that, Dr. Weiher received his bachelors of arts in economics from the College of William and Mary. He retired in 2019.</p>\n<p>Dr. Weiher&#8217;s primary area of research is U.S. economic history. His early publications concentrated on the economics of southern urbanization. Later work focused on macroeconomic topics such as the Great Depression, government macroeconomic policies and the historical patterns of the movements in interest rates, stock prices and gold prices. He has authored two books&#8211;one a macroeconomics textbook and the other a historical study of monetary and fiscal policies in the twentieth century. Dr. Weiher served as the president of the Economic and Business Historical Society from 2003-04.</p>\n<p>Dr. Weiher&#8217;s teaching specialties include U.S. Economic History, Evolution of Economic Thought, Aggregate Economics, Money and Banking. He has received the University of Texas Chancellor&#8217;s Council Outstanding Teaching Award, the UTSA President&#8217;s Distinguished Achievement Award for Teaching Excellence, the Carlos Alvarez College of Business Advisory Council Teaching Award and the Lou Curry Teaching Excellence Award.</p>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>&#8220;Sometimes the Horse Will Drink and Sometimes It Won&#8217;t: Monetizing the Recoveries from the Great Depression and Great Recession,&#8221; <em>Essays in Economics and Business History</em>, Vol. 31, 2013, pp. 1-32.</li>\n<li><em>America’s Search for Economic Stability: Monetary and Fiscal Policy Since 1913.</em> New York: Twayne Publishers-MacMillan, 1992.Â  A 241-page bibliographical review and analysis of government stabilization policy in the twentieth century, beginning with the establishment of the Federal Reserve in 1913.</li>\n<li>“Globalization and Wage Stagnation: Historical and Theoretical Perspectives,” with Hamid Beladi, <em>Asia-Pacific Journal of Accounting &amp; Economics</em>, Vol. 18, August 2011, pp. 201-211.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 1548,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Ken",
+            "last_name": "Weiher",
+            "faculty_title": "Associate Professor Emeritus of Economics",
+            "faculty_email": "ken.weiher@utsa.edu",
+            "faculty_phone": "210-458-4315",
+            "faculty_fax": "210-458-5837",
+            "faculty_office_number": "BB 4.01.10",
+            "faculty_pdf": 1547,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Emeritus Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1532"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1548"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1532"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1532"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 25757,
+        "date": "2023-08-02T10:57:33",
+        "date_gmt": "2023-08-02T15:57:33",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=25757"
+        },
+        "modified": "2023-08-24T11:30:02",
+        "modified_gmt": "2023-08-24T16:30:02",
+        "slug": "natassa-zervou",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/natassa-zervou/",
+        "title": {
+            "rendered": "Natassa Zervou"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 26082,
+        "template": "",
+        "faculty_departments": [
+            32
+        ],
+        "acf": {
+            "first_name": "Natassa",
+            "last_name": "Zervou",
+            "faculty_title": "Associate Professor of Economics",
+            "faculty_email": "anastasia.zervou@utsa.edu",
+            "faculty_phone": "",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.03.24",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Economics",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/25757"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/26082"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=25757"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=25757"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]
