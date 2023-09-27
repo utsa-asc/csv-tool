@@ -26,7 +26,7 @@ const ROLE = "Faculty";
 
 var tasks = [];
 
-const DEPTS = fs.readFileSync("acob/directory-dept-test.json");
+const DEPTS = fs.readFileSync("acob/directory-dept-list.json");
 const departments = prepDepts(DEPTS);
 // console.dir(departments);
 let dkeys = Object.keys(departments);
@@ -68,6 +68,38 @@ async function completeTasks() {
   try {
     for (let t of tasks) {
       // data points to collect from WP JSON API Faculty object:
+      var person = parsePersonData(t);
+      const payload = preparePayload(person);
+      let stringPayload = JSON.stringify(payload);
+      // console.log(stringPayload);
+      if (POST == "YES") {
+        let postedAsset = await postAsset(POST_URI, stringPayload);
+        try {
+          let respj = JSON.parse(postedAsset);
+          if (respj.success == true) {
+            // console.log(postedAsset);
+            console.log("created: " + respj.createdAssetId + ": " + payload.asset.xhtmlDataDefinitionBlock.name);
+          } else {
+            console.log("****ERROR****");
+            console.log(postedAsset);
+            console.dir(payload);
+          }
+        } catch (e) {
+          console.log("POST failed to return a JSON response");
+          console.log(e);
+        }
+      } else {
+        console.log("skipping POST");
+      }
+    }
+  } catch (e) {
+    console.log(e);
+    console.log("Error while running tasks:");
+    console.dir(currentTask);
+  }
+}
+
+function parsePersonData(t) {
       /*
       id: numeric
       slug: uri string
@@ -110,45 +142,38 @@ async function completeTasks() {
       // console.dir(depts);
       newPerson.department = depts;
       newPerson.roles = roles;
+      return newPerson;
       /*
       // $.media_details.sizes.full.source_url for original
       // $.media_details.sizes.medium_large.source_url for 768ish
       */
       // TODO let's leave headshot and CV download/upload to another task
-
-      const payload = preparePayload(newPerson);
-      let stringPayload = JSON.stringify(payload);
-      // console.log(stringPayload);
-      if (POST == "YES") {
-        let postedAsset = await postAsset(POST_URI, stringPayload);
-        console.log(postedAsset);
-      } else {
-        console.log("skipping POST");
-      }
-    }
-  } catch (e) {
-    console.log(e);
-    console.log("Error while running tasks:");
-    console.dir(currentTask);
-  }
 }
 
 function reduceDepartments(p) {
   var depts = [];
   // console.log(p.department_role_repeater);
-  p.department_role_repeater.map(function(r) {
-    depts.push(r.department.toLowerCase());
-  });
+  try {
+    p.department_role_repeater.map(function(r) {
+      depts.push(r.department.toLowerCase());
+    });
+  } catch (e) {
+    depts = [];
+  }
   return depts;
 }
 
 function reduceRoles(p) {
   var roles = [];
   // console.log(p.department_role_repeater);
-  p.department_role_repeater.map(function(r) {
-    // console.log(r.role);
-    roles.push(r.role.toLowerCase());
-  });
+  try {
+    p.department_role_repeater.map(function(r) {
+      // console.log(r.role);
+      roles.push(r.role.toLowerCase());
+    });  
+  } catch (e) {
+    roles = [];
+  }
   return roles;
 }
 
@@ -168,6 +193,7 @@ function createFolderPath(p) {
   //potential roles:
   // Faculty | Staff | Administrators | Doctoral Students | Emeritus Faculty
   var folderPath = "faculty/_blocks/" + p.topd.toLowerCase() + "";
+  folderPath = folderPath.replaceAll(' ', '-');
   // console.dir(p.roles);
   if (p.roles.includes('faculty')) {
     //going to assume emeritus also goes in faculty
@@ -187,7 +213,10 @@ function preparePayload(data) {
   block.asset.xhtmlDataDefinitionBlock.metadata.displayName = data.fullname;
   block.asset.xhtmlDataDefinitionBlock.parentFolderPath = createFolderPath(data);
   block.asset.xhtmlDataDefinitionBlock.tags = createTags(data.department, data.roles);
-  block.asset.xhtmlDataDefinitionBlock.name = data.last_name.toLowerCase() + "-" + data.first_name.toLowerCase();
+  var newSlug = data.last_name.toLowerCase() + "-" + data.first_name.toLowerCase();
+  newSlug = newSlug.replace(/[^a-z -]/gi, '');
+  newSlug = newSlug.replaceAll(' ', '-');
+  block.asset.xhtmlDataDefinitionBlock.name = newSlug;
 
   var sdns = block.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes;
   sdns.map(function(node) {
@@ -195,9 +224,9 @@ function preparePayload(data) {
       node.structuredDataNodes.map(function(detailNode) {
         if (detailNode.identifier == "title") {
           detailNode.text = data.faculty_title;
-          detailNode.text = detailNode.text.replace('<br/>', '<br>');
-          detailNode.text = detailNode.text.replace(' <br> ', '<br>');
-          detailNode.text = detailNode.text.replace('<br>', ', ');
+          detailNode.text = detailNode.text.replaceAll('<br/>', '<br>');
+          detailNode.text = detailNode.text.replaceAll(' <br> ', '<br>');
+          detailNode.text = detailNode.text.replaceAll('<br>', ', ');
         }
         if (detailNode.identifier == "primaryDepartment") {
           detailNode.text = data.topd;
@@ -254,7 +283,7 @@ async function postAsset(uri, payload) {
   let p = new Promise((resolve, reject) => {
 		const req = protocol.request(postOptions, (response) => {
       // console.log(postOptions);
-      console.log(postOptions.headers['Content-Length']);
+      // console.log(postOptions.headers['Content-Length']);
       // console.log(payload);
       // console.log(payload.length);
 			let chunks_of_data = [];
