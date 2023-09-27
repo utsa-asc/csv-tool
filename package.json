@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "acob-directory-dept-prep": "node acob-scripts/directory-dept-prep.js",
-    "acob-directory-filtered-download": "node acob-scripts/directory-filtered-download.js",
+    "acob-directory-asset-download": "node acob-scripts/directory-asset-download.js",
     "acob-program-update": "node acob-scripts/program-block-update.js",
     "acob-program-process": "node acob-scripts/program-block-process.js",
     "acob-program": "node acob-scripts/program-image-download.js",

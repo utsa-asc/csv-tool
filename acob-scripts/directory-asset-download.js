@@ -25,8 +25,10 @@ if (CAS_PORT == 443) {
 const ROLE = "Faculty";
 
 var tasks = [];
+var headshots = {};
+var documents = {};
 
-const DEPTS = fs.readFileSync("acob/directory-dept-single.json");
+const DEPTS = fs.readFileSync("acob/directory-dept-test.json");
 const departments = prepDepts(DEPTS);
 // console.dir(departments);
 let dkeys = Object.keys(departments);
@@ -70,12 +72,13 @@ async function completeTasks() {
       // data points to collect from WP JSON API Faculty object:
       var person = parsePersonData(t);
       // parse headshot data
-      person = parseMediaData(t);
+      media = await parseAssetData(person.media);
       // parse file attachments (CVs) data
-      person = parseAttachmentData(t);
+      console.dir(person.attachment);
+      docs = await parseAssetData(person.attachment);
       // find headshot data locally and move it to new correct path
-      findAndMove(t.headshot, "headshot");
-      findAndMove(t.document, "document");
+      findAndMove(person.media, "headshot");
+      findAndMove(person.attachment, "document");
       // find attachment data locally and move it to the new correct path
       // STOP HERE (MAYBE)
       // - manually bulk upload headshots and attachments to CMS
@@ -164,6 +167,43 @@ function parsePersonData(t) {
       // $.media_details.sizes.medium_large.source_url for 768ish
       */
       // TODO let's leave headshot and CV download/upload to another task
+}
+
+async function parseAssetData(assets) {
+  console.dir(assets);
+  var parsedAssets = [];
+  let results = await Promise.all(assets.map(async function(asset) {
+    let mediaPath = asset.href.replace('https://business.utsa.edu', '');
+    var options = {
+      hostname: WP_HOST,
+      port: WP_PORT,
+      path: mediaPath
+    };
+    let assetj = await getURL(options);
+    // console.dir(assetj);
+  
+    var parsedAsset = {
+      id: assetj.id,
+      alt: assetj.alt_text,
+      path: assetj.source_url
+    }
+    // parsedAsset.path = parsedAsset.path.replace('https://business.utsa.edu', '');
+    console.log("********");
+    console.dir(parsedAsset);
+    console.log("********");
+
+    parsedAssets.push(parsedAsset);
+  }));
+
+  await results;
+
+  console.dir(parsedAssets);
+  return parsedAssets;
+}
+
+function parseAttachmentData(p) {
+  console.dir(p.attachment);
+  return p;
 }
 
 function reduceDepartments(p) {
@@ -336,7 +376,7 @@ async function getURL(options) {
     }
     let p = new Promise((resolve, reject) => {
         const req = protocol.request(getOptions, (response) => {
-            console.log(getOptions);
+            // console.log(getOptions);
             let chunks_of_data = [];
             response.on('data', (fragments) => {
                 chunks_of_data.push(fragments);
