@@ -72,13 +72,14 @@ async function completeTasks() {
       // data points to collect from WP JSON API Faculty object:
       var person = parsePersonData(t);
       // parse headshot data
-      media = await parseAssetData(person.media);
+      media = await parseAssetData(person.media, "image");
       // parse file attachments (CVs) data
-      console.dir(person.attachment);
-      docs = await parseAssetData(person.attachment);
+      // console.dir(person.attachment);
+      docs = await parseAssetData(person.attachment, "file");
       // find headshot data locally and move it to new correct path
-      findAndMove(person.media, "headshot");
-      findAndMove(person.attachment, "document");
+      media = findAndCopy(media, "headshot", person);
+      docs = findAndCopy(docs, "document", person);
+
       // find attachment data locally and move it to the new correct path
       // STOP HERE (MAYBE)
       // - manually bulk upload headshots and attachments to CMS
@@ -118,6 +119,44 @@ async function completeTasks() {
   }
 }
 
+function findAndCopy(assets, type, person) {
+  var destinationPath = "faculty";
+  var correctedAssets = [];
+
+  if (type == "headshot") {
+    destinationPath = destinationPath + "/headshots/";
+    console.log("HEADSHOT");
+  }
+  if (type == "document") {
+    destinationPath = destinationPath + "/documents/";
+    console.log("DOCUMENT");
+  }
+  destinationPath = destinationPath + person.topd.toLowerCase() + "";
+  destinationPath = destinationPath.replaceAll(' ', '-');
+
+  // console.dir(assets);
+  assets.map(function(i) {
+    // console.dir(i);
+    let parts = i.path.split('/');
+    var newFullPath = destinationPath + "/" + parts[parts.length - 1];
+    newFullPath = newFullPath.toLowerCase();
+    newFullPath = newFullPath.replaceAll(' ', '-');
+    let lookupPath = i.path;
+
+    // TODO fs.COPY SYNC goes here
+    console.log("cp " + lookupPath + " " + newFullPath);
+    try {
+      fs.copyFileSync("acob/" + lookupPath, "acob/" + newFullPath);
+    } catch(e) {
+      console.log("\t unable to copy file, see error:");
+      console.log(e);
+    }
+    i.path = newFullPath;
+    correctedAssets.push(i);
+  });
+  return correctedAssets;
+}
+
 function parsePersonData(t) {
       /*
       id: numeric
@@ -150,6 +189,8 @@ function parsePersonData(t) {
       newPerson.link = t.link;
       newPerson.json = t._links.self[0].href;
       newPerson.media = t._links['wp:featuredmedia'];
+      //TODO: THIS IS WRONG
+      // attached CV is referenced in the acf.faculty_pdf property
       newPerson.attachment = t._links['wp:attachment'];
       newPerson.topd = t.department;
       newPerson.dslug = t.dslug;
@@ -169,8 +210,8 @@ function parsePersonData(t) {
       // TODO let's leave headshot and CV download/upload to another task
 }
 
-async function parseAssetData(assets) {
-  console.dir(assets);
+async function parseAssetData(assets, type) {
+  // console.dir(assets);
   var parsedAssets = [];
   let results = await Promise.all(assets.map(async function(asset) {
     let mediaPath = asset.href.replace('https://business.utsa.edu', '');
@@ -179,25 +220,41 @@ async function parseAssetData(assets) {
       port: WP_PORT,
       path: mediaPath
     };
-    let assetj = await getURL(options);
+    var assetj = await getURL(options);
     // console.dir(assetj);
-  
-    var parsedAsset = {
-      id: assetj.id,
-      alt: assetj.alt_text,
-      path: assetj.source_url
+    if (!Array.isArray(assetj)) {
+      // console.log("not array");
+      assetj = [assetj]
     }
-    // parsedAsset.path = parsedAsset.path.replace('https://business.utsa.edu', '');
-    console.log("********");
-    console.dir(parsedAsset);
-    console.log("********");
-
-    parsedAssets.push(parsedAsset);
+    assetj.map(function(a) {
+      if (a.media_type == "file" && a.media_type == type) {
+        // console.dir(a);
+        var parsedAsset = {
+          id: a.id,
+          alt: a.title.rendered,
+          path: a.source_url.replace('https://business.utsa.edu/wp-content/', '')
+        }
+        // console.log(a.title.rendered);
+        // parsedAsset.path = parsedAsset.path.replace('https://business.utsa.edu', '');
+        parsedAssets.push(parsedAsset);
+      }
+      if (a.media_type == "image" && a.media_type == type) {
+        // console.dir(a);
+        var parsedAsset = {
+          id: a.id,
+          alt: a.alt_text,
+          path: a.source_url.replace('https://business.utsa.edu/wp-content/', '')
+        }
+        // console.log(a.title.rendered);
+        // parsedAsset.path = parsedAsset.path.replace('https://business.utsa.edu', '');
+        parsedAssets.push(parsedAsset);
+      }
+    });
   }));
 
   await results;
 
-  console.dir(parsedAssets);
+  // console.dir(parsedAssets);
   return parsedAssets;
 }
 
