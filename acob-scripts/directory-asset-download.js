@@ -17,6 +17,9 @@ const PAYLOAD_DOCUMENT = fs.readFileSync("json/faculty-block-minimum.json");
 const WP_HOST = "business.utsa.edu";
 const WP_PORT = "443";
 const WP_PATH = "/wp-json/wp/v2/";
+const LOOKUP_DOCUMENT = "acob/directory-media-hash.json";
+var lookupStream = fs.createWriteStream(LOOKUP_DOCUMENT);
+const LOOKUP_HASH = {};
 
 var protocol = http;
 if (CAS_PORT == 443) {
@@ -28,7 +31,7 @@ var tasks = [];
 var headshots = {};
 var documents = {};
 
-const DEPTS = fs.readFileSync("acob/directory-dept-test.json");
+const DEPTS = fs.readFileSync("acob/directory-dept-single.json");
 const departments = prepDepts(DEPTS);
 // console.dir(departments);
 let dkeys = Object.keys(departments);
@@ -65,10 +68,11 @@ directories.map(function(d) {
 
 completeTasks();
 
+
 async function completeTasks() {
   var currentTask = {}
   try {
-    for (let t of tasks) {
+    let results = await Promise.all(tasks.map(async function(t) {
       // data points to collect from WP JSON API Faculty object:
       var person = parsePersonData(t);
       // parse headshot data
@@ -79,6 +83,10 @@ async function completeTasks() {
       // find headshot data locally and move it to new correct path
       media = findAndCopy(media, "headshot", person);
       docs = findAndCopy(docs, "document", person);
+      person.media = media;
+      person.docs = docs;
+      console.log("pushing id: " + t.id + " to lookup hash");
+      LOOKUP_HASH[t.id] = person;
 
       // find attachment data locally and move it to the new correct path
       // STOP HERE (MAYBE)
@@ -111,12 +119,21 @@ async function completeTasks() {
       // } else {
       //   console.log("skipping POST");
       // }
-    }
+    }));
+    console.log("tasks complete");
+    console.log("saving LOOKUP_HASH");
+    lookupStream.on("finish", function(){ console.log("DONE!"); });
+    lookupStream.write(JSON.stringify(LOOKUP_HASH));
+    lookupStream.end();
+    
   } catch (e) {
     console.log(e);
     console.log("Error while running tasks:");
-    console.dir(currentTask);
+    // console.dir(currentTask);
   }
+
+
+
 }
 
 function findAndCopy(assets, type, person) {
@@ -149,6 +166,7 @@ function findAndCopy(assets, type, person) {
       fs.copyFileSync("acob/" + lookupPath, "acob/" + newFullPath);
     } catch(e) {
       console.log("\t unable to copy file, see error:");
+      console.dir(person.link);
       console.log(e);
     }
     i.path = newFullPath;
@@ -182,6 +200,7 @@ function parsePersonData(t) {
       // console.dir(t);
       // console.dir(t.acf.department_role_repeater);
       var newPerson = t.acf;
+      // console.dir(t.acf);
       newPerson.uri = t.slug;
       newPerson.fullname = t.title.rendered;
       newPerson.id = t.id;
@@ -189,9 +208,17 @@ function parsePersonData(t) {
       newPerson.link = t.link;
       newPerson.json = t._links.self[0].href;
       newPerson.media = t._links['wp:featuredmedia'];
-      //TODO: THIS IS WRONG
       // attached CV is referenced in the acf.faculty_pdf property
-      newPerson.attachment = t._links['wp:attachment'];
+      if (t.acf.faculty_pdf != "") {
+        newPerson.attachment = [
+          {
+            embeddable: true,
+            href: 'https://business.utsa.edu/wp-json/wp/v2/media/' + t.acf.faculty_pdf
+          }
+        ];
+      } else {
+        newPerson.attachment = [];
+      }
       newPerson.topd = t.department;
       newPerson.dslug = t.dslug;
       newPerson.content = t.content.rendered;
