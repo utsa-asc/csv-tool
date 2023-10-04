@@ -27,15 +27,10 @@
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/762",
         "media": [
             {
-                "id": 1789,
-                "alt": "John Wald",
-                "path": "faculty/headshots/finance/johnwald-e1533309316632.jpg"
-            }
-        ],
-        "attachment": [
-            {
-                "embeddable": true,
-                "href": "https://business.utsa.edu/wp-json/wp/v2/media/1599"
+                "id": 23926,
+                "alt": "Tony Ciochetti",
+                "path": "uploads/2017/09/Dr.-Tony-Ciochetti-scaled.jpg",
+                "correctedPath": "faculty/headshots/finance/762-tony-ciochetti.jpg"
             }
         ],
         "topd": "Finance",
@@ -48,13 +43,6 @@
         "roles": [
             "administrators",
             "faculty"
-        ],
-        "docs": [
-            {
-                "id": 1599,
-                "alt": "Tony Ciochetti VITA",
-                "path": "faculty/documents/finance/tonyciochettivita.pdf"
-            }
         ]
     },
     "1562": {
@@ -81,15 +69,10 @@
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/1562",
         "media": [
             {
-                "id": 1789,
-                "alt": "John Wald",
-                "path": "faculty/headshots/finance/johnwald-e1533309316632.jpg"
-            }
-        ],
-        "attachment": [
-            {
-                "embeddable": true,
-                "href": "https://business.utsa.edu/wp-json/wp/v2/media/13258"
+                "id": 16476,
+                "alt": "Karan Bhanot",
+                "path": "uploads/2017/11/Karan-Bhanot.jpg",
+                "correctedPath": "faculty/headshots/finance/1562-karan-bhanot.jpg"
             }
         ],
         "topd": "Finance",
@@ -100,13 +83,6 @@
         ],
         "roles": [
             "administrators"
-        ],
-        "docs": [
-            {
-                "id": 13258,
-                "alt": "KaranBhanotVita 2020",
-                "path": "faculty/documents/finance/karanbhanotvita-2020.pdf"
-            }
         ]
     },
     "1564": {
@@ -135,10 +111,10 @@
             {
                 "id": 1578,
                 "alt": "Vipin Agrawal",
-                "path": "faculty/headshots/finance/vipinagrawal-e1533309036409.jpg"
+                "path": "uploads/2017/11/VipinAgrawal-e1533309036409.jpg",
+                "correctedPath": "faculty/headshots/finance/1564-vipin-agrawal.jpg"
             }
         ],
-        "attachment": [],
         "topd": "Finance",
         "dslug": "finance",
         "content": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. University of Texas at Austin</li>\n<li>M.S. Texas A&amp;M University</li>\n<li>Bachelor&#8217;s Delhi College of Engineering</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Vipin Agrawal joined The University of Texas at San Antonio in Fall 2015. His primary research interests are in theoretical and empirical corporate finance. At UTSA, he teaches corporate finance courses at the undergraduate and graduate level.</p>\n<p>Vipin holds a Ph.D. in finance from the University of Texas (Austin), an M.S. in finance from Texas A&amp;M University, and a Bachelor of Engineering in Electronics and Communications from Delhi College of Engineering (India). Prior to joining UTSA, he was an assistant professor at California State University (Fullerton) and a visiting professor at Texas Christian University and University of Texas (Austin).</p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Corporate finance</li>\n<li>Capital structure</li>\n<li>Corporate governance</li>\n<li>Information asymmetry</li>\n</ul>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“Corporate Policies in a World with Information Asymmetry,” with Ramesh K.S. Rao, <em>World Scientific Publishers, </em>(<em>October 2015</em>).</li>\n<li>“Theoretical and Interpretation Challenges to Using the Author Affiliation Index to Rank Journals,” with Vijay K. Agrawal and M. Rungtusanatham, <em>Production and Operations Management, </em><em>2011.</em></li>\n<li>“Bid-Ask Spreads, Informed Investors and the Firm’s Financial Condition,” with Meeta Kothare, Ramesh K. S. Rao, and Pavan Wadhwa, <em>Quarterly Review of Economics and Finance, </em>2004<em>.</em></li>\n</ul>\n",
@@ -147,8 +123,7 @@
         ],
         "roles": [
             "faculty"
-        ],
-        "docs": []
+        ]
     },
     "1565": {
         "first_name": "Onur",
@@ -178,15 +153,10 @@
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/1565",
         "media": [
             {
-                "id": 12960,
-                "alt": "Image of Michael Naquin",
-                "path": "faculty/headshots/finance/michael-naquin-headshot-photo.jpg"
-            }
-        ],
-        "attachment": [
-            {
-                "embeddable": true,
-                "href": "https://business.utsa.edu/wp-json/wp/v2/media/19542"
+                "id": 18572,
+                "alt": "Onur Bayar",
+                "path": "uploads/2017/11/Bayar_Onur_9059-e1627423652475.jpg",
+                "correctedPath": "faculty/headshots/finance/1565-onur-bayar-ph-d.jpg"
             }
         ],
         "topd": "Finance",
@@ -199,13 +169,6 @@
         "roles": [
             "faculty",
             "faculty"
-        ],
-        "docs": [
-            {
-                "id": 19542,
-                "alt": "Onur-Bayar-Vita-UTSA-September-2021",
-                "path": "faculty/documents/finance/onur-bayar-vita-utsa-september-2021.pdf"
-            }
         ]
     },
     "1590": {
@@ -230,14 +193,7 @@
         "status": "publish",
         "link": "https://business.utsa.edu/faculty/natasha-burns/",
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/1590",
-        "media": [
-            {
-                "id": 13293,
-                "alt": "Placeholder Image Female",
-                "path": "faculty/headshots/finance/pikpng.com_business-woman-silhouette-png_1369280.png"
-            }
-        ],
-        "attachment": [],
+        "media": [],
         "topd": "Finance",
         "dslug": "finance",
         "content": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. The Ohio State University</li>\n<li>MBA Michigan State University</li>\n<li>B.S. The Ohio State University</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Natasha Burns is a professor of finance at The University of Texas at San Antonio. Her research interests include the effect of incentives, law and culture in corporate finance. She explores these issues in takeovers, financing decisions and costs, executive compensation and international finance. Prior to joining UTSA, she was an assistant professor at the University of Georgia. She also served as a visiting senior economist at the Securities and Exchange Commission.</p>\n<p>Her research appears in the <em>Journal of Corporate Finance</em>, <em>Journal of Banking and Finance</em>, <em>Journal of Financial Economics</em>, <em>Journal of Financial and Quantitative Analysis</em>, <em>The Financial Review</em> and the <em>Quarterly Journal of Economics</em>. She is on the editorial board at <em>Corporate Governance: an International Review</em> and is an associate editor of <em>The Financial Review</em>. She serves on the boards of <a href=\"https://www.drpattyslegacy.org/legacy-fund.html\" target=\"_blank\" rel=\"noopener\">Dr. Patty&#8217;s Legacy Fund</a> and <a href=\"http://stemkidsnyc.org/who-we-are.html\" target=\"_blank\" rel=\"noopener\">STEM Kids NYC</a>. She earned her Ph.D. in finance from Ohio State University, MBA at Michigan State University and B.S. in computer science from Ohio State University.</p>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“CEO Tournaments: A Cross-Country Analysis of Causes, Cultural Influences and Consequences,” (with K. Minnick and L. Starks), <em>Journal of Financial and</em> <em>Quantitative Analysis</em>, Vol. 52, No. 2, 2017, pp. 519-551.</li>\n<li>“Sales of Private Firms and the Role of CEO Compensation,” (with J. Jindra and K. Minnich), <em>Journal of Banking and Finance</em>, Vol. 43, 2017, pp. 444-463.</li>\n<li>“Equity-incentive Compensation and Payout Policy in Europe,” (with Brian C. McTier and Kristina Minnick), <em>Journal of Corporate Finance</em>, Vol. 30, February 2015, pp. 85-97.</li>\n<li>“A Cross-Country Comparison of Compensation and Payout Policy,” <em>Journal of Corporate Finance</em>, Vol. 30, February 2015, pp. 155-175.</li>\n<li>“U.S. Takeovers in Foreign Markets: Do They Impact Emerging and Developed Markets Differently?” with Ivonne Liebenberg, <em>Journal of Corporate Finance</em>, Vol. 17, Issue 4, 2011, pp. 1028-1046.</li>\n<li>“Institutional Ownership and Monitoring: Evidence from Financial Misreporting,” with Simi Kedia and Marc Lipson, <em>Journal of Corporate Finance</em>, Vol. 16, Issue 4, 2010, pp. 443-455.</li>\n<li>“Executive Option Exercises and Financial Misreporting,” with Simi Kedia, <em>Journal of Banking</em> <em>and Finance, </em>Vol. 32, Issue 5, 2008, pp. 845-857.</li>\n<li>“Cross-Listing and Legal Bonding: Evidence from Mergers and Acquisitions,” with Bill Francis and Iftekhar Hasan, <em>Journal of Banking and Finance, </em>Vol. 31, Issue 4, 2007, pp. 1003-1031.</li>\n<li>“The Impact of Performance-based Compensation on Misreporting,” with Simi Kedia, <em>Journal of</em> <em>Financial Economics, </em>Vol. 79, Issue 1, 2006, pp. 35-67.</li>\n</ul>\n",
@@ -246,8 +202,7 @@
         ],
         "roles": [
             "faculty"
-        ],
-        "docs": []
+        ]
     },
     "1594": {
         "first_name": "Palani-Rajan",
@@ -273,15 +228,10 @@
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/1594",
         "media": [
             {
-                "id": 1789,
-                "alt": "John Wald",
-                "path": "faculty/headshots/finance/johnwald-e1533309316632.jpg"
-            }
-        ],
-        "attachment": [
-            {
-                "embeddable": true,
-                "href": "https://business.utsa.edu/wp-json/wp/v2/media/12949"
+                "id": 1608,
+                "alt": "Palani Rajan Kadapakkam",
+                "path": "uploads/2017/11/Palani-RajanKadapakkam.jpg",
+                "correctedPath": "faculty/headshots/finance/1594-palani-rajan-kadapakkam.jpg"
             }
         ],
         "topd": "Finance",
@@ -292,13 +242,6 @@
         ],
         "roles": [
             "faculty"
-        ],
-        "docs": [
-            {
-                "id": 12949,
-                "alt": "KADAPAKKAM_CV_050420",
-                "path": "faculty/documents/finance/kadapakkam_cv_050420.pdf"
-            }
         ]
     },
     "1610": {
@@ -327,10 +270,10 @@
             {
                 "id": 4544,
                 "alt": "Maria Lorusso",
-                "path": "faculty/headshots/finance/maria_lorusso.jpg"
+                "path": "uploads/2017/11/maria_lorusso.jpg",
+                "correctedPath": "faculty/headshots/finance/1610-maria-t-lorusso.jpg"
             }
         ],
-        "attachment": [],
         "topd": "Finance",
         "dslug": "finance",
         "content": "",
@@ -339,8 +282,7 @@
         ],
         "roles": [
             "faculty"
-        ],
-        "docs": []
+        ]
     },
     "1612": {
         "first_name": "Willard",
@@ -368,14 +310,7 @@
         "status": "publish",
         "link": "https://business.utsa.edu/faculty/willard-mcintosh/",
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/1612",
-        "media": [
-            {
-                "id": 1687,
-                "alt": "utsa-cob-contact-default-bw",
-                "path": "faculty/headshots/finance/utsa-cob-contact-default-bw.jpg"
-            }
-        ],
-        "attachment": [],
+        "media": [],
         "topd": "Finance",
         "dslug": "finance",
         "content": "",
@@ -386,8 +321,7 @@
         "roles": [
             "faculty",
             "faculty"
-        ],
-        "docs": []
+        ]
     },
     "1613": {
         "first_name": "Lalatendu",
@@ -413,15 +347,10 @@
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/1613",
         "media": [
             {
-                "id": 1789,
-                "alt": "John Wald",
-                "path": "faculty/headshots/finance/johnwald-e1533309316632.jpg"
-            }
-        ],
-        "attachment": [
-            {
-                "embeddable": true,
-                "href": "https://business.utsa.edu/wp-json/wp/v2/media/1623"
+                "id": 6071,
+                "alt": "Lalatendu Misra",
+                "path": "uploads/2017/11/lalatendumisra2-e1528319493744.jpg",
+                "correctedPath": "faculty/headshots/finance/1613-lalatendu-misra.jpg"
             }
         ],
         "topd": "Finance",
@@ -432,13 +361,6 @@
         ],
         "roles": [
             "emeritus faculty"
-        ],
-        "docs": [
-            {
-                "id": 1623,
-                "alt": "Lalatendu Misra VITA",
-                "path": "faculty/documents/finance/lalatendumisravita.pdf"
-            }
         ]
     },
     "1614": {
@@ -467,10 +389,10 @@
             {
                 "id": 12960,
                 "alt": "Image of Michael Naquin",
-                "path": "faculty/headshots/finance/michael-naquin-headshot-photo.jpg"
+                "path": "uploads/2017/11/Michael-Naquin-Headshot-Photo.jpg",
+                "correctedPath": "faculty/headshots/finance/1614-michael-naquin.jpg"
             }
         ],
-        "attachment": [],
         "topd": "Finance",
         "dslug": "finance",
         "content": "<p>With a broad skill set that is transferable to many different roles and industries, Michael Naquin has over 34 years of broad, diversified, hands-on financial services, consulting and training &amp; development experience in multiple states and in multiple roles. He is a sought after, results-driven professional who has earned the admiration and respect of his teams, peers, clients, students and competitors for his consistent performance, strong communication skills, efficiency, organizational expertise and in-depth knowledge of banking and finance.</p>\n",
@@ -479,8 +401,7 @@
         ],
         "roles": [
             "faculty"
-        ],
-        "docs": []
+        ]
     },
     "1616": {
         "first_name": "Michael",
@@ -508,14 +429,7 @@
         "status": "publish",
         "link": "https://business.utsa.edu/faculty/michael-noll/",
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/1616",
-        "media": [
-            {
-                "id": 1687,
-                "alt": "utsa-cob-contact-default-bw",
-                "path": "faculty/headshots/finance/utsa-cob-contact-default-bw.jpg"
-            }
-        ],
-        "attachment": [],
+        "media": [],
         "topd": "Finance",
         "dslug": "finance",
         "content": "",
@@ -526,8 +440,7 @@
         "roles": [
             "faculty",
             "faculty"
-        ],
-        "docs": []
+        ]
     },
     "1712": {
         "first_name": "Ron",
@@ -553,15 +466,10 @@
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/1712",
         "media": [
             {
-                "id": 12960,
-                "alt": "Image of Michael Naquin",
-                "path": "faculty/headshots/finance/michael-naquin-headshot-photo.jpg"
-            }
-        ],
-        "attachment": [
-            {
-                "embeddable": true,
-                "href": "https://business.utsa.edu/wp-json/wp/v2/media/1728"
+                "id": 1729,
+                "alt": "Ron Sweet",
+                "path": "uploads/2017/11/RonSweet.jpg",
+                "correctedPath": "faculty/headshots/finance/1712-ron-sweet.jpg"
             }
         ],
         "topd": "Finance",
@@ -572,13 +480,6 @@
         ],
         "roles": [
             "faculty"
-        ],
-        "docs": [
-            {
-                "id": 1728,
-                "alt": "Ron Sweet VITA",
-                "path": "faculty/documents/finance/ronsweetvita.pdf"
-            }
         ]
     },
     "1713": {
@@ -609,15 +510,10 @@
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/1713",
         "media": [
             {
-                "id": 1687,
-                "alt": "utsa-cob-contact-default-bw",
-                "path": "faculty/headshots/finance/utsa-cob-contact-default-bw.jpg"
-            }
-        ],
-        "attachment": [
-            {
-                "embeddable": true,
-                "href": "https://business.utsa.edu/wp-json/wp/v2/media/1731"
+                "id": 1732,
+                "alt": "Raymond Teske",
+                "path": "uploads/2017/11/RaymondTeske.jpg",
+                "correctedPath": "faculty/headshots/finance/1713-raymond-teske.jpg"
             }
         ],
         "topd": "Finance",
@@ -630,13 +526,6 @@
         "roles": [
             "faculty",
             "faculty"
-        ],
-        "docs": [
-            {
-                "id": 1731,
-                "alt": "Raymond Teske VITA",
-                "path": "faculty/documents/finance/raymondteskevita.pdf"
-            }
         ]
     },
     "1714": {
@@ -667,15 +556,10 @@
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/1714",
         "media": [
             {
-                "id": 1687,
-                "alt": "utsa-cob-contact-default-bw",
-                "path": "faculty/headshots/finance/utsa-cob-contact-default-bw.jpg"
-            }
-        ],
-        "attachment": [
-            {
-                "embeddable": true,
-                "href": "https://business.utsa.edu/wp-json/wp/v2/media/1735"
+                "id": 1736,
+                "alt": "Thomas Thomson",
+                "path": "uploads/2017/11/ThomasThomson.jpg",
+                "correctedPath": "faculty/headshots/finance/1714-thomas-thomson.jpg"
             }
         ],
         "topd": "Finance",
@@ -688,13 +572,6 @@
         "roles": [
             "faculty",
             "faculty"
-        ],
-        "docs": [
-            {
-                "id": 1735,
-                "alt": "Thomas Thomson VITA",
-                "path": "faculty/documents/finance/thomasthomsonvita.pdf"
-            }
         ]
     },
     "1777": {
@@ -721,15 +598,10 @@
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/1777",
         "media": [
             {
-                "id": 1687,
-                "alt": "utsa-cob-contact-default-bw",
-                "path": "faculty/headshots/finance/utsa-cob-contact-default-bw.jpg"
-            }
-        ],
-        "attachment": [
-            {
-                "embeddable": true,
-                "href": "https://business.utsa.edu/wp-json/wp/v2/media/21408"
+                "id": 1789,
+                "alt": "John Wald",
+                "path": "uploads/2017/11/JohnWald-e1533309316632.jpg",
+                "correctedPath": "faculty/headshots/finance/1777-john-wald.jpg"
             }
         ],
         "topd": "Finance",
@@ -740,13 +612,6 @@
         ],
         "roles": [
             "faculty"
-        ],
-        "docs": [
-            {
-                "id": 21408,
-                "alt": "Wald_resume",
-                "path": "faculty/documents/finance/wald_resume.pdf"
-            }
         ]
     },
     "1778": {
@@ -773,15 +638,10 @@
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/1778",
         "media": [
             {
-                "id": 1687,
-                "alt": "utsa-cob-contact-default-bw",
-                "path": "faculty/headshots/finance/utsa-cob-contact-default-bw.jpg"
-            }
-        ],
-        "attachment": [
-            {
-                "embeddable": true,
-                "href": "https://business.utsa.edu/wp-json/wp/v2/media/11965"
+                "id": 1792,
+                "alt": "Zijun Wang",
+                "path": "uploads/2017/11/ZijunWang-e1533309353439.jpg",
+                "correctedPath": "faculty/headshots/finance/1778-zijun-wang.jpg"
             }
         ],
         "topd": "Finance",
@@ -792,13 +652,6 @@
         ],
         "roles": [
             "faculty"
-        ],
-        "docs": [
-            {
-                "id": 11965,
-                "alt": "ZijunWangVITA",
-                "path": "faculty/documents/finance/zijunwangvita-2.pdf"
-            }
         ]
     },
     "1779": {
@@ -827,14 +680,7 @@
         "status": "publish",
         "link": "https://business.utsa.edu/faculty/robert-wehrmeyer/",
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/1779",
-        "media": [
-            {
-                "id": 1687,
-                "alt": "utsa-cob-contact-default-bw",
-                "path": "faculty/headshots/finance/utsa-cob-contact-default-bw.jpg"
-            }
-        ],
-        "attachment": [],
+        "media": [],
         "topd": "Finance",
         "dslug": "finance",
         "content": "",
@@ -845,8 +691,7 @@
         "roles": [
             "faculty",
             "faculty"
-        ],
-        "docs": []
+        ]
     },
     "4505": {
         "first_name": "Rebecca",
@@ -874,10 +719,10 @@
             {
                 "id": 9918,
                 "alt": "Becky Stratton",
-                "path": "faculty/headshots/finance/becky_stratton.jpg"
+                "path": "uploads/2018/03/Becky_Stratton.jpg",
+                "correctedPath": "faculty/headshots/finance/4505-rebecca-stratton.jpg"
             }
         ],
-        "attachment": [],
         "topd": "Finance",
         "dslug": "finance",
         "content": "",
@@ -886,8 +731,7 @@
         ],
         "roles": [
             "staff"
-        ],
-        "docs": []
+        ]
     },
     "7206": {
         "first_name": "Candy",
@@ -915,10 +759,10 @@
             {
                 "id": 12807,
                 "alt": "Image of Candy Sikes",
-                "path": "faculty/headshots/finance/candy-sikes-e1692895483292.jpg"
+                "path": "uploads/2018/09/Candy-Sikes-e1692895483292.jpg",
+                "correctedPath": "faculty/headshots/finance/7206-candy-sikes-ph-d.jpg"
             }
         ],
-        "attachment": [],
         "topd": "Finance",
         "dslug": "finance",
         "content": "",
@@ -927,8 +771,7 @@
         ],
         "roles": [
             "faculty"
-        ],
-        "docs": []
+        ]
     },
     "10422": {
         "first_name": "Heritage",
@@ -956,10 +799,10 @@
             {
                 "id": 12872,
                 "alt": "Image of Heritage Oyelade",
-                "path": "faculty/headshots/finance/heritage-oyelade-e1592250027257.jpeg"
+                "path": "uploads/2019/09/Heritage-Oyelade-e1592250027257.jpeg",
+                "correctedPath": "faculty/headshots/finance/10422-heritage-oyelade.jpg"
             }
         ],
-        "attachment": [],
         "topd": "Finance",
         "dslug": "finance",
         "content": "",
@@ -968,8 +811,7 @@
         ],
         "roles": [
             "doctoral students"
-        ],
-        "docs": []
+        ]
     },
     "10424": {
         "first_name": "David",
@@ -997,10 +839,10 @@
             {
                 "id": 13970,
                 "alt": "Image of David Tavares",
-                "path": "faculty/headshots/finance/david-tavares-finance.jpg"
+                "path": "uploads/2019/09/David-Tavares-Finance.jpg",
+                "correctedPath": "faculty/headshots/finance/10424-david-tavares.jpg"
             }
         ],
-        "attachment": [],
         "topd": "Finance",
         "dslug": "finance",
         "content": "",
@@ -1009,8 +851,7 @@
         ],
         "roles": [
             "doctoral students"
-        ],
-        "docs": []
+        ]
     },
     "11321": {
         "first_name": "John",
@@ -1038,10 +879,10 @@
             {
                 "id": 12875,
                 "alt": "Image of John Toohey, CFA",
-                "path": "faculty/headshots/finance/j-toohey-e1592250450865.png"
+                "path": "uploads/2020/01/J-Toohey-e1592250450865.png",
+                "correctedPath": "faculty/headshots/finance/11321-john-toohey-cfa.jpg"
             }
         ],
-        "attachment": [],
         "topd": "Finance",
         "dslug": "finance",
         "content": "",
@@ -1050,8 +891,7 @@
         ],
         "roles": [
             "faculty"
-        ],
-        "docs": []
+        ]
     },
     "13679": {
         "first_name": "Binay",
@@ -1077,15 +917,10 @@
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/13679",
         "media": [
             {
-                "id": 1789,
-                "alt": "John Wald",
-                "path": "faculty/headshots/finance/johnwald-e1533309316632.jpg"
-            }
-        ],
-        "attachment": [
-            {
-                "embeddable": true,
-                "href": "https://business.utsa.edu/wp-json/wp/v2/media/18358"
+                "id": 18359,
+                "alt": "Binay Adhikari",
+                "path": "uploads/2020/08/Binay_Adhikari.jpg",
+                "correctedPath": "faculty/headshots/finance/13679-binay-adhikari-ph-d.jpg"
             }
         ],
         "topd": "Finance",
@@ -1096,13 +931,6 @@
         ],
         "roles": [
             "faculty"
-        ],
-        "docs": [
-            {
-                "id": 18358,
-                "alt": "Binay_Adhikari_vita",
-                "path": "faculty/documents/finance/binay_adhikari_vita.pdf"
-            }
         ]
     },
     "13681": {
@@ -1129,15 +957,10 @@
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/13681",
         "media": [
             {
-                "id": 1687,
-                "alt": "utsa-cob-contact-default-bw",
-                "path": "faculty/headshots/finance/utsa-cob-contact-default-bw.jpg"
-            }
-        ],
-        "attachment": [
-            {
-                "embeddable": true,
-                "href": "https://business.utsa.edu/wp-json/wp/v2/media/23229"
+                "id": 14041,
+                "alt": "Image of Brain Wolfe",
+                "path": "uploads/2020/08/Brian-Wolfe-scaled-e1692895572556.jpg",
+                "correctedPath": "faculty/headshots/finance/13681-brian-wolfe-ph-d.jpg"
             }
         ],
         "topd": "Finance",
@@ -1148,13 +971,6 @@
         ],
         "roles": [
             "faculty"
-        ],
-        "docs": [
-            {
-                "id": 23229,
-                "alt": "Wolfe Vita 2022",
-                "path": "faculty/documents/finance/wolfe-vita-2022.pdf"
-            }
         ]
     },
     "13682": {
@@ -1180,12 +996,6 @@
         "link": "https://business.utsa.edu/faculty/ivalina-kalcheva-ph-d/",
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/13682",
         "media": [],
-        "attachment": [
-            {
-                "embeddable": true,
-                "href": "https://business.utsa.edu/wp-json/wp/v2/media/20824"
-            }
-        ],
         "topd": "Finance",
         "dslug": "finance",
         "content": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. University of Utah</li>\n<li>M.B.A. Saginaw Valley State University</li>\n<li>B.A. University of Economics, Varna, Bulgaria</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p><a href=\"https://sites.google.com/site/ivalinakalcheva/\">Personal Faculty Website</a></p>\n<p>Ivalina Kalcheva earned a Ph.D. in finance from University of Utah. She is currently teaching finance courses in the MBA program and in the Master of Science in Finance program. Previously, Kalcheva taught at the University of Arizona and University of California, Riverside.</p>\n<p>Kalcheva has published in journals such as the <em>Journal of Finance</em>, the <em>Journal of Financial Economics</em>, the <em>Review of Financial Studies</em>, the <em>Journal of Financial and Quantitative Analysis</em>, the <em>Journal of Banking and Finance,</em> the <em>Journal of</em> <em>Financial Markets</em>, <em>Finance Management, </em><em>Research Policy</em> and the <em>Journal of Corporate Finance</em></p>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li dir=\"ltr\">&#8220;<a href=\"https://onlinelibrary.wiley.com/doi/10.1111/fima.12351\">Shorting Activity and Stock Return Predictability: Evidence From a Mandatory Disclosure Shock</a>,&#8221; with Paul A. Giffin, Hyun A. Hong, and Jeong-Bon Kim, <em>Financial Management,</em> v.51, 2022, pp. 27-71.</li>\n<li class=\"CDt4Ke zfr3Q\" dir=\"ltr\">&#8220;<span class=\" aw5Odc\"><a class=\"XqQF9c\" href=\"https://www.google.com/url?q=https%3A%2F%2Fpapers.ssrn.com%2Fsol3%2Fpapers.cfm%3Fabstract_id%3D3502542&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGi6Y7BAPb0M6x6cAWd718jcIrv-A\" target=\"_blank\" rel=\"noopener noreferrer\">Economic Policy Uncertainty and Self-Control: Evidence from Unhealthy Choices</a></span>,&#8221; with <span class=\" aw5Odc\">Ping McLemore</span> and <span class=\" aw5Odc\">Richard Sias</span>, <em>Journal of Financial and Quantitative Analysis</em>, v.56, 2021, pp.1446-1475.</li>\n<li class=\"CDt4Ke zfr3Q\" dir=\"ltr\">&#8220;<span class=\" aw5Odc\"><a class=\"XqQF9c\" href=\"https://www.google.com/url?q=https%3A%2F%2Fpapers.ssrn.com%2Fsol3%2Fpapers.cfm%3Fabstract_id%3D3354203&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEPMS1Y1dltY5HrYbCw3pQH54NHAg\" target=\"_blank\" rel=\"noopener noreferrer\">Institutional Investment and the Changing Role of Public Equity Markets: International Evidence</a></span>,&#8221; with <span class=\" aw5Odc\">Janet Kiholm Smith</span> and <span class=\" aw5Odc\">Richard L. Smith</span>, <em>Journal of Corporate Finance, v.64, 2020, 101705</em>.</li>\n<li class=\"CDt4Ke zfr3Q\" dir=\"ltr\">&#8220;<span class=\" aw5Odc\"><a class=\"XqQF9c\" href=\"https://www.google.com/url?q=https%3A%2F%2Fpapers.ssrn.com%2Fsol3%2Fpapers.cfm%3Fabstract_id%3D3478889&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGG7CbLxuICGp99l55pkIB-8_oVTA\" target=\"_blank\" rel=\"noopener noreferrer\">(Un)intended Consequences? The Impact of the 2017 Tax Cuts and Jobs Act on Shareholder Wealth</a></span>,&#8221; with <span class=\" aw5Odc\">James Plečnik</span>, <span class=\" aw5Odc\">Hai Tran</span>, and <span class=\" aw5Odc\">Jason Turkiela</span>, <em>Journal of Banking </em><em>and Finance, v.118, 2020, 105860</em>.</li>\n<li class=\"CDt4Ke zfr3Q\" dir=\"ltr\">&#8220;<span class=\" aw5Odc\"><a class=\"XqQF9c\" href=\"http://www.google.com/url?q=http%3A%2F%2Fpapers.ssrn.com%2Fsol3%2Fpapers.cfm%3Fabstract_id%3D2646835&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHqIcTI8Qe5pa1deIqzlFA2e2nb4w\" target=\"_blank\" rel=\"noopener noreferrer\">Innovation: The Interplay Between Demand-Side Shock and Supply-Side Environment</a></span>,&#8221; with <span class=\" aw5Odc\">Ping McLemore</span> and <span class=\" aw5Odc\">Shagun Pant</span>, <em>Research Policy, </em>Vol<em>. </em>47, 2018, pp. 440-461.</li>\n<li class=\"CDt4Ke zfr3Q\" dir=\"ltr\">&#8220;<span class=\" aw5Odc\"><a class=\"XqQF9c\" href=\"http://www.google.com/url?q=http%3A%2F%2Fpapers.ssrn.com%2Fsol3%2Fpapers.cfm%3Fabstract_id%3D2409500&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNG66mmvVX9cxBIfRGK5Kl8McMlePA\" target=\"_blank\" rel=\"noopener noreferrer\">Financial Markets and Genetic Variation</a></span>,&#8221; with <span class=\" aw5Odc\"><a class=\"XqQF9c\" href=\"http://www.google.com/url?q=http%3A%2F%2Fwww.ericcardella.com%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNH-lpBbe6rtXK3NP6M9nKk_w7jV9Q\" target=\"_blank\" rel=\"noopener noreferrer\">Eric Cardella</a></span> and <span class=\" aw5Odc\"><a class=\"XqQF9c\" href=\"https://www.google.com/url?q=https%3A%2F%2Fhuntsman.usu.edu%2Fdirectory%2Fshang-danjue&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFzw_1Kj90di5PUKkHFl-Be6xk8Qw\" target=\"_blank\" rel=\"noopener noreferrer\">Danjue Shang</a></span>, <em>Journal of International Financial Markets, Institutions and Money,</em> Vol. 52, 2018, pp. 64-89.</li>\n<li class=\"CDt4Ke zfr3Q\" dir=\"ltr\"><span class=\" aw5Odc\"><a class=\"XqQF9c\" href=\"http://www.google.com/url?q=http%3A%2F%2Fpapers.ssrn.com%2Fsol3%2Fpapers.cfm%3Fabstract_id%3D934992&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNH4E7OL8GNQvJtDLGscDCG5XNam8w\" target=\"_blank\" rel=\"noopener noreferrer\">Short Sales and the Weekend Effect &#8212; Evidence from a Natural Experiment</a></span>,&#8221; with<span class=\" aw5Odc\"> Pengjie Gao</span>, <span class=\" aw5Odc\">Jia Hao</span>, and <span class=\" aw5Odc\">Tongshu Ma</span>, <em>Journal of Financial Markets, </em>Vol<em>.</em> 26, 2015, pp. 85-102.</li>\n<li class=\"CDt4Ke zfr3Q\" dir=\"ltr\">&#8220;<span class=\" aw5Odc\"><a class=\"XqQF9c\" href=\"http://www.google.com/url?q=http%3A%2F%2Fpapers.ssrn.com%2Fsol3%2Fpapers.cfm%3Fabstract_id%3D1650345&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHQeGeWMOJ1QyHZ3yBkXN9xnS4_uA\" target=\"_blank\" rel=\"noopener noreferrer\">Computerization of the Equity, Foreign Exchange, Derivatives, and Fixed Income Markets</a></span>,&#8221; with <span class=\" aw5Odc\">Laura Cardella</span>, <span class=\" aw5Odc\">Jia Hao</span>, and Yung-Yu Ma, <em>The Financial Review,</em> Vol. 49, 2014, pp. 231-243.</li>\n<li class=\"CDt4Ke zfr3Q\" dir=\"ltr\">&#8220;<span class=\" aw5Odc\"><a class=\"XqQF9c\" href=\"http://www.google.com/url?q=http%3A%2F%2Fpapers.ssrn.com%2Fsol3%2Fpapers.cfm%3Fabstract_id%3D1667151&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGCU5dn-vawQex3QuYhEyKPSqrziQ\" target=\"_blank\" rel=\"noopener noreferrer\">Noisy Prices and Inference Regarding Returns</a></span>,&#8221; with <span class=\" aw5Odc\">Elena Asparouhova</span> and <span class=\" aw5Odc\">Hendrik Bessembinder</span>, <em>The Journal of Finance, </em>Vol. 68, 2013, pp. 665-714.</li>\n<li class=\"CDt4Ke zfr3Q\" dir=\"ltr\">&#8220;<span class=\" aw5Odc\"><a class=\"XqQF9c\" href=\"http://www.google.com/url?q=http%3A%2F%2Fpapers.ssrn.com%2Fsol3%2Fpapers.cfm%3Fabstract_id%3D891615&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGwVwTKRAUmQcyyL_NOrFysukEpRQ\" target=\"_blank\" rel=\"noopener noreferrer\">Liquidity Biases in Asset Pricing Tests</a></span>,&#8221; with <span class=\" aw5Odc\">Elena Asparouhova</span> and <span class=\" aw5Odc\">Hendrik Bessembinder</span>, <em>Journal of Financial Economics, </em>Vol. 96, 2010, pp. 215-237.</li>\n<li class=\"CDt4Ke zfr3Q\" dir=\"ltr\">&#8220;<span class=\" aw5Odc\"><a class=\"XqQF9c\" href=\"https://www.google.com/url?q=https%3A%2F%2Fpapers.ssrn.com%2Fsol3%2Fpapers.cfm%3Fabstract_id%3D1151563&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEoHKpbqfszvOSSmprwVDy7a2uy1g\" target=\"_blank\" rel=\"noopener noreferrer\">International Evidence on Cash Holdings and Expected Managerial Agency Problems</a></span>,&#8221; with <span class=\" aw5Odc\">Karl Lins</span>, <em>The Review of Financial Studies, </em>Vol. 20, 2007, pp. 1087-1112.</li>\n</ul>\n<p>&nbsp;</p>\n",
@@ -1194,13 +1004,6 @@
         ],
         "roles": [
             "faculty"
-        ],
-        "docs": [
-            {
-                "id": 20824,
-                "alt": "CV_website_2022_01_20",
-                "path": "faculty/documents/finance/cv_website_2022_01_20.pdf"
-            }
         ]
     },
     "18481": {
@@ -1225,14 +1028,7 @@
         "status": "publish",
         "link": "https://business.utsa.edu/faculty/john-garcia/",
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/18481",
-        "media": [
-            {
-                "id": 1687,
-                "alt": "utsa-cob-contact-default-bw",
-                "path": "faculty/headshots/finance/utsa-cob-contact-default-bw.jpg"
-            }
-        ],
-        "attachment": [],
+        "media": [],
         "topd": "Finance",
         "dslug": "finance",
         "content": "",
@@ -1241,8 +1037,7 @@
         ],
         "roles": [
             "faculty"
-        ],
-        "docs": []
+        ]
     },
     "18900": {
         "first_name": "Maria",
@@ -1270,10 +1065,10 @@
             {
                 "id": 19022,
                 "alt": "Maria Gonzalez",
-                "path": "faculty/headshots/finance/maraia_gonzalez.jpg"
+                "path": "uploads/2021/08/maraia_gonzalez.jpg",
+                "correctedPath": "faculty/headshots/finance/18900-maria-gonzalez-ramirez-2.jpg"
             }
         ],
-        "attachment": [],
         "topd": "Finance",
         "dslug": "finance",
         "content": "",
@@ -1282,8 +1077,7 @@
         ],
         "roles": [
             "doctoral students"
-        ],
-        "docs": []
+        ]
     },
     "18901": {
         "first_name": "Jingjing",
@@ -1307,14 +1101,7 @@
         "status": "publish",
         "link": "https://business.utsa.edu/faculty/jingjing-guo-2/",
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/18901",
-        "media": [
-            {
-                "id": 13293,
-                "alt": "Placeholder Image Female",
-                "path": "faculty/headshots/finance/pikpng.com_business-woman-silhouette-png_1369280.png"
-            }
-        ],
-        "attachment": [],
+        "media": [],
         "topd": "Finance",
         "dslug": "finance",
         "content": "",
@@ -1323,8 +1110,7 @@
         ],
         "roles": [
             "doctoral students"
-        ],
-        "docs": []
+        ]
     },
     "20395": {
         "first_name": "Ronald",
@@ -1352,10 +1138,10 @@
             {
                 "id": 21197,
                 "alt": "Ronald Cooley",
-                "path": "faculty/headshots/finance/ronald-cooley_profile-picture.png"
+                "path": "uploads/2022/01/Ronald-Cooley_Profile-Picture.png",
+                "correctedPath": "faculty/headshots/finance/20395-ronald-cooley.jpg"
             }
         ],
-        "attachment": [],
         "topd": "Finance",
         "dslug": "finance",
         "content": "",
@@ -1364,8 +1150,7 @@
         ],
         "roles": [
             "faculty"
-        ],
-        "docs": []
+        ]
     },
     "20396": {
         "first_name": "Timothy",
@@ -1393,10 +1178,10 @@
             {
                 "id": 20959,
                 "alt": "Timothy Bryant",
-                "path": "faculty/headshots/finance/timothy-bryant_profile-picture.png"
+                "path": "uploads/2022/01/Timothy-Bryant_Profile-Picture.png",
+                "correctedPath": "faculty/headshots/finance/20396-timothy-bryant.jpg"
             }
         ],
-        "attachment": [],
         "topd": "Finance",
         "dslug": "finance",
         "content": "",
@@ -1405,8 +1190,7 @@
         ],
         "roles": [
             "faculty"
-        ],
-        "docs": []
+        ]
     },
     "21112": {
         "first_name": "Syed",
@@ -1430,14 +1214,7 @@
         "status": "publish",
         "link": "https://business.utsa.edu/faculty/syed-ali-2/",
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/21112",
-        "media": [
-            {
-                "id": 1687,
-                "alt": "utsa-cob-contact-default-bw",
-                "path": "faculty/headshots/finance/utsa-cob-contact-default-bw.jpg"
-            }
-        ],
-        "attachment": [],
+        "media": [],
         "topd": "Finance",
         "dslug": "finance",
         "content": "",
@@ -1446,8 +1223,7 @@
         ],
         "roles": [
             "faculty"
-        ],
-        "docs": []
+        ]
     },
     "22862": {
         "first_name": "Iman",
@@ -1471,14 +1247,7 @@
         "status": "publish",
         "link": "https://business.utsa.edu/faculty/iman-ekramnosratian/",
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/22862",
-        "media": [
-            {
-                "id": 1687,
-                "alt": "utsa-cob-contact-default-bw",
-                "path": "faculty/headshots/finance/utsa-cob-contact-default-bw.jpg"
-            }
-        ],
-        "attachment": [],
+        "media": [],
         "topd": "Finance",
         "dslug": "finance",
         "content": "",
@@ -1487,8 +1256,7 @@
         ],
         "roles": [
             "doctoral students"
-        ],
-        "docs": []
+        ]
     },
     "22863": {
         "first_name": "Winifred",
@@ -1512,14 +1280,7 @@
         "status": "publish",
         "link": "https://business.utsa.edu/faculty/winifred-okafor/",
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/22863",
-        "media": [
-            {
-                "id": 13293,
-                "alt": "Placeholder Image Female",
-                "path": "faculty/headshots/finance/pikpng.com_business-woman-silhouette-png_1369280.png"
-            }
-        ],
-        "attachment": [],
+        "media": [],
         "topd": "Finance",
         "dslug": "finance",
         "content": "",
@@ -1528,8 +1289,7 @@
         ],
         "roles": [
             "doctoral students"
-        ],
-        "docs": []
+        ]
     },
     "25742": {
         "first_name": "Tim",
@@ -1555,15 +1315,10 @@
         "json": "https://business.utsa.edu/wp-json/wp/v2/faculty/25742",
         "media": [
             {
-                "id": 1687,
-                "alt": "utsa-cob-contact-default-bw",
-                "path": "faculty/headshots/finance/utsa-cob-contact-default-bw.jpg"
-            }
-        ],
-        "attachment": [
-            {
-                "embeddable": true,
-                "href": "https://business.utsa.edu/wp-json/wp/v2/media/26252"
+                "id": 25783,
+                "alt": "Tim Zhang",
+                "path": "uploads/2023/08/Tim-Zhang-e1692895608269.jpg",
+                "correctedPath": "faculty/headshots/finance/25742-tim-zhang-phd.jpg"
             }
         ],
         "topd": "Finance",
@@ -1574,13 +1329,6 @@
         ],
         "roles": [
             "faculty"
-        ],
-        "docs": [
-            {
-                "id": 26252,
-                "alt": "CV_TimZhang",
-                "path": "faculty/documents/finance/cv_timzhang.pdf"
-            }
         ]
     }
 }

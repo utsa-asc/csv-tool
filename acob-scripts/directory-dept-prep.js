@@ -206,6 +206,14 @@ function createFolderPath(p) {
   return folderPath;
 }
 
+function generateSlug(data) {
+  var newSlug = data.last_name.toLowerCase().trim() + "-" + data.first_name.toLowerCase().trim();
+  newSlug = newSlug.replace(/[^a-z -]/gi, '');
+  newSlug = newSlug.replaceAll(' ', '-');
+  newSlug = newSlug.replaceAll(',', '-');
+  return newSlug;
+}
+
 function preparePayload(data) {
   // console.log("*** preparePayload ***");
   // console.dir(data);
@@ -213,9 +221,7 @@ function preparePayload(data) {
   block.asset.xhtmlDataDefinitionBlock.metadata.displayName = data.fullname;
   block.asset.xhtmlDataDefinitionBlock.parentFolderPath = createFolderPath(data);
   block.asset.xhtmlDataDefinitionBlock.tags = createTags(data.department, data.roles);
-  var newSlug = data.last_name.toLowerCase() + "-" + data.first_name.toLowerCase();
-  newSlug = newSlug.replace(/[^a-z -]/gi, '');
-  newSlug = newSlug.replaceAll(' ', '-');
+  var newSlug = generateSlug(data);
   block.asset.xhtmlDataDefinitionBlock.name = newSlug;
 
   var sdns = block.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes;

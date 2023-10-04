@@ -12,17 +12,18 @@ const CAS_HOST = process.env.CAS_HOST;
 const POST = process.env.POST;
 const CAS_PORT = process.env.CAS_PORT;
 const API_KEY = process.env.API_KEY;
-const POST_URI = "/api/v1/create";
-const PAYLOAD_DOCUMENT = fs.readFileSync("json/faculty-block-minimum.json");
 /* WP REST API constants */
 const WP_HOST = "business.utsa.edu";
 const WP_PORT = "443";
 const WP_PATH = "/wp-json/wp/v2/";
 const LOOKUP_DOCUMENT = "acob/directory-media-hash.json";
-var lookupStream = fs.createWriteStream(LOOKUP_DOCUMENT);
-const LOOKUP_HASH = {};
+const GET_URI = "/api/v1/read/block/ACOB-VPAA-ASC-HALSTORE/"
+const EDIT_URI = "/api/v1/edit"
 
-var protocol = https;
+var protocol = http;
+if (CAS_PORT == 443) {
+  protocol = https;
+}
 const ROLE = "Faculty";
 
 var tasks = [];
@@ -30,6 +31,9 @@ var headshots = {};
 var documents = {};
 
 const DEPTS = fs.readFileSync("acob/directory-dept-single.json");
+const HASH_CONTENTS = fs.readFileSync("acob/directory-media-hash.json");
+
+const lookupHash = JSON.parse(HASH_CONTENTS);
 const departments = prepDepts(DEPTS);
 // console.dir(departments);
 let dkeys = Object.keys(departments);
@@ -69,88 +73,59 @@ completeTasks();
 async function completeTasks() {
   var currentTask = {}
   try {
+    //for each person in xx-dept.json:
+    // - parsePersonData
+    // - CMS REST GET block (read)
+    // - preparePayload with block and hash lookup
+    //    - update docs and headshot info
+    // - CMS REST POST block (edit)
     let results = await Promise.all(tasks.map(async function(t) {
       // data points to collect from WP JSON API Faculty object:
       var person = parsePersonData(t);
-      // parse headshot data
-      console.log("parse media:" + person.uri);
-      media = await parseAssetData(person.media, "image");
-      // parse file attachments (CVs) data
-      // console.dir(person.attachment);
-      // console.log("parse docs:" + person.uri);
-      // docs = await parseAssetData(person.attachment, "file");
-      // find headshot data locally and move it to new correct path
-      media = findAndCopy(media, "headshot", person);
-      // docs = findAndCopy(docs, "document", person);
-      person.media = media;
-      // person.docs = docs;
-      console.log("pushing id: " + t.id + " to lookup hash");
-      LOOKUP_HASH[person.id] = person;
-    }));
-    console.log("tasks complete");
-    console.log("saving LOOKUP_HASH");
-    lookupStream.on("finish", function(){ console.log("DONE!"); });
-    lookupStream.write(JSON.stringify(LOOKUP_HASH));
-    lookupStream.end();
+      
+      // CMS REST GET
+      let blockPath = generateBlockPath(person);
+      var personObj = await getAsset(blockPath);
+      // console.dir(personObj);
 
+      // preparePayload
+      const payload = preparePayload(personObj, person);
+      let stringPayload = JSON.stringify(payload);
+      console.log(stringPayload);
+      console.log("\n\n")
+
+      // CMS REST POST
+      if (POST == "YES") {
+        let postedAsset = await postAsset(EDIT_URI, stringPayload);
+        try {
+          let respj = JSON.parse(postedAsset);
+          if (respj.success == true) {
+            // console.log(postedAsset);
+
+            console.log("updated: " + payload.asset.xhtmlDataDefinitionBlock.name);
+          } else {
+            console.log("****ERROR****");
+            console.log(postedAsset);
+            console.log(person.id + "\t" + person.uri);
+            console.log("******PAYLOAD******");
+            console.log(stringPayload);
+            console.log("******END******");
+            // console.dir(payload);
+          }
+        } catch (e) {
+          console.log("POST failed to return a JSON response");
+          console.log(e);
+        }
+      } else {
+        console.log("skipping POST");
+      }
+
+    }));
   } catch (e) {
     console.log(e);
     console.log("Error while running tasks:");
     // console.dir(currentTask);
   }
-}
-
-function findAndCopy(assets, type, person) {
-  var destinationPath = "faculty";
-  var correctedAssets = [];
-  // console.log("\n");
-  // console.log(assets);
-  if (type == "headshot") {
-    destinationPath = destinationPath + "/headshots/";
-    console.log("HEADSHOT: " + person.uri);
-    destinationPath = destinationPath + person.topd.toLowerCase() + "";
-    destinationPath = destinationPath.replaceAll(' ', '-');
-  
-    // console.dir(assets);
-    assets.map(function(i) {
-      if (type == "headshot") {
-        // console.dir(i);
-        let parts = i.path.split('/');
-        let fileparts = parts[parts.length - 1].split('.');
-        let suffix = fileparts[fileparts.length - 1];
-        var newFullPath = destinationPath + "/" + person.id + "-" + person.uri + "." + suffix;
-        var correctedFullPath = destinationPath + "/" + person.id + "-" + person.uri + ".jpg";
-        //person.slugparts[parts.length - 1];
-    
-        newFullPath = newFullPath.toLowerCase();
-        newFullPath = newFullPath.replaceAll(' ', '-');
-        let lookupPath = i.path;
-        let MISSING_HEADSHOT_JPG = "utsa-cob-contact-default-bw.jpg";
-        let MISSING_HEADSHOT_PNG = "PikPng.com_business-woman-silhouette-png_1369280.png";
-    
-        if (!lookupPath.includes(MISSING_HEADSHOT_JPG) && !lookupPath.includes(MISSING_HEADSHOT_PNG)) {
-          // TODO fs.COPY SYNC goes here
-          console.log("cp " + lookupPath + " " + newFullPath);
-          try {
-            fs.copyFileSync("acob/" + lookupPath, "acob/" + newFullPath);
-          } catch(e) {
-            console.log("\t unable to copy file, see error:");
-            console.dir(person.link);
-            console.log(e);
-          }
-          i.correctedPath = correctedFullPath;
-          correctedAssets.push(i);
-        } else {
-          console.log("skipping placeholder image: " + lookupPath + " for " + person.uri);
-        }
-      }
-    });  
-  }
-  // if (type == "document") {
-  //   destinationPath = destinationPath + "/documents/";
-  //   console.log("DOCUMENT: " +  person.uri);
-  // }
-  return correctedAssets;
 }
 
 function parsePersonData(t) {
@@ -187,16 +162,16 @@ function parsePersonData(t) {
       newPerson.json = t._links.self[0].href;
       newPerson.media = t._links['wp:featuredmedia'];
       // attached CV is referenced in the acf.faculty_pdf property
-      // if (t.acf.faculty_pdf != "") {
-      //   newPerson.attachment = [
-      //     {
-      //       embeddable: true,
-      //       href: 'https://business.utsa.edu/wp-json/wp/v2/media/' + t.acf.faculty_pdf
-      //     }
-      //   ];
-      // } else {
-      //   newPerson.attachment = [];
-      // }
+      if (t.acf.faculty_pdf != "") {
+        newPerson.attachment = [
+          {
+            embeddable: true,
+            href: 'https://business.utsa.edu/wp-json/wp/v2/media/' + t.acf.faculty_pdf
+          }
+        ];
+      } else {
+        newPerson.attachment = [];
+      }
       newPerson.topd = t.department;
       newPerson.dslug = t.dslug;
       newPerson.content = t.content.rendered;
@@ -208,44 +183,11 @@ function parsePersonData(t) {
       newPerson.department = depts;
       newPerson.roles = roles;
       return newPerson;
-}
-
-async function parseAssetData(assets, type) {
-  // console.dir(assets);
-  var parsedAssets = [];
-  asset = assets[0];
-  let mediaPath = asset.href.replace('https://business.utsa.edu', '');
-  var options = {
-    hostname: WP_HOST,
-    port: WP_PORT,
-    path: mediaPath
-  };
-  var assetj = await getURL(options);
-  // if (assetj.media_type == "file" && assetj.media_type == type) {
-  //   // console.dir(a);
-  //   var parsedAsset = {
-  //     id: assetj.id,
-  //     alt: assetj.title.rendered,
-  //     path: assetj.source_url.replace('https://business.utsa.edu/wp-content/', '')
-  //   }
-  //   // console.log(a.title.rendered);
-  //   // parsedAsset.path = parsedAsset.path.replace('https://business.utsa.edu', '');
-  //   parsedAssets.push(parsedAsset);
-  // }
-  if (assetj.media_type == "image" && assetj.media_type == type) {
-    // console.dir(a);
-    var parsedAsset = {
-      id: assetj.id,
-      alt: assetj.alt_text,
-      path: assetj.source_url.replace('https://business.utsa.edu/wp-content/', '')
-    }
-    // console.log(assetj.title.rendered);
-    // console.log(parsedAsset);
-    // parsedAsset.path = parsedAsset.path.replace('https://business.utsa.edu', '');
-    parsedAssets.push(parsedAsset);
-  }
-  // console.dir(parsedAssets);
-  return parsedAssets;
+      /*
+      // $.media_details.sizes.full.source_url for original
+      // $.media_details.sizes.medium_large.source_url for 768ish
+      */
+      // TODO let's leave headshot and CV download/upload to another task
 }
 
 function reduceDepartments(p) {
@@ -304,57 +246,71 @@ function createFolderPath(p) {
   return folderPath;
 }
 
+function generateBlockPath(p) {
+  var blockPath = createFolderPath(p);
+  var newSlug = generateSlug(p);
+  blockPath = blockPath + "/" + newSlug;
+  return blockPath;
+}
+
 function generateSlug(data) {
   var newSlug = data.last_name.toLowerCase().trim() + "-" + data.first_name.toLowerCase().trim();
   newSlug = newSlug.replace(/[^a-z -]/gi, '');
   newSlug = newSlug.replaceAll(' ', '-');
   newSlug = newSlug.replaceAll(',', '-');
   return newSlug;
-};
+}
 
-function preparePayload(data) {
+function preparePayload(data, person) {
   // console.log("*** preparePayload ***");
-  // console.dir(data);
-  var block = JSON.parse(PAYLOAD_DOCUMENT);
-  block.asset.xhtmlDataDefinitionBlock.metadata.displayName = data.fullname;
-  block.asset.xhtmlDataDefinitionBlock.parentFolderPath = createFolderPath(data);
-  block.asset.xhtmlDataDefinitionBlock.tags = createTags(data.department, data.roles);
-  var newSlug = generateSlug(data);
-  block.asset.xhtmlDataDefinitionBlock.name = newSlug;
+  let noImage = [{
+    "type": "asset",
+    "identifier": "file",
+    "fileId": "55ec68b3ac1600040826d2316fbe3c5f",
+    "filePath": "faculty/headshots/_utsa-profile-placeholder-400x500.svg",
+    "assetType": "file",
+    "recycled": true
+  }];
+  let noCVLink = [{
+    "type": "text",
+    "identifier": "type",
+    "text": "No Link",
+    "recycled": false
+  }];
+  var fileData = lookupHash[person.id];
+  // console.log("fileData for person id: " + person.id + "\t " + data.asset.xhtmlDataDefinitionBlock.name);
+  // console.dir(fileData);
+  let media = fileData.media;
+  let docs = fileData.docs;
 
-  var sdns = block.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes;
-  sdns.map(function(node) {
-    if (node.identifier == "details") {
-      node.structuredDataNodes.map(function(detailNode) {
-        if (detailNode.identifier == "title") {
-          detailNode.text = data.faculty_title;
-          detailNode.text = detailNode.text.replaceAll('<br/>', '<br>');
-          detailNode.text = detailNode.text.replaceAll(' <br> ', '<br>');
-          detailNode.text = detailNode.text.replaceAll('<br>', ', ');
+  try {
+    data.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes.map(function(d) {
+      if (d.identifier == 'image') {
+        if (media.length > 0) {
+          let replacement = media[0];
+          d.structuredDataNodes.map(function(i) {
+            if (i.identifier == 'file') {
+              console.log("replace headshot for: " + person.uri + " with: " + replacement.correctedPath);
+              i.filePath = replacement.correctedPath;
+              i.fileId = "";
+            };
+            if (i.identifier == 'alt') {
+              console.log('replace alt text with: ' + replacement.alt);
+              i.text = replacement.alt;
+            }
+          });
+          // console.dir(d);
+        } else {
+          console.log("skipping headshot replacement for: " + data.asset.xhtmlDataDefinitionBlock.name);
         }
-        if (detailNode.identifier == "primaryDepartment") {
-          detailNode.text = data.topd;
-        }
-        if (detailNode.identifier == "phone") {
-          detailNode.text = data.faculty_phone;
-        }
-        if (detailNode.identifier == "email") {
-          detailNode.text = data.faculty_email.toLowerCase();
-        }
-        if (detailNode.identifier == "office") {
-          detailNode.text = data.faculty_office_number;
-        }
-      });
-      // console.dir(node);
-    }
-  })
-
-  // console.log("*** prepped payload ***");
-  // console.dir(block);
-  // block.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes.map(function(sd) {
-  //   console.dir(sd);
-  // });
-  return block;
+      }
+    });
+  } catch (e) {
+    console.log("unable to modify asset data:");
+    console.log(e);
+    console.dir(data);
+  }
+  return data;
 }
 
 function prepDepts(data) {
@@ -366,6 +322,51 @@ function prepDepts(data) {
   return results;
 }
 
+async function postAsset(uri, payload) {
+  //do GET
+  let postOptions = {
+    hostname: CAS_HOST,
+    port: CAS_PORT,
+    path: uri,
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Content-Length': payload.length,
+        Authorization: ' Bearer ' + API_KEY
+    }
+  };
+  if (CAS_PORT == 443) {
+    postOptions.requestCert = false;
+    postOptions.rejectUnauthorized = false;
+  }
+  // console.log(payload);
+  let p = new Promise((resolve, reject) => {
+		const req = protocol.request(postOptions, (response) => {
+      // console.log(postOptions);
+      // console.log(postOptions.headers['Content-Length']);
+      // console.log(payload);
+      // console.log(payload.length);
+			let chunks_of_data = [];
+			response.on('data', (fragments) => {
+				chunks_of_data.push(fragments);
+			});
+
+			response.on('end', () => {
+				let responseBody = Buffer.concat(chunks_of_data);
+        let responseString = responseBody.toString();
+        resolve(responseString);
+			});
+
+			response.on('error', (error) => {
+				reject(error);
+			});
+		});
+    req.write(payload);
+    req.end();
+	});
+
+  return await p;
+}
 
 async function getURL(options) {
     var getOptions = options;
@@ -391,13 +392,55 @@ async function getURL(options) {
                 resolve(responseObj);
             });
             response.on('error', (error) => {
-                console.log("EEEEEEEEEEEE");
                 reject(error);
             });
         });
         req.end();
       });
       return await p;
+}
+
+async function getAsset(uri) {
+  //do GET
+  let getOptions = {
+    hostname: CAS_HOST,
+    port: CAS_PORT,
+    path: GET_URI + uri,
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      // 'Content-Length': postData.length,
+      Authorization: ' Bearer ' + API_KEY
+    }
+  };
+  if (CAS_PORT == 443) {
+    getOptions.requestCert = false;
+    getOptions.rejectUnauthorized = false;
+  }
+  let p = new Promise((resolve, reject) => {
+    const req = protocol.request(getOptions, (response) => {
+      // console.log(getOptions);
+			let chunks_of_data = [];
+
+			response.on('data', (fragments) => {
+        // console.log("\t pushing data");
+				chunks_of_data.push(fragments);
+			});
+
+			response.on('end', () => {
+				let responseBody = Buffer.concat(chunks_of_data);
+        let responseString = responseBody.toString();
+        let responseObj = JSON.parse(responseString);
+				resolve(responseObj);
+			});
+
+			response.on('error', (error) => {
+				reject(error);
+			});
+    });
+    req.end();
+  });
+  return await p;
 }
 
 function saveSnippet(content, fpath) {
