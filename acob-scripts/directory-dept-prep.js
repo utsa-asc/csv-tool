@@ -26,7 +26,7 @@ const ROLE = "Faculty";
 
 var tasks = [];
 
-const DEPTS = fs.readFileSync("acob/directory-dept-list.json");
+const DEPTS = fs.readFileSync("acob/directory-dept-single.json");
 const departments = prepDepts(DEPTS);
 // console.dir(departments);
 let dkeys = Object.keys(departments);
@@ -55,6 +55,7 @@ directories.map(function(d) {
   let dirdata = JSON.parse(fs.readFileSync(d.data));
   console.log("dept has: " + dirdata.length + " entries");
   dirdata.map(function(p) {
+    console.log("adding task: " + p);
     p.dslug = d.slug;
     p.department = d.name;
     tasks.push(p);
@@ -68,7 +69,9 @@ async function completeTasks() {
   try {
     for (let t of tasks) {
       // data points to collect from WP JSON API Faculty object:
+      // console.log("starting task: " + t.id);
       var person = parsePersonData(t);
+      // console.log("prep payload: " + t.id);
       const payload = preparePayload(person);
       let stringPayload = JSON.stringify(payload);
       // console.log(stringPayload);
@@ -180,7 +183,8 @@ function reduceRoles(p) {
 function createTags(depts, roles) {
   var tags = [];
   depts.map(function(d) {
-    tags.push({ name: d });
+    let dtag = d.replaceAll(' ', '-').trim();
+    tags.push({ name: dtag });
   });
 
   roles.map(function(r) {
@@ -192,7 +196,7 @@ function createTags(depts, roles) {
 function createFolderPath(p) {
   //potential roles:
   // Faculty | Staff | Administrators | Doctoral Students | Emeritus Faculty
-  var folderPath = "faculty/_blocks/" + p.topd.toLowerCase() + "";
+  var folderPath = "faculty/_blocks/" + p.dslug.toLowerCase() + "";
   folderPath = folderPath.replaceAll(' ', '-');
   // console.dir(p.roles);
   if (p.roles.includes('faculty')) {

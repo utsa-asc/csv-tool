@@ -213,36 +213,24 @@ function parsePersonData(t) {
 async function parseAssetData(assets, type) {
   // console.dir(assets);
   var parsedAssets = [];
-  asset = assets[0];
-  let mediaPath = asset.href.replace('https://business.utsa.edu', '');
-  var options = {
-    hostname: WP_HOST,
-    port: WP_PORT,
-    path: mediaPath
-  };
-  var assetj = await getURL(options);
-  // if (assetj.media_type == "file" && assetj.media_type == type) {
-  //   // console.dir(a);
-  //   var parsedAsset = {
-  //     id: assetj.id,
-  //     alt: assetj.title.rendered,
-  //     path: assetj.source_url.replace('https://business.utsa.edu/wp-content/', '')
-  //   }
-  //   // console.log(a.title.rendered);
-  //   // parsedAsset.path = parsedAsset.path.replace('https://business.utsa.edu', '');
-  //   parsedAssets.push(parsedAsset);
-  // }
-  if (assetj.media_type == "image" && assetj.media_type == type) {
-    // console.dir(a);
-    var parsedAsset = {
-      id: assetj.id,
-      alt: assetj.alt_text,
-      path: assetj.source_url.replace('https://business.utsa.edu/wp-content/', '')
+  if (Array.isArray(assets)) {
+    asset = assets[0];
+    let mediaPath = asset.href.replace('https://business.utsa.edu', '');
+    var options = {
+      hostname: WP_HOST,
+      port: WP_PORT,
+      path: mediaPath
+    };
+    var assetj = await getURL(options);
+    if (assetj.media_type == "image" && assetj.media_type == type) {
+      // console.dir(a);
+      var parsedAsset = {
+        id: assetj.id,
+        alt: assetj.alt_text,
+        path: assetj.source_url.replace('https://business.utsa.edu/wp-content/', '')
+      }
+      parsedAssets.push(parsedAsset);
     }
-    // console.log(assetj.title.rendered);
-    // console.log(parsedAsset);
-    // parsedAsset.path = parsedAsset.path.replace('https://business.utsa.edu', '');
-    parsedAssets.push(parsedAsset);
   }
   // console.dir(parsedAssets);
   return parsedAssets;

@@ -91,8 +91,8 @@ async function completeTasks() {
       // preparePayload
       const payload = preparePayload(personObj, person);
       let stringPayload = JSON.stringify(payload);
-      console.log(stringPayload);
-      console.log("\n\n")
+      // console.log(stringPayload);
+      // console.log("\n\n")
 
       // CMS REST POST
       if (POST == "YES") {
@@ -101,8 +101,7 @@ async function completeTasks() {
           let respj = JSON.parse(postedAsset);
           if (respj.success == true) {
             // console.log(postedAsset);
-
-            console.log("updated: " + payload.asset.xhtmlDataDefinitionBlock.name);
+            console.log("updated: " + respj.success + "\t" + payload.asset.xhtmlDataDefinitionBlock.name);
           } else {
             console.log("****ERROR****");
             console.log(postedAsset);
