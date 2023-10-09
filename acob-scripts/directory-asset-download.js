@@ -29,7 +29,7 @@ var tasks = [];
 var headshots = {};
 var documents = {};
 
-const DEPTS = fs.readFileSync("acob/directory-dept-single.json");
+const DEPTS = fs.readFileSync("acob/directory-dept-list.json");
 const departments = prepDepts(DEPTS);
 // console.dir(departments);
 let dkeys = Object.keys(departments);

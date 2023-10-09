@@ -30,7 +30,7 @@ var tasks = [];
 var headshots = {};
 var documents = {};
 
-const DEPTS = fs.readFileSync("acob/directory-dept-single.json");
+const DEPTS = fs.readFileSync("acob/directory-dept-list.json");
 const HASH_CONTENTS = fs.readFileSync("acob/directory-media-hash.json");
 
 const lookupHash = JSON.parse(HASH_CONTENTS);
@@ -68,64 +68,79 @@ directories.map(function(d) {
   });
 });
 
-completeTasks();
+// completeTasks();
 
-async function completeTasks() {
-  var currentTask = {}
-  try {
-    //for each person in xx-dept.json:
-    // - parsePersonData
-    // - CMS REST GET block (read)
-    // - preparePayload with block and hash lookup
-    //    - update docs and headshot info
-    // - CMS REST POST block (edit)
-    let results = await Promise.all(tasks.map(async function(t) {
-      // data points to collect from WP JSON API Faculty object:
-      var person = parsePersonData(t);
-      
-      // CMS REST GET
-      let blockPath = generateBlockPath(person);
-      var personObj = await getAsset(blockPath);
-      // console.dir(personObj);
+executeTasksConcurrently(tasks);
 
-      // preparePayload
-      const payload = preparePayload(personObj, person);
-      let stringPayload = JSON.stringify(payload);
-      // console.log(stringPayload);
-      // console.log("\n\n")
+async function executeTasksConcurrently(
+  list
+) {
+  let activeTasks = [];
+  let concurrencyLimit = 10;
 
-      // CMS REST POST
-      if (POST == "YES") {
-        let postedAsset = await postAsset(EDIT_URI, stringPayload);
-        try {
-          let respj = JSON.parse(postedAsset);
-          if (respj.success == true) {
-            // console.log(postedAsset);
-            console.log("updated: " + respj.success + "\t" + payload.asset.xhtmlDataDefinitionBlock.name);
-          } else {
-            console.log("****ERROR****");
-            console.log(postedAsset);
-            console.log(person.id + "\t" + person.uri);
-            console.log("******PAYLOAD******");
-            console.log(stringPayload);
-            console.log("******END******");
-            // console.dir(payload);
-          }
-        } catch (e) {
-          console.log("POST failed to return a JSON response");
-          console.log(e);
-        }
-      } else {
-        console.log("skipping POST");
-      }
+  for (const item of list) {
+    if (activeTasks.length >= concurrencyLimit) {
+      await Promise.race(activeTasks);
+    }
+    // console.log(`Start task: ${item}`);
+    // console.dir(item);
+    // wait 0.25 secs between launching new async task b/c Cascade chokes, otherwise...
+    await delay(250);
 
-    }));
-  } catch (e) {
-    console.log(e);
-    console.log("Error while running tasks:");
-    // console.dir(currentTask);
+    const activeTask = completeTask(item)
+      .then(() => {
+        activeTasks.splice(activeTasks.indexOf(activeTask), 1);
+        // console.log(`End task: ${item}`);
+      })
+      .catch(() => {
+        activeTasks.splice(activeTasks.indexOf(activeTask), 1);
+        // console.log(`End task: ${item}`);
+      });
+    activeTasks.push(activeTask);
   }
 }
+async function completeTask(t) {
+  // data points to collect from WP JSON API Faculty object:
+  var person = parsePersonData(t);
+  
+  // CMS REST GET
+  let blockPath = generateBlockPath(person);
+  var personObj = await getAsset(blockPath);
+  // console.dir(personObj);
+
+  // preparePayload
+  const payload = preparePayload(personObj, person);
+  let stringPayload = JSON.stringify(payload);
+  // console.log(stringPayload);
+  // console.log("\n\n")
+
+  // CMS REST POST
+  if (POST == "YES") {
+    let postedAsset = await postAsset(EDIT_URI, stringPayload);
+    try {
+      let respj = JSON.parse(postedAsset);
+      if (respj.success == true) {
+        // console.log(postedAsset);
+        console.log("updated: " + respj.success + "\t" + payload.asset.xhtmlDataDefinitionBlock.name);
+      } else {
+        console.log("****ERROR****");
+        console.log(postedAsset);
+        console.log(person.id + "\t" + person.uri);
+        console.log("******PAYLOAD******");
+        console.log(stringPayload);
+        console.log("******END******");
+        // console.dir(payload);
+      }
+    } catch (e) {
+      console.log("POST failed to return a JSON response");
+      console.log(e);
+    }
+  } else {
+    console.log("skipping POST");
+  }
+  return t;
+}
+
 
 function parsePersonData(t) {
       /*
@@ -427,9 +442,14 @@ async function getAsset(uri) {
 			});
 
 			response.on('end', () => {
-				let responseBody = Buffer.concat(chunks_of_data);
-        let responseString = responseBody.toString();
-        let responseObj = JSON.parse(responseString);
+        var responeObj = {};
+        try {
+          let responseBody = Buffer.concat(chunks_of_data);
+          let responseString = responseBody.toString();
+          responseObj = JSON.parse(responseString);  
+        } catch (jsonE) {
+          responseObj = { status: false, error: "unable to parse JSON as response"};
+        }
 				resolve(responseObj);
 			});
 

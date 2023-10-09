@@ -1,42 +1,127 @@
 [
     {
-        "id": 1590,
-        "date": "2017-11-08T17:46:09",
-        "date_gmt": "2017-11-08T17:46:09",
+        "id": 14007,
+        "date": "2020-09-04T17:01:53",
+        "date_gmt": "2020-09-04T17:01:53",
         "guid": {
-            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1590"
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=14007"
         },
-        "modified": "2023-05-17T09:18:42",
-        "modified_gmt": "2023-05-17T14:18:42",
-        "slug": "natasha-burns",
+        "modified": "2023-05-17T08:55:04",
+        "modified_gmt": "2023-05-17T13:55:04",
+        "slug": "olufadeke-adeniyi",
         "status": "publish",
         "type": "faculty",
-        "link": "https://business.utsa.edu/faculty/natasha-burns/",
+        "link": "https://business.utsa.edu/faculty/olufadeke-adeniyi/",
         "title": {
-            "rendered": "Natasha Burns, Ph.D."
+            "rendered": "Olufadeke Adeniyi"
         },
         "content": {
-            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. The Ohio State University</li>\n<li>MBA Michigan State University</li>\n<li>B.S. The Ohio State University</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Natasha Burns is a professor of finance at The University of Texas at San Antonio. Her research interests include the effect of incentives, law and culture in corporate finance. She explores these issues in takeovers, financing decisions and costs, executive compensation and international finance. Prior to joining UTSA, she was an assistant professor at the University of Georgia. She also served as a visiting senior economist at the Securities and Exchange Commission.</p>\n<p>Her research appears in the <em>Journal of Corporate Finance</em>, <em>Journal of Banking and Finance</em>, <em>Journal of Financial Economics</em>, <em>Journal of Financial and Quantitative Analysis</em>, <em>The Financial Review</em> and the <em>Quarterly Journal of Economics</em>. She is on the editorial board at <em>Corporate Governance: an International Review</em> and is an associate editor of <em>The Financial Review</em>. She serves on the boards of <a href=\"https://www.drpattyslegacy.org/legacy-fund.html\" target=\"_blank\" rel=\"noopener\">Dr. Patty&#8217;s Legacy Fund</a> and <a href=\"http://stemkidsnyc.org/who-we-are.html\" target=\"_blank\" rel=\"noopener\">STEM Kids NYC</a>. She earned her Ph.D. in finance from Ohio State University, MBA at Michigan State University and B.S. in computer science from Ohio State University.</p>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“CEO Tournaments: A Cross-Country Analysis of Causes, Cultural Influences and Consequences,” (with K. Minnick and L. Starks), <em>Journal of Financial and</em> <em>Quantitative Analysis</em>, Vol. 52, No. 2, 2017, pp. 519-551.</li>\n<li>“Sales of Private Firms and the Role of CEO Compensation,” (with J. Jindra and K. Minnich), <em>Journal of Banking and Finance</em>, Vol. 43, 2017, pp. 444-463.</li>\n<li>“Equity-incentive Compensation and Payout Policy in Europe,” (with Brian C. McTier and Kristina Minnick), <em>Journal of Corporate Finance</em>, Vol. 30, February 2015, pp. 85-97.</li>\n<li>“A Cross-Country Comparison of Compensation and Payout Policy,” <em>Journal of Corporate Finance</em>, Vol. 30, February 2015, pp. 155-175.</li>\n<li>“U.S. Takeovers in Foreign Markets: Do They Impact Emerging and Developed Markets Differently?” with Ivonne Liebenberg, <em>Journal of Corporate Finance</em>, Vol. 17, Issue 4, 2011, pp. 1028-1046.</li>\n<li>“Institutional Ownership and Monitoring: Evidence from Financial Misreporting,” with Simi Kedia and Marc Lipson, <em>Journal of Corporate Finance</em>, Vol. 16, Issue 4, 2010, pp. 443-455.</li>\n<li>“Executive Option Exercises and Financial Misreporting,” with Simi Kedia, <em>Journal of Banking</em> <em>and Finance, </em>Vol. 32, Issue 5, 2008, pp. 845-857.</li>\n<li>“Cross-Listing and Legal Bonding: Evidence from Mergers and Acquisitions,” with Bill Francis and Iftekhar Hasan, <em>Journal of Banking and Finance, </em>Vol. 31, Issue 4, 2007, pp. 1003-1031.</li>\n<li>“The Impact of Performance-based Compensation on Misreporting,” with Simi Kedia, <em>Journal of</em> <em>Financial Economics, </em>Vol. 79, Issue 1, 2006, pp. 35-67.</li>\n</ul>\n",
+            "rendered": "",
             "protected": false
         },
-        "featured_media": 13293,
+        "featured_media": 14048,
         "template": "",
         "faculty_departments": [
-            33
+            30
         ],
         "acf": {
-            "first_name": "Natasha",
-            "last_name": "Burns",
-            "faculty_title": "Professor of Finance",
-            "faculty_email": "natasha.burns@utsa.edu",
-            "faculty_phone": "210-458-6838",
+            "first_name": "Olufadeke",
+            "last_name": "Adeniyi",
+            "faculty_title": "Doctoral Student - Accounting",
+            "faculty_email": "olufadeke.adeniyi@utsa.edu",
+            "faculty_phone": "210-458-7322",
             "faculty_fax": "",
-            "faculty_office_number": "BB 4.05.22",
+            "faculty_office_number": "BB 4.02.48",
             "faculty_pdf": "",
             "faculty_additional_info": "",
             "department_role_repeater": [
                 {
-                    "department": "Finance",
+                    "department": "Accounting",
+                    "role": "Doctoral Students"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/14007"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/14048"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=14007"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=14007"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 23934,
+        "date": "2023-01-11T12:48:48",
+        "date_gmt": "2023-01-11T18:48:48",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=23934"
+        },
+        "modified": "2023-08-24T11:08:59",
+        "modified_gmt": "2023-08-24T16:08:59",
+        "slug": "sayed-akbari",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/sayed-akbari/",
+        "title": {
+            "rendered": "Sayed Akbari"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 24372,
+        "template": "",
+        "faculty_departments": [
+            30
+        ],
+        "acf": {
+            "first_name": "Sayed",
+            "last_name": "Akbari",
+            "faculty_title": "Assistant Professor of Practice in Accounting",
+            "faculty_email": "sayed.akbari@utsa.edu",
+            "faculty_phone": "210-458-4321",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.04.28",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Accounting",
                     "role": "Faculty"
                 }
             ]
@@ -44,7 +129,92 @@
         "_links": {
             "self": [
                 {
-                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1590"
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/23934"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/24372"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=23934"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=23934"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 25941,
+        "date": "2023-08-15T10:39:52",
+        "date_gmt": "2023-08-15T15:39:52",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=25941"
+        },
+        "modified": "2023-08-15T10:39:52",
+        "modified_gmt": "2023-08-15T15:39:52",
+        "slug": "haya-almugarry",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/haya-almugarry/",
+        "title": {
+            "rendered": "Haya Almugarry"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 13293,
+        "template": "",
+        "faculty_departments": [
+            30
+        ],
+        "acf": {
+            "first_name": "Haya",
+            "last_name": "Almugarry",
+            "faculty_title": "Doctoral Student - Accounting",
+            "faculty_email": "haya.almugarry@my.utsa.edu",
+            "faculty_phone": "",
+            "faculty_fax": "",
+            "faculty_office_number": "",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Accounting",
+                    "role": "Doctoral Students"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/25941"
                 }
             ],
             "collection": [
@@ -65,14 +235,14 @@
             ],
             "wp:attachment": [
                 {
-                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1590"
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=25941"
                 }
             ],
             "wp:term": [
                 {
                     "taxonomy": "faculty_departments",
                     "embeddable": true,
-                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1590"
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=25941"
                 }
             ],
             "curies": [
@@ -85,51 +255,51 @@
         }
     },
     {
-        "id": 1594,
-        "date": "2017-11-08T17:58:42",
-        "date_gmt": "2017-11-08T17:58:42",
+        "id": 25927,
+        "date": "2023-08-15T09:19:42",
+        "date_gmt": "2023-08-15T14:19:42",
         "guid": {
-            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1594"
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=25927"
         },
-        "modified": "2023-05-17T14:58:43",
-        "modified_gmt": "2023-05-17T19:58:43",
-        "slug": "palani-rajan-kadapakkam",
+        "modified": "2023-08-15T09:19:42",
+        "modified_gmt": "2023-08-15T14:19:42",
+        "slug": "ayat-alrahahleh",
         "status": "publish",
         "type": "faculty",
-        "link": "https://business.utsa.edu/faculty/palani-rajan-kadapakkam/",
+        "link": "https://business.utsa.edu/faculty/ayat-alrahahleh/",
         "title": {
-            "rendered": "Palani-Rajan Kadapakkam, Ph.D."
+            "rendered": "Ayat Alrahahleh"
         },
         "content": {
-            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. University of Michigan</li>\n<li>PGDBA Indian Institute of Management</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Palani-Rajan Kadapakkam has been named the inaugural Frost Finance Endowed Chair in the Carlos Alvarez College of Business. Professor Kadapakkam holds a Ph.D. in finance from the University of Michigan-Ann Arbor and a PGDBA (equivalent to MBA) from the Indian Institute of Management, Ahmedabad. He was previously a faculty member at American University and the University of Houston. Professor Kadapakkam has also held a visiting faculty position at the University of Michigan-Ann Arbor.</p>\n<p>Professor Kadapakkam&#8217;s research has been published in leading journals such as the <em>Journal of Finance</em>, <em>Review of Financial Studies</em>, <em>Journal of Business</em>, <em>Journal of Financial and Quantitative Analysis</em>, <em>Financial Management</em> and the <em>Journal of Banking and Finance</em>. His research has been recognized at UTSA with the President&#8217;s Distinguished Achievement Award (2001), and the Col. Jean Piccione and Lt. Col. Philip Piccione Endowed Research Award (2008). He has served on the Board of Advisers for the Financial Management Association&#8217;s Survey and Synthesis series.</p>\n<p>Professor Kadapakkam currently teaches the Financial Management course in the MBA program and Intermediate Corporate Finance and Cases and Problems in Finance courses in the BBA program. He has received teaching awards from the UTSA MBA Association in 2005, 2007, 2009, 2010, and 2011. He also received the E. Lou Curry Teaching Excellence Award from the College of Business in 2010.</p>\n<h3><strong>Research Interests</strong></h3>\n<p>Professor Kadapakkam&#8217;s primary area of research is corporate finance. His research has examined issues such as the source of merger synergies, Dutch auction stock repurchases, impact of stock splits, calls of convertible securities, and ex-dividend stock price behavior. His work has also addressed the efficiency of market prices in the context of the government intervention in the Hong Kong stock market, pricing of American Depositary Receipts, self-tender offers and ticker symbol changes.</p>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li>“Effects of Customer Financial Distress on Supplier Capital Structure,” with M. Oliveira and M. Beyhaghi, <em>Journal of Corporate Finance</em>, Vol. 42, February 2017, pp. 131-149.</li>\n<li>“The Debt Trap: Wealth Transfers and Capital Structure Choice,” with A. Meisami and J. Wald, <em>Financial Review</em>, 2016, Vol. 51, No. 1, pp 5-35.</li>\n<li>“Exchange Traded Funds, Size-Based Portfolios, and Market Efficiency,&#8221; with T. Krause and Y. Tse, <em>Review of Quantitative Finance and Accounting</em>, Vol. 45, No. 1, 2015, p. 89-110.</li>\n<li>“Investor Ignorance in Markets for Worthless Stocks,” with H. Zhang, <em>Journal of Financial Markets</em>, Vol. 19, 2014, p. 197-218.</li>\n<li>“Impact of Liquidity on the Futures-Cash Basis: Evidence from the Indian Market,” with U. Kumar, <em>Journal of Futures Markets</em>, Vol. 33, No. 3, March 2013, pp. 266-298.</li>\n<li>“Lost in Translation: Delayed Ex-Dividend Adjustment of Hong Kong ADRs, with A. Meisami and Y. Shi,” <em>Journal of Banking and Finance</em>, Vol. 34, Issue 3, March 2010, pp. 647-655.</li>\n<li>“How do Mergers Create Value? A Comparison of Taxes, Market Power and Efficiency Improvements as Explanations for Synergies, with Erik Devos and Srinivasan Krishnamurthy,” <em>Review of Financial Studies</em>, March 2009, pp. 1179-1211.</li>\n<li>“Ex-dividend Returns: The Mexican Puzzle, with V. Martinez,” <em>Journal of Banking and Finance</em>, Vol. 32, Issue 11, November 2008, pp. 2453-2461.</li>\n<li>“What’s in a Nickname?&#8211;Price and Volume Impacts of a Pure Ticker Symbol Change, with L. Misra,” <em>Journal of Financial Research</em>, Spring 2007, pp. 53-71.</li>\n<li>“Anatomy of a Government Intervention in Index Stocks&#8211;Price Pressure or Information Effects?,&#8221; with K. Bhanot,” <em>Journal of Business</em>, March 2006, pp. 963-986.</li>\n<li>“Stock Splits, Broker Promotion and Decimalization, with S. Krishnamurthy and Y.Tse,” <em>Journal of Financial and Quantitative Analysis</em>, December 2005, pp. 873-895.</li>\n<li>“Reduction of Constraints on Arbitrage Trading and Market Efficiency: An Examination of Ex-Day Returns in Hong Kong After Introduction of Electronic Settlement,” <em>Journal of Finance</em>, December 2000, pp. 2841-2861.</li>\n<li>“Capital Gains Taxes and Stockholders&#8217; Response to Tender Offers: Evidence from Dutch Auction Repurchases, with S. Seth,” <em>Financial Review</em>, Vol. 32, Issue 3, 1997, pp. 145-166.</li>\n<li>“Stock Reaction to Dividend Savings of Convertible Preferred Calls: Free Cash Flow or Price Pressure Effects, with A.P.C. Tang,” <em>Journal of Banking and Finance</em>, Vol. 20, November 1996, pp. 1759-1773.</li>\n<li>“Trading Profits in Dutch Auction Self Tender Offers, with S. Seth,” <em>Journal of Finance</em>, Vol. 49, March 1994, pp. 291-306.</li>\n<li>“The Role of Private and Public Debt in Corporate Capital Structures, with J.C. Easterwood,” <em>Financial Management</em>, Autumn 1991, pp. 49 57.</li>\n<li>“The Value of Shelf Registration for New Debt Issues, with S.J. Kon,” <em>Journal of Business</em>, April 1989, pp. 271 292.</li>\n</ul>\n",
+            "rendered": "",
             "protected": false
         },
-        "featured_media": 1608,
+        "featured_media": 13293,
         "template": "",
         "faculty_departments": [
-            33
+            30
         ],
         "acf": {
-            "first_name": "Palani-Rajan",
-            "last_name": "Kadapakkam",
-            "faculty_title": "Frost Finance Endowed Chair and Professor",
-            "faculty_email": "palanirajan.kadapakkam@utsa.edu",
-            "faculty_phone": "210-458-5830",
-            "faculty_fax": "210.458.6320",
-            "faculty_office_number": "BB 4.02.34B",
-            "faculty_pdf": 12949,
+            "first_name": "Ayat",
+            "last_name": "Alrahahleh",
+            "faculty_title": "Doctoral Student - Accounting",
+            "faculty_email": "ayat.alrahahleh@my.utsa.edu",
+            "faculty_phone": "",
+            "faculty_fax": "",
+            "faculty_office_number": "",
+            "faculty_pdf": "",
             "faculty_additional_info": "",
             "department_role_repeater": [
                 {
-                    "department": "Finance",
-                    "role": "Faculty"
+                    "department": "Accounting",
+                    "role": "Doctoral Students"
                 }
             ]
         },
         "_links": {
             "self": [
                 {
-                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1594"
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/25927"
                 }
             ],
             "collection": [
@@ -145,19 +315,189 @@
             "wp:featuredmedia": [
                 {
                     "embeddable": true,
-                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/1608"
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/13293"
                 }
             ],
             "wp:attachment": [
                 {
-                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1594"
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=25927"
                 }
             ],
             "wp:term": [
                 {
                     "taxonomy": "faculty_departments",
                     "embeddable": true,
-                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1594"
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=25927"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 10364,
+        "date": "2019-09-05T15:09:39",
+        "date_gmt": "2019-09-05T15:09:39",
+        "guid": {
+            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=10364"
+        },
+        "modified": "2023-05-17T09:04:00",
+        "modified_gmt": "2023-05-17T14:04:00",
+        "slug": "christiana-antwi-obimpeh",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/christiana-antwi-obimpeh/",
+        "title": {
+            "rendered": "Christiana Antwi-Obimpeh"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 12808,
+        "template": "",
+        "faculty_departments": [
+            30
+        ],
+        "acf": {
+            "first_name": "Christiana",
+            "last_name": "Antwi-Obimpeh",
+            "faculty_title": "Doctoral Student - Accounting",
+            "faculty_email": "christiana.antwi-obimpeh@utsa.edu",
+            "faculty_phone": "210-458-7322",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.02.48",
+            "faculty_pdf": "",
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Accounting",
+                    "role": "Doctoral Students"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/10364"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/12808"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=10364"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=10364"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1329,
+        "date": "2017-11-06T20:06:46",
+        "date_gmt": "2017-11-06T20:06:46",
+        "guid": {
+            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1329"
+        },
+        "modified": "2023-09-19T08:20:30",
+        "modified_gmt": "2023-09-19T13:20:30",
+        "slug": "sharad-asthana",
+        "status": "publish",
+        "type": "faculty",
+        "link": "https://business.utsa.edu/faculty/sharad-asthana/",
+        "title": {
+            "rendered": "Sharad Asthana, Ph.D."
+        },
+        "content": {
+            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>Ph.D. University of Texas-Austin</li>\n<li>Ph.D. (ABD) Lucknow University</li>\n<li>M.S. Lucknow University</li>\n<li>B.S. (Honors) Lucknow University</li>\n<li>B.S. Lucknow University</li>\n</ul>\n<h3><strong>About</strong></h3>\n<h5><a href=\"http://faculty.business.utsa.edu/sasthana/index.html\" target=\"_blank\" rel=\"noopener noreferrer\">Personal Faculty Website</a></h5>\n<p>Dr. Sharad Asthana is an award winning teacher and researcher who obtained his Ph.D. in accounting from the University of Texas at Austin in 1995 after 13 years of experience as a senior manager and CEO. Dr. Asthana has published in top-tier accounting journals such as, <em>The Accounting Review, Contemporary Accounting Research, Accounting Horizons, Journal of Accounting and Public Policy, Auditing: A Journal of Practice and Theory, Journal of Business Research, Journal of Pension Economics and Finance, International Journal of Auditing </em>and <em>Journal of Information Systems</em>.</p>\n<p>He is a widely recognized researcher in the areas of pension accounting, capital markets, information technology and market for audit services. According to a recent publication, he is ranked as one of the top 25 most published researchers in accounting information systems. He is the editor-in-chief for the <em>International Journal of Accounting, Auditing and Performance Evaluation</em>.</p>\n<p>He has won two &#8220;Best Paper Awards&#8221; and has been inducted twice into the Dean&#8217;s Research Honor Roll for outstanding research. He has also won two &#8220;Teacher of the Year Awards&#8221; for excellence in the classroom. Recently, he received the Carlos Alvarez College of Business Endowed Award for Overall Faculty Excellence and has been named a Dean&#8217;s Distinguished Research Scholar.</p>\n<h3><strong>Research Interests</strong></h3>\n<ul>\n<li>Capital market</li>\n<li>Market for audit services</li>\n<li>Pension accounting</li>\n<li>Accounting information systems</li>\n</ul>\n<h3><strong>Selected Publications</strong></h3>\n<ul>\n<li class=\"x_MsoListParagraph\"><span class=\"x_al-author-delim\">“</span>Does Client Cyber-Breach Have Reputational Consequences for the Local Audit Office?” with R. Kalelkar and K. K. Raman, <em>Accounting Horizons</em>, 2021, (<a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdoi.org%2F10.2308%2FHORIZONS-2020-018&amp;data=04%7C01%7CMaureen.Bird%40utsa.edu%7C237c003984c24d331a6d08d9218fde27%7C3a228dfbc64744cb88357b20617fc906%7C0%7C0%7C637577724060859060%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=%2F2p5HjtQcyk3IkPr5b6BgoinAn7qdIjWovqM7Bl8Nj4%3D&amp;reserved=0\">https://doi.org/10.2308/HORIZONS-2020-018</a>.)</li>\n<li class=\"x_MsoListParagraph\">“Impact of Economic Policy Uncertainty on Disclosure and Pricing of Earnings News,” with R. Kalelkar, <i>Review of Quantitative Finance and Accounting,</i> Vol. 55, 2020, <span class=\"x_u-visually-hidden\">pp. </span>1481-1512.</li>\n<li class=\"x_MsoListParagraph\">“Fee Competition Among Big 4 Auditors and Audit Quality,” with K. K. Raman and I. Khurana, <i>Review of Quantitative Finance and Accounting, </i>Vol. 52, No. 2, February 2019, pp. 403-438.</li>\n<li>“Diversification by the Audit Offices in the U.S. and Its Impact on Audit Quality,” <em>Review of Quantitative Finance and Accounting</em>, Vol. 48, No. 4, 2017, pp. 1003-1010.</li>\n<li>“The Rewards to Publishing in Accounting in the U.S.,” with Steven Balsam,<em> International Journal of Accounting, Auditing and Performance Evaluation</em>, Vol. 13, No. 1, 2017, pp. 65-98.</li>\n<li>“Client-Based Measure of the Audit Office Reputation,” <em>International Journal of Accounting, Auditing and Performance Evaluation</em>, Vol. 13, No. 3, 2017, pp. 199-226.</li>\n<li>&#8220;U.S.-listed Foreign Companies&#8217; Choice of a U.S.-based vs. Home Country-based Big N Principal Auditor and the Effect of Audit Fees and Earnings Quality,&#8221; with K. K. Raman and H. Xu, <em>Accounting Horizons</em>, Vol. 29, No. 3, Sept. 2015, pp. 631-666.</li>\n<li>&#8220;Organizational Form and Accounting Choice: Are Nonprofit or For-Profit Managers More Aggressive?&#8221; with Thomas Vermeer and Chris Edmonds, <em>The Accounting Review, </em>September 2014.</li>\n<li>&#8220;Effect of Client Reputation on Audit Fees at the Office Level: An Examination of S&amp;P 500 Index Membership,” with Rachana Kalelkar, <em>Auditing: A Journal of Practice and Theory,</em> Vol. 33, No. 1, 2014.</li>\n<li>&#8220;Abnormal Audit Fee and Audit Quality,&#8221; with Jeff Boone, <em>Auditing: A Journal of Practice and Theory</em>, Vol. 31, No. 3, 2012.</li>\n<li>&#8220;Corporate Governance, Audit Firm Reputation, Auditor Switches, and Client Stock Price Reactions: The Andersen Experience,&#8221; with Steve Balsam and Jagan Krishnan, <em>International Journal of Auditing</em>, Vol. 14, No. 3, 2010.</li>\n<li>&#8220;Earnings Management, Expected Returns on Pension Assets, and Resource Allocation Decisions,&#8221; <em>Journal of Pension Economics and Finance, </em>Vol. 7, No. 2, 2008.</li>\n<li>&#8220;Factors Associated with the Early Adoption of the SEC&#8217;s Revised Auditor Fee Disclosure Rules,&#8221; with Jayanthi Krishnan, <em>Auditing: A Journal of Practice and Theory, </em>2006.</li>\n<li>&#8220;Differential Response of Small Versus Large Traders to 10-K Filings on EDGAR,&#8221; with Steve Balsam and Srinivasan Sankaraguruswamy, <em>The Accounting Review</em>, 2004.</li>\n<li>&#8220;Impact of Information Technology on Post-Earnings Announcement Drift,&#8221; <em>Journal of Information Systems, </em>Vol. 17, No. 1, 2003.</li>\n<li>&#8220;The Effect of EDGAR on the Market Response to Form 10-K Filing<em>,</em>&#8221; with Steve Balsam, <em>Journal of Accounting and Public Policy</em>, Vol. 20, No. 4-5, 2001.</li>\n<li>&#8220;Determinants of Funding Strategies and Actuarial Choices for Defined-Benefit Pension Plans,&#8221; <em>Contemporary Accounting Research, </em>Spring 1999.</li>\n</ul>\n",
+            "protected": false
+        },
+        "featured_media": 10599,
+        "template": "",
+        "faculty_departments": [
+            30
+        ],
+        "acf": {
+            "first_name": "Sharad",
+            "last_name": "Asthana",
+            "faculty_title": "Department Chair <br> Professor of Accounting",
+            "faculty_email": "sharad.asthana@utsa.edu",
+            "faculty_phone": "210-458-4320",
+            "faculty_fax": "",
+            "faculty_office_number": "BB 4.01.12",
+            "faculty_pdf": 12476,
+            "faculty_additional_info": "",
+            "department_role_repeater": [
+                {
+                    "department": "Accounting",
+                    "role": "Faculty"
+                }
+            ]
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1329"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/10599"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1329"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "faculty_departments",
+                    "embeddable": true,
+                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1329"
                 }
             ],
             "curies": [
