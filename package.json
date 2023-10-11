@@ -4,6 +4,7 @@
   "description": "quick and dirty csv parser that scrapes content from the web for later REST API usage",
   "main": "index.js",
   "scripts": {
+    "acob-directory-profile": "node acob-scripts/faculty-profile-process.js",
     "acob-directory-duplicate": "node acob-scripts/directory-asset-duplicate.js",
     "acob-directory-asset-update": "node acob-scripts/directory-asset-update.js",
     "acob-directory-dept-prep": "node acob-scripts/directory-dept-prep.js",
