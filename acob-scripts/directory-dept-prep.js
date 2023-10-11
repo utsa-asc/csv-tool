@@ -26,7 +26,7 @@ const ROLE = "Faculty";
 
 var tasks = [];
 
-const DEPTS = fs.readFileSync("acob/directory-dept-list.json");
+const DEPTS = fs.readFileSync("acob/directory-dept-list-admin.json");
 const departments = prepDepts(DEPTS);
 // console.dir(departments);
 let dkeys = Object.keys(departments);
@@ -85,7 +85,8 @@ async function completeTasks() {
           } else {
             console.log("****ERROR****");
             console.log(postedAsset);
-            console.dir(payload);
+            console.log(stringPayload);
+            // console.dir(payload);
           }
         } catch (e) {
           console.log("POST failed to return a JSON response");
@@ -183,7 +184,7 @@ function reduceRoles(p) {
 function createTags(depts, roles) {
   var tags = [];
   depts.map(function(d) {
-    let dtag = d.replaceAll(' ', '-').trim();
+    let dtag = d.replaceAll(' ', '-').replaceAll("'", "").trim();
     tags.push({ name: dtag });
   });
 

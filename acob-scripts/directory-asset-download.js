@@ -29,7 +29,7 @@ var tasks = [];
 var headshots = {};
 var documents = {};
 
-const DEPTS = fs.readFileSync("acob/directory-dept-list.json");
+const DEPTS = fs.readFileSync("acob/directory-dept-list-admin.json");
 const departments = prepDepts(DEPTS);
 // console.dir(departments);
 let dkeys = Object.keys(departments);
@@ -109,7 +109,7 @@ function findAndCopy(assets, type, person) {
     destinationPath = destinationPath + "/headshots/";
     console.log("HEADSHOT: " + person.uri);
     destinationPath = destinationPath + person.topd.toLowerCase() + "";
-    destinationPath = destinationPath.replaceAll(' ', '-');
+    destinationPath = destinationPath.replaceAll(' ', '-').replaceAll("'", "");
   
     // console.dir(assets);
     assets.map(function(i) {
@@ -279,7 +279,7 @@ function createFolderPath(p) {
   //potential roles:
   // Faculty | Staff | Administrators | Doctoral Students | Emeritus Faculty
   var folderPath = "faculty/_blocks/" + p.topd.toLowerCase() + "";
-  folderPath = folderPath.replaceAll(' ', '-');
+  folderPath = folderPath.replaceAll(' ', '-').replaceAll("'", "");
   // console.dir(p.roles);
   if (p.roles.includes('faculty')) {
     //going to assume emeritus also goes in faculty

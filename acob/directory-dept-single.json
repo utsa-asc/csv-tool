@@ -1,11 +1,11 @@
 [
 	{
-		"id": 59,
-		"count": 51,
+		"id": 109,
+		"count": 1,
 		"description": "",
-		"link": "https:\/\/business.utsa.edu\/departments\/management-science-and-statistics\/",
-		"name": "Management Science and Statistics",
-		"slug": "management-science-and-statistics",
+		"link": "https:\/\/business.utsa.edu\/departments\/office-of-faculty-and-research\/",
+		"name": "Office of Faculty Success and Research",
+		"slug": "office-of-faculty-and-research",
 		"taxonomy": "faculty_departments",
 		"parent": 0,
 		"meta": [],
@@ -13,7 +13,7 @@
 		"_links": {
 			"self": [
 				{
-					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments\/59"
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments\/109"
 				}
 			],
 			"collection": [
@@ -28,7 +28,7 @@
 			],
 			"wp:post_type": [
 				{
-					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty?faculty_departments=59"
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty?faculty_departments=109"
 				}
 			],
 			"curies": [
