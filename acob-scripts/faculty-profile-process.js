@@ -2,9 +2,12 @@ const https = require('https');
 const http = require('http');
 const {execSync} = require('child_process');
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+var JSSoup = require('jssoup').default;
+
 var fs = require('fs');
 const { stringify } = require('querystring');
 const { lookup } = require('dns');
+const { default: jssoup } = require('jssoup');
 var tasks = [];
 require('dotenv').config();
 /* defining some constants */
@@ -25,7 +28,8 @@ const ROLE = "faculty";
 
 var tasks = [];
 
-const DEPTS = fs.readFileSync("acob/directory-dept-list.json");
+const DEPTS = fs.readFileSync("acob/directory-dept-single.json");
+// const DEPTS = fs.readFileSync("acob/directory-dept-single.json");
 
 const PAYLOAD_CONTENT = fs.readFileSync(POST_PAYLOAD);
 const payloadTemplate = JSON.parse(PAYLOAD_CONTENT);
@@ -71,7 +75,7 @@ async function executeTasksConcurrently(
   list
 ) {
   let activeTasks = [];
-  let concurrencyLimit = 10;
+  let concurrencyLimit = 100;
 
   for (const item of list) {
     if (activeTasks.length >= concurrencyLimit) {
@@ -80,7 +84,7 @@ async function executeTasksConcurrently(
     // console.log(`Start task: ${item}`);
     // console.dir(item);
     // wait 0.25 secs between launching new async task b/c Cascade chokes, otherwise...
-    await delay(250);
+    // await delay(5);
 
     const activeTask = completeTask(item)
       .then(() => {
@@ -113,14 +117,14 @@ async function completeTask(t) {
   let givenContent = person.content;
   // prep content
   var contentAreas = {}
-  contentAreas = prepareContent(person);
 
   if (person.roles.includes(ROLE) && givenContent.length > 0) {
     
     // preparePayload
+    // enumerateSections(person);
     const payload = preparePayload(person);
     let stringPayload = JSON.stringify(payload);
-    // console.log(stringPayload);
+    console.log(stringPayload);
     // console.log("\n\n")
 
     // CMS REST POST
@@ -145,10 +149,10 @@ async function completeTask(t) {
         console.log(e);
       }
     } else {
-      console.log("skipping POST");
+      // console.log("skipping POST");
     }
   } else {
-    console.log("skipping person: " + person.uri +  " NOT Faculty");
+    // console.log("skipping person: " + person.uri +  " NOT Faculty");
   }
   return t;
 }
@@ -292,10 +296,28 @@ function generateSlug(data) {
   return newSlug;
 }
 
+function enumerateSections(person) {
+  let parts = person.content.split('<h3>');
+  var sections = [];
+  parts.map(function(p) {
+    if (p.length > 0) {
+        sections.push('<div><h3>' + p + '</div>');
+    }
+  });
+  sections.map(function(s) {
+    console.log("parsing section");
+    var soup = new JSSoup(s, false);
+    var headingNode = soup.find('h3');
+    // console.log(headingNode);
+    if (headingNode != undefined) {
+      var heading = headingNode.text.replaceAll(':', '').trim();
+      console.log(heading.toLowerCase());
+    } else {
+      console.log("NO HEADING" + person.uri);
+    }
+  });
+}
 /* TODO: not implemented */
-function prepareContent(content) {
-  //HTML SOUP
-
   //parse
   //split on H3 tags
   //capture text only
@@ -309,90 +331,190 @@ function prepareContent(content) {
   // these last two buckets require more structure:
   // - publications
   // - grantsInfo
+function prepareContent(content) {
+  var contentSet = {};
+  let sectionLookup = {
+    "&nbsp;":	"fullBio",
+    "NO HEADING": "fullBio",
+    "about":	"fullBio",
+    "books":	"publications",
+    "courses taught":	"teaching",
+    "degree":	"degrees",
+    "degrees":	"degrees",
+    "grants":	"grants",
+    "recent publications":	"publications",
+    "recent selected publications":	"publications",
+    "research interest":	"researchInterests",
+    "research interests":	"researchInterests",
+    "select publications":	"publications",
+    "selected applied research":	"researchInterests",
+    "selected publications":	"publications",
+    "teaching interests":	"teaching"
+  };
+  // console.log("*** prepareContent ***");
+  //real hacky, split content up by <h3>s, wrap in a div and push to an array
+  let parts = content.split('<h3>');
+  var sections = [];
+  parts.map(function(p) {
+    if (p.length > 0) {
+      if (p.includes('</h3>')) {
+        sections.push('<div><h3>' + p + '</div>');
+      } else {
+        sections.push('<div>' + p + '</div>');
+      }
+    }
+  });
+  //map over the array created above, digesting each as it's own section
+  // - parse the heading text to run against our section hash
+  // - output pretty html for the section (preserving headings)
+  // - create corresponding StructuredDataNodes section for this group
+  // - add it to our results bucket
+  sections.map(function(s) {
+    // console.log("parsing section");
+    var soup = new JSSoup(s, false);
+    var headingNode = soup.find('h3');
+    var lookup = "NO HEADING";
+    var sectionContent = soup.toString();
+    var heading = "";
+    if (!(headingNode === undefined)) {
+      heading = headingNode.text.replaceAll(':', '').trim();
+      lookup = heading.toLowerCase();
+      if (lookup.trim() == "") {
+        heading = "About";
+        lookup = "NO HEADING";
+      }
+    } else {
+      // console.log("NO HEADING!");
+      heading = "About";
+    }
+    let type = sectionLookup[lookup];
+    // console.log("\t parsed lookup: " + lookup);
+    // console.log("\t parsed type: " + type);
+    let structuredData = structure(type, heading, sectionContent);
+    // assume no overlap:
+    contentSet[type] = structuredData;
+  });
+  return contentSet;
+}
 
+function structure(type, title, htmlContent) {
+  var result = {};
+  if ((type == "fullBio") || (type == "teaching") || (type == "degrees") || (type == "researchInterests")) {
+    result = {
+      "type": "text",
+      "identifier": type,
+      "text" : htmlContent
+    };
+  }
+
+  if (type == "publications") {
+    result = {
+      "type": "group",
+      "identifier": "publications",
+      "structuredDataNodes": [
+        {
+          "type": "text",
+          "identifier": "publicationInfo",
+          "text": "wysiwyg"
+        },
+        {
+          "type": "group",
+          "identifier": "section",
+          "structuredDataNodes": [
+            {
+              "type": "text",
+              "identifier": "accordionTitle",
+              "text": title
+            },
+            {
+              "type": "text",
+              "identifier": "accordionContent",
+              "text": htmlContent
+            }
+          ]
+        }
+      ]
+    };
+  }
+
+  if (type == "grants") {
+    result = {
+      "type": "group",
+      "identifier": "grants",
+      "structuredDataNodes": [
+        {
+          "type": "text",
+          "identifier": "grantsInfo",
+          "text": "wysiwyg"
+        },
+        {
+          "type": "group",
+          "identifier": "section",
+          "structuredDataNodes": [
+            {
+              "type": "text",
+              "identifier": "accordionTitle",
+              "text": title
+            },
+            {
+              "type": "text",
+              "identifier": "accordionContent",
+              "text": htmlContent
+            }
+          ]
+        }
+      ]
+    };
+  }
+  return result;
 }
 
 function preparePayload(person) {
   console.log("*** preparePayload ***");
   var asset = payloadTemplate;
-  console.dir(person);
-
-  asset.page.structuredData.structuredDataNodes.map(function(sdn) {
+  // console.dir(person);
+  contentAreas = prepareContent(person.content);
+  // console.dir(contentAreas);
+  // console.dir(asset.asset.page);
+  var nsdns = [];
+  asset.asset.page.structuredData.structuredDataNodes.map(function(sdn) {
+    console.log(sdn.identifier);
     if (sdn.identifier == 'block') {
-
+      //TODO: not implemented
+      console.log("UPDATE BLOCK");
+      nsdns.push(sdn);
     }
     if (sdn.identifier == 'campusAddress') {
-      
+      //TODO: not implemented
+      console.log("UPDATE address");
+      nsdns.push(sdn);
     }
-    if (sdn.identifier == 'fullBio') {
-      
-    }
-    if (sdn.identifier == 'teaching') {
-      
-    }
-    if (sdn.identifier == 'researchInterests') {
-      
-    }
-    if (sdn.identifier == 'degrees') {
-      
-    }
-
-    //update metadata
-    asset.page.metadata.displayName = "";
-    asset.page.metadata.displayName = "";
-
-    //cascade location data
-    asset.page.parentFolderPath = "faculty";
-    asset.page.name = person.uri;
-  });
-  let noImage = [{
-    "type": "asset",
-    "identifier": "file",
-    "fileId": "55ec68b3ac1600040826d2316fbe3c5f",
-    "filePath": "faculty/headshots/_utsa-profile-placeholder-400x500.svg",
-    "assetType": "file",
-    "recycled": true
-  }];
-  let noCVLink = [{
-    "type": "text",
-    "identifier": "type",
-    "text": "No Link",
-    "recycled": false
-  }];
-  var fileData = lookupHash[person.id];
-  // console.log("fileData for person id: " + person.id + "\t " + data.asset.xhtmlDataDefinitionBlock.name);
-  // console.dir(fileData);
-  let media = fileData.media;
-  let docs = fileData.docs;
-
-  try {
-    data.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes.map(function(d) {
-      if (d.identifier == 'image') {
-        if (media.length > 0) {
-          let replacement = media[0];
-          d.structuredDataNodes.map(function(i) {
-            if (i.identifier == 'file') {
-              console.log("replace headshot for: " + person.uri + " with: " + replacement.correctedPath);
-              i.filePath = replacement.correctedPath;
-              i.fileId = "";
-            };
-            if (i.identifier == 'alt') {
-              console.log('replace alt text with: ' + replacement.alt);
-              i.text = replacement.alt;
-            }
-          });
-          // console.dir(d);
-        } else {
-          console.log("skipping headshot replacement for: " + data.asset.xhtmlDataDefinitionBlock.name);
-        }
+    if ((sdn.identifier == 'fullBio') || (sdn.identifier == 'teaching') || (sdn.identifier == 'researchInterests') || (sdn.identifier == 'degrees') || (sdn.identifier == 'publications')) {
+      console.log("UPDATE " + sdn.identifier);
+      if (contentAreas[sdn.identifier]) {
+        nsdns.push(contentAreas[sdn.identifier]);
+      } else {
+        nsdns.push(sdn);
       }
-    });
-  } catch (e) {
-    console.log("unable to modify asset data:");
-    console.log(e);
-    console.dir(data);
-  }
-  return data;
+    }
+  });
+  console.log("asset sdns map complete");
+
+  asset.asset.page.structuredData.structuredDataNodes = nsdns;
+
+  // console.dir(person);
+  //update metadata
+  asset.asset.page.metadata.displayName = person.fullname;
+  asset.asset.page.metadata.title = person.fullname;
+  
+  // asset.asset.page.metadata.displayName = "";
+
+  //cascade location data
+  asset.asset.page.parentFolderPath = "faculty";
+  asset.asset.page.name = person.uri;
+  console.log(asset);
+
+  return asset;
 }
 
 function prepDepts(data) {
