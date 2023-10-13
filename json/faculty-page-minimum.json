@@ -11,7 +11,6 @@
                         "assetType": "block",
                         "recycled": false
                     },
-
                     {
                         "type": "text",
                         "identifier": "campusAddress"
@@ -44,7 +43,6 @@
                 "title": "Jane Doe"
             },
             "parentFolderPath": "faculty",
-            "path": "faculty/doe-jane",
             "siteName": "ACOB-VPAA-ASC-HALSTORE",
             "tags": [],
             "name": "doe-jane"
