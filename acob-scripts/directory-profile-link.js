@@ -2,12 +2,9 @@ const https = require('https');
 const http = require('http');
 const {execSync} = require('child_process');
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-var JSSoup = require('jssoup').default;
-
 var fs = require('fs');
 const { stringify } = require('querystring');
 const { lookup } = require('dns');
-const { default: jssoup } = require('jssoup');
 var tasks = [];
 require('dotenv').config();
 /* defining some constants */
@@ -16,8 +13,12 @@ const POST = process.env.POST;
 const CAS_PORT = process.env.CAS_PORT;
 const API_KEY = process.env.API_KEY;
 /* WP REST API constants */
-const POST_PAYLOAD = "json/faculty-page-minimum.json";
-const CREATE_URI = "/api/v1/create";
+const WP_HOST = "business.utsa.edu";
+const WP_PORT = "443";
+const WP_PATH = "/wp-json/wp/v2/";
+const LOOKUP_DOCUMENT = "acob/directory-media-hash.json";
+const GET_URI = "/api/v1/read/block/ACOB-VPAA-ASC-HALSTORE/"
+const EDIT_URI = "/api/v1/edit"
 
 var protocol = http;
 if (CAS_PORT == 443) {
@@ -26,12 +27,13 @@ if (CAS_PORT == 443) {
 const ROLE = "faculty";
 
 var tasks = [];
+var headshots = {};
+var documents = {};
 
 const DEPTS = fs.readFileSync("acob/directory-dept-list.json");
-// const DEPTS = fs.readFileSync("acob/directory-dept-single.json");
+// const HASH_CONTENTS = fs.readFileSync("acob/directory-media-hash.json");
 
-const PAYLOAD_CONTENT = fs.readFileSync(POST_PAYLOAD);
-const payloadTemplate = JSON.parse(PAYLOAD_CONTENT);
+// const lookupHash = JSON.parse(HASH_CONTENTS);
 const departments = prepDepts(DEPTS);
 // console.dir(departments);
 let dkeys = Object.keys(departments);
@@ -74,7 +76,7 @@ async function executeTasksConcurrently(
   list
 ) {
   let activeTasks = [];
-  let concurrencyLimit = 100;
+  let concurrencyLimit = 10;
 
   for (const item of list) {
     if (activeTasks.length >= concurrencyLimit) {
@@ -83,7 +85,7 @@ async function executeTasksConcurrently(
     // console.log(`Start task: ${item}`);
     // console.dir(item);
     // wait 0.25 secs between launching new async task b/c Cascade chokes, otherwise...
-    await delay(50);
+    await delay(250);
 
     const activeTask = completeTask(item)
       .then(() => {
@@ -97,43 +99,37 @@ async function executeTasksConcurrently(
     activeTasks.push(activeTask);
   }
 }
-
-// individual task completion here:
 async function completeTask(t) {
-  // FLOW:
-  // - for each person
-  //  - only process if they are faculty
-  //  - preparePayload
-  //  - POST
+  // data points to collect from WP JSON API Faculty object:
+  // console.log("parse person data");
   var person = parsePersonData(t);
+  
+  // console.log("generating asset paths");
+  // CMS REST GET
+  let blockPath = generateBlockPath(person);
+  var personObj = await getAsset(blockPath);
   person.blockPath = generateBlockPath(person);
   person.pagePath = generatePagePath(person);
   person.uri = generateSlug(person);
-
-  // TEST is this person FACULTY?
-  // console.dir(person);
-  // MAYBE ONLY CREATE PROFILE WHEN WE HAVE CONTENT?
+  // console.log("page page: " + person.pagePath);
   let givenContent = person.content;
-  // prep content
-  var contentAreas = {}
 
   if (person.roles.includes(ROLE) && givenContent.length > 0) {
-    
     // preparePayload
-    // enumerateSections(person);
-    var payload = preparePayload(person);
-    var stringPayload = JSON.stringify(payload);
+    // console.log("faculty role found for: " + person.uri);
+    const payload = preparePayload(personObj, person);
+    let stringPayload = JSON.stringify(payload);
     // console.log(stringPayload);
     // console.log("\n\n")
 
     // CMS REST POST
     if (POST == "YES") {
-      let postedAsset = await postAsset(CREATE_URI, stringPayload);
+      let postedAsset = await postAsset(EDIT_URI, stringPayload);
       try {
         let respj = JSON.parse(postedAsset);
         if (respj.success == true) {
-          console.log(respj);
-          console.log("created: " + respj.success + "\t" + respj.createdAssetId);
+          // console.log(postedAsset);
+          console.log("updated: " + respj.success + "\t" + payload.asset.xhtmlDataDefinitionBlock.name);
         } else {
           console.log("****ERROR****");
           console.log(postedAsset);
@@ -148,13 +144,14 @@ async function completeTask(t) {
         console.log(e);
       }
     } else {
-      // console.log("skipping POST");
+      console.log("skipping POST");
     }
   } else {
-    // console.log("skipping person: " + person.uri +  " NOT Faculty");
+    console.log("skipping person: " + person.uri +  " NOT Faculty");
   }
   return t;
 }
+
 
 function parsePersonData(t) {
       /*
@@ -289,224 +286,52 @@ function generateSlug(data) {
   return newSlug;
 }
 
-function enumerateSections(person) {
-  let parts = person.content.split('<h3>');
-  var sections = [];
-  parts.map(function(p) {
-    if (p.length > 0) {
-        sections.push('<div><h3>' + p + '</div>');
-    }
-  });
-  sections.map(function(s) {
-    console.log("parsing section");
-    var soup = new JSSoup(s, false);
-    var headingNode = soup.find('h3');
-    // console.log(headingNode);
-    if (headingNode != undefined) {
-      var heading = headingNode.text.replaceAll(':', '').trim();
-      console.log(heading.toLowerCase());
-    } else {
-      console.log("NO HEADING" + person.uri);
-    }
-  });
-}
-/* TODO: not implemented */
-  //parse
-  //split on H3 tags
-  //capture text only
-  //trim
-  //remove colons
-  //sort into buckets:
-  // - degrees
-  // - fulLBio
-  // - researchInterests
-  // - teaching
-  // these last two buckets require more structure:
-  // - publications
-  // - grantsInfo
-function prepareContent(content) {
-  var contentSet = {};
-  let sectionLookup = {
-    "&nbsp;":	"fullBio",
-    "NO HEADING": "fullBio",
-    "about":	"fullBio",
-    "books":	"publications",
-    "courses taught":	"teaching",
-    "degree":	"degrees",
-    "degrees":	"degrees",
-    "grants":	"grants",
-    "recent publications":	"publications",
-    "recent selected publications":	"publications",
-    "research interest":	"researchInterests",
-    "research interests":	"researchInterests",
-    "select publications":	"publications",
-    "selected applied research":	"researchInterests",
-    "selected publications":	"publications",
-    "teaching interests":	"teaching"
-  };
-  // console.log("*** prepareContent ***");
-  //real hacky, split content up by <h3>s, wrap in a div and push to an array
-  let parts = content.split('<h3>');
-  var sections = [];
-  parts.map(function(p) {
-    if (p.length > 0) {
-      if (p.includes('</h3>')) {
-        sections.push('<div><h3>' + p + '</div>');
-      } else {
-        sections.push('<div>' + p + '</div>');
-      }
-    }
-  });
-  //map over the array created above, digesting each as it's own section
-  // - parse the heading text to run against our section hash
-  // - output pretty html for the section (preserving headings)
-  // - create corresponding StructuredDataNodes section for this group
-  // - add it to our results bucket
-  sections.map(function(s) {
-    // console.log("parsing section");
-    sourceContent = cleanContent(s);
-    // sourceContent = asciiOnly(sourceContent);
-    var soup = new JSSoup(sourceContent, false);
-    var headingNode = soup.find('h3');
-    var lookup = "NO HEADING";
-    var sectionContent = soup.toString();
-    var heading = "";
-    if (!(headingNode === undefined)) {
-      heading = headingNode.text.replaceAll(':', '').trim();
-      lookup = heading.toLowerCase();
-      headingNode.extract();
-      sectionContent = soup.toString();
-      if (lookup.trim() == "") {
-        heading = "About";
-        lookup = "NO HEADING";
-      }
-    } else {
-      // console.log("NO HEADING!");
-      heading = "About";
-    }
-    let type = sectionLookup[lookup];
-    // console.log("\t parsed lookup: " + lookup);
-    // console.log("\t parsed type: " + type);
-    let structuredData = structure(type, heading, sectionContent);
-    // assume no overlap:
-    contentSet[type] = structuredData;
-  });
-  return contentSet;
-}
-
-function structure(type, title, htmlContent) {
-  var result = {};
-  if ((type == "fullBio") || (type == "teaching") || (type == "degrees") || (type == "researchInterests")) {
-    result = {
-      "type": "text",
-      "identifier": type,
-      "text" : htmlContent
-    };
-  }
-
-  if (type == "publications") {
-    result = {
-      "type": "group",
-      "identifier": "publications",
-      "structuredDataNodes": [
-        {
-          "type": "text",
-          "identifier": "publicationInfo",
-          "text": "wysiwyg"
-        },
-        {
-          "type": "group",
-          "identifier": "section",
-          "structuredDataNodes": [
-            {
-              "type": "text",
-              "identifier": "accordionTitle",
-              "text": title
-            },
-            {
-              "type": "text",
-              "identifier": "accordionContent",
-              "text": htmlContent
-            }
-          ]
-        }
-      ]
-    };
-  }
-
-  if (type == "grants") {
-    result = {
-      "type": "group",
-      "identifier": "grants",
-      "structuredDataNodes": [
-        {
-          "type": "text",
-          "identifier": "grantsInfo",
-          "text": "wysiwyg"
-        },
-        {
-          "type": "group",
-          "identifier": "section",
-          "structuredDataNodes": [
-            {
-              "type": "text",
-              "identifier": "accordionTitle",
-              "text": title
-            },
-            {
-              "type": "text",
-              "identifier": "accordionContent",
-              "text": htmlContent
-            }
-          ]
-        }
-      ]
-    };
-  }
-  return result;
-}
-
-function preparePayload(person) {
+function preparePayload(data, person) {
   // console.log("*** preparePayload ***");
-  var asset = payloadTemplate;
-  // console.dir(person);
-  contentAreas = prepareContent(person.content);
-  // console.dir(contentAreas);
-  // console.dir(asset.asset.page);
-  var nsdns = [];
-  asset.asset.page.structuredData.structuredDataNodes.map(function(sdn) {
-    // console.log(sdn.identifier);
-    if (sdn.identifier == 'block') {
-      //TODO: not implemented
-      // console.log("UPDATE BLOCK");
-      sdn.blockPath = person.blockPath;
-      nsdns.push(sdn);
-    }
-    if (sdn.identifier == 'campusAddress') {
-      //TODO: not implemented
-      // console.log("UPDATE address");
-      nsdns.push(sdn);
-    }
-    if ((sdn.identifier == 'fullBio') || (sdn.identifier == 'teaching') || (sdn.identifier == 'researchInterests') || (sdn.identifier == 'degrees') || (sdn.identifier == 'publications')) {
-      // console.log("UPDATE " + sdn.identifier);
-      if (contentAreas[sdn.identifier]) {
-        nsdns.push(contentAreas[sdn.identifier]);
-      } else {
-        nsdns.push(sdn);
+  const profileLink = {
+    "type": "group",
+    "identifier": "link",
+    "structuredDataNodes": [
+      {
+        "type": "text",
+        "identifier": "label",
+        "text": person.fullname + " Faculty Profile"
+      },
+      {
+        "type": "text",
+        "identifier": "type",
+        "text": "internal"
+      },
+      {
+        "type": "asset",
+        "identifier": "internal",
+        "pagePath": person.pagePath,
+        "assetType": "page,file,symlink"
+      },
+      {
+        "type": "text",
+        "identifier": "target",
+        "text": "Parent Window/Tab"
       }
-    }
-  });
-  // console.log("asset sdns map complete");
-  asset.asset.page.structuredData.structuredDataNodes = nsdns;
-  // console.dir(person);
-  //update metadata
-  asset.asset.page.metadata.displayName = person.fullname;
-  asset.asset.page.metadata.title = person.fullname;
-  //cascade location data
-  asset.asset.page.parentFolderPath = "faculty";
-  asset.asset.page.name = person.uri;
-  // console.log(asset);
-  return asset;
+    ]
+  };
+  
+  try {
+    data.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes.map(function (d) {
+      if (d.identifier == "details") {
+        d.structuredDataNodes.map(function(l) {
+          if (l.identifier == "link") {
+            l.structuredDataNodes = profileLink.structuredDataNodes;
+          }
+        });
+      }
+    });
+  } catch (e) {
+    console.log("unable to modify asset data:");
+    console.log(e);
+    console.dir(data);
+  }
+  return data;
 }
 
 function prepDepts(data) {
@@ -648,32 +473,4 @@ function saveSnippet(content, fpath) {
   var snippetStream = fs.createWriteStream(fpath);
   snippetStream.write(content.prettify());
   snippetStream.end();
-}
-
-function cleanContent(content) {
-  contentStr = content.replaceAll('&nbsp;', '&#160;');
-  contentStr = contentStr.replace(/\u00a0/g, " ");
-  contentStr = contentStr.replaceAll('&mdash;', '&#8212;');
-  contentStr = contentStr.replaceAll('<br>', '<br/>');
-  contentStr = contentStr.replaceAll('–', '-');
-  contentStr = contentStr.replaceAll('ó', '&#243;');
-  contentStr = contentStr.replaceAll('’', '&#39;');
-  contentStr = contentStr.replaceAll('­', '');
-  contentStr = contentStr.replaceAll('ü', '&#252;');
-  contentStr = contentStr.replaceAll('é', '&#233;');
-  contentStr = contentStr.replaceAll('“', '&ldquo;');
-  contentStr = contentStr.replaceAll('”', '&rdquo;');
-  contentStr = contentStr.replaceAll('•', '&#183;');
-  return contentStr;
-}
-
-function asciiOnly(content) {
-  contentStr = content.replaceAll('&nbsp;', '&#160;');
-  contentStr = contentStr.replace(/\u00a0/g, " ");
-  contentStr = contentStr.replaceAll('&mdash;', '&#8212;');
-  contentStr = contentStr.replaceAll('<br>', '<br/>');
-  contentStr = contentStr.replaceAll('–', '-');
-  contentStr = contentStr.replaceAll('"', '');
-  contentStr = contentStr.replaceAll(/[^\x00-\x7F]/g, "");
-  return contentStr;
 }

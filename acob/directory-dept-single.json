@@ -1,87 +1,43 @@
 [
-    {
-        "id": 13613,
-        "date": "2020-08-17T20:25:15",
-        "date_gmt": "2020-08-17T20:25:15",
-        "guid": {
-            "rendered": "https://business.utsa.edu/?post_type=faculty&#038;p=13613"
-        },
-        "modified": "2023-05-17T09:09:04",
-        "modified_gmt": "2023-05-17T14:09:04",
-        "slug": "alper-arslan-ph-d",
-        "status": "publish",
-        "type": "faculty",
-        "link": "https://business.utsa.edu/faculty/alper-arslan-ph-d/",
-        "title": {
-            "rendered": "Alper Arslan, Ph.D."
-        },
-        "content": {
-            "rendered": "<h3 class=\"x_MsoNormal\"><b>Degrees</b></h3>\n<ul type=\"disc\">\n<li class=\"x_MsoNormal\">Ph.D. Vanderbilt University</li>\n<li class=\"x_MsoNormal\">M.S. Sabanci University, Turkey</li>\n<li class=\"x_MsoNormal\">B.A. Bogazici University, Turkey</li>\n</ul>\n<p><a href=\"https://sites.google.com/site/halperarslan/\" target=\"_blank\" rel=\"noopener\">Personal Faculty Webpage</a></p>\n<h3 class=\"x_MsoNormal\"><b>About</b></h3>\n<p class=\"x_MsoNormal\">Dr. Arslan joined the Carlos Alvarez College of Business faculty in 2020. He holds a Ph.D. in economics from Vanderbilt University. He previously worked in the Department of Economics at Queen’s University, Canada as a postdoctoral researcher. He teaches intermediate microeconomics and applied econometrics. He is a member of the American Economic Association, the Econometric Society and INFORMS.</p>\n<div>\n<h3 class=\"x_MsoNormal\"><b>Research Interests</b></h3>\n</div>\n<ul type=\"disc\">\n<li class=\"x_MsoNormal\">Empirical industrial organization</li>\n<li class=\"x_MsoNormal\">Econometrics</li>\n<li class=\"x_MsoNormal\">Revenue management and pricing</li>\n<li class=\"x_MsoNormal\">Market design</li>\n</ul>\n<div>\n<h3 class=\"x_MsoNormal\"><b>Selected Publications</b></h3>\n</div>\n<div>\n<p class=\"x_MsoNormal\">&#8220;Data-Driven Sports Ticket Pricing for Multiple Sales Channels with Heterogeneous Customers,&#8221; with Rob Easley, Ruxian Wang and Ovunc Yilmaz, <em>Manufacturing and Service Operations Management, </em>forthcoming.</p>\n</div>\n",
-            "protected": false
-        },
-        "featured_media": 18571,
-        "template": "",
-        "faculty_departments": [
-            32
-        ],
-        "acf": {
-            "first_name": "Alper",
-            "last_name": "Arslan",
-            "faculty_title": "Assistant Professor of Economics",
-            "faculty_email": "hayri.arslan@utsa.edu",
-            "faculty_phone": "210-458-5315",
-            "faculty_fax": "",
-            "faculty_office_number": "BB 4.02.50",
-            "faculty_pdf": 14627,
-            "faculty_additional_info": "",
-            "department_role_repeater": [
-                {
-                    "department": "Economics",
-                    "role": "Faculty"
-                }
-            ]
-        },
-        "_links": {
-            "self": [
-                {
-                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/13613"
-                }
-            ],
-            "collection": [
-                {
-                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
-                }
-            ],
-            "about": [
-                {
-                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
-                }
-            ],
-            "wp:featuredmedia": [
-                {
-                    "embeddable": true,
-                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/18571"
-                }
-            ],
-            "wp:attachment": [
-                {
-                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=13613"
-                }
-            ],
-            "wp:term": [
-                {
-                    "taxonomy": "faculty_departments",
-                    "embeddable": true,
-                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=13613"
-                }
-            ],
-            "curies": [
-                {
-                    "name": "wp",
-                    "href": "https://api.w.org/{rel}",
-                    "templated": true
-                }
-            ]
-        }
-    },
+	{
+		"id": 34,
+		"count": 28,
+		"description": "",
+		"link": "https:\/\/business.utsa.edu\/departments\/marketing\/",
+		"name": "Marketing",
+		"slug": "marketing",
+		"taxonomy": "faculty_departments",
+		"parent": 0,
+		"meta": [],
+		"acf": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments\/34"
+				}
+			],
+			"collection": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments"
+				}
+			],
+			"about": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/taxonomies\/faculty_departments"
+				}
+			],
+			"wp:post_type": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty?faculty_departments=34"
+				}
+			],
+			"curies": [
+				{
+					"name": "wp",
+					"href": "https:\/\/api.w.org\/{rel}",
+					"templated": true
+				}
+			]
+		}
+	}
 ]

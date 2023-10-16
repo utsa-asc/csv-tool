@@ -1,0 +1,49 @@
+{
+    "asset": {
+        "page": {
+            "contentTypePath": "College-PROTOTYPE:Faculty Profile",
+            "structuredData": {
+                "structuredDataNodes": [
+                    {
+                        "type": "asset",
+                        "identifier": "block",
+                        "blockPath": "faculty/_blocks/economics/moreno-medina-jon",
+                        "assetType": "block",
+                        "recycled": false
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "campusAddress"
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "fullBio",
+                        "text": "<div><p><a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.jmorenomedina.com%2F&amp;data=04%7C01%7CWendy.Frost%40utsa.edu%7C1c613aa50fbb40b47f9408d9585adf3b%7C3a228dfbc64744cb88357b20617fc906%7C0%7C0%7C637637969583167505%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=mf%2By44KGOy64MsUQiFBHElDHUFa8Rr2nVOJCifPRPII%3D&amp;reserved=0\">Personal website</a></p><p><a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.jmorenomedina.com%2Fs%2FCV_Moreno_academic_jul_2021.pdf&amp;data=04%7C01%7CWendy.Frost%40utsa.edu%7C1c613aa50fbb40b47f9408d9585adf3b%7C3a228dfbc64744cb88357b20617fc906%7C0%7C0%7C637637969583177497%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=xIIT1RTSpmOc4F6lIbZc8o5pHz8O3UW2JWDqSJDNZBc%3D&amp;reserved=0\">CV</a></p><p>Jon Moreno-Medina joined the Department of Economics at UTSA in the fall of 2021. He has a Ph.D. in economics from Duke University, a master&#39;s degree in economics from UCLouvain in Belgium and an undergraduate degree in economics from Universidad Nacional de Colombia.</p><p>Jon&#39;s research focuses on urban, public and media economics. His other research areas include development economics and political economy.</p><p>Jon teaches a graduate course on causal inference and machine learning, and an undergraduate course on public and urban economics.</p></div>"
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "teaching"
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "researchInterests",
+                        "text": "<div><ul><li>Urban economics</li><li>Public economics</li><li>Media economics</li><li>Housing markets</li><li>Discrimination</li><li>Segregation</li></ul></div>"
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "degrees",
+                        "text": "<div><ul><li>Ph.D. Duke University</li><li>M.S. Université Catholique de Louvain</li><li>B.A. Universidad Nacional de Colombia</li></ul></div>"
+                    }
+                ]
+            },
+            "metadata": {
+                "displayName": "Jon Moreno-Medina, Ph.D.",
+                "title": "Jon Moreno-Medina, Ph.D."
+            },
+            "parentFolderPath": "faculty",
+            "siteName": "ACOB-VPAA-ASC-HALSTORE",
+            "tags": [],
+            "name": "moreno-medina-jon"
+        }
+    }
+}
