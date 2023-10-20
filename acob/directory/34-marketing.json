@@ -186,7 +186,7 @@
             "rendered": "Wendy Boaglio Gratereaux, MBA"
         },
         "content": {
-            "rendered": "<p>Gratereaux is currently a top-rated global marketing consultant and a full-time digital and social media marketing lecturer at the University of Texas at San Antonio (UTSA), teaching undergraduate and graduate students. She started at UTSA as a teaching and research assistant in 2009 in consumer behavior, market research, advertising, multicultural marketing, international marketing and marketing foundations. Gratereaux also assisted with scientific research studies and contributed to the book Transcultural Marketing by Dr. Marye Tharp. Prior to UTSA, Gratereaux was a corporate marketing and business executive for 10 years.</p>\n",
+            "rendered": "<h3>About</h3><p>Gratereaux is currently a top-rated global marketing consultant and a full-time digital and social media marketing lecturer at the University of Texas at San Antonio (UTSA), teaching undergraduate and graduate students. She started at UTSA as a teaching and research assistant in 2009 in consumer behavior, market research, advertising, multicultural marketing, international marketing and marketing foundations. Gratereaux also assisted with scientific research studies and contributed to the book Transcultural Marketing by Dr. Marye Tharp. Prior to UTSA, Gratereaux was a corporate marketing and business executive for 10 years.</p>\n",
             "protected": false
         },
         "featured_media": 4529,
@@ -254,96 +254,7 @@
             ]
         }
     },
-    {
-        "id": 1364,
-        "date": "2017-11-06T22:17:34",
-        "date_gmt": "2017-11-06T22:17:34",
-        "guid": {
-            "rendered": "http://business.utsa.edu/?post_type=faculty&#038;p=1364"
-        },
-        "modified": "2023-05-17T09:21:53",
-        "modified_gmt": "2023-05-17T14:21:53",
-        "slug": "thomas-f-cannon",
-        "status": "publish",
-        "type": "faculty",
-        "link": "https://business.utsa.edu/faculty/thomas-f-cannon/",
-        "title": {
-            "rendered": "Thomas F. Cannon, J.D."
-        },
-        "content": {
-            "rendered": "<h3><strong>Degrees</strong></h3>\n<ul>\n<li>J.D. South Texas College of Law Houston</li>\n<li>M.A. Western Michigan University</li>\n<li>B.S. Western Michigan University</li>\n</ul>\n<h3><strong>About</strong></h3>\n<p>Dr. Cannon is a <em>Distinguished Teaching Professor</em> and <em>Professor of Practice</em>. During his tenure at UTSA, he served for more than 10 years as Director of the former Tourism Management Program in the Carlos Alvarez College of Business and as Interim Chair of the Marketing Department.</p>\n<p>His consistently high student evaluations have resulted in numerous teaching awards including the coveted <em>University of Texas Regents’ Outstanding Teaching Award</em>; <em>President’s Distinguished Achievement Award for Teaching Excellence</em>; <em>Dean’s Teaching Excellence Award</em>; and induction into the UTSA Academy of Distinguished Teaching Scholars.</p>\n<p>Dr. Cannon has served on more than 40 committees, often in leadership positions. Highlights include Co-Founding Chair of the Provost’s Instructional Advisory Board; Chair, Executive Committee – Carlos Alvarez College of Business; Chair, University Standing Committee on Parking and Transportation;  Chair, University Fees Taskforce for Athletics and Transportation Student Referendums;  Chair, Shared Experiences Forum – Academy of Distinguished Teaching Scholars;­­­­­­ Chair, Carlos Alvarez College of Business Scholarship Committee; Chair, University SACS Committee on Recruitment and Admission; and Chair, University Online Instruction Task Force.</p>\n<p>His peers have awarded him the <em>President’s Distinguished Achievement Award for Excellence in University Service</em> and the <em>Dean’s Excellence Award for University Service</em>. He is also a four times recipient of <em>The Amber Award</em> for outstanding contributions and service to students.</p>\n<p>Dr. Cannon’s service has extended into the community. He has been appointed by the San Antonio City Council to the City’s Convention &amp; Visitors Bureau (now Visit San Antonio) where he was elected Chair of the Budget Committee; elected Vice Chair of the San Antonio Area Tourism Council; appointed to the Executive Committee of the City of San Antonio Cultural Collaborative, and appointed Chair of the Collaborative’s Community Awareness Committee for the Arts.</p>\n<p>Nationally he has served as Chair, American Marketing Association Tourism, Hospitality &amp; Leisure Marketing Special Interest Group; founding Chair, Student &amp; Faculty Advisory Council – Destination Marketing Association International; Chair, Sales &amp; Marketing Faculty Special Interest Group – Hospitality Sales &amp; Marketing Association, International; and member Marketing &amp; Convention Services Committee – Destination International.</p>\n<p>He earned his Bachelor and Master degrees from Western Michigan University and a Doctor of Jurisprudence degree from South Texas College of Law Houston and is a licensed Texas attorney.</p>\n<p>Prior to teaching at UTSA, he served in senior management positions in a variety of industries and established a consulting practice which he maintains today.</p>\n<p><strong> </strong></p>\n<h3><strong>Selected Applied Research</strong></h3>\n<ul>\n<li><em>The Dolph and Janey Briscoe Western Art Museum &#8211; Business Projections and Economic Impact Assessment (2007), </em>Commissioned by the National Western Art Foundation. Co-principal investigator.</li>\n<li><em>Operations, Construction, and Tourism Impacts of a Proposed Athletics Complex at the University of Texas at San Antonio </em>(2007), Commissioned by the Athletic Department of the University of Texas at San Antonio. Co-principal investigator</li>\n<li><em>The Economic Impact of the 2002 Dallas Cowboys Training Camp on the Economy of San Antonio</em>. (2002) Commissioned by the City of San Antonio.</li>\n<li><em>The Economic Impact of the Big 12 Championship Game and the SYLVANIA Alamo Bowl</em>. This study estimated the economic impact of the Big 12 Championship and the seventh annual SYLVANIA Alamo Bowl on the economy of San Antonio. (1999 &#8211; 2000) Commissioned by the Alamo Bowl.</li>\n<li><em>Potential Date Change for Texas Folklife Festival.</em> This study surveyed stakeholders (vendors, participants, attendees, volunteers, staff) regarding a date change for this 25-year-old festival. (2000) Commissioned by the Texas Folklife Festival</li>\n</ul>\n",
-            "protected": false
-        },
-        "featured_media": 5619,
-        "template": "",
-        "faculty_departments": [
-            30,
-            34
-        ],
-        "acf": {
-            "first_name": "Thomas",
-            "last_name": "Cannon",
-            "faculty_title": "Professor of Practice in Marketing <br> Distinguished Teaching Professor",
-            "faculty_email": "thomas.cannon@utsa.edu",
-            "faculty_phone": "210-458-3111",
-            "faculty_fax": "",
-            "faculty_office_number": "BB 4.03.14",
-            "faculty_pdf": 1382,
-            "faculty_additional_info": "",
-            "department_role_repeater": [
-                {
-                    "department": "Marketing",
-                    "role": "Faculty"
-                },
-                {
-                    "department": "Accounting",
-                    "role": "Faculty"
-                }
-            ]
-        },
-        "_links": {
-            "self": [
-                {
-                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty/1364"
-                }
-            ],
-            "collection": [
-                {
-                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty"
-                }
-            ],
-            "about": [
-                {
-                    "href": "https://business.utsa.edu/wp-json/wp/v2/types/faculty"
-                }
-            ],
-            "wp:featuredmedia": [
-                {
-                    "embeddable": true,
-                    "href": "https://business.utsa.edu/wp-json/wp/v2/media/5619"
-                }
-            ],
-            "wp:attachment": [
-                {
-                    "href": "https://business.utsa.edu/wp-json/wp/v2/media?parent=1364"
-                }
-            ],
-            "wp:term": [
-                {
-                    "taxonomy": "faculty_departments",
-                    "embeddable": true,
-                    "href": "https://business.utsa.edu/wp-json/wp/v2/faculty_departments?post=1364"
-                }
-            ],
-            "curies": [
-                {
-                    "name": "wp",
-                    "href": "https://api.w.org/{rel}",
-                    "templated": true
-                }
-            ]
-        }
-    },
+
     {
         "id": 13615,
         "date": "2020-08-17T21:29:56",

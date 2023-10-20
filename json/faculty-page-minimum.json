@@ -1,237 +1,51 @@
 {
-	"asset": {
-		"page": {
-			"contentTypePath": "College-PROTOTYPE:Faculty Profile",
-			"structuredData": {
-				"structuredDataNodes": [
-					{
-						"type": "asset",
-						"identifier": "block",
-						"blockPath": "faculty/_blocks/chemistry/bach-stephan",
-						"assetType": "block"
-						
-					},
-					{
-						"type": "text",
-						"identifier": "uuid",
-						"text": "abc123"
-					},
-					{
-						"type": "group",
-						"identifier": "links",
-						"structuredDataNodes": [
-							{
-								"type": "group",
-								"identifier": "linkCollegeSite",
-								"structuredDataNodes": [
-									{
-										"type": "text",
-										"identifier": "label"
-										
-									},
-									{
-										"type": "text",
-										"identifier": "ariaLabel"
-									},
-									{
-										"type": "text",
-										"identifier": "type",
-										"text": "No Link"										
-									},
-									{
-										"type": "asset",
-										"identifier": "internal",
-										"assetType": "page,file,symlink"
-									},
-									{
-										"type": "text",
-										"identifier": "anchor"
-									},
-									{
-										"type": "text",
-										"identifier": "external",
-										"text": "https://"
-									},
-									{
-										"type": "text",
-										"identifier": "target",
-										"text": "Parent Window/Tab"
-									}
-								]
-							},
-							{
-								"type": "group",
-								"identifier": "linkSchoolSite",
-								"structuredDataNodes": [
-									{
-										"type": "text",
-										"identifier": "label"
-									},
-									{
-										"type": "text",
-										"identifier": "ariaLabel"
-									},
-									{
-										"type": "text",
-										"identifier": "type",
-										"text": "No Link"
-									},
-									{
-										"type": "asset",
-										"identifier": "internal",
-										"assetType": "page,file,symlink"
-									},
-									{
-										"type": "text",
-										"identifier": "anchor"
-										
-									},
-									{
-										"type": "text",
-										"identifier": "external",
-										"text": "https://"
-									},
-									{
-										"type": "text",
-										"identifier": "target",
-										"text": "Parent Window/Tab"
-									}
-								]
-							}
-						]
-					},
-					{
-						"type": "text",
-						"identifier": "researchInterests",
-						"text": ""						
-					},
-					{
-						"type": "text",
-						"identifier": "degrees",
-						"text": ""
-					},
-					{
-						"type": "group",
-						"identifier": "recentMediaClips",
-						"structuredDataNodes": [
-							{
-								"type": "group",
-								"identifier": "link",
-								"structuredDataNodes": [
-									{
-										"type": "text",
-										"identifier": "label"
-										
-									},
-									{
-										"type": "text",
-										"identifier": "ariaLabel"
-										
-									},
-									{
-										"type": "text",
-										"identifier": "type",
-										"text": "No Link"
-										
-									},
-									{
-										"type": "asset",
-										"identifier": "internal",
-										"assetType": "page,file,symlink"
-										
-									},
-									{
-										"type": "text",
-										"identifier": "anchor"
-										
-									},
-									{
-										"type": "text",
-										"identifier": "external",
-										"text": "https://"
-										
-									},
-									{
-										"type": "text",
-										"identifier": "target",
-										"text": "Parent Window/Tab"
-										
-									}
-								]
-							}
-						]
-					},
-					{
-						"type": "group",
-						"identifier": "awards",
-						"structuredDataNodes": [
-							{
-								"type": "text",
-								"identifier": "awardInfo",
-								"text": "noAwardsInfo"
-								
-							},
-							{
-								"type": "text",
-								"identifier": "awardsCount",
-								"text": "500"
-							},
-							{
-								"type": "group",
-								"identifier": "section",
-								"structuredDataNodes": [
-									{
-										"type": "text",
-										"identifier": "accordionTitle",
-										"text": "Recent awards"
-									}
-								]
-							}
-						]
-					},
-					{
-						"type": "group",
-						"identifier": "presentations",
-						"structuredDataNodes": [
-							{
-								"type": "text",
-								"identifier": "presentationsInfo",
-								"text": "noPresentationInfo"
-								
-							}
-						]
-					},
-					{
-						"type": "group",
-						"identifier": "grants",
-						"structuredDataNodes": [
-							{
-								"type": "text",
-								"identifier": "grantsInfo",
-								"text": "noGrants"
-							}
-						]
-					},
-					{
-						"type": "group",
-						"identifier": "publications",
-						"structuredDataNodes": [
-							{
-								"type": "text",
-								"identifier": "publicationInfo",
-								"text": "noPublicationInfo"
-							}
-						]
-					}
-				]
-			},
-			"metadata": {
-				"title": "John Doe, Ph.D."
-			},
-			"parentFolderPath": "faculty/profiles",
-			"siteName": "COS-VPAA-ASC-HALSTORE",
-			"tags": [],
-			"name": "doe-john"
-		}
-	}
+    "asset": {
+        "page": {
+            "contentTypePath": "College-PROTOTYPE:Faculty Profile",
+            "structuredData": {
+                "structuredDataNodes": [
+                    {
+                        "type": "asset",
+                        "identifier": "block",
+                        "blockPath": "faculty/_blocks/information-systems-and-cyber-security/atchison-michelle",
+                        "assetType": "block",
+                        "recycled": false
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "campusAddress"
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "mailbox"
+                    },
+
+                    {
+                        "type": "text",
+                        "identifier": "fullBio"
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "teaching"
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "researchInterests"
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "degrees"
+                    }
+                ]
+            },
+            "metadata": {
+                "displayName": "",
+                "title": "Jane Doe"
+            },
+            "parentFolderPath": "faculty",
+            "siteName": "ACOB-VPAA-ASC-HALSTORE",
+            "tags": [],
+            "name": "doe-jane"
+        }
+    }
 }

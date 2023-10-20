@@ -25,8 +25,9 @@ if (CAS_PORT == 443) {
 const ROLE = "Faculty";
 
 var tasks = [];
+var people = {};
 
-const DEPTS = fs.readFileSync("acob/directory-dept-list-admin.json");
+const DEPTS = fs.readFileSync("acob/directory-dept-list-all.json");
 const departments = prepDepts(DEPTS);
 // console.dir(departments);
 let dkeys = Object.keys(departments);
@@ -68,33 +69,32 @@ async function completeTasks() {
   var currentTask = {}
   try {
     for (let t of tasks) {
+      // all procs can happen here
+      // for each person
+      //  - check for array in people SET
+      //  - if array DNE, add array with single person t
+      //  - if array DE: append to array, report duplicate - t.uri, t.blockPath
+      // data points to collect from WP JSON API Faculty object:
+
+
       // data points to collect from WP JSON API Faculty object:
       // console.log("starting task: " + t.id);
       var person = parsePersonData(t);
       // console.log("prep payload: " + t.id);
-      const payload = preparePayload(person);
-      let stringPayload = JSON.stringify(payload);
-      // console.log(stringPayload);
-      if (POST == "YES") {
-        let postedAsset = await postAsset(POST_URI, stringPayload);
-        try {
-          let respj = JSON.parse(postedAsset);
-          if (respj.success == true) {
-            // console.log(postedAsset);
-            console.log("created: " + respj.createdAssetId + ": " + payload.asset.xhtmlDataDefinitionBlock.name);
-          } else {
-            console.log("****ERROR****");
-            console.log(postedAsset);
-            console.log(stringPayload);
-            // console.dir(payload);
-          }
-        } catch (e) {
-          console.log("POST failed to return a JSON response");
-          console.log(e);
-        }
-      } else {
-        console.log("skipping POST");
+      person.blockPath = generateBlockPath(person);
+      if (Array.isArray(people[person.uri])) {
+        var dupes = people[person.uri];
+        dupes.push(person);
+        people[person.uri] = dupes;
+        console.log("duplicate found!");
+        dupes.map(function(d) {
+          console.log(d.uri + "\t" + d.blockPath);
+        });
+    } else {
+        people[person.uri] = [person];
+        // console.dir(people[person.uri]);
       }
+      // console.dir(person);
     }
   } catch (e) {
     console.log(e);
@@ -193,12 +193,11 @@ function createTags(depts, roles) {
   });
   return tags;
 }
-
 function createFolderPath(p) {
   //potential roles:
   // Faculty | Staff | Administrators | Doctoral Students | Emeritus Faculty
-  var folderPath = "faculty/_blocks/" + p.dslug.toLowerCase() + "";
-  folderPath = folderPath.replaceAll(' ', '-');
+  var folderPath = "faculty/_blocks/" + p.topd.toLowerCase() + "";
+  folderPath = folderPath.replaceAll(' ', '-').replaceAll("'", "");
   // console.dir(p.roles);
   if (p.roles.includes('faculty')) {
     //going to assume emeritus also goes in faculty
@@ -209,6 +208,13 @@ function createFolderPath(p) {
     folderPath = folderPath + "/student";
   }
   return folderPath;
+}
+
+function generateBlockPath(p) {
+  var blockPath = createFolderPath(p);
+  var newSlug = generateSlug(p);
+  blockPath = blockPath + "/" + newSlug;
+  return blockPath;
 }
 
 function generateSlug(data) {
@@ -399,3 +405,5 @@ function saveSnippet(content, fpath) {
   snippetStream.write(content.prettify());
   snippetStream.end();
 }
+
+

@@ -1,11 +1,11 @@
 [
 	{
-		"id": 34,
-		"count": 28,
+		"id": 33,
+		"count": 34,
 		"description": "",
-		"link": "https:\/\/business.utsa.edu\/departments\/marketing\/",
-		"name": "Marketing",
-		"slug": "marketing",
+		"link": "https:\/\/business.utsa.edu\/departments\/finance\/",
+		"name": "Finance",
+		"slug": "finance",
 		"taxonomy": "faculty_departments",
 		"parent": 0,
 		"meta": [],
@@ -13,7 +13,7 @@
 		"_links": {
 			"self": [
 				{
-					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments\/34"
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty_departments\/33"
 				}
 			],
 			"collection": [
@@ -28,7 +28,7 @@
 			],
 			"wp:post_type": [
 				{
-					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty?faculty_departments=34"
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/faculty?faculty_departments=33"
 				}
 			],
 			"curies": [

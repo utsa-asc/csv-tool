@@ -19,3 +19,4 @@ spotlights/**
 cos/~$cos-spotlight-out.xlsx
 .gitignore
 acob/uploads/**
+sections.log

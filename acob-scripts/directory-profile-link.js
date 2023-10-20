@@ -4,6 +4,7 @@ const {execSync} = require('child_process');
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 var fs = require('fs');
 const { stringify } = require('querystring');
+const { lookup } = require('dns');
 var tasks = [];
 require('dotenv').config();
 /* defining some constants */
@@ -11,22 +12,28 @@ const CAS_HOST = process.env.CAS_HOST;
 const POST = process.env.POST;
 const CAS_PORT = process.env.CAS_PORT;
 const API_KEY = process.env.API_KEY;
-const POST_URI = "/api/v1/create";
-const PAYLOAD_DOCUMENT = fs.readFileSync("json/faculty-block-minimum.json");
 /* WP REST API constants */
 const WP_HOST = "business.utsa.edu";
 const WP_PORT = "443";
 const WP_PATH = "/wp-json/wp/v2/";
+const LOOKUP_DOCUMENT = "acob/directory-media-hash.json";
+const GET_URI = "/api/v1/read/block/ACOB-VPAA-ASC-HALSTORE/"
+const EDIT_URI = "/api/v1/edit"
 
 var protocol = http;
 if (CAS_PORT == 443) {
   protocol = https;
 }
-const ROLE = "Faculty";
+const ROLE = "faculty";
 
 var tasks = [];
+var headshots = {};
+var documents = {};
 
-const DEPTS = fs.readFileSync("acob/directory-dept-list-admin.json");
+const DEPTS = fs.readFileSync("acob/directory-dept-list.json");
+// const HASH_CONTENTS = fs.readFileSync("acob/directory-media-hash.json");
+
+// const lookupHash = JSON.parse(HASH_CONTENTS);
 const departments = prepDepts(DEPTS);
 // console.dir(departments);
 let dkeys = Object.keys(departments);
@@ -55,53 +62,96 @@ directories.map(function(d) {
   let dirdata = JSON.parse(fs.readFileSync(d.data));
   console.log("dept has: " + dirdata.length + " entries");
   dirdata.map(function(p) {
-    console.log("adding task: " + p);
     p.dslug = d.slug;
     p.department = d.name;
     tasks.push(p);
   });
 });
 
-completeTasks();
+// completeTasks();
 
-async function completeTasks() {
-  var currentTask = {}
-  try {
-    for (let t of tasks) {
-      // data points to collect from WP JSON API Faculty object:
-      // console.log("starting task: " + t.id);
-      var person = parsePersonData(t);
-      // console.log("prep payload: " + t.id);
-      const payload = preparePayload(person);
-      let stringPayload = JSON.stringify(payload);
-      // console.log(stringPayload);
-      if (POST == "YES") {
-        let postedAsset = await postAsset(POST_URI, stringPayload);
-        try {
-          let respj = JSON.parse(postedAsset);
-          if (respj.success == true) {
-            // console.log(postedAsset);
-            console.log("created: " + respj.createdAssetId + ": " + payload.asset.xhtmlDataDefinitionBlock.name);
-          } else {
-            console.log("****ERROR****");
-            console.log(postedAsset);
-            console.log(stringPayload);
-            // console.dir(payload);
-          }
-        } catch (e) {
-          console.log("POST failed to return a JSON response");
-          console.log(e);
-        }
-      } else {
-        console.log("skipping POST");
-      }
+executeTasksConcurrently(tasks);
+
+async function executeTasksConcurrently(
+  list
+) {
+  let activeTasks = [];
+  let concurrencyLimit = 10;
+
+  for (const item of list) {
+    if (activeTasks.length >= concurrencyLimit) {
+      await Promise.race(activeTasks);
     }
-  } catch (e) {
-    console.log(e);
-    console.log("Error while running tasks:");
-    console.dir(currentTask);
+    // console.log(`Start task: ${item}`);
+    // console.dir(item);
+    // wait 0.25 secs between launching new async task b/c Cascade chokes, otherwise...
+    await delay(250);
+
+    const activeTask = completeTask(item)
+      .then(() => {
+        activeTasks.splice(activeTasks.indexOf(activeTask), 1);
+        // console.log(`End task: ${item}`);
+      })
+      .catch(() => {
+        activeTasks.splice(activeTasks.indexOf(activeTask), 1);
+        // console.log(`End task: ${item}`);
+      });
+    activeTasks.push(activeTask);
   }
 }
+async function completeTask(t) {
+  // data points to collect from WP JSON API Faculty object:
+  // console.log("parse person data");
+  var person = parsePersonData(t);
+  
+  // console.log("generating asset paths");
+  // CMS REST GET
+  let blockPath = generateBlockPath(person);
+  var personObj = await getAsset(blockPath);
+  person.blockPath = generateBlockPath(person);
+  person.pagePath = generatePagePath(person);
+  person.uri = generateSlug(person);
+  // console.log("page page: " + person.pagePath);
+  let givenContent = person.content;
+
+  if (person.roles.includes(ROLE) && givenContent.length > 0) {
+    // preparePayload
+    // console.log("faculty role found for: " + person.uri);
+    const payload = preparePayload(personObj, person);
+    let stringPayload = JSON.stringify(payload);
+    // console.log(stringPayload);
+    // console.log("\n\n")
+
+    // CMS REST POST
+    if (POST == "YES") {
+      let postedAsset = await postAsset(EDIT_URI, stringPayload);
+      try {
+        let respj = JSON.parse(postedAsset);
+        if (respj.success == true) {
+          // console.log(postedAsset);
+          console.log("updated: " + respj.success + "\t" + payload.asset.xhtmlDataDefinitionBlock.name);
+        } else {
+          console.log("****ERROR****");
+          console.log(postedAsset);
+          console.log(person.id + "\t" + person.uri);
+          console.log("******PAYLOAD******");
+          console.log(stringPayload);
+          console.log("******END******");
+          // console.dir(payload);
+        }
+      } catch (e) {
+        console.log("POST failed to return a JSON response");
+        console.log(e);
+      }
+    } else {
+      console.log("skipping POST");
+    }
+  } else {
+    console.log("skipping person: " + person.uri +  " NOT Faculty");
+  }
+  return t;
+}
+
 
 function parsePersonData(t) {
       /*
@@ -128,6 +178,7 @@ function parsePersonData(t) {
       // console.dir(t);
       // console.dir(t.acf.department_role_repeater);
       var newPerson = t.acf;
+      // console.dir(t.acf);
       newPerson.uri = t.slug;
       newPerson.fullname = t.title.rendered;
       newPerson.id = t.id;
@@ -135,7 +186,17 @@ function parsePersonData(t) {
       newPerson.link = t.link;
       newPerson.json = t._links.self[0].href;
       newPerson.media = t._links['wp:featuredmedia'];
-      newPerson.attachment = t._links['wp:attachment'];
+      // attached CV is referenced in the acf.faculty_pdf property
+      if (t.acf.faculty_pdf != "") {
+        newPerson.attachment = [
+          {
+            embeddable: true,
+            href: 'https://business.utsa.edu/wp-json/wp/v2/media/' + t.acf.faculty_pdf
+          }
+        ];
+      } else {
+        newPerson.attachment = [];
+      }
       newPerson.topd = t.department;
       newPerson.dslug = t.dslug;
       newPerson.content = t.content.rendered;
@@ -147,11 +208,6 @@ function parsePersonData(t) {
       newPerson.department = depts;
       newPerson.roles = roles;
       return newPerson;
-      /*
-      // $.media_details.sizes.full.source_url for original
-      // $.media_details.sizes.medium_large.source_url for 768ish
-      */
-      // TODO let's leave headshot and CV download/upload to another task
 }
 
 function reduceDepartments(p) {
@@ -184,8 +240,7 @@ function reduceRoles(p) {
 function createTags(depts, roles) {
   var tags = [];
   depts.map(function(d) {
-    let dtag = d.replaceAll(' ', '-').replaceAll("'", "").trim();
-    tags.push({ name: dtag });
+    tags.push({ name: d });
   });
 
   roles.map(function(r) {
@@ -197,8 +252,8 @@ function createTags(depts, roles) {
 function createFolderPath(p) {
   //potential roles:
   // Faculty | Staff | Administrators | Doctoral Students | Emeritus Faculty
-  var folderPath = "faculty/_blocks/" + p.dslug.toLowerCase() + "";
-  folderPath = folderPath.replaceAll(' ', '-');
+  var folderPath = "faculty/_blocks/" + p.topd.toLowerCase() + "";
+  folderPath = folderPath.replaceAll(' ', '-').replaceAll("'", "");
   // console.dir(p.roles);
   if (p.roles.includes('faculty')) {
     //going to assume emeritus also goes in faculty
@@ -211,6 +266,18 @@ function createFolderPath(p) {
   return folderPath;
 }
 
+function generateBlockPath(p) {
+  var blockPath = createFolderPath(p);
+  var newSlug = generateSlug(p);
+  blockPath = blockPath + "/" + newSlug;
+  return blockPath;
+}
+
+function generatePagePath(p) {
+  var blockPath = "faculty/" + generateSlug(p);
+  return blockPath;
+}
+
 function generateSlug(data) {
   var newSlug = data.last_name.toLowerCase().trim() + "-" + data.first_name.toLowerCase().trim();
   newSlug = newSlug.replace(/[^a-z -]/gi, '');
@@ -219,49 +286,52 @@ function generateSlug(data) {
   return newSlug;
 }
 
-function preparePayload(data) {
+function preparePayload(data, person) {
   // console.log("*** preparePayload ***");
-  // console.dir(data);
-  var block = JSON.parse(PAYLOAD_DOCUMENT);
-  block.asset.xhtmlDataDefinitionBlock.metadata.displayName = data.fullname;
-  block.asset.xhtmlDataDefinitionBlock.parentFolderPath = createFolderPath(data);
-  block.asset.xhtmlDataDefinitionBlock.tags = createTags(data.department, data.roles);
-  var newSlug = generateSlug(data);
-  block.asset.xhtmlDataDefinitionBlock.name = newSlug;
-
-  var sdns = block.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes;
-  sdns.map(function(node) {
-    if (node.identifier == "details") {
-      node.structuredDataNodes.map(function(detailNode) {
-        if (detailNode.identifier == "title") {
-          detailNode.text = data.faculty_title;
-          detailNode.text = detailNode.text.replaceAll('<br/>', '<br>');
-          detailNode.text = detailNode.text.replaceAll(' <br> ', '<br>');
-          detailNode.text = detailNode.text.replaceAll('<br>', ', ');
-        }
-        if (detailNode.identifier == "primaryDepartment") {
-          detailNode.text = data.topd;
-        }
-        if (detailNode.identifier == "phone") {
-          detailNode.text = data.faculty_phone;
-        }
-        if (detailNode.identifier == "email") {
-          detailNode.text = data.faculty_email.toLowerCase();
-        }
-        if (detailNode.identifier == "office") {
-          detailNode.text = data.faculty_office_number;
-        }
-      });
-      // console.dir(node);
-    }
-  })
-
-  // console.log("*** prepped payload ***");
-  // console.dir(block);
-  // block.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes.map(function(sd) {
-  //   console.dir(sd);
-  // });
-  return block;
+  const profileLink = {
+    "type": "group",
+    "identifier": "link",
+    "structuredDataNodes": [
+      {
+        "type": "text",
+        "identifier": "label",
+        "text": person.fullname + " Faculty Profile"
+      },
+      {
+        "type": "text",
+        "identifier": "type",
+        "text": "internal"
+      },
+      {
+        "type": "asset",
+        "identifier": "internal",
+        "pagePath": person.pagePath,
+        "assetType": "page,file,symlink"
+      },
+      {
+        "type": "text",
+        "identifier": "target",
+        "text": "Parent Window/Tab"
+      }
+    ]
+  };
+  
+  try {
+    data.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes.map(function (d) {
+      if (d.identifier == "details") {
+        d.structuredDataNodes.map(function(l) {
+          if (l.identifier == "link") {
+            l.structuredDataNodes = profileLink.structuredDataNodes;
+          }
+        });
+      }
+    });
+  } catch (e) {
+    console.log("unable to modify asset data:");
+    console.log(e);
+    console.dir(data);
+  }
+  return data;
 }
 
 function prepDepts(data) {
@@ -278,7 +348,7 @@ async function postAsset(uri, payload) {
   let postOptions = {
     hostname: CAS_HOST,
     port: CAS_PORT,
-    path: POST_URI,
+    path: uri,
     method: 'POST',
     headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
@@ -331,7 +401,7 @@ async function getURL(options) {
     }
     let p = new Promise((resolve, reject) => {
         const req = protocol.request(getOptions, (response) => {
-            console.log(getOptions);
+            // console.log(getOptions);
             let chunks_of_data = [];
             response.on('data', (fragments) => {
                 chunks_of_data.push(fragments);
@@ -370,7 +440,7 @@ async function getAsset(uri) {
   }
   let p = new Promise((resolve, reject) => {
     const req = protocol.request(getOptions, (response) => {
-      console.log(getOptions);
+      // console.log(getOptions);
 			let chunks_of_data = [];
 
 			response.on('data', (fragments) => {
@@ -379,9 +449,14 @@ async function getAsset(uri) {
 			});
 
 			response.on('end', () => {
-				let responseBody = Buffer.concat(chunks_of_data);
-        let responseString = responseBody.toString();
-        let responseObj = JSON.parse(responseString);
+        var responeObj = {};
+        try {
+          let responseBody = Buffer.concat(chunks_of_data);
+          let responseString = responseBody.toString();
+          responseObj = JSON.parse(responseString);  
+        } catch (jsonE) {
+          responseObj = { status: false, error: "unable to parse JSON as response"};
+        }
 				resolve(responseObj);
 			});
 
