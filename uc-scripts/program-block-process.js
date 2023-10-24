@@ -1,0 +1,274 @@
+const https = require('https');
+const http = require('http');
+const {execSync} = require('child_process');
+const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+var fs = require('fs');
+var tasks = [];
+require('dotenv').config();
+/* defining some constants */
+const POST = process.env.POST;
+const CAS_HOST = process.env.CAS_HOST;
+const CAS_PORT = process.env.CAS_PORT;
+const API_KEY = process.env.API_KEY;
+const PAYLOAD_DOCUMENT = fs.readFileSync("json/program-block-minimum.json");
+const DEPTS = fs.readFileSync("uc/departments.json");
+const UGRAD = fs.readFileSync("uc/undergraduate.json");
+// const GRAD = fs.readFileSync("acob/graduate.json");
+// const DOCT = fs.readFileSync("acob/doctoral.json");
+const TEST = fs.readFileSync("uc/test.json");
+
+const POST_URI = "/api/v1/create";
+var protocol = http;
+if (CAS_PORT == 443) {
+  protocol = https;
+}
+
+var tasks = [];
+const departments = prepDepts(DEPTS);
+console.dir(departments);
+
+// JSON.parse(CERTS).map(function(c) {
+//   let taskData = c;
+//   taskData.type = "certificate";
+//   taskData.tag = "Certificate";
+//   tasks.push(taskData);
+// });
+
+JSON.parse(UGRAD).map(function(c) {
+  let taskData = c;
+  taskData.type = "undergraduate";
+  taskData.tag = "Undergraduate";
+  tasks.push(taskData);
+});
+
+// JSON.parse(GRAD).map(function(c) {
+//   let taskData = c;
+//   taskData.type = "graduate";
+//   taskData.tag = "Graduate";
+//   tasks.push(taskData);
+// });
+
+// JSON.parse(DOCT).map(function(c) {
+//   let taskData = c;
+//   taskData.type = "doctoral";
+//   taskData.tag = "Doctoral";
+//   tasks.push(taskData);
+// });
+
+// JSON.parse(TEST).map(function(c) {
+//   let taskData = c;
+//   taskData.type = "undergraduate";
+//   taskData.tag = "Undergraduate";
+//   tasks.push(taskData);
+// });
+
+executeTasksConcurrently(tasks);
+
+async function executeTasksConcurrently(
+  list
+) {
+  let activeTasks = [];
+  let concurrencyLimit = 100;
+
+  for (const item of list) {
+    if (activeTasks.length >= concurrencyLimit) {
+      await Promise.race(activeTasks);
+    }
+    // console.log(`Start task: ${item}`);
+    // console.dir(item);
+    // wait 0.25 secs between launching new async task b/c Cascade chokes, otherwise...
+    await delay(500);
+
+    const activeTask = completeTask(item)
+      .then(() => {
+        activeTasks.splice(activeTasks.indexOf(activeTask), 1);
+        // console.log(`End task: ${item}`);
+      })
+      .catch(() => {
+        activeTasks.splice(activeTasks.indexOf(activeTask), 1);
+        // console.log(`End task: ${item}`);
+      });
+    activeTasks.push(activeTask);
+  }
+}
+
+async function completeTask(t) {
+  try {
+    const payload = preparePayload(t);
+    let stringPayload = JSON.stringify(payload);
+    console.log(stringPayload);
+    if (POST == "YES") {
+      let postedAsset = await postAsset(POST_URI, stringPayload);
+      try {
+        let respj = JSON.parse(postedAsset);
+        if (respj.success == true) {
+          console.log(respj);
+          console.log("created: " + respj.success + "\t" + respj.createdAssetId);
+        } else {
+          console.log("****ERROR****");
+          console.log(postedAsset);
+          console.dir(t);
+          console.log("******PAYLOAD******");
+          console.log(stringPayload);
+          console.log("******END******");
+          // console.dir(payload);
+        }
+      } catch (e) {
+        console.log("POST failed to return a JSON response");
+        console.log(e);
+      }  
+    } else {
+      console.log("skipping POST");
+    }
+  } catch (e) {
+    console.log(e);
+    console.log("Error while running tasks:");
+    console.dir(t);
+  }
+  return t;
+}
+
+function cleanContent(data) {
+  var clean = data.replaceAll(' & ', ' &amp; ');
+  clean = clean.replaceAll('–', '&#8211;');
+  return clean;
+}
+
+function preparePayload(data) {
+  var programBlock = JSON.parse(PAYLOAD_DOCUMENT);
+  var programTitle = data.title.rendered.trim();
+  var secondaryTitle = data.yoast_head_json.title.replaceAll(' | UTSA', '').trim();
+  // console.log(JSON.stringify(data));
+  const sdns = [
+    {
+      "type": "text",
+      "identifier": "program",
+      "text": cleanContent(programTitle)
+    },
+    {
+      "type": "text",
+      "identifier": "secondaryTitle",
+      "text": cleanContent(secondaryTitle)
+    },
+    {
+      "type": "text",
+      "identifier": "external",
+      "text": data.link.trim()
+    }
+  ];
+  var departmentSlug = departments[data.department[0]];
+  const departmentID = data.department[0];
+  if (departmentID) {
+    departmentSlug = departments[departmentID].slug;
+  }
+  // console.log("found department id: " + departmentID);
+  const tags = [{"name": data.tag}];
+  if (departmentSlug) {
+    tags.push({"name":departmentSlug});
+  }
+  programBlock.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes = sdns
+  let parentFolderPath = "programs/_blocks/" + data.type;
+  let name = data.slug
+  programBlock.asset.xhtmlDataDefinitionBlock.parentFolderPath = parentFolderPath;
+  programBlock.asset.xhtmlDataDefinitionBlock.name = name;
+  programBlock.asset.xhtmlDataDefinitionBlock.tags = tags;
+  return programBlock;
+}
+
+function prepDepts(data) {
+  var results = {};
+  const originData = JSON.parse(data);
+  originData.map(function(element) {
+    results[element.id] = {"name": element.name, "slug": element.slug};
+  })
+  return results;
+}
+
+async function postAsset(uri, payload) {
+  //do GET
+  let postOptions = {
+    hostname: CAS_HOST,
+    port: CAS_PORT,
+    path: POST_URI,
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Content-Length': payload.length,
+        Authorization: ' Bearer ' + API_KEY
+    }
+  };
+  if (CAS_PORT == 443) {
+    postOptions.requestCert = false;
+    postOptions.rejectUnauthorized = false;
+  }
+  // console.log(payload);
+  let p = new Promise((resolve, reject) => {
+		const req = protocol.request(postOptions, (response) => {
+      // console.log(postOptions);
+      console.log(postOptions.headers['Content-Length']);
+      // console.log(payload);
+      // console.log(payload.length);
+			let chunks_of_data = [];
+			response.on('data', (fragments) => {
+				chunks_of_data.push(fragments);
+			});
+
+			response.on('end', () => {
+				let responseBody = Buffer.concat(chunks_of_data);
+        let responseString = responseBody.toString();
+        resolve(responseString);
+			});
+
+			response.on('error', (error) => {
+				reject(error);
+			});
+		});
+    req.write(payload);
+    req.end();
+	});
+
+  return await p;
+}
+
+async function getAsset(uri) {
+  //do GET
+  let getOptions = {
+    hostname: CAS_HOST,
+    port: CAS_PORT,
+    path: GET_URI + uri,
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      // 'Content-Length': postData.length,
+      Authorization: ' Bearer ' + API_KEY
+    }
+  };
+  if (CAS_PORT == 443) {
+    getOptions.requestCert = false;
+    getOptions.rejectUnauthorized = false;
+  }
+  let p = new Promise((resolve, reject) => {
+    const req = protocol.request(getOptions, (response) => {
+      console.log(getOptions);
+			let chunks_of_data = [];
+
+			response.on('data', (fragments) => {
+        // console.log("\t pushing data");
+				chunks_of_data.push(fragments);
+			});
+
+			response.on('end', () => {
+				let responseBody = Buffer.concat(chunks_of_data);
+        let responseString = responseBody.toString();
+        let responseObj = JSON.parse(responseString);
+				resolve(responseObj);
+			});
+
+			response.on('error', (error) => {
+				reject(error);
+			});
+    });
+    req.end();
+  });
+  return await p;
+}

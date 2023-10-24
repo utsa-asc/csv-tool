@@ -1,0 +1,74 @@
+{
+    "asset": {
+        "xhtmlDataDefinitionBlock": {
+            "structuredData": {
+                "definitionId": "75fe40e9ac1300061a13163c3bad42b3",
+                "definitionPath": "College-PROTOTYPE:Program",
+                "structuredDataNodes": [
+                    {
+                        "type": "text",
+                        "identifier": "program",
+                        "text": "Spanish and Community Health – Multidisciplinary Studies (BA)",
+                        "recycled": false
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "secondaryTitle",
+                        "text": "Spanish and Community Health degree Future Admissions",
+                        "recycled": false
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "external",
+                        "text": "https://future.utsa.edu/programs/undergraduate/spanish-community-health-multidisciplinary-studies/",
+                        "recycled": false
+                    },
+                    {
+                        "type": "group",
+                        "identifier": "image",
+                        "structuredDataNodes": [
+                            {
+                                "type": "asset",
+                                "identifier": "file",
+                                "assetType": "file",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "alt",
+                                "recycled": false
+                            }
+                        ],
+                        "recycled": false
+                    }
+                ]
+            },
+            "expirationFolderRecycled": false,
+            "metadataSetId": "4eafb53cac1400047d5b5cfc892b05c5",
+            "metadataSetPath": "Default",
+            "metadata": {},
+            "reviewOnSchedule": false,
+            "reviewEvery": 0,
+            "parentFolderId": "4eafb22dac1400047d5b5cfcf74f811e",
+            "parentFolderPath": "programs/_blocks/undergraduate",
+            "lastModifiedDate": "2023-10-20T20:24:35.902Z",
+            "lastModifiedBy": "admin",
+            "createdDate": "2023-10-20T20:24:35.902Z",
+            "createdBy": "admin",
+            "path": "programs/_blocks/undergraduate/spanish-community-health-multidisciplinary-studies",
+            "siteId": "4eaf90cfac1400047d5b5cfc2b8d53f4",
+            "siteName": "UC-VPAA-ASC-HALSTORE",
+            "tags": [
+                {
+                    "name": "uc"
+                },
+                {
+                    "name": "Undergraduate"
+                }
+            ],
+            "name": "spanish-community-health-multidisciplinary-studies",
+            "id": "4ec2df49ac1400047d5b5cfc7d1da6c1"
+        }
+    },
+    "success": true
+}

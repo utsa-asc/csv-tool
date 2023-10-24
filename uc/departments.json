@@ -1,0 +1,237 @@
+[
+	{
+		"id": 643,
+		"name": "Accounting",
+		"slug": "acob-accounting"
+	},
+	{
+		"id": 659,
+		"name": "Anthropology",
+		"slug": "colfa-anthropology"
+	},
+	{
+		"id": 677,
+		"name": "Architecture and Planning",
+		"slug": "kceid-architecture-and-planning"
+	},
+	{
+		"id": 658,
+		"name": "Art and Art History",
+		"slug": "colfa-art-and-art-history"
+	},
+	{
+		"id": 679,
+		"name": "Bicultural-Bilingual Studies",
+		"slug": "coehd-bicultural-bilingual-studies"
+	},
+	{
+		"id": 674,
+		"name": "Biomedical Engineering and Chemical Engineering",
+		"slug": "kceid-biomedical-engineering-and-chemical-engineering"
+	},
+	{
+		"id": 691,
+		"name": "Chemistry",
+		"slug": "cos-chemistry"
+	},
+	{
+		"id": 678,
+		"name": "Civil and Environmental Engineering, and Construction Management",
+		"slug": "kceid-civil-and-environmental-engineering-and-construction-management"
+	},
+	{
+		"id": 660,
+		"name": "Communication",
+		"slug": "colfa-communication"
+	},
+	{
+		"id": 692,
+		"name": "Computer Science",
+		"slug": "cos-computer-science"
+	},
+	{
+		"id": 680,
+		"name": "Counseling",
+		"slug": "coehd-counseling"
+	},
+	{
+		"id": 667,
+		"name": "Criminology and Criminal Justice",
+		"slug": "hcap-criminology-and-criminal-justice"
+	},
+	{
+		"id": 668,
+		"name": "Demography",
+		"slug": "hcap-demography"
+	},
+	{
+		"id": 759,
+		"name": "Dietetics Program",
+		"slug": "dietetics-program"
+	},
+	{
+		"id": 693,
+		"name": "Earth and Planetary Sciences",
+		"slug": "cos-earth-and-planetary-sciences"
+	},
+	{
+		"id": 685,
+		"name": "Economics",
+		"slug": "acob-economics"
+	},
+	{
+		"id": 681,
+		"name": "Educational Leadership and Policy Studies",
+		"slug": "coehd-educational-leadership-and-policy-studies"
+	},
+	{
+		"id": 682,
+		"name": "Educational Psychology",
+		"slug": "coehd-educational-psychology"
+	},
+	{
+		"id": 675,
+		"name": "Electrical and Computer Engineering",
+		"slug": "kceid-electrical-and-computer-engineering"
+	},
+	{
+		"id": 661,
+		"name": "English",
+		"slug": "colfa-english"
+	},
+	{
+		"id": 686,
+		"name": "Finance",
+		"slug": "acob-finance"
+	},
+	{
+		"id": 662,
+		"name": "History",
+		"slug": "colfa-history"
+	},
+	{
+		"id": 687,
+		"name": "Information Systems and Cyber Security",
+		"slug": "acob-information-systems-and-cyber-security"
+	},
+	{
+		"id": 694,
+		"name": "Integrative Biology",
+		"slug": "cos-integrative-biology"
+	},
+	{
+		"id": 683,
+		"name": "Interdisciplinary Learning and Teaching",
+		"slug": "coehd-interdisciplinary-learning-and-teaching"
+	},
+	{
+		"id": 2194,
+		"name": "Interdisciplinary School for Engagement",
+		"slug": "interdisciplinary-school-for-engagement"
+	},
+	{
+		"id": 652,
+		"name": "Kinesiology",
+		"slug": "hcap-kinesiology"
+	},
+	{
+		"id": 688,
+		"name": "Management",
+		"slug": "acob-management"
+	},
+	{
+		"id": 689,
+		"name": "Management Science and Statistics",
+		"slug": "acob-management-science-and-statistics"
+	},
+	{
+		"id": 690,
+		"name": "Marketing",
+		"slug": "acob-marketing"
+	},
+	{
+		"id": 695,
+		"name": "Mathematics",
+		"slug": "cos-mathematics"
+	},
+	{
+		"id": 676,
+		"name": "Mechanical Engineering",
+		"slug": "kceid-mechanical-engineering"
+	},
+	{
+		"id": 663,
+		"name": "Modern Languages and Literatures",
+		"slug": "colfa-modern-languages-and-literatures"
+	},
+	{
+		"id": 696,
+		"name": "Molecular Microbiology and Immunology",
+		"slug": "cos-molecular-microbiology-and-immunology"
+	},
+	{
+		"id": 664,
+		"name": "Music",
+		"slug": "colfa-music"
+	},
+	{
+		"id": 697,
+		"name": "Neuroscience, Developmental and Regenerative Biology",
+		"slug": "cos-neuroscience-developmental-and-regenerative-biology"
+	},
+	{
+		"id": 665,
+		"name": "Philosophy and Classics",
+		"slug": "colfa-philosophy-and-classics"
+	},
+	{
+		"id": 698,
+		"name": "Physics and Astronomy",
+		"slug": "cos-physics-and-astronomy"
+	},
+	{
+		"id": 666,
+		"name": "Political Science and Geography",
+		"slug": "colfa-political-science-and-geography"
+	},
+	{
+		"id": 669,
+		"name": "Psychology",
+		"slug": "hcap-psychology"
+	},
+	{
+		"id": 670,
+		"name": "Public Administration",
+		"slug": "hcap-public-administration"
+	},
+	{
+		"id": 671,
+		"name": "Public Health",
+		"slug": "hcap-public-health"
+	},
+	{
+		"id": 684,
+		"name": "Race, Ethnicity, Gender, and Sexualilty Studies",
+		"slug": "coehd-race-ethnicity-gender-and-sexualilty-studies"
+	},
+	{
+		"id": 672,
+		"name": "Social Work",
+		"slug": "hcap-social-work"
+	},
+	{
+		"id": 2191,
+		"name": "Sociology and Demography",
+		"slug": "hcap-sociology-demography"
+	},
+	{
+		"id": 765,
+		"name": "Statistics",
+		"slug": "statistics"
+	},
+	{
+		"id": 699,
+		"name": "University College",
+		"slug": "uc"
+	}
+]
