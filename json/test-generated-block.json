@@ -1,0 +1,64 @@
+{
+    "asset": {
+        "xhtmlDataDefinitionBlock": {
+            "structuredData": {
+                "definitionPath": "College-PROTOTYPE:Components/Faculty",
+                "structuredDataNodes": [
+                    {
+                        "type": "group",
+                        "identifier": "details",
+                        "structuredDataNodes": [
+                            {
+                                "type": "text",
+                                "identifier": "title",
+                                "text": "Assistant Professor of Practice"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "email",
+                                "text": "morgan.grace@utsa.edu"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "office",
+                                "text": "MS 3.03.07"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "group",
+                        "identifier": "image",
+                        "structuredDataNodes": [
+                            {
+                                "type": "asset",
+                                "identifier": "file",
+                                "filePath": "images/staff/MorganGrace.jpg",
+                                "assetType": "file"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "alt",
+                                "text": "Morgan Grace"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "metadataSetPath": "College-PROTOTYPE:Faculty",
+            "metadata": {
+                "displayName": "Morgan Grace"
+            },
+            "parentFolderPath": "faculty/ais/_staff",
+            "siteName": "UC-VPAA-ASC-HALSTORE",
+            "tags": [
+                {
+                    "name": "Faculty"
+                },
+                {
+                    "name": "ais"
+                }
+            ],
+            "name": "grace-morgan"
+        }
+    }
+}

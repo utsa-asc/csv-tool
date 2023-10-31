@@ -1,0 +1,146 @@
+{
+    "asset": {
+        "xhtmlDataDefinitionBlock": {
+            "structuredData": {
+                "definitionId": "726e992dac1400034fe6d04d441ded95",
+                "definitionPath": "SITE Block - Staff Profile",
+                "structuredDataNodes": [
+                    {
+                        "type": "group",
+                        "identifier": "staffMember",
+                        "structuredDataNodes": [
+                            {
+                                "type": "text",
+                                "identifier": "fullName",
+                                "text": "Morgan Grace",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "degree",
+                                "recycled": false
+                            },
+                            {
+                                "type": "asset",
+                                "identifier": "headshot",
+                                "fileId": "726e87d2ac1400034fe6d04db1bc37d5",
+                                "filePath": "images/staff/MorganGrace.jpg",
+                                "assetType": "file",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "prefixTitle",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "title",
+                                "text": "Assistant Professor of Practice",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "title2",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "email",
+                                "text": "morgan.grace@utsa.edu",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "phone",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "mobile",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "fax",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "personalURL",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "departmentURL",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "campusAddress1",
+                                "text": "MS 3.03.07",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "campusAddress2",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "staffProfile",
+                                "recycled": false
+                            }
+                        ],
+                        "recycled": false
+                    }
+                ]
+            },
+            "expirationFolderRecycled": false,
+            "metadataSetId": "726e8cadac1400034fe6d04dd2a26e36",
+            "metadataSetPath": "Site Page",
+            "metadata": {
+                "displayName": "",
+                "title": "",
+                "summary": "",
+                "teaser": "",
+                "keywords": "",
+                "metaDescription": "",
+                "author": "",
+                "dynamicFields": [
+                    {
+                        "name": "include_nav",
+                        "fieldValues": [
+                            {
+                                "value": "No"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "icon_nav",
+                        "fieldValues": [
+                            {
+                                "value": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "reviewOnSchedule": false,
+            "reviewEvery": 180,
+            "parentFolderId": "726e8c4fac1400034fe6d04d84dde045",
+            "parentFolderPath": "ais/_staff",
+            "lastModifiedDate": "2023-10-27T18:38:45.707Z",
+            "lastModifiedBy": "admin",
+            "createdDate": "2023-10-27T18:38:45.707Z",
+            "createdBy": "admin",
+            "path": "ais/_staff/grace-morgan",
+            "siteId": "726e73b1ac1400034fe6d04d555046c3",
+            "siteName": "UNIVERSITY-COLLEGE-VPAA-WWWROOT",
+            "tags": [],
+            "name": "grace-morgan",
+            "id": "726e7dccac1400034fe6d04d337366ce"
+        }
+    },
+    "success": true
+}
