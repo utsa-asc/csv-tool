@@ -25,6 +25,8 @@ if (CAS_PORT == 443) {
   protocol = https;
 }
 
+const PRIMARY_DEPARTMENT = "The Writing Program";
+
 var searchInformation = {
   "searchInformation": {
 		"siteName":"UNIVERSITY-COLLEGE-VPAA-WWWROOT",
@@ -37,7 +39,7 @@ var searchInformation = {
 var searchInformation = {
   "searchInformation": {
     "searchTerms": "_faculty _staff",
-    "siteName": "TWP-VPAA-WWWROOT",
+    "siteName": "VPAA-TWP-WWWROOT",
     "searchTypes": [
       "block"
     ]
@@ -72,7 +74,9 @@ async function generateTasks() {
     // console.dir(search);
     searchResultsObj.matches.map(function(r) {
       console.log("pushing result: " + r.path.path);
-      searchResults.push(r);
+      if (r.path.path.indexOf('Former Faculty') < 0) {
+        searchResults.push(r);
+      }
     });
   } catch(e) {
     console.log("unable to complete initial search to build task list");
@@ -211,12 +215,25 @@ function preparePayload(data) {
         "text": detail.text
       });
     }
+    if (detail.identifier=="staffProfile") {
+      detailsSDNs.push(							{
+        "type": "text",
+        "identifier": "wysiwyg",
+        "text": detail.text
+      });
+    }
   });
   detailsSDNs.push({
     "type": "text",
     "identifier": "title",
     "text": fullTitle
-  })      
+  });
+  
+  detailsSDNs.push({
+    "type": "text",
+    "identifier": "primaryDepartment",
+    "text": PRIMARY_DEPARTMENT
+  });
 
   facultyBlock.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes.map(function(d) {
     if (d.identifier == "details") {
@@ -231,6 +248,9 @@ function preparePayload(data) {
   facultyBlock.asset.xhtmlDataDefinitionBlock.siteName = TARGET_SITE;
   facultyBlock.asset.xhtmlDataDefinitionBlock.tags = generateTags(oldBlock);
   facultyBlock.asset.xhtmlDataDefinitionBlock['parentFolderPath'] = "faculty/_blocks/" + oldBlock.asset.xhtmlDataDefinitionBlock.parentFolderPath;
+  facultyBlock.asset.xhtmlDataDefinitionBlock.parentFolderPath = facultyBlock.asset.xhtmlDataDefinitionBlock.parentFolderPath.replace('_faculty', 'twp');
+  facultyBlock.asset.xhtmlDataDefinitionBlock.parentFolderPath = facultyBlock.asset.xhtmlDataDefinitionBlock.parentFolderPath.replace('_staff', 'twp/staff');
+  console.log("new parent folder path: " + facultyBlock.asset.xhtmlDataDefinitionBlock.parentFolderPath);
   facultyBlock.asset.xhtmlDataDefinitionBlock.name = oldBlock.asset.xhtmlDataDefinitionBlock.name;
 
   return facultyBlock;
@@ -331,6 +351,10 @@ function generateTags(block) {
   if (block.asset.xhtmlDataDefinitionBlock.parentFolderPath.indexOf('ais') >= 0) {
     tagList.push("ais");
   } 
+  if (block.asset.xhtmlDataDefinitionBlock.siteName.indexOf('TWP') >= 0) {
+    tagList.push("twp");
+  }   
+
   var tags = [];
   tagList.map(function(t) {
     tags.push({ name: t })
