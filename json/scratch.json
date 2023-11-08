@@ -1,0 +1,52 @@
+{
+    "asset": {
+        "page": {
+            "contentTypePath": "College-PROTOTYPE:Faculty Profile",
+            "structuredData": {
+                "structuredDataNodes": [
+                    {
+                        "type": "asset",
+                        "identifier": "block",
+                        "blockPath": "faculty/_blocks/twp/cruz-geneveva",
+                        "assetType": "block",
+                        "recycled": false
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "campusAddress",
+                        "text": "GSR 1.110C"
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "mailbox"
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "fullBio",
+                        "text": "<p>Call me Gen. It&amp;#8217;s easier. I am a San Antonio native. Born and raised on the east side of town. I graduated from Austin Peay State University in Clarksville, Tennessee with a Bachelors degree in English and minor in Journalism. Upon my return to San Antonio (traveling military wife for 10 years), I earned my Masters in English Language and Literature at Our Lady of the Lake University. After completing my PhD course work in Leadership, I have decided to change routes toward my passion, Composition and Rhetoric. I will soon begin working toward completing my doctorate at Texas Woman&amp;#8217;s University.</p>\n<p>I am convinced teaching writing is my calling, and the Writing Department is where I belong. I have been teaching for 12 years, and I have been fortunate to be with UTSA since 2017.&amp;#160;&amp;#160;</p>\n<p>I am the lucky mom of two daughters, 22 and 14 years old, one 12 years old weenie dog, Oscar, and my grand-dog, 3 years old Derek James. I am a self-proclaimed TV junkie and in my leisure time, I can be found binge watching reruns of <em>Friends </em>or <em>The Tudors</em> and MCU films.</p>\n<p>I approach teaching with a sense of humor, but I have high expectations for my students. I see potential in each and every one of them. At the end of each semester, you can find me in my office sobbing over final self-reflections essays as they realized they could do it all along.</p>\n<p>For faculty syllabi and current course schedule, please visit <a href=\"http://bluebook.utsa.edu/\">Bluebook.</a></p>"
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "teaching"
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "researchInterests"
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "degrees"
+                    }
+                ]
+            },
+            "metadata": {
+                "displayName": "Geneveva Cruz",
+                "title": "Geneveva Cruz"
+            },
+            "parentFolderPath": "faculty/profiles",
+            "siteName": "ACOB-VPAA-ASC-HALSTORE",
+            "tags": [],
+            "name": "cruz-geneveva"
+        }
+    }
+}
