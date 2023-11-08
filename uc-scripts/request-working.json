@@ -1,0 +1,37 @@
+{
+    "asset": {
+        "xhtmlDataDefinitionBlock": {
+            "structuredData": {
+                "definitionPath": "College-PROTOTYPE:Program",
+                "structuredDataNodes": [
+                    {
+                        "type": "text",
+                        "identifier": "program",
+                        "text": "Geoinformatics &#8211; Multidisciplinary Studies (BS)"
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "secondaryTitle",
+                        "text": "Bachelor's Degree in Geoinformatics"
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "external",
+                        "text": "https://future.utsa.edu/programs/undergraduate/geoinformatics-multidisciplinary-studies/"
+                    }
+                ]
+            },
+            "parentFolderPath": "programs/_blocks/undergraduate",
+            "siteName": "UC-VPAA-ASC-HALSTORE",
+            "tags": [
+                {
+                    "name": "Undergraduate"
+                },
+                {
+                    "name": "uc"
+                }
+            ],
+            "name": "geoinformatics-multidisciplinary-studies"
+        }
+    }
+}

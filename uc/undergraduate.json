@@ -1,0 +1,266 @@
+[
+	{
+		"id": 28483,
+		"slug": "spanish-community-health-multidisciplinary-studies",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/spanish-community-health-multidisciplinary-studies\/",
+		"title": {
+			"rendered": "Spanish and Community Health &#8211; Multidisciplinary Studies (BA)"
+		},
+		"program_college": [
+			649
+		],
+		"department": [
+			699
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Spanish and Community Health degree | UTSA Future Admissions"
+		}
+	},
+	{
+		"id": 27744,
+		"slug": "healthcare-management",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/healthcare-management\/",
+		"title": {
+			"rendered": "Healthcare Management &#8211; Multidisciplinary Studies (BS)"
+		},
+		"program_college": [
+			649
+		],
+		"department": [
+			699
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Healthcare Management Multidisciplinary Studies | UTSA Future Admissions"
+		}
+	},
+	{
+		"id": 19125,
+		"slug": "nursing-multidisciplinary-studies",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/nursing-multidisciplinary-studies\/",
+		"title": {
+			"rendered": "Nursing &#8211; Multidisciplinary Studies (BS)"
+		},
+		"program_college": [
+			649
+		],
+		"department": [
+			699
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Nursing | UTSA"
+		}
+	},
+	{
+		"id": 19047,
+		"slug": "multidisciplinary-studies",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/multidisciplinary-studies\/",
+		"title": {
+			"rendered": "Multidisciplinary Studies (BA)"
+		},
+		"program_college": [
+			649
+		],
+		"department": [
+			699
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Multidisciplinary Studies | UTSA"
+		}
+	},
+	{
+		"id": 18767,
+		"slug": "strategic-leadership-and-defense",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/strategic-leadership-and-defense\/",
+		"title": {
+			"rendered": "Strategic Leadership and Defense &#8211; Multidisciplinary Studies (BA)"
+		},
+		"program_college": [
+			649
+		],
+		"department": [
+			699
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Strategic Leadership and Defense | UTSA"
+		}
+	},
+	{
+		"id": 18762,
+		"slug": "hospitality-and-events-management",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/hospitality-and-events-management\/",
+		"title": {
+			"rendered": "Hospitality and Events Management &#8211; Multidisciplinary Studies (BA)"
+		},
+		"program_college": [
+			649
+		],
+		"department": [
+			699
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Hospitality and Event Management | UTSA"
+		}
+	},
+	{
+		"id": 18756,
+		"slug": "applied-data-science",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/applied-data-science\/",
+		"title": {
+			"rendered": "Applied Data Science &#8211; Multidisciplinary Studies (BA)"
+		},
+		"program_college": [
+			649
+		],
+		"department": [
+			699
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Multidisciplinary Studies Degree in Applied Data Science | UTSA"
+		}
+	},
+	{
+		"id": 18721,
+		"slug": "data-sciences-multidisciplinary-studies",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/data-sciences-multidisciplinary-studies\/",
+		"title": {
+			"rendered": "Data Science &#8211; Multidisciplinary Studies (BS)"
+		},
+		"program_college": [
+			649
+		],
+		"department": [
+			699
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Data Sciences Multidisciplinary Studies | UTSA"
+		}
+	},
+	{
+		"id": 18710,
+		"slug": "cyber-intelligence-multidisciplinary-studies",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/cyber-intelligence-multidisciplinary-studies\/",
+		"title": {
+			"rendered": "Cyber Intelligence &#8211; Multidisciplinary Studies (BS)"
+		},
+		"program_college": [
+			649
+		],
+		"department": [
+			699
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Cyber Intelligence | UTSA"
+		}
+	},
+	{
+		"id": 18637,
+		"slug": "geoinformatics-multidisciplinary-studies",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/geoinformatics-multidisciplinary-studies\/",
+		"title": {
+			"rendered": "Geoinformatics &#8211; Multidisciplinary Studies (BS)"
+		},
+		"program_college": [
+			649
+		],
+		"department": [
+			699
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Geoinformatics | UTSA"
+		}
+	},
+	{
+		"id": 18528,
+		"slug": "film-media",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/film-media\/",
+		"title": {
+			"rendered": "Film and Media – Multidisciplinary Studies (BA)"
+		},
+		"program_college": [
+			649
+		],
+		"department": [
+			2194
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Multidisciplinary Studies Degree in Film & Media | UTSA"
+		}
+	},
+	{
+		"id": 18370,
+		"slug": "artificial-intelligence",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/artificial-intelligence\/",
+		"title": {
+			"rendered": "Artificial Intelligence &#8211; Multidisciplinary Studies (BS)"
+		},
+		"program_college": [
+			649
+		],
+		"department": [
+			699
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Multidisciplinary Studies Degree in Artificial Intelligence | UTSA"
+		}
+	}
+]
