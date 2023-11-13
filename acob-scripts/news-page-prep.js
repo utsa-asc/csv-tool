@@ -27,7 +27,7 @@ const WP_PORT = "443";
 const WP_PATH = "/wp-json/wp/v2/";
 
 var protocol = http;
-if (CAS_PORT == 443) {
+if (WP_PORT == 443) {
   protocol = https;
 }
 const DEFAULT_SOURCE = "Alvarez College of Business";
@@ -105,8 +105,11 @@ async function completeTask(t) {
     // update content text field
     // make sure featured media image is save/move from uploads to yyyy/images folder
     // update new image1 field with featured media field
-    t.post.content.clean = cleanText(t.post.content.rendered);
-    // t.post.excerpt.clean = cleanText(t.post.excerpt.rendered);
+    let newContent = generateNewContent(t.post.content.rendered);
+    delete t.post.content.rendered;
+    t.post.content.clean = cleanText(newContent.content);
+    t.post.excerpt.clean = cleanText(newContent.excerpt);
+    delete t.post.excerpt.rendered;
     t.post.author_name = lookupAuthor(t.post.author);
     t.post.tags_generated = generateTags(t.post.tags);
     console.log("easy stuff done: " + t.post.id);
@@ -126,6 +129,32 @@ async function completeTask(t) {
   return t;
 }
 
+function generateNewContent(htmlContent) {
+  var results = { content: "", excerpt: "" }
+  var soup = new JSSoup(htmlContent, false);
+  var paragraphs = soup.findAll('p');
+  if (paragraphs.length > 0) {
+    let excerpt = paragraphs[0].getText();
+    results.excerpt = excerpt;
+    // paragraphs[0].extract();
+  }
+  results.content = soup.prettify(' ', '');
+  return results;
+}
+
+function stripHtml(htmlContent) {
+  var soup = new JSSoup(htmlContent, false);
+  var excerptAnchor = soup.findAll("a.excerpt-read-more");
+  if (excerptAnchor.length > 0) {
+    excerptAnchor.map(function(a) {
+      a.extract();
+    });
+  }
+  var plainText = soup.getText();
+  plainText = plainText.replace('&#8230; Read more &raquo;', '');
+  return plainText;
+}
+
 function lookupAuthor(id) {
   var authorName = "Alvarez College of Business";
   if (authors[id] != undefined) {
@@ -141,6 +170,7 @@ function cleanText(content) {
   contentStr = contentStr.replace(/\u2019/g, "&#8217;");
   contentStr = contentStr.replace(/\u201C/g, "&#8220;");
   contentStr = contentStr.replace(/\u201D/g, "&#8221;");
+  contentStr = contentStr.replaceAll('—', '&#8212;');
   //mdash
   contentStr = contentStr.replaceAll('&mdash;', '&#8212;');
   //unclosed breaks
@@ -152,9 +182,12 @@ function cleanText(content) {
   contentStr = contentStr.replaceAll('ó', '&#243;');
   contentStr = contentStr.replaceAll('ü', '&#252;');
   contentStr = contentStr.replaceAll('é', '&#233;');
+  contentStr = contentStr.replaceAll('í', '&#237;')
   contentStr = contentStr.replaceAll('“', '&ldquo;');
   contentStr = contentStr.replaceAll('”', '&rdquo;');
   contentStr = contentStr.replaceAll('•', '&#183;');
+  contentStr = contentStr.replaceAll('’', '&#8217;')
+  contentStr = contentStr.replace('/\r?\n|\r/g', '');
   return contentStr;
 }
 
@@ -162,7 +195,11 @@ function computeParentFolder(pubdate) {
   var date = moment(pubdate);
   let year = date.year();
   let month = date.month() + 1;
-  return "/news/" + year + "/" + month;
+  var monthStr = "" + month;
+  if (month < 10) {
+    monthStr = "0" + monthStr;
+  }
+  return "/news/" + year + "/" + monthStr;
 }
 
 function computeMediaFolder(uri, pubdate) {
@@ -178,7 +215,10 @@ function computeMediaFolder(uri, pubdate) {
 async function processFeaturedmedia(mediaObj, pubdate) {
   // console.dir(mediaObj);
   var mediaPath = "";
-  var updatedImageURI = "";
+  var updatedImageURI = {
+    uri:"",
+    alt:""
+  }
   try {
     mediaPath = mediaObj[0].href;
     mediaPath = mediaPath.replace('https://business.utsa.edu', '');
@@ -192,12 +232,13 @@ async function processFeaturedmedia(mediaObj, pubdate) {
       let uploadPath = "acob/uploads/" + media.media_details.file;
       let parts = media.media_details.file.split('/');
       let localPath = "acob/news/" + parts[0] + "/images/" + parts[2].toLowerCase();
-      let cmsPath = "news/" + parts[0] + "/images/" + parts[2].toLowerCase();
+      let cmsPath = "/news/" + parts[0] + "/images/" + parts[2].toLowerCase();
       if (!fs.existsSync(uploadPath)) {
           console.log("\t FI: image not found in local uploads path: " + uploadPath);
       } else {
         fs.copyFileSync(uploadPath, localPath);
-        updatedImageURI = cmsPath;
+        updatedImageURI.uri = cmsPath;
+        updatedImageURI.alt = media.alt_text;
         console.log("\t FI: upload path: " + uploadPath);
         console.log("\t FI: new media path: " + cmsPath);
       }
@@ -237,9 +278,10 @@ function processImages(htmlContent, pubdate) {
         } else {
           let fullPath = "acob/" + uploadsPath;
           let localPath = "acob/" + newMediaPath + "/" + fileName.toLowerCase();
-          let cmsPath = newMediaPath + "/" + fileName.toLowerCase();
+          let cmsPath = "/" + newMediaPath + "/" + fileName.toLowerCase();
           newImageSrc = cmsPath;
           image.attrs.src = cmsPath;
+          image.attrs.class = image.attrs.class + " float-start mx-3";
           try {
             fs.copyFileSync(fullPath, localPath);
           } catch (copyError) {
@@ -257,50 +299,7 @@ function processImages(htmlContent, pubdate) {
     });
   }
 
-  return soup.prettify();
-}
-
-async function getAsset(uri) {
-  //do GET
-  let getOptions = {
-    hostname: CAS_HOST,
-    port: CAS_PORT,
-    path: GET_URI + uri,
-    method: 'GET',
-    headers: {
-      'Content-Type': 'application/json',
-      // 'Content-Length': postData.length,
-      Authorization: ' Bearer ' + API_KEY
-    }
-  };
-  if (CAS_PORT == 443) {
-    getOptions.requestCert = false;
-    getOptions.rejectUnauthorized = false;
-  }
-  let p = new Promise((resolve, reject) => {
-    const req = protocol.request(getOptions, (response) => {
-      // console.log(getOptions);
-			let chunks_of_data = [];
-
-			response.on('data', (fragments) => {
-        // console.log("\t pushing data");
-				chunks_of_data.push(fragments);
-			});
-
-			response.on('end', () => {
-				let responseBody = Buffer.concat(chunks_of_data);
-        let responseString = responseBody.toString();
-        let responseObj = JSON.parse(responseString);
-				resolve(responseObj);
-			});
-
-			response.on('error', (error) => {
-				reject(error);
-			});
-    });
-    req.end();
-  });
-  return await p;
+  return soup.prettify(' ', '');
 }
 
 async function getURL(options) {
@@ -355,15 +354,15 @@ function prepAuthors(data) {
 
 function generateTags(taglist) {
   //wordpress represents attached tags as an array of ids
-  var tags = [];
+  var gtags = [];
   taglist.map(function(t) {
     if (tags[t] != undefined) {
       let newTag = { "name" : tags[t].slug };
-      tags.push(newTag);
+      gtags.push(newTag);
     }
   });
-  tags.push({"name": "news"});
-  return tags;
+  gtags.push({"name": "news"});
+  return gtags;
 }
 
 function saveSnippet(content, fpath) {
