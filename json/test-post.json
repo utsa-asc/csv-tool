@@ -7,7 +7,7 @@
                     {
                         "type": "text",
                         "identifier": "source",
-                        "text": "College of Sciences",
+                        "text": "Alvarez College of Business",
                         "recycled": false
                     },
                     {
@@ -23,25 +23,7 @@
                             {
                                 "type": "text",
                                 "identifier": "alt",
-                                "text": "Chemistry doctoral student recognized for prestigious research award"
-                            }
-                        ],
-                        "recycled": false
-                    },
-                    {
-                        "type": "group",
-                        "identifier": "image2",
-                        "structuredDataNodes": [
-                            {
-                                "type": "asset",
-                                "identifier": "file",
-                                "assetType": "file",
-                                "recycled": false
-                            },
-                            {
-                                "type": "text",
-                                "identifier": "alt",
-                                "recycled": false
+                                "text": "Standard image caption goes here"
                             }
                         ],
                         "recycled": false
@@ -55,7 +37,7 @@
                     {
                         "type": "text",
                         "identifier": "caption",
-                        "text": "Chemistry doctoral student recognized for prestigious research award",
+                        "text": "Standard caption for images goes here (this is displayed on the page)",
                         "recycled": false
                     },
                     {
@@ -67,26 +49,23 @@
                     {
                         "type": "text",
                         "identifier": "wysiwyg",
-                        "text": "<div class=\"content\"> <!-- Title --> <div class=\"row mt-4 mb-4\">  <div class=\"col-md-12\">   <h1>    Chemistry Doctoral Student Recognized for Prestigious Research Award   </h1>   <hr class=\"hdr\" />  </div> </div> <!-- main content --> <div class=\"row\">  <div class=\"col-md-3\">   <img class=\"mb-4\" src=\"/images/spotlights-news/2023/varela.jpg\" alt=\"Kaitlyn Varela\" />  </div>  <!-- end column 1 -->  <div class=\"col-md-9\">   <p>    Congratulations to    <b>     Kaitlyn Varela    </b>    , a chemistry doctoral student who was recently selected as the recipient of the    <a href=\"https://www.linkedin.com/posts/david-thaisrivongs-08313777_merckchemistry-activity-7067296996235059200-Kzni?utm_source=share&utm_medium=member_ios\" target=\"_blank\">     2023 Merck Research Award for Underrepresented Chemists of Color    </a>    . The award recognizes graduate students and post-doctoral fellows for their chemical science research across a range of areas, including computational, analytical, medicinal, biological and synthetic chemistry.   </p>   <p>    To apply for the award, Kaitlyn submitted a research summary, CV, personal statement, and recommendation letter from    <b>     Francis Yoshimoto    </b>    , her research advisor and assistant professor in the Department of Chemistry.   </p>   <p>    Kaitlyn will be paired with several mentors at Merck, attend an award symposium in Rahway, NJ in September, and also have access to a series of professional seminars and workshops.   </p>   <p>    &quot;I am so excited for the opportunity to network with scientists in an industrial setting and see what industry is like before I graduate in spring 2024,&quot; said Kaitlyn.   </p>   <p>    Kaitlyn was also selected to attend the    <a href=\"https://corporate.dow.com/en-us/careers/work-at-dow/best-symposium.html\" target=\"_blank\">     DOW BEST (Building Engineering &amp; Science Talent) Symposium    </a>    , which will be held from July 24-27 in Midland, MI where she'll have the opportunity to visit and present her research at both Merck and DOW's company sites.   </p>   <p>    Kaitlyn started at UTSA as a freshman in the UT CAP program but decided to remain a Roadrunner after her first semester. In spring 2020, she graduated from both the College of Sciences and the Honors College with a Bachelor of Science in Biochemistry.   </p>   <p>    After completing her undergrad, Kaitlyn decided to continue her education and pursue a Ph.D. in Chemistry at the    <a href=\"https://explore.utsa.edu/graduate/\" target=\"_blank\">     UTSA Graduate School    </a>    because she enjoyed the research opportunities available in the program. Kaitlyn's research experience includes studying the chemistry and biology of bioactive natural products from the medicinal plant,    <i>     Artemisia annua    </i>    . She is a Ford Foundation Pre-doctoral Fellow, and an NSF GRFP fellow.   </p>   <p class=\"byline\" align=\"right\">    &#8211; Ryan Schoensee    <br />    June 2, 2023   </p>  </div>  <!-- end column 2 --> </div> <!-- end row --> <!-- back to top --> <p>  &#160; </p></div>"
+                        "text": "content goes here (html supported)"
                     }
                 ]
             },
             "metadata": {
                 "displayName": "",
-                "title": "Chemistry doctoral student recognized for prestigious research award",
+                "title": "Headline goes here",
                 "summary": "",
                 "teaser": "",
                 "keywords": "",
                 "metaDescription": "",
-                "author": "College of Sciences",
+                "author": "Alvarez College of Business",
                 "startDate": "2023-02-15T06:00:00.000Z"
             },
-            "parentFolderPath": "spotlight-news/2023",
-            "siteName": "COS-VPAA-ASC-HALSTORE",
+            "parentFolderPath": "news/2023/11",
+            "siteName": "ACOB-VPAA-ASC-HALSTORE",
             "tags": [
-                {
-                    "name": "spotlight"
-                },
                 {
                     "name": " news"
                 }
