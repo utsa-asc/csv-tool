@@ -1,75 +1,71 @@
 {
-    "asset": {
-        "page": {
-            "contentTypePath": "College-PROTOTYPE:Blog",
-            "structuredData": {
-                "structuredDataNodes": [
-                    {
-                        "type": "text",
-                        "identifier": "source",
-                        "text": "Alvarez College of Business",
-                        "recycled": false
-                    },
-                    {
-                        "type": "group",
-                        "identifier": "image1",
-                        "structuredDataNodes": [
-                            {
-                                "type": "asset",
-                                "identifier": "file",
-                                "filePath": "/images/spotlights-news/2023/varela.jpg",
-                                "assetType": "file"
-                            },
-                            {
-                                "type": "text",
-                                "identifier": "alt",
-                                "text": "Standard image caption goes here"
-                            }
-                        ],
-                        "recycled": false
-                    },
-                    {
-                        "type": "text",
-                        "identifier": "articleType",
-                        "text": "standard",
-                        "recycled": false
-                    },
-                    {
-                        "type": "text",
-                        "identifier": "caption",
-                        "text": "Standard caption for images goes here (this is displayed on the page)",
-                        "recycled": false
-                    },
-                    {
-                        "type": "group",
-                        "identifier": "link",
-                        "structuredDataNodes": [],
-                        "recycled": false
-                    },
-                    {
-                        "type": "text",
-                        "identifier": "wysiwyg",
-                        "text": "content goes here (html supported)"
-                    }
-                ]
-            },
-            "metadata": {
-                "displayName": "",
-                "title": "Headline goes here",
-                "summary": "",
-                "teaser": "",
-                "keywords": "",
-                "metaDescription": "",
-                "author": "Alvarez College of Business",
-                "startDate": "2023-02-15T06:00:00.000Z"
-            },
-            "parentFolderPath": "news/2023/11",
-            "siteName": "ACOB-VPAA-ASC-HALSTORE",
-            "tags": [
+"asset": {
+    "page": {
+        "contentTypePath": "College-PROTOTYPE:Blog",
+        "structuredData": {
+            "structuredDataNodes": [
                 {
-                    "name": " news"
+                    "type": "text",
+                    "identifier": "source",
+                    "text": "Alvarez College of Business"
+                },
+                {
+                    "type": "group",
+                    "identifier": "image1",
+                    "structuredDataNodes": [
+                        {
+                            "type": "asset",
+                            "identifier": "file",
+                            "filePath": "/images/news/acob-news-default-bb.jpg",
+                            "assetType": "file"
+                        },
+                        {
+                            "type": "text",
+                            "identifier": "alt",
+                            "text": "Business Building on Main Campus"
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "identifier": "articleType",
+                    "text": "standard"
+                },
+                {
+                    "type": "text",
+                    "identifier": "caption",
+                    "text": ""
+                },
+                {
+                    "type": "group",
+                    "identifier": "link",
+                    "structuredDataNodes": []
+                },
+                {
+                    "type": "text",
+                    "identifier": "wysiwyg",
+                    "text": "content goes here (html supported)"
                 }
             ]
-        }
+        },
+        "metadata": {
+            "displayName": "",
+            "title": "Headline goes here",
+            "summary": "",
+            "teaser": "",
+            "keywords": "",
+            "metaDescription": "",
+            "author": "Alvarez College of Business",
+            "startDate": "2023-02-15T06:00:00.000Z"
+        },
+        "name": "test-post",
+        "parentFolderPath": "news/2023/11",
+        "siteName": "ACOB-VPAA-ASC-HALSTORE",
+        "tags": [
+            {
+                "name": " news"
+            }
+        ]
     }
+}
 }
