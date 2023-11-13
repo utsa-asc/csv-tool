@@ -1,0 +1,191 @@
+[
+	{
+		"id": 34,
+		"name": "Beverly Quintana",
+		"url": "",
+		"description": "",
+		"link": "https:\/\/business.utsa.edu\/author\/beverly\/",
+		"slug": "beverly",
+		"avatar_urls": {
+			"24": "https:\/\/secure.gravatar.com\/avatar\/57aaf3e53643384c5479aaf80c9b5dac?s=24&d=mm&r=g",
+			"48": "https:\/\/secure.gravatar.com\/avatar\/57aaf3e53643384c5479aaf80c9b5dac?s=48&d=mm&r=g",
+			"96": "https:\/\/secure.gravatar.com\/avatar\/57aaf3e53643384c5479aaf80c9b5dac?s=96&d=mm&r=g"
+		},
+		"meta": [],
+		"acf": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/users\/34"
+				}
+			],
+			"collection": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/users"
+				}
+			]
+		}
+	},
+	{
+		"id": 28,
+		"name": "Brittney Johnson",
+		"url": "",
+		"description": "",
+		"link": "https:\/\/business.utsa.edu\/author\/brittney-johnson\/",
+		"slug": "brittney-johnson",
+		"avatar_urls": {
+			"24": "https:\/\/secure.gravatar.com\/avatar\/a827a5c7971935110dfafee9468778ed?s=24&d=mm&r=g",
+			"48": "https:\/\/secure.gravatar.com\/avatar\/a827a5c7971935110dfafee9468778ed?s=48&d=mm&r=g",
+			"96": "https:\/\/secure.gravatar.com\/avatar\/a827a5c7971935110dfafee9468778ed?s=96&d=mm&r=g"
+		},
+		"meta": [],
+		"acf": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/users\/28"
+				}
+			],
+			"collection": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/users"
+				}
+			]
+		}
+	},
+	{
+		"id": 26,
+		"name": "Kailey Villarreal",
+		"url": "",
+		"description": "",
+		"link": "https:\/\/business.utsa.edu\/author\/kailey\/",
+		"slug": "kailey",
+		"avatar_urls": {
+			"24": "https:\/\/secure.gravatar.com\/avatar\/7129847044d1fb3c00545c1bd7045eba?s=24&d=mm&r=g",
+			"48": "https:\/\/secure.gravatar.com\/avatar\/7129847044d1fb3c00545c1bd7045eba?s=48&d=mm&r=g",
+			"96": "https:\/\/secure.gravatar.com\/avatar\/7129847044d1fb3c00545c1bd7045eba?s=96&d=mm&r=g"
+		},
+		"meta": [],
+		"acf": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/users\/26"
+				}
+			],
+			"collection": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/users"
+				}
+			]
+		}
+	},
+	{
+		"id": 16,
+		"name": "Melissa Lackey",
+		"url": "",
+		"description": "",
+		"link": "https:\/\/business.utsa.edu\/author\/melissa-lackey\/",
+		"slug": "melissa-lackey",
+		"avatar_urls": {
+			"24": "https:\/\/secure.gravatar.com\/avatar\/805a160babddd7b8a0cf86fedaab3cc8?s=24&d=mm&r=g",
+			"48": "https:\/\/secure.gravatar.com\/avatar\/805a160babddd7b8a0cf86fedaab3cc8?s=48&d=mm&r=g",
+			"96": "https:\/\/secure.gravatar.com\/avatar\/805a160babddd7b8a0cf86fedaab3cc8?s=96&d=mm&r=g"
+		},
+		"meta": [],
+		"acf": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/users\/16"
+				}
+			],
+			"collection": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/users"
+				}
+			]
+		}
+	},
+	{
+		"id": 29,
+		"name": "Rebekah Alegria",
+		"url": "",
+		"description": "",
+		"link": "https:\/\/business.utsa.edu\/author\/rebekah\/",
+		"slug": "rebekah",
+		"avatar_urls": {
+			"24": "https:\/\/secure.gravatar.com\/avatar\/51ec652fa7ad81b55f0ac129a9e4fd5f?s=24&d=mm&r=g",
+			"48": "https:\/\/secure.gravatar.com\/avatar\/51ec652fa7ad81b55f0ac129a9e4fd5f?s=48&d=mm&r=g",
+			"96": "https:\/\/secure.gravatar.com\/avatar\/51ec652fa7ad81b55f0ac129a9e4fd5f?s=96&d=mm&r=g"
+		},
+		"meta": [],
+		"acf": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/users\/29"
+				}
+			],
+			"collection": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/users"
+				}
+			]
+		}
+	},
+	{
+		"id": 14,
+		"name": "Wendy Frost",
+		"url": "",
+		"description": "",
+		"link": "https:\/\/business.utsa.edu\/author\/wendy\/",
+		"slug": "wendy",
+		"avatar_urls": {
+			"24": "https:\/\/secure.gravatar.com\/avatar\/c6875853d420c37a09dd2232e5161163?s=24&d=mm&r=g",
+			"48": "https:\/\/secure.gravatar.com\/avatar\/c6875853d420c37a09dd2232e5161163?s=48&d=mm&r=g",
+			"96": "https:\/\/secure.gravatar.com\/avatar\/c6875853d420c37a09dd2232e5161163?s=96&d=mm&r=g"
+		},
+		"meta": [],
+		"acf": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/users\/14"
+				}
+			],
+			"collection": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/users"
+				}
+			]
+		}
+	},
+	{
+		"id": 1,
+		"name": "wpengine",
+		"url": "http:\/\/wpengine.com",
+		"description": "This is the \"wpengine\" admin user that our staff uses to gain access to your admin area to provide support and troubleshooting. It can only be accessed by a button in our secure log that auto generates a password and dumps that password after the staff member has logged in. We have taken extreme measures to ensure that our own user is not going to be misused to harm any of our clients sites.",
+		"link": "https:\/\/business.utsa.edu\/author\/wpengine\/",
+		"slug": "wpengine",
+		"avatar_urls": {
+			"24": "https:\/\/secure.gravatar.com\/avatar\/9315f6ce3baebb09c86901c4497d57b7?s=24&d=mm&r=g",
+			"48": "https:\/\/secure.gravatar.com\/avatar\/9315f6ce3baebb09c86901c4497d57b7?s=48&d=mm&r=g",
+			"96": "https:\/\/secure.gravatar.com\/avatar\/9315f6ce3baebb09c86901c4497d57b7?s=96&d=mm&r=g"
+		},
+		"meta": [],
+		"acf": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/users\/1"
+				}
+			],
+			"collection": [
+				{
+					"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/users"
+				}
+			]
+		}
+	}
+]
