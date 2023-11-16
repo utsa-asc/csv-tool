@@ -13,8 +13,9 @@ const API_KEY = process.env.API_KEY;
 const PAYLOAD_DOCUMENT = fs.readFileSync("json/test-post.json");
 const TARGET_SITE = "ACOB-VPAA-ASC-HALSTORE";
 const POST_URI = "/api/v1/create";
-const START_YEAR = 2023;
-const END_YEAR = 2024;
+const START_YEAR = 2017;
+const END_YEAR = 2018;
+const TYPE = "edited"
 
 var protocol = http;
 if (CAS_PORT == 443) {
@@ -28,7 +29,7 @@ const DEFAULT_SOURCE = "Alvarez College of Business";
 var tasks = [];
 var targetYear = START_YEAR;
 while (targetYear < END_YEAR) {
-    let JSON_FILE = "acob/news-" + targetYear + "-edited.json";
+    let JSON_FILE = "acob/news-" + targetYear + "-" + TYPE + ".json";
     let POST_FILE = fs.readFileSync(JSON_FILE);
     let posts = JSON.parse(POST_FILE);
     posts.map(function(p) {
@@ -117,7 +118,7 @@ function preparePayload(task) {
   meta.displayName = postData.title.rendered;
   meta.title = postData.title.rendered;
   meta.startDate = postData.date + ".000Z"
-  meta.teaser = postData.excerpt.clean;
+  meta.summary = postData.excerpt.clean;
   meta.author = postData.author_name.name;
   //easy stuff - uri, name, location
   page.asset.page.parentFolderPath = postData.parentFolderPath;

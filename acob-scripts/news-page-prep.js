@@ -36,7 +36,7 @@ const DEFAULT_SOURCE = "Alvarez College of Business";
 //map over each post
 //create a task for each one
 var tasks = [];
-var targetYear = 2023;
+var targetYear = 2017;
 
 let JSON_FILE = "acob/news-" + targetYear + ".json";
 let POSTS_FILE = fs.readFileSync(JSON_FILE);
@@ -105,21 +105,26 @@ async function completeTask(t) {
     // update content text field
     // make sure featured media image is save/move from uploads to yyyy/images folder
     // update new image1 field with featured media field
-    let newContent = generateNewContent(t.post.content.rendered);
+    let newContent = generateNewContent(t.post.content.rendered, t.post);
     delete t.post.content.rendered;
+    t.post.title.rendered = cleanText(t.post.title.rendered);
     t.post.content.clean = cleanText(newContent.content);
     t.post.excerpt.clean = cleanText(newContent.excerpt);
     delete t.post.excerpt.rendered;
     t.post.author_name = lookupAuthor(t.post.author);
+    if ((newContent.author != "") || (newContent.author == undefined)) {
+      t.post.author_name.name = newContent.author;
+      t.post.author_name.slug = newContent.author.replaceAll(' ' , '-').toLowerCase();
+    }
     t.post.tags_generated = generateTags(t.post.tags);
-    console.log("easy stuff done: " + t.post.id);
+    // console.log("easy stuff done: " + t.post.id);
     //async call to process images
     t.post.parentFolderPath = computeParentFolder(t.post.date);
     t.post.content.clean = processImages(t.post.content.clean, t.post.date);
     let postLinks = t.post['_links'];
     let firstFeatured = postLinks['wp:featuredmedia'];
     t.post.featured_image = await processFeaturedmedia(firstFeatured, t.post.date);
-    console.log("computed feature image: " + t.post.featured_image);
+    // console.log("computed feature image: " + t.post.featured_image);
     t.post.updated = true;
   } catch (e) {
     console.log(e);
@@ -129,15 +134,40 @@ async function completeTask(t) {
   return t;
 }
 
-function generateNewContent(htmlContent) {
-  var results = { content: "", excerpt: "" }
+function generateNewContent(htmlContent, post) {
+  var results = { content: "", excerpt: "", author: "" }
   var soup = new JSSoup(htmlContent, false);
   var paragraphs = soup.findAll('p');
-  if (paragraphs.length > 0) {
+  let psize = paragraphs.length;
+  if (psize > 0) {
     let excerpt = paragraphs[0].getText();
     results.excerpt = excerpt;
     // paragraphs[0].extract();
+    if (paragraphs[psize - 1].getText().trim() == "&#160;") {
+      paragraphs[psize - 1].extract;
+      psize = psize - 1;
+    }
+    if (paragraphs[psize - 1].getText().trim() == "&nbsp;") {
+      paragraphs[psize - 1].extract;
+      psize = psize - 1;
+    }
+
+    if (paragraphs[psize - 1]) {
+      let byline = paragraphs[psize - 1].getText().trim();
+      //verify this is a byline
+      if (byline.indexOf('&#8211;' == 0) || (byline.indexOf('&#8212;' == 0))) {
+        if ((byline.length < 35) & (byline.indexOf('nbsp') < 0) ) {
+          console.log("clipping byline: " + post.id + "\t" + byline);
+          results.author = byline;
+          results.author = results.author.replace('&#8211;', '').trim();
+          results.author = results.author.replace('—', '').trim();
+          results.author = results.author.replace('&#8212;', '').trim();
+          paragraphs[psize - 1].extract();
+        }
+      }
+    }  
   }
+
   results.content = soup.prettify(' ', '');
   return results;
 }
@@ -167,6 +197,8 @@ function cleanText(content) {
   var contentStr = content.replaceAll('&nbsp;', '&#160;');
   contentStr = contentStr.replace(/\u00a0/g, " ");
   //curly quote unicode character, double quotes
+  
+  contentStr = contentStr.replace(/\u2018/g, "&#8216;");
   contentStr = contentStr.replace(/\u2019/g, "&#8217;");
   contentStr = contentStr.replace(/\u201C/g, "&#8220;");
   contentStr = contentStr.replace(/\u201D/g, "&#8221;");
@@ -178,16 +210,30 @@ function cleanText(content) {
   contentStr = contentStr.replace(/\u2013/g, "-");
   contentStr = contentStr.replaceAll('/\u00ad/g', '-');
   //ñ, ó, ü, é
-  contentStr = contentStr.replace('ñ', "&#241;");
+  contentStr = contentStr.replaceAll('ñ', "&#241;");
+  contentStr = contentStr.replaceAll('á', '&#225;');
+  contentStr = contentStr.replaceAll('á', '&#225;');
   contentStr = contentStr.replaceAll('ó', '&#243;');
+  contentStr = contentStr.replaceAll('ú', '&#250;');
   contentStr = contentStr.replaceAll('ü', '&#252;');
+  contentStr = contentStr.replaceAll('ö', '&#246;');
   contentStr = contentStr.replaceAll('é', '&#233;');
   contentStr = contentStr.replaceAll('í', '&#237;')
   contentStr = contentStr.replaceAll('“', '&ldquo;');
   contentStr = contentStr.replaceAll('”', '&rdquo;');
   contentStr = contentStr.replaceAll('•', '&#183;');
-  contentStr = contentStr.replaceAll('’', '&#8217;')
+  contentStr = contentStr.replaceAll('’', '&#8217;');
+  contentStr = contentStr.replaceAll('‘', '&#8216;');
+  contentStr = contentStr.replaceAll('°', '&#176;');
+  contentStr = contentStr.replaceAll('®', '&#174;');
   contentStr = contentStr.replace('/\r?\n|\r/g', '');
+  contentStr = contentStr.replaceAll('…', '&#8230;');  
+  contentStr = contentStr.replaceAll(' ­­­', ' ');
+  contentStr = contentStr.replaceAll('ê', '&#234;');
+  contentStr = contentStr.replaceAll('Å', '&#197;');
+  
+  contentStr = contentStr.replaceAll('É', '&#201;');
+
   return contentStr;
 }
 
@@ -234,13 +280,13 @@ async function processFeaturedmedia(mediaObj, pubdate) {
       let localPath = "acob/news/" + parts[0] + "/images/" + parts[2].toLowerCase();
       let cmsPath = "/news/" + parts[0] + "/images/" + parts[2].toLowerCase();
       if (!fs.existsSync(uploadPath)) {
-          console.log("\t FI: image not found in local uploads path: " + uploadPath);
+          // console.log("\t FI: image not found in local uploads path: " + uploadPath);
       } else {
         fs.copyFileSync(uploadPath, localPath);
         updatedImageURI.uri = cmsPath;
         updatedImageURI.alt = media.alt_text;
-        console.log("\t FI: upload path: " + uploadPath);
-        console.log("\t FI: new media path: " + cmsPath);
+        // console.log("\t FI: upload path: " + uploadPath);
+        // console.log("\t FI: new media path: " + cmsPath);
       }
     } else {
       console.log("image not found");
@@ -263,25 +309,25 @@ function processImages(htmlContent, pubdate) {
       var imageSrc = image.attrs.src;
       imageSrc = imageSrc.replace('https://', '');
       imageSrc = imageSrc.replace('http://', '');
-      console.log("\tparsed: " + imageSrc);
+      // console.log("\tparsed: " + imageSrc);
       //we only care about images hosted at WP_HTTP_PREFIX
       if (imageSrc.indexOf(WP_HTTP_PREFIX) >= 0) {
         imageSrc = imageSrc.replace(WP_HTTP_PREFIX, '');
         let uploadsPath = imageSrc;
         let fileName = imageSrc.split('/')[3];
         let newMediaPath = computeMediaFolder(imageSrc, pubdate);
-        console.log("\t upload path: " + uploadsPath);
-        console.log("\t new media path: " + newMediaPath);
-        console.log("\t media file: " + fileName);
+        // console.log("\t upload path: " + uploadsPath);
+        // console.log("\t new media path: " + newMediaPath);
+        // console.log("\t media file: " + fileName);
         if (!fs.existsSync("acob/" + uploadsPath)) {
-          console.error("\timage not found");
+          // console.error("\timage not found");
         } else {
           let fullPath = "acob/" + uploadsPath;
           let localPath = "acob/" + newMediaPath + "/" + fileName.toLowerCase();
           let cmsPath = "/" + newMediaPath + "/" + fileName.toLowerCase();
           newImageSrc = cmsPath;
           image.attrs.src = cmsPath;
-          image.attrs.class = image.attrs.class + " float-start mx-3";
+          image.attrs.class = image.attrs.class + " float-start p-2 m-3";
           try {
             fs.copyFileSync(fullPath, localPath);
           } catch (copyError) {
@@ -289,7 +335,7 @@ function processImages(htmlContent, pubdate) {
             console.log("\t\t" + fullPath + " > " + newPath.toLowerCase());
             console.log(copyError);
           }
-          console.error("\timage found");
+          // console.error("\timage found");
         }
       }
       //all said and done, update image src attr
