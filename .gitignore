@@ -20,3 +20,6 @@ cos/~$cos-spotlight-out.xlsx
 .gitignore
 acob/uploads/**
 sections.log
+acob/news*.json
+acob/upload/**/*
+acob/news/**/*

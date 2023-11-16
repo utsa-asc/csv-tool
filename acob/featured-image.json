@@ -1,0 +1,110 @@
+{
+	"id": 1160,
+	"date": "2017-10-31T14:15:33",
+	"date_gmt": "2017-10-31T14:15:33",
+	"guid": {
+		"rendered": "http:\/\/business.utsa.edu\/wp-content\/uploads\/2017\/10\/NSHMBA09GalaUTSA.jpg"
+	},
+	"modified": "2018-03-20T17:57:49",
+	"modified_gmt": "2018-03-20T17:57:49",
+	"slug": "nshmba09galautsa",
+	"status": "inherit",
+	"type": "attachment",
+	"link": "https:\/\/business.utsa.edu\/about-us\/history\/nshmba09galautsa\/",
+	"title": {
+		"rendered": "Gala UTSA"
+	},
+	"author": 14,
+	"comment_status": "open",
+	"ping_status": "closed",
+	"template": "",
+	"meta": {
+		"_mi_skip_tracking": false,
+		"_monsterinsights_sitenote_active": false,
+		"_monsterinsights_sitenote_note": "",
+		"_monsterinsights_sitenote_category": 0
+	},
+	"acf": [],
+	"description": {
+		"rendered": "<p class=\"attachment\"><a href='https:\/\/business.utsa.edu\/wp-content\/uploads\/2017\/10\/NSHMBA09GalaUTSA.jpg'><img loading=\"lazy\" width=\"200\" height=\"242\" src=\"https:\/\/business.utsa.edu\/wp-content\/uploads\/2017\/10\/NSHMBA09GalaUTSA.jpg\" class=\"attachment-medium size-medium\" alt=\"Gala UTSA\" decoding=\"async\" \/><\/a><\/p>\n"
+	},
+	"caption": {
+		"rendered": ""
+	},
+	"alt_text": "Gala UTSA",
+	"media_type": "image",
+	"mime_type": "image\/jpeg",
+	"media_details": {
+		"width": 200,
+		"height": 242,
+		"file": "2017\/10\/NSHMBA09GalaUTSA.jpg",
+		"sizes": {
+			"thumbnail": {
+				"file": "NSHMBA09GalaUTSA-150x150.jpg",
+				"width": 150,
+				"height": 150,
+				"mime_type": "image\/jpeg",
+				"source_url": "https:\/\/business.utsa.edu\/wp-content\/uploads\/2017\/10\/NSHMBA09GalaUTSA-150x150.jpg"
+			},
+			"post-thumbnail": {
+				"file": "NSHMBA09GalaUTSA-125x125.jpg",
+				"width": 125,
+				"height": 125,
+				"mime_type": "image\/jpeg",
+				"source_url": "https:\/\/business.utsa.edu\/wp-content\/uploads\/2017\/10\/NSHMBA09GalaUTSA-125x125.jpg"
+			},
+			"full": {
+				"file": "NSHMBA09GalaUTSA.jpg",
+				"width": 200,
+				"height": 242,
+				"mime_type": "image\/jpeg",
+				"source_url": "https:\/\/business.utsa.edu\/wp-content\/uploads\/2017\/10\/NSHMBA09GalaUTSA.jpg"
+			}
+		},
+		"image_meta": {
+			"aperture": "0",
+			"credit": "",
+			"camera": "",
+			"caption": "",
+			"created_timestamp": "0",
+			"copyright": "",
+			"focal_length": "0",
+			"iso": "0",
+			"shutter_speed": "0",
+			"title": "",
+			"orientation": "0",
+			"keywords": []
+		}
+	},
+	"post": 862,
+	"source_url": "https:\/\/business.utsa.edu\/wp-content\/uploads\/2017\/10\/NSHMBA09GalaUTSA.jpg",
+	"_links": {
+		"self": [
+			{
+				"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/media\/1160"
+			}
+		],
+		"collection": [
+			{
+				"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/media"
+			}
+		],
+		"about": [
+			{
+				"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/types\/attachment"
+			}
+		],
+		"author": [
+			{
+				"embeddable": true,
+				"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/users\/14"
+			}
+		],
+		"replies": [
+			{
+				"embeddable": true,
+				"href": "https:\/\/business.utsa.edu\/wp-json\/wp\/v2\/comments?post=1160"
+			}
+		]
+	}
+}

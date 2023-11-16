@@ -1,0 +1,72 @@
+{"asset": {
+    "page": {
+        "contentTypePath": "College-PROTOTYPE:Blog",
+        "structuredData": {
+            "structuredDataNodes": [
+                {
+                    "type": "text",
+                    "identifier": "source",
+                    "text": "Alvarez College of Business"
+                },
+                {
+                    "type": "group",
+                    "identifier": "image1",
+                    "structuredDataNodes": [
+                        {
+                            "type": "asset",
+                            "identifier": "file",
+                            "filePath": "news/2023/images/ramiro_cavazos_headshot-1-scaled-e1697667391571.jpg",
+                            "assetType": "file"
+                        },
+                        {
+                            "type": "text",
+                            "identifier": "alt",
+                            "text": "Ramiro Cavazos"
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "identifier": "articleType",
+                    "text": "standard"
+                },
+                {
+                    "type": "text",
+                    "identifier": "caption",
+                    "text": "Ramiro Cavazos"
+                },
+                {
+                    "type": "group",
+                    "identifier": "link",
+                    "structuredDataNodes": []
+                },
+                {
+                    "type": "text",
+                    "identifier": "wysiwyg",
+                    "text": "<div id=\"attachment_26594\" style=\"width: 330px\" class=\"wp-caption alignright\"><img aria-describedby=\"caption-attachment-26594\" decoding=\"async\" class=\"size-medium wp-image-26594\" src=\"news/2023/images/ramiro_cavazos_headshot-1-320x400.jpg\" alt=\"Ramiro Cavazos\" width=\"320\" height=\"400\" /><p id=\"caption-attachment-26594\" class=\"wp-caption-text\">(Rodney Choice/Choice Photography/www.choicephotography.com)</p></div><p><strong>R</strong><strong>amiro Cavazos</strong>, president and chief executive officer of the<a href=\"https://www.ushcc.com/\" target=\"_blank\" rel=\"noopener\">U.S. Hispanic Chamber of Commerce</a>, will present the keynote address during the Carlos Alvarez College of Business Frost Distinguished Lecture Series at UTSA. The lecture begins at 11:30 a.m. Tuesday, Oct. 24 in the Richard S. Liu Auditorium (2.01.02) in the Business Building on the UTSA 1604 Campus. The event is free and open to the public.</p><p>A trusted economic development expert, Cavazos is a champion for bipartisan solutions that generate wealth to advance economic opportunity for the Hispanic community. Prior to this role, he was the president and chief executive officer of the San Antonio Hispanic Chamber of Commerce for over 10 years.</p><p>With a career that has spanned a variety of industries including large corporations, government service and even higher education, Cavazos has also worked for the City of San Antonio, University of Texas Health Science Center at San Antonio, the Levi Strauss Company and Levi Strauss Foundation, InterContinental Bank Shares Corporation and even taught at UTSA.</p><p>Cavazos, a native of Weslaco, TX, is chairman of the board for the Hispanic Association on Corporate Responsibility, based in Washington, D.C., that advocates for Fortune 500 companies to invest in more equitable and fair representation for Hispanics on corporate boards and publicly-traded companies. He also serves on the board of the Council on Foreign Relations and is a member of Bank of America&#8217;s National Community Advisory Council.</p><p>Sharing his views on Latino entrepreneurship, small business growth, trade and commerce, Cavazos has been featured in<em>Fortune</em>,<em>Forbes</em>,<em>Time</em>,<em>Newsweek</em>, CNN, the Associated Press,<em>The Economist</em>,<em>The Washington Post</em>,<em>El País</em>,<em>El Heraldo</em>and many other media outlets. He has also been recognized by<em>Latino Leaders Magazine</em>as one of America&#8217;s &#8220;101 Most Influential Latinos&#8221; for the last four years.</p><p>Cavazos earned his master&#8217;s degree in public administration from St. Mary&#8217;s University, where he received the honor of Distinguished Alumnus, and his bachelor&#8217;s degree in government from the University of Texas at Austin.</p><p>The Frost Distinguished Lecture Series brings prominent business and community leaders to UTSA to share their knowledge and experiences with students and others in the university and business community. The lecture series, which began in 1988, presents a forum for business leaders and academics to share their experiences in business so that students can broaden their understanding of the business world and the individuals who lead it.</p><p>&#8212;<a href=\"mailto:wendy.frost@utsa.edu\" target=\"_blank\" rel=\"noopener\">Wendy Frost</a></p>"
+                }
+            ]
+        },
+        "metadata": {
+            "displayName": "Ramiro Cavazos to Keynote Frost Distinguished Lecture Oct. 24",
+            "title": "Ramiro Cavazos to Keynote Frost Distinguished Lecture Oct. 24",
+            "summary": "",
+            "teaser": "Ramiro Cavazos, president and chief executive officer of the U.S. Hispanic Chamber of Commerce, will present the keynote address during the Carlos Alvarez College of Business Frost Distinguished Lecture Series at UTSA. The lecture begins at 11:30 a.m. Tuesday, Oct. 24 in the Richard S. Liu Auditorium (2.01.02) in the Business Building on the UTSA\n",
+            "keywords": "",
+            "metaDescription": "",
+            "author": "Wendy Frost",
+            "startDate": "2023-10-18T17:16:47.000Z"
+        },
+        "parentFolderPath": "/news/2023/10",
+        "siteName": "ACOB-VPAA-ASC-HALSTORE",
+        "tags": [
+            {
+                "name": "events"
+            },
+            {
+                "name": "news"
+            }
+        ],
+        "name": "cavazos-frost"
+    }
+}}
