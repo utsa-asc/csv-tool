@@ -1,0 +1,112 @@
+[
+	{
+		"id": 18940,
+		"slug": "education-interdisciplinary-studies",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/education-interdisciplinary-studies\/",
+		"title": {
+			"rendered": "Education - Interdisciplinary Studies (BA)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			683
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Education Interdisciplinary Studies | UTSA"
+		}
+	},
+	{
+		"id": 18749,
+		"slug": "mexican-american-studies",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/mexican-american-studies\/",
+		"title": {
+			"rendered": "Mexican American Studies (BA)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			684
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Mexican American Studies | UTSA"
+		}
+	},
+	{
+		"id": 18748,
+		"slug": "african-american-studies",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/african-american-studies\/",
+		"title": {
+			"rendered": "African American Studies (BA)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			684
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in African American Studies | UTSA"
+		}
+	},
+	{
+		"id": 18599,
+		"slug": "womens-gender-sexuality-studies",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/womens-gender-sexuality-studies\/",
+		"title": {
+			"rendered": "Women&#8217;s, Gender and Sexuality Studies (BA)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			684
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Women's Studies | UTSA"
+		}
+	},
+	{
+		"id": 18341,
+		"slug": "education",
+		"status": "publish",
+		"type": "program_undergrad",
+		"link": "https:\/\/future.utsa.edu\/programs\/undergraduate\/education\/",
+		"title": {
+			"rendered": "Education &#8211; Equity and Education (BA)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			683
+		],
+		"degree_type": [
+			644
+		],
+		"yoast_head_json": {
+			"title": "Bachelor's Degree in Education | UTSA"
+		}
+	}
+]
