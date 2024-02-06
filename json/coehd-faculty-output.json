@@ -1,0 +1,90 @@
+{
+    "asset": {
+        "xhtmlDataDefinitionBlock": {
+            "structuredData": {
+                "definitionPath": "College-PROTOTYPE:Components/Faculty",
+                "structuredDataNodes": [
+                    {
+                        "type": "group",
+                        "identifier": "details",
+                        "structuredDataNodes": [
+                            {
+                                "type": "text",
+                                "identifier": "title",
+                                "text": "Professor Emerita"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "primaryDepartment",
+                                "text": "Counseling"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "phone"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "email"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "office"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "wysiwyg"
+                            },
+                            {
+                                "type": "group",
+                                "identifier": "cvlink",
+                                "structuredDataNodes": []
+                            }
+                        ]
+                    },
+                    {
+                        "type": "group",
+                        "identifier": "image",
+                        "structuredDataNodes": [
+                            {
+                                "type": "asset",
+                                "identifier": "file",
+                                "filePath": "faculty/headshots/_utsa-profile-placeholder-400x500.svg",
+                                "assetType": "file"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "alt",
+                                "text": "Placeholder"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "type",
+                                "text": "No Link"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "target",
+                                "text": "Parent Window/Tab"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "metadataSetPath": "College-PROTOTYPE:Faculty",
+            "metadata": {
+                "displayName": "Thelma Duffey, Ph.D."
+            },
+            "parentFolderPath": "faculty/_blocks/counseling",
+            "siteName": "COEHD-VPAA-DLS-HALSTORE",
+            "tags": [
+                {
+                    "name": "counseling"
+                },
+                {
+                    "name": "adjoint"
+                }
+            ],
+            "name": "duffey-thelma"
+        }
+    }
+}
