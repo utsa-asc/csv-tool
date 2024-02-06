@@ -23,3 +23,5 @@ sections.log
 acob/news*.json
 acob/upload/**/*
 acob/news/**/*
+coehd/~*
+coehd/images/**/*

@@ -1,0 +1,112 @@
+[
+	{
+		"id": 20203,
+		"slug": "school-psychology",
+		"status": "publish",
+		"type": "program_doctoral",
+		"link": "https:\/\/future.utsa.edu\/programs\/doctoral\/school-psychology\/",
+		"title": {
+			"rendered": "School Psychology (PhD)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			682
+		],
+		"degree_type": [
+			656
+		],
+		"yoast_head_json": {
+			"title": "PhD in School Psychology | UTSA"
+		}
+	},
+	{
+		"id": 19588,
+		"slug": "educational-leadership",
+		"status": "publish",
+		"type": "program_doctoral",
+		"link": "https:\/\/future.utsa.edu\/programs\/doctoral\/educational-leadership\/",
+		"title": {
+			"rendered": "Educational Leadership (PhD)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			681
+		],
+		"degree_type": [
+			656
+		],
+		"yoast_head_json": {
+			"title": "PhD in Educational Leadership | UTSA"
+		}
+	},
+	{
+		"id": 19458,
+		"slug": "counselor-education-supervision",
+		"status": "publish",
+		"type": "program_doctoral",
+		"link": "https:\/\/future.utsa.edu\/programs\/doctoral\/counselor-education-supervision\/",
+		"title": {
+			"rendered": "Counselor Education and Supervision (PhD)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			680
+		],
+		"degree_type": [
+			656
+		],
+		"yoast_head_json": {
+			"title": "Counselor Education PhD | UTSA Graduate School"
+		}
+	},
+	{
+		"id": 19600,
+		"slug": "interdisciplinary-learning-teaching",
+		"status": "publish",
+		"type": "program_doctoral",
+		"link": "https:\/\/future.utsa.edu\/programs\/doctoral\/interdisciplinary-learning-teaching\/",
+		"title": {
+			"rendered": "Interdisciplinary Learning and Teaching (PhD)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			683
+		],
+		"degree_type": [
+			656
+		],
+		"yoast_head_json": {
+			"title": "PhD in Learning and Teaching | UTSA"
+		}
+	},
+	{
+		"id": 19578,
+		"slug": "culture-literacy-language",
+		"status": "publish",
+		"type": "program_doctoral",
+		"link": "https:\/\/future.utsa.edu\/programs\/doctoral\/culture-literacy-language\/",
+		"title": {
+			"rendered": "Culture, Literacy and Language (PhD)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			679
+		],
+		"degree_type": [
+			656
+		],
+		"yoast_head_json": {
+			"title": "PhD in Culture, Literacy and Language | UTSA"
+		}
+	}
+]

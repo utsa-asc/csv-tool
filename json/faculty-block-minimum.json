@@ -93,12 +93,12 @@
 			},
 			"metadataSetPath": "College-PROTOTYPE:Faculty",
 			"metadata": {
-				"displayName": "Aaron Cassill, Ph.D."
+				"displayName": "First Last, Ph.D."
 			},
 			"parentFolderPath": "faculty/_blocks/integrative-biology",
-			"siteName": "ACOB-VPAA-ASC-HALSTORE",
+			"siteName": "COEHD-VPAA-DLS-HALSTORE",
 			"tags": [],
-			"name": "cassill-aaron-rest"
+			"name": "last-first"
 		}
 	}
 }
