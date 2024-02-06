@@ -2,6 +2,7 @@
     "asset": {
         "xhtmlDataDefinitionBlock": {
             "structuredData": {
+                "definitionId": "75fe40b9ac1300061a13163cc56fe263",
                 "definitionPath": "College-PROTOTYPE:Components/Faculty",
                 "structuredDataNodes": [
                     {
@@ -11,35 +12,132 @@
                             {
                                 "type": "text",
                                 "identifier": "title",
-                                "text": "Professor Emerita"
+                                "text": "Professor and Department Chair",
+                                "recycled": false
                             },
                             {
                                 "type": "text",
                                 "identifier": "primaryDepartment",
-                                "text": "Counseling"
+                                "text": "Bicultural-Bilingual Studies",
+                                "recycled": false
                             },
                             {
                                 "type": "text",
-                                "identifier": "phone"
+                                "identifier": "phone",
+                                "recycled": false
                             },
                             {
                                 "type": "text",
-                                "identifier": "email"
+                                "identifier": "email",
+                                "text": "patricia.sanchez@utsa.edu",
+                                "recycled": false
                             },
                             {
                                 "type": "text",
-                                "identifier": "office"
+                                "identifier": "office",
+                                "recycled": false
                             },
                             {
                                 "type": "text",
-                                "identifier": "wysiwyg"
+                                "identifier": "wysiwyg",
+                                "recycled": false
                             },
                             {
                                 "type": "group",
                                 "identifier": "cvlink",
-                                "structuredDataNodes": []
+                                "structuredDataNodes": [
+                                    {
+                                        "type": "text",
+                                        "identifier": "type",
+                                        "text": "internal",
+                                        "recycled": false
+                                    },
+                                    {
+                                        "type": "text",
+                                        "identifier": "label",
+                                        "text": "CV for Patricia Sanchez, Ph.D.",
+                                        "recycled": false
+                                    },
+                                    {
+                                        "type": "text",
+                                        "identifier": "ariaLabel",
+                                        "recycled": false
+                                    },
+                                    {
+                                        "type": "asset",
+                                        "identifier": "internal",
+                                        "filePath": "faculty/cv/bicultural-bilingual-studies/sanchez-patricia.pdf",
+                                        "assetType": "page,file,symlink",
+                                        "recycled": false
+                                    },
+                                    {
+                                        "type": "text",
+                                        "identifier": "anchor",
+                                        "recycled": false
+                                    },
+                                    {
+                                        "type": "text",
+                                        "identifier": "external",
+                                        "text": "https://",
+                                        "recycled": false
+                                    },
+                                    {
+                                        "type": "text",
+                                        "identifier": "target",
+                                        "text": "Parent Window/Tab",
+                                        "recycled": false
+                                    }
+                                ],
+                                "recycled": false
+                            },
+                            {
+                                "type": "group",
+                                "identifier": "link",
+                                "structuredDataNodes": [
+                                    {
+                                        "type": "text",
+                                        "identifier": "type",
+                                        "text": "No Link",
+                                        "recycled": false
+                                    },
+                                    {
+                                        "type": "text",
+                                        "identifier": "label",
+                                        "recycled": false
+                                    },
+                                    {
+                                        "type": "text",
+                                        "identifier": "ariaLabel",
+                                        "recycled": false
+                                    },
+                                    {
+                                        "type": "asset",
+                                        "identifier": "internal",
+                                        "assetType": "page,file,symlink",
+                                        "recycled": false
+                                    },
+                                    {
+                                        "type": "text",
+                                        "identifier": "anchor",
+                                        "recycled": false
+                                    },
+                                    {
+                                        "type": "text",
+                                        "identifier": "external",
+                                        "text": "https://",
+                                        "recycled": false
+                                    },
+                                    {
+                                        "type": "text",
+                                        "identifier": "target",
+                                        "text": "Parent Window/Tab",
+                                        "recycled": false
+                                    }
+                                ],
+                                "recycled": false
                             }
-                        ]
+                        ],
+                        "recycled": false
                     },
                     {
                         "type": "group",
@@ -48,43 +146,87 @@
                             {
                                 "type": "asset",
                                 "identifier": "file",
-                                "filePath": "faculty/headshots/_utsa-profile-placeholder-400x500.svg",
-                                "assetType": "file"
+                                "fileId": "7f4be0b6ac1400034fe6d04d048849c6",
+                                "filePath": "faculty/headshots/bicultural-bilingual-studies/sanchez-patricia.jpg",
+                                "assetType": "file",
+                                "recycled": false
                             },
                             {
                                 "type": "text",
                                 "identifier": "alt",
-                                "text": "Placeholder"
+                                "text": "Patricia Sánchez, Ph.D.",
+                                "recycled": false
                             },
                             {
                                 "type": "text",
                                 "identifier": "type",
-                                "text": "No Link"
+                                "text": "No Link",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "label",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "ariaLabel",
+                                "recycled": false
+                            },
+                            {
+                                "type": "asset",
+                                "identifier": "internal",
+                                "assetType": "page,file,symlink",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "external",
+                                "text": "https://",
+                                "recycled": false
                             },
                             {
                                 "type": "text",
                                 "identifier": "target",
-                                "text": "Parent Window/Tab"
+                                "text": "Parent Window/Tab",
+                                "recycled": false
                             }
-                        ]
+                        ],
+                        "recycled": false
                     }
                 ]
             },
+            "expirationFolderRecycled": false,
+            "metadataSetId": "75fe203aac1300061a13163ca465b772",
             "metadataSetPath": "College-PROTOTYPE:Faculty",
             "metadata": {
-                "displayName": "Thelma Duffey, Ph.D."
+                "displayName": "Patricia S&#225;nchez, Ph.D.",
+                "title": "",
+                "summary": "",
+                "teaser": "",
+                "keywords": "",
+                "metaDescription": "",
+                "author": ""
             },
-            "parentFolderPath": "faculty/_blocks/counseling",
+            "reviewOnSchedule": false,
+            "reviewEvery": 0,
+            "parentFolderId": "6128b394ac1400034fe6d04d776533a4",
+            "parentFolderPath": "faculty/_blocks/bicultural-bilingual-studies",
+            "lastModifiedDate": "2024-02-06T19:20:11.125Z",
+            "lastModifiedBy": "admin",
+            "createdDate": "2024-02-05T21:13:07.130Z",
+            "createdBy": "admin",
+            "path": "faculty/_blocks/bicultural-bilingual-studies/sanchez-patricia",
+            "siteId": "612884ccac1400034fe6d04da0c87e39",
             "siteName": "COEHD-VPAA-DLS-HALSTORE",
             "tags": [
                 {
-                    "name": "counseling"
-                },
-                {
-                    "name": "adjoint"
+                    "name": "bicultural-bilingual-studies"
                 }
             ],
-            "name": "duffey-thelma"
+            "name": "sanchez-patricia",
+            "id": "7b1e1b46ac1400034fe6d04dcab8bb71"
         }
-    }
+    },
+    "success": true
 }

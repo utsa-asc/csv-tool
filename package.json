@@ -8,7 +8,10 @@
     "coehd-program-process": "node coehd-scripts/program-block-process.js",
     "coehd-program-update": "node coehd-scripts/program-block-update.js",
     "coehd-faculty-process": "node coehd-scripts/coehd-faculty-block-process.js",
-
+    "coehd-faculty-headshot-download": "node coehd-scripts/coehd-faculty-headshot-download.js",
+    "coehd-faculty-headshot-update": "node coehd-scripts/coehd-faculty-headshot-update.js",
+    "coehd-faculty-cv-download": "node coehd-scripts/coehd-faculty-cv-download.js",
+    "coehd-faculty-cv-update": "node coehd-scripts/coehd-faculty-cv-update.js",
 
     "acob-news-post": "node acob-scripts/news-page-post.js",
     "acob-news-process": "node acob-scripts/news-page-process.js",
@@ -70,6 +73,7 @@
     "mysql2": "^3.2.0",
     "puppeteer": "^20.4.0",
     "puppeteer-core": "^20.4.0",
+    "request": "^2.88.2",
     "stream": "^0.0.2",
     "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.0/xlsx-0.20.0.tgz"
   }
