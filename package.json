@@ -12,6 +12,8 @@
     "coehd-faculty-headshot-update": "node coehd-scripts/coehd-faculty-headshot-update.js",
     "coehd-faculty-cv-download": "node coehd-scripts/coehd-faculty-cv-download.js",
     "coehd-faculty-cv-update": "node coehd-scripts/coehd-faculty-cv-update.js",
+    "coehd-faculty-page-process": "node coehd-scripts/coehd-faculty-page-process.js",
+    "coehd-faculty-page-update": "node coehd-scripts/coehd-faculty-link-fix.js",
 
     "acob-news-post": "node acob-scripts/news-page-post.js",
     "acob-news-process": "node acob-scripts/news-page-process.js",

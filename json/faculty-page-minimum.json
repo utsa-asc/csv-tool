@@ -7,7 +7,7 @@
                     {
                         "type": "asset",
                         "identifier": "block",
-                        "blockPath": "faculty/_blocks/information-systems-and-cyber-security/atchison-michelle",
+                        "blockPath": "faculty/_blocks/tag/last-first",
                         "assetType": "block",
                         "recycled": false
                     },
@@ -42,10 +42,10 @@
                 "displayName": "",
                 "title": "Jane Doe"
             },
-            "parentFolderPath": "faculty",
-            "siteName": "ACOB-VPAA-ASC-HALSTORE",
+            "parentFolderPath": "faculty/profiles",
+            "siteName": "COEHD-VPAA-DLS-HALSTORE",
             "tags": [],
-            "name": "doe-jane"
+            "name": "last-fist"
         }
     }
 }
