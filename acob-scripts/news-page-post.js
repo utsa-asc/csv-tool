@@ -13,8 +13,8 @@ const API_KEY = process.env.API_KEY;
 const PAYLOAD_DOCUMENT = fs.readFileSync("json/test-post.json");
 const TARGET_SITE = "ACOB-VPAA-ASC-HALSTORE";
 const POST_URI = "/api/v1/create";
-const START_YEAR = 2017;
-const END_YEAR = 2018;
+const START_YEAR = 2012;
+const END_YEAR = 2013;
 const TYPE = "edited"
 
 var protocol = http;
@@ -142,7 +142,7 @@ function preparePayload(task) {
         }
       ];
     }
-    if (d.identifier == "caption") {
+    if ((d.identifier == "caption") && (postData.featured_image)) {
       d.text = postData.featured_image.alt
     }
     if (d.identifier == "wysiwyg") {

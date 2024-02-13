@@ -36,7 +36,7 @@ const DEFAULT_SOURCE = "Alvarez College of Business";
 //map over each post
 //create a task for each one
 var tasks = [];
-var targetYear = 2017;
+var targetYear = 2009;
 
 let JSON_FILE = "acob/news-" + targetYear + ".json";
 let POSTS_FILE = fs.readFileSync(JSON_FILE);
@@ -113,13 +113,14 @@ async function completeTask(t) {
     delete t.post.excerpt.rendered;
     t.post.author_name = lookupAuthor(t.post.author);
     if ((newContent.author != "") || (newContent.author == undefined)) {
-      t.post.author_name.name = newContent.author;
+      t.post.author_name.name = cleanText(newContent.author);
       t.post.author_name.slug = newContent.author.replaceAll(' ' , '-').toLowerCase();
     }
     t.post.tags_generated = generateTags(t.post.tags);
     // console.log("easy stuff done: " + t.post.id);
     //async call to process images
     t.post.parentFolderPath = computeParentFolder(t.post.date);
+    console.log("processImages: " + t.post.id);
     t.post.content.clean = processImages(t.post.content.clean, t.post.date);
     let postLinks = t.post['_links'];
     let firstFeatured = postLinks['wp:featuredmedia'];
@@ -153,7 +154,7 @@ function generateNewContent(htmlContent, post) {
     }
 
     if (paragraphs[psize - 1]) {
-      let byline = paragraphs[psize - 1].getText().trim();
+      let byline = cleanText(paragraphs[psize - 1].getText().trim());
       //verify this is a byline
       if (byline.indexOf('&#8211;' == 0) || (byline.indexOf('&#8212;' == 0))) {
         if ((byline.length < 35) & (byline.indexOf('nbsp') < 0) ) {
@@ -162,6 +163,9 @@ function generateNewContent(htmlContent, post) {
           results.author = results.author.replace('&#8211;', '').trim();
           results.author = results.author.replace('—', '').trim();
           results.author = results.author.replace('&#8212;', '').trim();
+          if (results.author.indexOf('By') == 0) {
+            results.author = results.author.substring(2, results.author.length).trim();
+          }
           paragraphs[psize - 1].extract();
         }
       }
@@ -194,7 +198,8 @@ function lookupAuthor(id) {
 }
 
 function cleanText(content) {
-  var contentStr = content.replaceAll('&nbsp;', '&#160;');
+  var contentStr = content + "";
+  contentStr = contentStr.replaceAll('&nbsp;', '&#160;');
   contentStr = contentStr.replace(/\u00a0/g, " ");
   //curly quote unicode character, double quotes
   
@@ -213,6 +218,7 @@ function cleanText(content) {
   contentStr = contentStr.replaceAll('ñ', "&#241;");
   contentStr = contentStr.replaceAll('á', '&#225;');
   contentStr = contentStr.replaceAll('á', '&#225;');
+  contentStr = contentStr.replaceAll('ä', '&#228;')
   contentStr = contentStr.replaceAll('ó', '&#243;');
   contentStr = contentStr.replaceAll('ú', '&#250;');
   contentStr = contentStr.replaceAll('ü', '&#252;');
@@ -231,9 +237,11 @@ function cleanText(content) {
   contentStr = contentStr.replaceAll(' ­­­', ' ');
   contentStr = contentStr.replaceAll('ê', '&#234;');
   contentStr = contentStr.replaceAll('Å', '&#197;');
-  
+  contentStr = contentStr.replaceAll('‐', '-');
   contentStr = contentStr.replaceAll('É', '&#201;');
-
+  contentStr = contentStr.replaceAll('½', '&#189;');
+  contentStr = contentStr.replaceAll('™', '&#8482;');
+  contentStr = contentStr.replaceAll('²', '&#178;')
   return contentStr;
 }
 
