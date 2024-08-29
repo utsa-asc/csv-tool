@@ -4,6 +4,7 @@ var JSSoup = require('jssoup').default;
 const XLSX = require("xlsx");
 var fs = require('fs');
 const { readFile } = require('fs/promises');
+const { kMaxLength } = require('buffer');
 XLSX.set_fs(fs);
 var tasks = [];
 require('dotenv').config();
@@ -16,8 +17,8 @@ const FETCH = process.env.FETCH;
 const SAVE = process.env.SAVE;
 const PAYLOAD_DOCUMENT = fs.readFileSync("json/new-faculty-block.json");
 const POST_URI = "/api/v1/create";
-const SHEET_NAME = "errors";
-const SOURCE_DOCUMENT = "new-faculty/faculty.xlsx";
+const SHEET_NAME = "new-faculty";
+const SOURCE_DOCUMENT = "new-faculty/new-faculty.xlsx";
 
 var protocol = http;
 if (CAS_PORT == 443) {
@@ -25,7 +26,7 @@ if (CAS_PORT == 443) {
 }
 
 var tasks = [];
-var workbook = XLSX.readFile(SOURCE_DOCUMENT, {cellDates:true});
+var workbook = XLSX.readFile(SOURCE_DOCUMENT, { cellDates: true });
 console.dir(workbook.SheetNames);
 var dataSheet = workbook.Sheets[SHEET_NAME];
 const sheetRange = XLSX.utils.decode_range(dataSheet['!ref']);
@@ -33,91 +34,121 @@ const maxRow = sheetRange.e.r;
 
 console.log(maxRow);
 for (let i = 2; i < (maxRow + 2); i++) {
-  console.log(i);
+  // console.log(i);
   var newTask = {}
   try {
     var newTask = {
       "row": i,
-      "college": dataSheet['A'+i].v.trim(),
-      "dept": dataSheet['B'+i].v.trim(),
-      "first": dataSheet['C'+i].v.trim(),
-      "last": dataSheet['D'+i].v.trim(),
-      "name": dataSheet['E'+i].v.trim(),
-      "title": dataSheet['F'+i].v.trim(),
-      "uri": dataSheet['M'+i].v
+      "first": dataSheet['A' + i].v.trim(),
+      "last": dataSheet['B' + i].v.trim(),
+      "college": dataSheet['C' + i].v.trim(),
+      "dept": dataSheet['D' + i].v.trim(),
+      "title": dataSheet['E' + i].v.trim()
     };
-    if (dataSheet['H'+i]) {
-      newTask['edu'] = dataSheet['H'+i].v.trim();
+    if (dataSheet['F' + i]) {
+      newTask['degree'] = dataSheet['F' + i].v.trim();
     } else {
-      newTask['edu'] = "";
+      newTask['degree'] = "";
     }
-    if (dataSheet['K'+i]) {
-      newTask['image'] = dataSheet['L'+i].v.trim();
+    if (dataSheet['G' + i]) {
+      newTask['institution'] = dataSheet['G' + i].v.trim();
     } else {
-      newTask['image'] = "";
+      newTask['institution'] = "";
     }
     // console.log("last part:" + parts[parts.length - 1]);
+
+    newTask.tags = parseTags(newTask.college);
+    newTask.fullname = newTask.first + " " + newTask.last;
+    if (newTask.degree != "") {
+      newTask.fullname = newTask.fullname + ", " + newTask.degree
+    }
+    newTask.uri = newTask.last.toLowerCase().trim() + "-" + newTask.first.toLowerCase().trim();
+    newTask.uri = newTask.uri.replaceAll(' ', '-');
+    newTask.uri = newTask.uri.replaceAll("'", "");
+    newTask.uri = clean(newTask.uri);
+    newTask.fulltitle = newTask.title + ", " + newTask.dept;
+    newTask.headshoturi = "img/2024/" + newTask.uri + ".jpg";
+
+    if (!imageCheck(newTask.headshoturi)) {
+      // modify value in D4
+      let inf = "image not found, expected: " + newTask.headshoturi;
+      newTask.headshoturi = "";
+      let origin = "H" + newTask.row;
+      console.log("updating cell: " + origin);
+      XLSX.utils.sheet_add_aoa(dataSheet, [[inf]], {origin: origin});
+    }
+
     tasks.push(newTask);
     // console.dir(newTask);
-  } catch(pe) {
+  } catch (pe) {
     console.log(pe);
     console.log("unable to parse: " + i + " skipping row");
   }
 }
+
 // console.dir(testSheet.Workbook.Names);
 // console.log(testSheet);
+
 completeTasks(dataSheet);
 
 async function completeTasks(dataSheet) {
   var currentTask = {}
-  try {
-    for (let t of tasks) {
-      currentTask = t;
-      //prep JSON document
-      let payload = preparePayload(t);
-      //POST payload
-      let strPayload = JSON.stringify(payload);
-      // console.log(strPayload);
-      if (DO_POST == "YES") {
+  for (let t of tasks) {
+    currentTask = t;
+    //prep JSON document
+    let payload = preparePayload(t);
+    //POST payload
+    let strPayload = JSON.stringify(payload);
+    // console.log(strPayload);
+    if (DO_POST == "YES") {
+      try {
         let postedAsset = await postAsset(POST_URI, strPayload);
-        console.log(postedAsset);
-        if (postedAsset.success == true) {
-          console.dir(task);
+        // console.log(postedAsset);
+        let respObj = JSON.parse(postedAsset);
+        if (respObj.success == false) {
+          console.dir(respObj);
         }
-      } else {
-        console.log("POST IS NO");
+      } catch (e) {
+        let msg = "unable to create block: " + currentTask.uri;
+        let origin = "H" + currentTask.row;
+        console.log("updating cell: " + origin);
+        XLSX.utils.sheet_add_aoa(dataSheet, [[msg]], {origin: origin});
+        console.log("Error while running tasks");
+        console.log(e);
+        console.dir(currentTask);
       }
-      //report result
+    } else {
+      console.log("POST IS NO");
     }
-  } catch (e) {
-    console.log("Error while running tasks");
-    console.log(e);
-    console.dir(currentTask);
+    //report result
   }
+
+  XLSX.writeFile(workbook, 'new-faculty-output.xls');
+
 }
 
 function preparePayload(task) {
   var block = JSON.parse(PAYLOAD_DOCUMENT);
-  task.tags = parseTags(task.college);
+
   //
   block.asset.xhtmlDataDefinitionBlock.tags = task.tags;
-  block.asset.xhtmlDataDefinitionBlock.metadata.displayName = task.name;
-  block.asset.xhtmlDataDefinitionBlock.metadata.title = task.name;
+  block.asset.xhtmlDataDefinitionBlock.metadata.displayName = task.fullname;
+  block.asset.xhtmlDataDefinitionBlock.metadata.title = task.fullname;
   block.asset.xhtmlDataDefinitionBlock.name = task.uri;
 
   var sdns = block.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes
   var newSDNs = [];
   //sdns[0] is the first and only struct in structuredDataNodes
   //a.k.a. the staffMember group
-  sdns[0].structuredDataNodes.map(function(groupItem) {
+  sdns[0].structuredDataNodes.map(function (groupItem) {
     if (groupItem.identifier == "headshot") {
-      groupItem.filePath = task.image;
+      groupItem.filePath = task.headshoturi;
     }
     if (groupItem.identifier == "title") {
-      groupItem.text = task.title;
+      groupItem.text = task.fulltitle;
     }
     if (groupItem.identifier == "education") {
-      groupItem.text = task.edu;
+      groupItem.text = task.institution;
     }
     newSDNs.push(groupItem);
   });
@@ -127,19 +158,29 @@ function preparePayload(task) {
 }
 
 function parseTags(str) {
+  var tags = [];
   var collegeHash = {
+    "ACOB": "Alvarez College of Business",
+    "COEHD": "College of Education and Human Development",
     "COLFA": "College of Liberal and Fine Arts",
     "COS": "College of Sciences",
-    "ACOB": "Alvarez College of Business",
     "HCAP": "College for Health, Community and Policy",
-    "COEHD": "College of Education and Human Development",
+    "KCEID": "Klesse College of Engineering and Integrated Design",
     "UC": "University College",
-    "CEID": "Klesse College of Engineering and Integrated Design",
+    "ConTex": "ConTex"
   };
-  var college = collegeHash[str];
-  var tags = [];
-  tags.push({"name": "2023"});
-  tags.push({"name": college });
+  var collegeTagElements = str.split(',');
+  tags.push({ "name": "2024" });
+
+  if (collegeTagElements.length > 1) {
+    collegeTagElements.map(function (c) {
+      var college = collegeHash[c];
+      tags.push({ "name": college });
+    })
+  } else {
+    var college = collegeHash[str];
+    tags.push({ "name": college });
+  }
   return tags;
 }
 
@@ -150,7 +191,8 @@ function clean(str) {
   cleanStr = cleanStr.replaceAll('á', 'a');
   cleanStr = cleanStr.replaceAll('–', '-');
   cleanStr = cleanStr.replaceAll("’", "'");
-  console.log(cleanStr);
+  cleanStr = cleanStr.replaceAll("ü", "u");
+  // console.log(cleanStr);
   return cleanStr;
 }
 
@@ -171,9 +213,9 @@ async function postAsset(uri, payload) {
     path: POST_URI,
     method: 'POST',
     headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
-        'Content-Length': payload.length,
-        Authorization: ' Bearer ' + API_KEY
+      'Content-Type': 'application/x-www-form-urlencoded',
+      'Content-Length': payload.length,
+      Authorization: ' Bearer ' + API_KEY
     }
   };
   if (CAS_PORT == 443) {
@@ -182,29 +224,29 @@ async function postAsset(uri, payload) {
   }
   // console.log(payload);
   let p = new Promise((resolve, reject) => {
-		const req = protocol.request(postOptions, (response) => {
+    const req = protocol.request(postOptions, (response) => {
       // console.log(postOptions);
       console.log(postOptions.headers['Content-Length'] + "\t" + payloadObj.asset.xhtmlDataDefinitionBlock.name);
       // console.log(payload);
       // console.log(payload.length);
-			let chunks_of_data = [];
-			response.on('data', (fragments) => {
-				chunks_of_data.push(fragments);
-			});
+      let chunks_of_data = [];
+      response.on('data', (fragments) => {
+        chunks_of_data.push(fragments);
+      });
 
-			response.on('end', () => {
-				let responseBody = Buffer.concat(chunks_of_data);
+      response.on('end', () => {
+        let responseBody = Buffer.concat(chunks_of_data);
         let responseString = responseBody.toString();
         resolve(responseString);
-			});
+      });
 
-			response.on('error', (error) => {
-				reject(error);
-			});
-		});
+      response.on('error', (error) => {
+        reject(error);
+      });
+    });
     req.write(payload);
     req.end();
-	});
+  });
 
   return await p;
 }
@@ -224,4 +266,17 @@ function sanitizeText(content) {
   contentStr = contentStr.replace('<hr>', '<hr/>');
   contentStr = contentStr.replace(/[^\x00-\x7F]/g, "");
   return contentStr;
+}
+
+function imageCheck(uri) {
+  var result = false;
+  let localimagepath = "new-faculty/" + uri;
+  if (!fs.existsSync(localimagepath)) {
+    console.log("image not found: " + localimagepath);
+    result = false;
+  } else {
+    result = true;
+  }
+
+  return result;
 }
