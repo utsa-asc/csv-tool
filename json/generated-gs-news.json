@@ -1,0 +1,59 @@
+{
+    "asset": {
+        "page": {
+            "contentTypePath": "College-PROTOTYPE:Blog",
+            "structuredData": {
+                "structuredDataNodes": [
+                    {
+                        "type": "text",
+                        "identifier": "source",
+                        "text": "The Graduate School"
+                    },
+                    {
+                        "type": "group",
+                        "identifier": "image1",
+                        "structuredDataNodes": []
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "articleType",
+                        "text": "standard"
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "caption",
+                        "text": ""
+                    },
+                    {
+                        "type": "group",
+                        "identifier": "link",
+                        "structuredDataNodes": []
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "wysiwyg",
+                        "text": "html content goes here"
+                    }
+                ]
+            },
+            "metadata": {
+                "displayName": "headline",
+                "title": "headline",
+                "summary": "",
+                "teaser": "teaser",
+                "keywords": "",
+                "metaDescription": "",
+                "author": "author",
+                "startDate": "2023-10-18T17:16:47.000Z"
+            },
+            "parentFolderPath": "/news/2024/08",
+            "siteName": "GRADUATESCHOOL-VPAA-ASC-HALSTORE",
+            "tags": [
+                {
+                    "name": "news"
+                }
+            ],
+            "name": "dd-article-name"
+        }
+    }
+}
