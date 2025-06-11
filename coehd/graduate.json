@@ -1,0 +1,310 @@
+[
+	{
+		"id": 20755,
+		"slug": "teaching-english-as-a-second-language",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/teaching-english-as-a-second-language\/",
+		"title": {
+			"rendered": "Teaching English as a Second Language (MA)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			679
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in ESL Teaching | UTSA"
+		}
+	},
+	{
+		"id": 20727,
+		"slug": "special-education",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/special-education\/",
+		"title": {
+			"rendered": "Special Education (MA)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			683
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Special Education | UTSA"
+		}
+	},
+	{
+		"id": 20722,
+		"slug": "school-psychology",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/school-psychology\/",
+		"title": {
+			"rendered": "School Psychology (MA)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			682
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in School Psychology | UTSA"
+		}
+	},
+	{
+		"id": 20711,
+		"slug": "school-counseling",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/school-counseling\/",
+		"title": {
+			"rendered": "School Counseling (MEd)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			680
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in School Counseling | UTSA"
+		}
+	},
+	{
+		"id": 20693,
+		"slug": "literacy-education",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/literacy-education\/",
+		"title": {
+			"rendered": "Literacy Education (MA)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			683
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's in Literacy Education | UTSA"
+		}
+	},
+	{
+		"id": 20680,
+		"slug": "learning-design-technology",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/learning-design-technology\/",
+		"title": {
+			"rendered": "Learning, Design, and Technology (MA)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			683
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Learning, Design, and Technology | UTSA"
+		}
+	},
+	{
+		"id": 20667,
+		"slug": "higher-education-administration",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/higher-education-administration\/",
+		"title": {
+			"rendered": "Higher Education Administration (MEd)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			681
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Higher Education Administration | UTSA"
+		}
+	},
+	{
+		"id": 20638,
+		"slug": "applied-educational-psychology",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/applied-educational-psychology\/",
+		"title": {
+			"rendered": "Applied Educational Psychology (MA)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			682
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Educational Psychology | UTSA"
+		}
+	},
+	{
+		"id": 20615,
+		"slug": "educational-leadership",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/educational-leadership\/",
+		"title": {
+			"rendered": "Educational Leadership (MEd)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			681
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Educational Leadership | UTSA"
+		}
+	},
+	{
+		"id": 20607,
+		"slug": "early-childhood-elementary-education",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/early-childhood-elementary-education\/",
+		"title": {
+			"rendered": "Early Childhood and Elementary Education (MA)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			683
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Early Childhood Education | UTSA"
+		}
+	},
+	{
+		"id": 20600,
+		"slug": "curriculum-instruction",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/curriculum-instruction\/",
+		"title": {
+			"rendered": "Curriculum and Instruction (MA)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			683
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Curriculum Instruction | UTSA"
+		}
+	},
+	{
+		"id": 20554,
+		"slug": "clinical-mental-health-counseling",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/clinical-mental-health-counseling\/",
+		"title": {
+			"rendered": "Clinical Mental Health Counseling (MS)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			680
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's in Clinical Mental Health Counseling | UTSA"
+		}
+	},
+	{
+		"id": 20541,
+		"slug": "bicultural-bilingual-education",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/bicultural-bilingual-education\/",
+		"title": {
+			"rendered": "Bicultural \/ Bilingual Education (MA)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			679
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's Degree in Bilingual Education | UTSA"
+		}
+	},
+	{
+		"id": 20522,
+		"slug": "behavior-analysis",
+		"status": "publish",
+		"type": "program_graduate",
+		"link": "https:\/\/future.utsa.edu\/programs\/master\/behavior-analysis\/",
+		"title": {
+			"rendered": "Behavior Analysis (MS)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			682
+		],
+		"degree_type": [
+			653
+		],
+		"yoast_head_json": {
+			"title": "Master's in Behavior Analysis | UTSA"
+		}
+	}
+]

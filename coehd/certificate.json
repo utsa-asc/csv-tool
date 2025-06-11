@@ -1,0 +1,201 @@
+[
+	{
+		"id": 21577,
+		"slug": "applied-behavior-analysis",
+		"status": "publish",
+		"type": "certificate",
+		"link": "https:\/\/future.utsa.edu\/programs\/graduate-certificate\/applied-behavior-analysis\/",
+		"title": {
+			"rendered": "Applied Behavior Analysis (CERT)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			682
+		],
+		"degree_type": [
+			651
+		],
+		"yoast_head_json": {
+			"title": "Graduate Certificate in Applied Behavior Analysis | UTSA"
+		}
+	},
+	{
+		"id": 21621,
+		"slug": "bilingual-counseling",
+		"status": "publish",
+		"type": "certificate",
+		"link": "https:\/\/future.utsa.edu\/programs\/graduate-certificate\/bilingual-counseling\/",
+		"title": {
+			"rendered": "Bilingual Counseling (CERT)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			679,
+			680
+		],
+		"degree_type": [
+			651
+		],
+		"yoast_head_json": {
+			"title": "Graduate Certificate in Bilingual Counseling | UTSA"
+		}
+	},
+	{
+		"id": 21636,
+		"slug": "bilingual-reading-specialist",
+		"status": "publish",
+		"type": "certificate",
+		"link": "https:\/\/future.utsa.edu\/programs\/graduate-certificate\/bilingual-reading-specialist\/",
+		"title": {
+			"rendered": "Bilingual Reading Specialist (CERT)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			679
+		],
+		"degree_type": [
+			651
+		],
+		"yoast_head_json": {
+			"title": "Graduate Certificate in Bilingual Reading Specialist | UTSA"
+		}
+	},
+	{
+		"id": 23487,
+		"slug": "career-technology-engineering-teaching",
+		"status": "publish",
+		"type": "certificate",
+		"link": "https:\/\/future.utsa.edu\/programs\/graduate-certificate\/career-technology-engineering-teaching\/",
+		"title": {
+			"rendered": "Career Technology and Engineering Teaching (CERT)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			679
+		],
+		"degree_type": [
+			651
+		],
+		"yoast_head_json": {
+			"title": "Graduate Certificate in Career Technology and Engineering Teaching"
+		}
+	},
+	{
+		"id": 21657,
+		"slug": "higher-education-administration",
+		"status": "publish",
+		"type": "certificate",
+		"link": "https:\/\/future.utsa.edu\/programs\/graduate-certificate\/higher-education-administration\/",
+		"title": {
+			"rendered": "Higher Education Administration (CERT)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			681
+		],
+		"degree_type": [
+			651
+		],
+		"yoast_head_json": {
+			"title": "Graduate Certificate in Higher Ed Administration | UTSA"
+		}
+	},
+	{
+		"id": 21666,
+		"slug": "istem-education",
+		"status": "publish",
+		"type": "certificate",
+		"link": "https:\/\/future.utsa.edu\/programs\/graduate-certificate\/istem-education\/",
+		"title": {
+			"rendered": "ISTEM Education (CERT)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			683
+		],
+		"degree_type": [
+			651
+		],
+		"yoast_head_json": {
+			"title": "Graduate Certificate in ISTEM Education | UTSA"
+		}
+	},
+	{
+		"id": 21698,
+		"slug": "mexican-american-studies",
+		"status": "publish",
+		"type": "certificate",
+		"link": "https:\/\/future.utsa.edu\/programs\/graduate-certificate\/mexican-american-studies\/",
+		"title": {
+			"rendered": "Mexican American Studies (CERT)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			684
+		],
+		"degree_type": [
+			651
+		],
+		"yoast_head_json": {
+			"title": "Graduate Certificate in Mexican American Studies | UTSA"
+		}
+	},
+	{
+		"id": 21766,
+		"slug": "teaching-english-as-a-second-language",
+		"status": "publish",
+		"type": "certificate",
+		"link": "https:\/\/future.utsa.edu\/programs\/graduate-certificate\/teaching-english-as-a-second-language\/",
+		"title": {
+			"rendered": "Teaching English as a Second Language (CERT)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			679
+		],
+		"degree_type": [
+			651
+		],
+		"yoast_head_json": {
+			"title": "Graduate Certificate in TESL | UTSA"
+		}
+	},
+	{
+		"id": 21757,
+		"slug": "technology-for-language-education",
+		"status": "publish",
+		"type": "certificate",
+		"link": "https:\/\/future.utsa.edu\/programs\/graduate-certificate\/technology-for-language-education\/",
+		"title": {
+			"rendered": "Technology for Language Education (CERT)"
+		},
+		"program_college": [
+			650
+		],
+		"department": [
+			679
+		],
+		"degree_type": [
+			651
+		],
+		"yoast_head_json": {
+			"title": "Technology for Language Education (CERT) - UTSA Admissions"
+		}
+	}
+]
