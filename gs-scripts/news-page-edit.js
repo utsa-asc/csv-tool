@@ -16,10 +16,11 @@
  * **/
 const https = require('https');
 const http = require('http');
+var JSSoup = require("jssoup").default;
 const XLSX = require("xlsx");
 var moment = require('moment'); // require
-moment().format(); 
-const {execSync} = require('child_process');
+moment().format();
+const { execSync } = require('child_process');
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 var fs = require('fs');
 XLSX.set_fs(fs);
@@ -35,13 +36,13 @@ const FETCH = process.env.FETCH;
 const SAVE = process.env.SAVE;
 const PAYLOAD_DOCUMENT = fs.readFileSync("json/generated-gs-news.json");
 const TARGET_SITE = "GRADUATESCHOOL-VPAA-ASC-HALSTORE";
-const POST_URI = "/api/v1/create";
+const POST_URI = "/api/v1/edit";
 const GET_URI = "/api/v1/read/page/GRADUATESCHOOL-VPAA-ASC-HALSTORE/"
 const PATH_FORMAT = "YYYY/MM";
 const DAY_FORMAT = "DD-";
-const TARGET_YEAR = 2024;
-const SOURCE_DOCUMENT = "gs/gs-old-news.xlsx";
-const SHEET_NAME = "gs-sitemap-cms";
+const TARGET_YEAR = 2020;
+const SOURCE_DOCUMENT = "gs/gs-news-new.xlsx";
+const SHEET_NAME = "news";
 
 var protocol = http;
 if (CAS_PORT == 443) {
@@ -66,7 +67,7 @@ for (let i = 2; i < (maxRow + 2); i++) {
   try {
     var newTask = {
       "row": i,
-      "uri": dataSheet['A' + i].v.trim()
+      "uri": dataSheet['B' + i].v.trim()
     };
     if (newTask.uri.includes(TARGET_YEAR)) {
       tasks.push(newTask);
@@ -110,12 +111,13 @@ async function completeTask(t) {
   try {
     if (FETCH == "YES") {
       console.log("FETCH: " + t.uri);
-      t.oldAsset = await getAsset(encodeURI(t.uri));
-      // console.dir(t.oldAsset);
+      t.asset = await getAsset(encodeURI(t.uri));
+      // console.dir(t.asset);
     }
     //given a task (post):
     // preparePayload(t)
     // POST payload
+    // const payload = {};
     const payload = preparePayload(t);
     let stringPayload = JSON.stringify(payload);
     // console.log(stringPayload);
@@ -138,8 +140,8 @@ async function completeTask(t) {
       } catch (e) {
         console.log("POST failed to return a JSON response");
         console.log(e);
-      } 
-    }    
+      }
+    }
   } catch (e) {
     console.log(e);
     console.log("Error while running tasks:");
@@ -149,134 +151,64 @@ async function completeTask(t) {
 }
 
 function preparePayload(task) {
-  //reconcile two blog posts, old Blog v1.2 and new DLS Blog
-  //metadata: headline, teaser, source, author, startDate
-  // generated properties:
-  // - parentFolderPath (required)
-  // - asset name (required):  convert old asset name to DD-headline-with-hyphens-all-lowercase format
-  //content:
-  // - html content
-  // - image1, if it exists
-  // - image1 alt text, if it exists
-  // - image2, if it exists
-  // - image2 alt text, if it exists
-  // - article content: old content row collapse into single text wysiwyg
-  let oldAsset = task.oldAsset;
-  var page = JSON.parse(PAYLOAD_DOCUMENT);
+  //grab out html content
+  //load it into jssoup
+  //remove redundant wrapper section and div tags
+  //set html content and pass back the asset object
+  var page = task.asset;
+  var data = page.asset.page.structuredData.structuredDataNodes;
+  var content = "";
+  var imageData = {
+    "type": "group",
+    "identifier": "image1",
+    "structuredDataNodes": [
+      {
+        "type": "asset",
+        "identifier": "file",
+        "filePath": "",
+        "assetType": "file"
+      },
+      {
+        "type": "text",
+        "identifier": "alt",
+        "text": "headline goes here"
+      }
+    ]
+  };
 
-  var assetMeta = page.asset.page.metadata;
-  var structData = page.asset.page.structuredData.structuredDataNodes;
-  let oldMeta = oldAsset.asset.page.metadata;
-  let oldData = oldAsset.asset.page.structuredData.structuredDataNodes;
-  
-  // update computed properties
-  let startDate = oldMeta.startDate;
-  let startMoment = moment(startDate);
-  let namePrefix = startMoment.format(DAY_FORMAT);
-  console.log("parsed startDate: " + startDate);
-  let parentPagePath = "/news/" + startMoment.format(PATH_FORMAT);
-  console.log("new parentPath: " + parentPagePath);
-  page.asset.page.parentFolderPath = parentPagePath;
-  let newAssetName = oldAsset.asset.page.name.replaceAll(' ', '-').toLowerCase();
-  var assetName = "";
-  if (newAssetName.startsWith(namePrefix)) {
-    assetName = newAssetName;
-  } else {
-    assetName = namePrefix + newAssetName;
+  data.map(function (d) {
+    if (d.identifier == "wysiwyg") {
+      content = d.text;
+      //JSSoup instantiation
+      var soup = new JSSoup(content);
+      var images = soup.findAll('img');
+      //find any images
+      //populate our imageData set
+      if (images.length > 0) {
+        let firstImage = images[0];
+        var imageSrc = firstImage.attrs.src.replace('/news/', 'news/');
+        let imageAlt = firstImage.attrs.alt;
+        console.log("first image: " + imageSrc);
+        console.log("alt txt: " + imageAlt);
+        imageData.structuredDataNodes[0].filePath = imageSrc;
+        imageData.structuredDataNodes[1].text = imageAlt;
+      }
+    }
+  });
+
+  //do we have an image set?
+  // if so, maq over data again and update image1 node
+  if (imageData.structuredDataNodes[0].filePath != "") {
+    data.map(function (i) {
+      if (i.identifier == "image1") {
+        i.structuredDataNodes = imageData.structuredDataNodes;
+      }
+
+      if (i.identifier == "articleType") {
+        i.text = "custom"
+      }
+    });
   }
-  console.log("new assetName: " + assetName);
-  page.asset.page.name = assetName;
-
-  // update metadata on new asset
-  assetMeta.displayName = oldMeta.displayName;
-  assetMeta.title = oldMeta.title;
-  assetMeta.teaser = "";
-  assetMeta.author = "The Graduate School";
-  assetMeta.startDate = oldMeta.startDate;
-
-  // generate new structured data nodes
-
-  // grab article content
-  var contentRowCols = [];
-  var articleContent = "";
-  var imageNode = {};
-  var captionNode = {};
-
-  oldData.map(function(d) {
-    if (d.identifier == "ContentRow") {
-      contentRowCols = d.structuredDataNodes[0].structuredDataNodes;
-      contentRowCols.map(function(c){
-        if (c.identifier == "editor") {
-          articleContent = c.text;
-        }
-
-        if (c.identifer == "image1") {
-          imageNode = c;
-        }
-
-        if (c.identifier == "caption") {
-          captionNode = c;
-        }
-      });
-    }
-  });
-  // console.log(articleContent);
-
-  // update structured data
-  structData.map(function(s){
-    if (s.identifier == "wysiwyg") {
-      s.text = articleContent;
-    }
-
-    if (s.identifier == "image1") {
-      s = imageNode;
-    }
-
-    if (s.identifier == "caption") {
-      s = captionNode;
-    }
-  });
-
-
-  // var postData = task.post;
-  // var sdns = page.asset.page.structuredData.structuredDataNodes;
-  // var meta = page.asset.page.metadata;
-  // //easy stuff - metadata
-  // meta.displayName = postData.title.rendered;
-  // meta.title = postData.title.rendered;
-  // meta.startDate = postData.date + ".000Z"
-  // meta.summary = postData.excerpt.clean;
-  // meta.author = postData.author_name.name;
-  // //easy stuff - uri, name, location
-  // page.asset.page.parentFolderPath = postData.parentFolderPath;
-  // page.asset.page.tags = postData.tags_generated;
-  // page.asset.page.name = postData.slug;
-  // //annoying stuff - content, images
-  // sdns.map(function(d) {
-  //   // console.log(d.identifier);
-  //   if ((d.identifier == "image1") && (postData.featured_image != undefined)) {
-  //     d.structuredDataNodes = [
-  //       {
-  //           "type": "asset",
-  //           "identifier": "file",
-  //           "filePath": postData.featured_image.uri,
-  //           "assetType": "file"
-  //       },
-  //       {
-  //           "type": "text",
-  //           "identifier": "alt",
-  //           "text": postData.featured_image.alt
-  //       }
-  //     ];
-  //   }
-  //   if ((d.identifier == "caption") && (postData.featured_image)) {
-  //     d.text = postData.featured_image.alt
-  //   }
-  //   if (d.identifier == "wysiwyg") {
-  //     d.text = postData.content.clean
-  //   }
-  // });
-
   return page;
 }
 
@@ -288,9 +220,9 @@ async function postAsset(uri, payload) {
     path: uri,
     method: 'POST',
     headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
-        'Content-Length': payload.length,
-        Authorization: ' Bearer ' + API_KEY
+      'Content-Type': 'application/x-www-form-urlencoded',
+      'Content-Length': payload.length,
+      Authorization: ' Bearer ' + API_KEY
     }
   };
   if (CAS_PORT == 443) {
@@ -299,29 +231,29 @@ async function postAsset(uri, payload) {
   }
   // console.log(payload);
   let p = new Promise((resolve, reject) => {
-		const req = protocol.request(postOptions, (response) => {
+    const req = protocol.request(postOptions, (response) => {
       // console.log(postOptions);
       // console.log(postOptions.headers['Content-Length']);
       // console.log(payload);
       // console.log(payload.length);
-			let chunks_of_data = [];
-			response.on('data', (fragments) => {
-				chunks_of_data.push(fragments);
-			});
+      let chunks_of_data = [];
+      response.on('data', (fragments) => {
+        chunks_of_data.push(fragments);
+      });
 
-			response.on('end', () => {
-				let responseBody = Buffer.concat(chunks_of_data);
+      response.on('end', () => {
+        let responseBody = Buffer.concat(chunks_of_data);
         let responseString = responseBody.toString();
         resolve(responseString);
-			});
+      });
 
-			response.on('error', (error) => {
-				reject(error);
-			});
-		});
+      response.on('error', (error) => {
+        reject(error);
+      });
+    });
     req.write(payload);
     req.end();
-	});
+  });
 
   return await p;
 }
@@ -346,44 +278,30 @@ async function getAsset(uri) {
   let p = new Promise((resolve, reject) => {
     const req = protocol.request(getOptions, (response) => {
       // console.log(getOptions);
-			let chunks_of_data = [];
+      let chunks_of_data = [];
 
-			response.on('data', (fragments) => {
+      response.on('data', (fragments) => {
         // console.log("\t pushing data");
-				chunks_of_data.push(fragments);
-			});
+        chunks_of_data.push(fragments);
+      });
 
-			response.on('end', () => {
+      response.on('end', () => {
         var responeObj = {};
         try {
           let responseBody = Buffer.concat(chunks_of_data);
           let responseString = responseBody.toString();
-          responseObj = JSON.parse(responseString);  
+          responseObj = JSON.parse(responseString);
         } catch (jsonE) {
-          responseObj = { status: false, error: "unable to parse JSON as response"};
+          responseObj = { status: false, error: "unable to parse JSON as response" };
         }
-				resolve(responseObj);
-			});
+        resolve(responseObj);
+      });
 
-			response.on('error', (error) => {
-				reject(error);
-			});
+      response.on('error', (error) => {
+        reject(error);
+      });
     });
     req.end();
   });
   return await p;
 }
-
-
-// image asset json
-// {
-//   "type": "asset",
-//   "identifier": "file",
-//   "filePath": "images/news-blog-1.jpg",
-//   "assetType": "file"
-// },
-// {
-//   "type": "text",
-//   "identifier": "alt",
-//   "text": "UTSA Main Campus"
-// }
