@@ -1,0 +1,366 @@
+{
+	"asset": {
+		"page": {
+			"contentTypeId": "25bed64f81736a1b0eebc9ffaa1a765d",
+			"contentTypePath": "GRADUATESCHOOL-VPAA-HALSTORE:news/Blog v1.2",
+			"structuredData": {
+				"structuredDataNodes": [
+					{
+						"type": "text",
+						"identifier": "source",
+						"recycled": false
+					},
+					{
+						"type": "asset",
+						"identifier": "image1",
+						"assetType": "file",
+						"recycled": false
+					},
+					{
+						"type": "asset",
+						"identifier": "image2",
+						"assetType": "file",
+						"recycled": false
+					},
+					{
+						"type": "text",
+						"identifier": "articleType",
+						"text": "standard",
+						"recycled": false
+					},
+					{
+						"type": "text",
+						"identifier": "caption",
+						"recycled": false
+					},
+					{
+						"type": "group",
+						"identifier": "ContentRow",
+						"structuredDataNodes": [
+							{
+								"type": "group",
+								"identifier": "column",
+								"structuredDataNodes": [
+									{
+										"type": "text",
+										"identifier": "span",
+										"text": "12",
+										"recycled": false
+									},
+									{
+										"type": "text",
+										"identifier": "type",
+										"text": "WYSIWYG",
+										"recycled": false
+									},
+									{
+										"type": "asset",
+										"identifier": "block",
+										"assetType": "block",
+										"recycled": false
+									},
+									{
+										"type": "text",
+										"identifier": "editor",
+										"text": "<div class=\"cat_page_right\" title=\"Spring 2012 Graduate Newsletter\">\r\n<div class=\"news_bottom entry\">\r\n<p>(Sept. 23, 2015) &amp;#8212; Meet <strong>Kristen Rosen</strong>. A UTSA Department of Psychology Ph.D. candidate, she recognized that there was a lack of research on using technology to enhance the quality of life in breast cancer patients. And now, because of her, there&amp;#8217;s an app for that.</p>\r\n<p>With help from a local breast cancer foundation and breast cancer survivors, Rosen developed a mobile application that helps breast cancer patients to not only be aware of the emotions they deal with post-diagnosis, but also to train themselves to deal with those emotions in a healthy way.</p>\r\n<p>Because advances in breast cancer therapies and detection have improved survival rates over the years, researchers like Rosen are now focusing on quality of life in patients.</p>\r\n<p>&amp;#8220;Until now, there has been almost no research on using technology to enhance the quality of life of breast cancer patients by using mindfulness, or being aware of sensations and emotions, but not judging those things,&amp;#8221; Rosen said.</p>\r\n<p>The app is used as a training module, allowing users to participate in several exercises, including logging their feelings and doing breathing exercises.</p>\r\n<p>Breast cancer patients an often go through cycles of depression and anxiety after their diagnosis, Rosen said.</p>\r\n<p>&amp;#8220;Body image issues can come up when someone&amp;#8217;s been diagnosed with breast cancer,&amp;#8221; she said. &amp;#8220;Issues with intimacy and even issues with interpersonal relationships can be a problem.&amp;#8221;</p>\r\n<p>Patients who find ways to work through these emotions tend to have a better quality of life, Rosen added.</p>\r\n<p>This innovative research Rosen is conducting was one of the reasons she was named The Graduate School&amp;#8217;s Outstanding Graduate Student Research Scholarship last spring.</p>\r\n<p>&amp;#8220;When I first started, there was almost no research on this. Researchers were saying we needed more research on this. And now I get to be a part of it,&amp;#8221; Rosen said.</p>\r\n</div>\r\n</div>",
+										"recycled": false
+									}
+								],
+								"recycled": false
+							}
+						],
+						"recycled": false
+					},
+					{
+						"type": "text",
+						"identifier": "postscript",
+						"recycled": false
+					}
+				]
+			},
+			"pageConfigurations": [
+				{
+					"name": "Standard",
+					"defaultConfiguration": true,
+					"templateId": "25c214db81736a1b0eebc9ff47525d9f",
+					"templatePath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/templates/GraduateSchool Page - Content",
+					"formatId": "25c21f7581736a1b0eebc9ff3d27d7e4",
+					"formatPath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/templates/site-template",
+					"formatRecycled": false,
+					"pageRegions": [
+						{
+							"name": "B4 SITE-SCRIPTS",
+							"blockId": "25bec89b81736a1b0eebc9ff631b2387",
+							"blockPath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/blocks/site/site-footer-files",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "25c214db81736a1b0eebc9ff3a3159b6"
+						},
+						{
+							"name": "B2 GLOBAL-FOOTER",
+							"blockId": "25bec7f881736a1b0eebc9ff83b5c974",
+							"blockPath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/blocks/master/global-footer-gs.html",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "25c214db81736a1b0eebc9ffc44b266f"
+						},
+						{
+							"name": "A2 SITE-HEAD_FILES",
+							"blockId": "25bec88381736a1b0eebc9ffea83cf4d",
+							"blockPath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/blocks/site/site-head-files",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "25c214db81736a1b0eebc9ffea2f105a"
+						},
+						{
+							"name": "B1 SITE-FOOTER",
+							"blockId": "25bec7c181736a1b0eebc9ff8b15fbf7",
+							"blockPath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/blocks/content/site-footer-gs",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "25c214db81736a1b0eebc9ff6fea02c1"
+						},
+						{
+							"name": "B5 PAGE-SCRIPTS",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "25c214db81736a1b0eebc9ff915a83ce"
+						},
+						{
+							"name": "A3 GLOBAL-HEADER",
+							"blockId": "25bec86481736a1b0eebc9ff99f2af86",
+							"blockPath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/blocks/master/global-header-gs.html",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "25c214db81736a1b0eebc9ffc6b36e0a"
+						},
+						{
+							"name": "B0 PAGE-FOOTER",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "25c214db81736a1b0eebc9ff4d3a0c9e"
+						},
+						{
+							"name": "SITE LEFTNAV",
+							"blockId": "25bec75981736a1b0eebc9ffb548b739",
+							"blockPath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/blocks/index/current page hierarchy with blocks",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "25c21c2781736a1b0eebc9ff7635281b",
+							"formatPath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/formats/site/navigation-left",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "25c214db81736a1b0eebc9ff637c664a"
+						},
+						{
+							"name": "A3 PAGE-HEAD_FILES",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "25c214db81736a1b0eebc9ff1a0db3be"
+						},
+						{
+							"name": "SITE TITLE",
+							"blockId": "25bec75981736a1b0eebc9ffb548b739",
+							"blockPath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/blocks/index/current page hierarchy with blocks",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "25c21c4881736a1b0eebc9ff1603887b",
+							"formatPath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/formats/site/site-title",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "25c214db81736a1b0eebc9ff2011d979"
+						},
+						{
+							"name": "A1 GTM POST",
+							"blockId": "25bec10781736a1b0eebc9ff01bf4c58",
+							"blockPath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/blocks/master/global-gtm-post",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "25c214db81736a1b0eebc9ff980d4566"
+						},
+						{
+							"name": "A2 EMERGENCY ALERT",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "6be478e3817364bb0b24ab64e68626b2",
+							"formatPath": "UTSA-WWWROOT:_cascade/formats/master/emergency-alerts",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "25c20ea881736a1b0eebc9ff0fd56e44"
+						},
+						{
+							"name": "B3 GLOBAL-SCRIPTS",
+							"blockId": "25bec83081736a1b0eebc9ffee90b8dc",
+							"blockPath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/blocks/master/global-scripts-gs",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "25c214db81736a1b0eebc9ff0380e34f"
+						},
+						{
+							"name": "A0 META",
+							"blockId": "25bec8e081736a1b0eebc9ff587d1c53",
+							"blockPath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/blocks/index/current-page",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "a6a4d466817364bb44daa2e09120e8c1",
+							"formatPath": "UTSA-WWWROOT:_cascade/formats/master/meta-open-graph",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "25c214db81736a1b0eebc9ffa52f3381"
+						},
+						{
+							"name": "SITE EVENTS",
+							"blockRecycled": false,
+							"noBlock": true,
+							"formatRecycled": false,
+							"noFormat": true,
+							"id": "25c20ea881736a1b0eebc9ff52edc40d"
+						},
+						{
+							"name": "SITE NEWS",
+							"blockRecycled": false,
+							"noBlock": true,
+							"formatRecycled": false,
+							"noFormat": true,
+							"id": "25c20ea881736a1b0eebc9ff82b78a60"
+						},
+						{
+							"name": "DEFAULT",
+							"blockId": "25bec75981736a1b0eebc9ffb548b739",
+							"blockPath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/blocks/index/current page hierarchy with blocks",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "25c216b281736a1b0eebc9ff88543614",
+							"formatPath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/formats/news/blog/blog-post-default",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "25c20ea881736a1b0eebc9ff00dcb8c7"
+						},
+						{
+							"name": "A4 PAGE-SECTION-TOP",
+							"blockId": "25bec7de81736a1b0eebc9ffba7279f5",
+							"blockPath": "GRADUATESCHOOL-VPAA-HALSTORE:_banners/site-top-navigation",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "25c214db81736a1b0eebc9ff0b2d0169"
+						},
+						{
+							"name": "SITE SIDEBAR",
+							"blockId": "25bec75981736a1b0eebc9ffb548b739",
+							"blockPath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/blocks/index/current page hierarchy with blocks",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "25c21c0381736a1b0eebc9ff1385fe4e",
+							"formatPath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/formats/site/sidebar",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "25c214db81736a1b0eebc9ff64dd4ed0"
+						},
+						{
+							"name": "A1 GLOBAL-HEAD_FILES",
+							"blockId": "25bec80f81736a1b0eebc9fff1d2664c",
+							"blockPath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/blocks/master/global-head-files-gs",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "25c214db81736a1b0eebc9ff9e6e9d69"
+						},
+						{
+							"name": "SITE BANNER",
+							"blockId": "25bec75981736a1b0eebc9ffb548b739",
+							"blockPath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/blocks/index/current page hierarchy with blocks",
+							"blockRecycled": false,
+							"noBlock": false,
+							"formatId": "25c21b4f81736a1b0eebc9ff8f781598",
+							"formatPath": "GRADUATESCHOOL-VPAA-HALSTORE:_cascade/formats/site/banner",
+							"formatRecycled": false,
+							"noFormat": false,
+							"id": "25c214db81736a1b0eebc9ff291add06"
+						}
+					],
+					"includeXMLDeclaration": false,
+					"publishable": false,
+					"id": "25c20ea881736a1b0eebc9ffc6b2908a"
+				}
+			],
+			"linkRewriting": "inherit",
+			"shouldBePublished": true,
+			"shouldBeIndexed": true,
+			"expirationFolderRecycled": false,
+			"metadata": {
+				"displayName": "Spring 2012 Graduate Newsletter",
+				"title": "Spring 2012 Graduate Newsletter",
+				"summary": "",
+				"teaser": "",
+				"keywords": "",
+				"metaDescription": "",
+				"author": "",
+				"startDate": "2012-02-29T00:00:00.000Z",
+				"dynamicFields": [
+					{
+						"name": "Source",
+						"fieldValues": [
+							{
+								"value": ""
+							}
+						]
+					},
+					{
+						"name": "authoremail",
+						"fieldValues": [
+							{
+								"value": ""
+							}
+						]
+					},
+					{
+						"name": "include_nav",
+						"fieldValues": [
+							{
+								"value": "No"
+							}
+						]
+					}
+				]
+			},
+			"reviewOnSchedule": false,
+			"reviewEvery": 180,
+			"parentFolderId": "9f6d6b7081736a1b616e316b011dfe9b",
+			"parentFolderPath": "news-old/2012/02/story",
+			"lastModifiedDate": "2024-08-29T18:37:14.038Z",
+			"lastModifiedBy": "rjq475",
+			"createdDate": "2024-08-29T18:37:14.038Z",
+			"createdBy": "rjq475",
+			"path": "news-old/2012/02/story/spring-2012-graduate-newsletter",
+			"siteId": "272ba0e081736a1b41f5ef84bd08287a",
+			"siteName": "GRADUATESCHOOL-VPAA-ASC-HALSTORE",
+			"tags": [],
+			"name": "spring-2012-graduate-newsletter",
+			"id": "9f6d6bc181736a1b616e316b24075a77"
+		}
+	},
+	"success": true
+}

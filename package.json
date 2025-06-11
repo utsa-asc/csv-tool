@@ -4,6 +4,8 @@
   "description": "quick and dirty csv parser that scrapes content from the web for later REST API usage",
   "main": "index.js",
   "scripts": {
+    "gs-news-edit": "node gs-scripts/news-page-edit.js",
+    "gs-news-post": "node gs-scripts/news-page-post.js",
     "coehd-program": "node coehd-scripts/program-image-download.js",
     "coehd-program-process": "node coehd-scripts/program-block-process.js",
     "coehd-program-update": "node coehd-scripts/program-block-update.js",
@@ -14,7 +16,6 @@
     "coehd-faculty-cv-update": "node coehd-scripts/coehd-faculty-cv-update.js",
     "coehd-faculty-page-process": "node coehd-scripts/coehd-faculty-page-process.js",
     "coehd-faculty-page-update": "node coehd-scripts/coehd-faculty-link-fix.js",
-
     "acob-news-post": "node acob-scripts/news-page-post.js",
     "acob-news-process": "node acob-scripts/news-page-process.js",
     "acob-news-prep": "node acob-scripts/news-page-prep.js",

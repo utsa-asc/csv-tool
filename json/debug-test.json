@@ -1,0 +1,397 @@
+{
+    "asset": {
+        "page": {
+            "contentTypeId": "d1f6202981736a1b3be11e06e95af61a",
+            "contentTypePath": "College-PROTOTYPE:Blog",
+            "structuredData": {
+                "structuredDataNodes": [
+                    {
+                        "type": "text",
+                        "identifier": "source",
+                        "text": "The Graduate School",
+                        "recycled": false
+                    },
+                    {
+                        "type": "group",
+                        "identifier": "image1",
+                        "structuredDataNodes": [
+                            {
+                                "type": "asset",
+                                "identifier": "file",
+                                "filePath": "news/2024/images/434652554_913148587478468_4492688575303506952_n-2.jpg",
+                                "assetType": "file"
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "alt",
+                                "text": "434652554_913148587478468_4492688575303506952_n-2.jpg"
+                            }
+                        ],
+                        "recycled": false
+                    },
+                    {
+                        "type": "group",
+                        "identifier": "image2",
+                        "structuredDataNodes": [
+                            {
+                                "type": "asset",
+                                "identifier": "file",
+                                "assetType": "file",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "alt",
+                                "recycled": false
+                            }
+                        ],
+                        "recycled": false
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "articleType",
+                        "text": "standard",
+                        "recycled": false
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "caption",
+                        "recycled": false
+                    },
+                    {
+                        "type": "group",
+                        "identifier": "link",
+                        "structuredDataNodes": [
+                            {
+                                "type": "text",
+                                "identifier": "label",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "ariaLabel",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "type",
+                                "text": "No Link",
+                                "recycled": false
+                            },
+                            {
+                                "type": "asset",
+                                "identifier": "internal",
+                                "assetType": "page,file,symlink",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "anchor",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "external",
+                                "text": "https://",
+                                "recycled": false
+                            },
+                            {
+                                "type": "text",
+                                "identifier": "target",
+                                "text": "Parent Window/Tab",
+                                "recycled": false
+                            }
+                        ],
+                        "recycled": false
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "wysiwyg",
+                        "text": "<p><img alt=\"434652554_913148587478468_4492688575303506952_n-2.jpg\" height=\"367\" loading=\"lazy\" src=\"/news/2024/images/434652554_913148587478468_4492688575303506952_n-2.jpg\" width=\"700\"/></p>\r\n<p>The first week of April marks the annual <a href=\"https://graduateschool.utsa.edu/gps/gsaw/\">Graduate Student Appreciation Week</a> (GSAW) nationally. The&amp;#160; <a href=\"https://graduateschool.utsa.edu/about/\">Graduate School</a>&amp;#160;at UTSA recently concluded its own GSAW celebration in partnership with academic colleges in a week-long series of exclusive events designed to nurture scholarship and student well-being among the UTSA graduate community.</p>\r\n<p>GSAW kicked off with a Team Trivia event in which graduate students made new connections and formed teams with these new friends to compete for prizes.</p>\r\n<p>The following day, the Graduate School hosted the annual Graduate Research Symposium consisting of a poster presentation competition, a keynote and scholarship exhibition and awards ceremony. More than 65 graduate students participated in the poster competition with the winners earning cash prizes up to $750. The winners are as follows and included ties in each place:</p>\r\n<ul>\r\n<li><span style=\"font-size: 10pt;\">1 <sup>st</sup> place: Robin Johnson, English </span></li>\r\n<li><span style=\"font-size: 10pt;\">1 <sup>st</sup> place: Michael Preston, Physics and Astronomy </span></li>\r\n<li><span style=\"font-size: 10pt;\">2 <sup>nd</sup> place: Carah Porter, Psychology </span></li>\r\n<li><span style=\"font-size: 10pt;\">2 <sup>nd</sup> place: Siva Shanmugam Mariappan, Marketing </span></li>\r\n<li><span style=\"font-size: 10pt;\">3 <sup>rd</sup> place: Vahideh Hashempour, Computer Engineering </span></li>\r\n<li><span style=\"font-size: 10pt;\">3 <sup>rd</sup> place: Luis Montero, Interdisciplinary Learning and Teaching </span></li>\r\n<li><span style=\"font-size: 10pt;\">People&amp;#8217;s Choice: Juan Sebastian Rincon Tabares, Mechanical Engineering</span></li>\r\n</ul>\r\n<p>In the spirit of celebrating graduate students, the keynote speaker was a UTSA doctoral student from the College of Science&amp;#8217;s Environmental Science doctoral program, <strong>Andre Felton</strong>. Andre encouraged graduate students to disseminate their research through storytelling and multiple mediums to expand their reach. Following the keynote, UTSA&amp;#8217;s 2023 Three Minute Thesis <a href=\"https://graduateschool.utsa.edu/current-students/3mt-research-competition/\">(3MT) Research Competition</a> winner, <strong>Zacharie Maloney</strong>, shared his winning presentation at the scholarship exhibition. Maloney was recently named a finalist at the 3MT regional conference of graduate schools. The musical talents of our master&amp;#8217;s students were showcased by performances by Department of Music students including <strong>Brandon Ichavez, Isaiah Valdez</strong> and <strong>Carlos Gonzales</strong> in a fitting conclusion to the exhibition of student scholarship across disciplines.</p>\r\n<p>&amp;#160;&amp;#8220;I am so proud of the accomplishments of our graduate students at UTSA! GSAW gives us the perfect opportunity to showcase the brilliant scholarship of our graduate students from &amp;#160;a variety of disciplines ranging from the life sciences, hard sciences, social sciences, to the arts and humanities.&amp;#8221; <strong>Ambika Mathur</strong>, senior vice provost for graduate and postdoctoral studies and graduate dean said.</p>\r\n<p>The award ceremony and reception honorees included winners of The Graduate School&amp;#8217;s Excellence Awards and poster presentation competition. Graduate School awards recognized excellence in graduate education and support that included 38 graduate students, faculty and staff each receiving $2,000 awards. To conclude the day&amp;#8217;s events, graduate students and their friends and family enjoyed a fun-filled game night.&amp;#160;</p>\r\n<p><em>&amp;#160; <img alt=\"435401353_18420634255051979_8248092710482264863_n-1.jpg\" height=\"527\" loading=\"lazy\" src=\"/news/2024/images/435401353_18420634255051979_8248092710482264863_n-1.jpg\" width=\"700\"/> </em></p>\r\n<p>&amp;#8220;GSAW is also a time to celebrate the excellence of the support provided by students&amp;#8217; friends and families and our staff and faculty to mentor and ensure that our students succeed in their chosen paths,&amp;#8221; Mathur said.</p>\r\n<p>The 15th annual UTSA Graduate Student Appreciation Week also boasted a painting demonstration led by Master of Fine Arts Students, a community-building event at the Downtown Campus and a wellbeing event to help students relieve stress with therapy dogs.</p>\r\n<p>Click <a href=\"https://graduateschool.utsa.edu/current-students/promoting-excellence/past-recipients.html\">here</a> to view the 2024 Graduate School Excellence Award winners.</p>",
+                        "recycled": false
+                    },
+                    {
+                        "type": "text",
+                        "identifier": "postscript",
+                        "recycled": false
+                    }
+                ]
+            },
+            "pageConfigurations": [
+                {
+                    "name": "HTML",
+                    "defaultConfiguration": true,
+                    "templateId": "d1f6400781736a1b3be11e069e5e57e7",
+                    "templatePath": "College-PROTOTYPE:_cms/templates/HTML",
+                    "formatRecycled": false,
+                    "pageRegions": [
+                        {
+                            "name": "A01 PAGE-HEAD-FILES",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6400781736a1b3be11e064ea696a8"
+                        },
+                        {
+                            "name": "J01 GLOBAL-SCRIPTS",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "d1f6420c81736a1b3be11e062c2262df",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/scripts",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6400781736a1b3be11e066d9b87f8"
+                        },
+                        {
+                            "name": "J01 PAGE-SCRIPTS",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6400781736a1b3be11e06767b19b1"
+                        },
+                        {
+                            "name": "A20 EMERGENCY ALERT",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6400781736a1b3be11e06d4719fbc"
+                        },
+                        {
+                            "name": "A01 META",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "3d8a0b3281736a1b76f225b306213737",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/meta-blog",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "3d8a85f081736a1b76f225b39885c3ea"
+                        },
+                        {
+                            "name": "A01 GLOBAL-HEAD-FILES",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "d1f641df81736a1b3be11e062c1c6b42",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/head",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6400781736a1b3be11e067ade23dd"
+                        },
+                        {
+                            "name": "J01 SITE-SCRIPTS",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6400781736a1b3be11e06e11928c2"
+                        },
+                        {
+                            "name": "F01 CUSTOM",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6400781736a1b3be11e0662568abb"
+                        },
+                        {
+                            "name": "F03 CUSTOM",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6400781736a1b3be11e068ecce581"
+                        },
+                        {
+                            "name": "B01 HEADER",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "d1f641f681736a1b3be11e06d11e2303",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/header",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6400781736a1b3be11e06608f69e1"
+                        },
+                        {
+                            "name": "H01 SITE-CTA",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "d1f640e881736a1b3be11e06d404b9fc",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/siteCTA",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6400781736a1b3be11e069eae8dce"
+                        },
+                        {
+                            "name": "H03 GLOBAL-FOOTER",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "d1f640bf81736a1b3be11e06ae5f3b28",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/globalFooter",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6400781736a1b3be11e06c3602958"
+                        },
+                        {
+                            "name": "DEFAULT",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "d1f642d281736a1b3be11e064b3e750d",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/pages/blog",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f63d6181736a1b3be11e06a69dcfd4"
+                        },
+                        {
+                            "name": "A30 GLOBAL-HEADER",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "d1f640a881736a1b3be11e06a462a8b6",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/globalHeader",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6400781736a1b3be11e0690234eee"
+                        },
+                        {
+                            "name": "H00 SITE-ANKLE",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "3594283181736a1b360560b317315b33",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/siteAnkle",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "358acebe81736a1b360560b3b9fa0c83"
+                        },
+                        {
+                            "name": "F02 CUSTOM",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6400781736a1b3be11e063f47f95a"
+                        },
+                        {
+                            "name": "A01 SITE-HEAD-FILES",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6400781736a1b3be11e06518fa190"
+                        },
+                        {
+                            "name": "A01 SITE-TITLE",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "923d1b3c81736a1b6bf065e1d9394051",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/a0-site-title",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6400781736a1b3be11e061913bcb7"
+                        },
+                        {
+                            "name": "H02 SITE-FOOTER",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatId": "d1f6422581736a1b3be11e063720827f",
+                            "formatPath": "College-PROTOTYPE:_cms/formats/global/siteFooter",
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6400781736a1b3be11e06910c1619"
+                        },
+                        {
+                            "name": "F05 CUSTOM",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6400781736a1b3be11e069d27869c"
+                        },
+                        {
+                            "name": "F04 CUSTOM",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6400781736a1b3be11e06c61f1187"
+                        },
+                        {
+                            "name": "E01 FOOTER",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6400781736a1b3be11e0661e014bf"
+                        },
+                        {
+                            "name": "A10 GTM-POST",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6400781736a1b3be11e06e60cc6e7"
+                        }
+                    ],
+                    "includeXMLDeclaration": false,
+                    "publishable": false,
+                    "id": "d1f63d6181736a1b3be11e063d5ccd6f"
+                },
+                {
+                    "name": "XML",
+                    "defaultConfiguration": false,
+                    "templateId": "d1f6401e81736a1b3be11e06314a4f61",
+                    "templatePath": "College-PROTOTYPE:_cms/templates/XML",
+                    "formatRecycled": false,
+                    "pageRegions": [
+                        {
+                            "name": "DEFAULT",
+                            "blockRecycled": false,
+                            "noBlock": false,
+                            "formatRecycled": false,
+                            "noFormat": false,
+                            "id": "d1f6401e81736a1b3be11e06619aa722"
+                        }
+                    ],
+                    "includeXMLDeclaration": false,
+                    "publishable": false,
+                    "id": "d1f63d6181736a1b3be11e06814aa087"
+                }
+            ],
+            "linkRewriting": "inherit",
+            "shouldBePublished": true,
+            "shouldBeIndexed": true,
+            "lastPublishedDate": "2024-09-04T18:58:15.072Z",
+            "lastPublishedBy": "rjq475",
+            "expirationFolderRecycled": false,
+            "metadata": {
+                "displayName": "Week-long event series celebrates UTSA graduate student community",
+                "title": "Week-long event series celebrates UTSA graduate student community",
+                "summary": "",
+                "teaser": "",
+                "keywords": "",
+                "metaDescription": "",
+                "author": "The Graduate School",
+                "startDate": "2024-04-09T16:30:00.000Z"
+            },
+            "reviewOnSchedule": false,
+            "reviewEvery": 0,
+            "parentFolderId": "272bd71b81736a1b41f5ef8422b3e5e0",
+            "parentFolderPath": "news/2024/04",
+            "lastModifiedDate": "2024-09-04T19:25:55.707Z",
+            "lastModifiedBy": "rjq475",
+            "createdDate": "2024-08-30T16:30:40.563Z",
+            "createdBy": "rjq475",
+            "path": "news/2024/04/09-gsaw-celebration",
+            "siteId": "272ba0e081736a1b41f5ef84bd08287a",
+            "siteName": "GRADUATESCHOOL-VPAA-ASC-HALSTORE",
+            "tags": [
+                {
+                    "name": "news"
+                }
+            ],
+            "name": "09-gsaw-celebration",
+            "id": "a41fe9ca81736a1b616e316bcbdc25ec"
+        }
+    },
+    "success": true
+}
