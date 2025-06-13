@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "quick and dirty csv parser that scrapes content from the web for later REST API usage",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "ciac-faculty-process": "node ciac-scripts/faculty-block-process.js",
     "gs-news-edit": "node gs-scripts/news-page-edit.js",
     "gs-news-post": "node gs-scripts/news-page-post.js",
     "coehd-program": "node coehd-scripts/program-image-download.js",
