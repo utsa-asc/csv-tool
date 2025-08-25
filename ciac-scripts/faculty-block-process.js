@@ -15,8 +15,8 @@ const CAS_PORT = process.env.CAS_PORT;
 const API_KEY = process.env.API_KEY;
 const DO_POST = process.env.POST;
 
-const TARGET_FOLDER = "faculty/_blocks/computer-science/faculty";
-const TARGET_TAGS = [{"name": "faculty"}, {"name": "computer-science"}];
+const TARGET_FOLDER = "faculty/_blocks/statistics-data-science/faculty";
+const TARGET_TAGS = [{"name": "faculty"}, {"name": "statistics-and-data-science"}];
 var GET_URI = "/api/v1/read/folder/SDS-VPAA-ASC-DLS-HALSTORE/";
 const POST_URI = "/api/v1/edit";
 
