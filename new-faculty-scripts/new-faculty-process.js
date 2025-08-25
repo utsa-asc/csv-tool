@@ -1,13 +1,22 @@
-const https = require('https');
-const http = require('http');
-var JSSoup = require('jssoup').default;
-const XLSX = require("xlsx");
-var fs = require('fs');
-const { readFile } = require('fs/promises');
-const { kMaxLength } = require('buffer');
+import https from 'https';
+import http from 'http';
+import JSSoup from 'jssoup';
+import XLSX from 'xlsx';
+import fs from 'fs';
+// 
+// import JSSoup from 'jssoup'.defalut;
+// var JSSoup = require('jssoup').default;
+// const XLSX = require("xlsx");
+// var fs = require('fs');
+import readFile from 'fs/promises';
+import kMaxLength from 'buffer';
+// const { readFile } = require('fs/promises');
+// const { kMaxLength } = require('buffer');
 XLSX.set_fs(fs);
 var tasks = [];
-require('dotenv').config();
+import dotenv from 'dotenv';
+dotenv.config();
+// require('dotenv').config();
 /* defining some constants */
 const CAS_HOST = process.env.CAS_HOST;
 const CAS_PORT = process.env.CAS_PORT;
@@ -66,8 +75,11 @@ for (let i = 2; i < (maxRow + 2); i++) {
     newTask.uri = newTask.uri.replaceAll(' ', '-');
     newTask.uri = newTask.uri.replaceAll("'", "");
     newTask.uri = clean(newTask.uri);
+    newTask.uri = sanitizeImgName(newTask.uri);
+    newTask.headshot_name = newTask.first.toLowerCase().trim()  + "-" + newTask.last.toLowerCase().trim() ;
+    newTask.headshot_name = sanitizeImgName(newTask.headshot_name);
     newTask.fulltitle = newTask.title + ", " + newTask.dept;
-    newTask.headshoturi = "img/2024/" + newTask.uri + ".jpg";
+    newTask.headshoturi = "img/2025/" + newTask.headshot_name + ".jpg";
 
     if (!imageCheck(newTask.headshoturi)) {
       // modify value in D4
@@ -101,6 +113,7 @@ async function completeTasks(dataSheet) {
     let strPayload = JSON.stringify(payload);
     // console.log(strPayload);
     if (DO_POST == "YES") {
+      // console.log("DO_POST = YES");
       try {
         let postedAsset = await postAsset(POST_URI, strPayload);
         // console.log(postedAsset);
@@ -132,8 +145,8 @@ function preparePayload(task) {
 
   //
   block.asset.xhtmlDataDefinitionBlock.tags = task.tags;
-  block.asset.xhtmlDataDefinitionBlock.metadata.displayName = task.fullname;
-  block.asset.xhtmlDataDefinitionBlock.metadata.title = task.fullname;
+  block.asset.xhtmlDataDefinitionBlock.metadata.displayName = clean(task.fullname);
+  block.asset.xhtmlDataDefinitionBlock.metadata.title = clean(task.fullname);
   block.asset.xhtmlDataDefinitionBlock.name = task.uri;
 
   var sdns = block.asset.xhtmlDataDefinitionBlock.structuredData.structuredDataNodes
@@ -161,6 +174,7 @@ function parseTags(str) {
   var tags = [];
   var collegeHash = {
     "ACOB": "Alvarez College of Business",
+    "CAICC": "College of AI, Cyber and Computing",
     "COEHD": "College of Education and Human Development",
     "COLFA": "College of Liberal and Fine Arts",
     "COS": "College of Sciences",
@@ -170,7 +184,7 @@ function parseTags(str) {
     "ConTex": "ConTex"
   };
   var collegeTagElements = str.split(',');
-  tags.push({ "name": "2024" });
+  tags.push({ "name": "2025" });
 
   if (collegeTagElements.length > 1) {
     collegeTagElements.map(function (c) {
@@ -205,7 +219,7 @@ function createDate(t) {
 }
 
 async function postAsset(uri, payload) {
-  payloadObj = JSON.parse(payload);
+  var payloadObj = JSON.parse(payload);
   //do GET
   let postOptions = {
     hostname: CAS_HOST,
@@ -268,9 +282,23 @@ function sanitizeText(content) {
   return contentStr;
 }
 
+function sanitizeImgName(name) {
+  var nameStr = name;
+  nameStr = nameStr.replaceAll(' ', '-');
+  nameStr = nameStr.replaceAll('--', '-');
+  nameStr = nameStr.replaceAll('col.-', '');
+  nameStr = nameStr.replaceAll('maj.-', '');
+  nameStr = nameStr.replace('(', '');
+  nameStr = nameStr.replace(')', '');
+  nameStr = nameStr.replaceAll('é', 'e');
+  nameStr = nameStr.replaceAll('í', 'i');
+  return nameStr
+}
+
 function imageCheck(uri) {
   var result = false;
-  let localimagepath = "new-faculty/" + uri;
+  var localimagepath = "new-faculty/" + uri;
+  localimagepath = sanitizeImgName(localimagepath);
   if (!fs.existsSync(localimagepath)) {
     console.log("image not found: " + localimagepath);
     result = false;
