@@ -26,8 +26,9 @@ const FETCH = process.env.FETCH;
 const SAVE = process.env.SAVE;
 const PAYLOAD_DOCUMENT = fs.readFileSync("json/new-faculty-block.json");
 const POST_URI = "/api/v1/create";
-const SHEET_NAME = "new-faculty";
-const SOURCE_DOCUMENT = "new-faculty/new-faculty.xlsx";
+const SHEET_NAME = "errors";
+const SOURCE_DOCUMENT = "new-faculty/2026/new-faculty.xlsx";
+const TARGET_YEAR = "2026";
 
 var protocol = http;
 if (CAS_PORT == 443) {
@@ -48,22 +49,22 @@ for (let i = 2; i < (maxRow + 2); i++) {
   try {
     var newTask = {
       "row": i,
-      "first": dataSheet['A' + i].v.trim(),
-      "last": dataSheet['B' + i].v.trim(),
-      "college": dataSheet['C' + i].v.trim(),
-      "dept": dataSheet['D' + i].v.trim(),
+      "first": dataSheet['B' + i].v.trim(),
+      "last": dataSheet['C' + i].v.trim(),
+      "college": dataSheet['A' + i].v.trim(),
+      "dept": dataSheet['F' + i].v.trim(),
       "title": dataSheet['E' + i].v.trim()
     };
-    if (dataSheet['F' + i]) {
-      newTask['degree'] = dataSheet['F' + i].v.trim();
+    if (dataSheet['D' + i]) {
+      newTask['degree'] = dataSheet['D' + i].v.trim();
     } else {
       newTask['degree'] = "";
     }
-    if (dataSheet['G' + i]) {
-      newTask['institution'] = dataSheet['G' + i].v.trim();
-    } else {
-      newTask['institution'] = "";
-    }
+    // if (dataSheet['G' + i]) {
+    //   newTask['institution'] = dataSheet['G' + i].v.trim();
+    // } else {
+    //   newTask['institution'] = "";
+    // }
     // console.log("last part:" + parts[parts.length - 1]);
 
     newTask.tags = parseTags(newTask.college);
@@ -74,18 +75,21 @@ for (let i = 2; i < (maxRow + 2); i++) {
     newTask.uri = newTask.last.toLowerCase().trim() + "-" + newTask.first.toLowerCase().trim();
     newTask.uri = newTask.uri.replaceAll(' ', '-');
     newTask.uri = newTask.uri.replaceAll("'", "");
+    newTask.uri = newTask.uri.replaceAll("'", "");
+    newTask.uri = newTask.uri.replaceAll(".", "");
     newTask.uri = clean(newTask.uri);
     newTask.uri = sanitizeImgName(newTask.uri);
-    newTask.headshot_name = newTask.first.toLowerCase().trim()  + "-" + newTask.last.toLowerCase().trim() ;
-    newTask.headshot_name = sanitizeImgName(newTask.headshot_name);
+    newTask.headshot_name = newTask.uri;
+    // newTask.last.toLowerCase().trim()  + "-" + newTask.first.toLowerCase().trim() ;
+    // newTask.headshot_name = sanitizeImgName(newTask.headshot_name);
     newTask.fulltitle = newTask.title + ", " + newTask.dept;
-    newTask.headshoturi = "img/2025/" + newTask.headshot_name + ".jpg";
+    newTask.headshoturi = "img/2026/" + newTask.headshot_name + ".jpg";
 
-    if (!imageCheck(newTask.headshoturi)) {
+    if (!imageCheck(newTask.headshoturi, newTask.row)) {
       // modify value in D4
-      let inf = "image not found, expected: " + newTask.headshoturi;
+      let inf = "image not found, expected: " + newTask.headshoturi + " row: " + newTask.row;
       newTask.headshoturi = "";
-      let origin = "H" + newTask.row;
+      let origin = "G" + newTask.row;
       console.log("updating cell: " + origin);
       XLSX.utils.sheet_add_aoa(dataSheet, [[inf]], {origin: origin});
     }
@@ -111,7 +115,7 @@ async function completeTasks(dataSheet) {
     let payload = preparePayload(t);
     //POST payload
     let strPayload = JSON.stringify(payload);
-    // console.log(strPayload);
+    console.log(strPayload);
     if (DO_POST == "YES") {
       // console.log("DO_POST = YES");
       try {
@@ -161,7 +165,7 @@ function preparePayload(task) {
       groupItem.text = task.fulltitle;
     }
     if (groupItem.identifier == "education") {
-      groupItem.text = task.institution;
+      groupItem.text = "";
     }
     newSDNs.push(groupItem);
   });
@@ -184,7 +188,7 @@ function parseTags(str) {
     "ConTex": "ConTex"
   };
   var collegeTagElements = str.split(',');
-  tags.push({ "name": "2025" });
+  tags.push({ "name": TARGET_YEAR });
 
   if (collegeTagElements.length > 1) {
     collegeTagElements.map(function (c) {
@@ -206,6 +210,7 @@ function clean(str) {
   cleanStr = cleanStr.replaceAll('–', '-');
   cleanStr = cleanStr.replaceAll("’", "'");
   cleanStr = cleanStr.replaceAll("ü", "u");
+  cleanStr = cleanStr.replaceAll("ñ", "n");
   // console.log(cleanStr);
   return cleanStr;
 }
@@ -292,15 +297,16 @@ function sanitizeImgName(name) {
   nameStr = nameStr.replace(')', '');
   nameStr = nameStr.replaceAll('é', 'e');
   nameStr = nameStr.replaceAll('í', 'i');
+  nameStr = nameStr.replaceAll('ñ', 'n');
   return nameStr
 }
 
-function imageCheck(uri) {
+function imageCheck(uri, row) {
   var result = false;
   var localimagepath = "new-faculty/" + uri;
   localimagepath = sanitizeImgName(localimagepath);
   if (!fs.existsSync(localimagepath)) {
-    console.log("image not found: " + localimagepath);
+    console.log("image not found: " + localimagepath + " row: " + row);
     result = false;
   } else {
     result = true;
